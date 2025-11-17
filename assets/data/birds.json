@@ -3373,33 +3373,6 @@
     "photos": []
   },
   {
-    "id": "indian-white-eye",
-    "common_name": "Indian White-eye",
-    "scientific_name": "Zosterops palpebrosus",
-    "order_id": "passeriformes",
-    "family_id": "zosteropidae",
-    "group_id": "passerines",
-    "status_in_sahyadris": "resident",
-    "is_endemic": false,
-    "habitat": "Gardens, groves, scrub, thin forest, and tree-covered urban areas.",
-    "size": {
-      "length_cm": [9, 10]
-    },
-    "description": {
-      "adult_male": "Tiny, bright yellow-green bird with a prominent, distinct white ring of feathers around the eye. Yellow throat, pale greyish-white belly.",
-      "adult_female": "Similar to male; sexes look alike.",
-      "juvenile": "Duller plumage, eye-ring less distinct.",
-      "in_flight": "Small, rapid, flitting flight; often flies in fast, cohesive flocks."
-    },
-    "behaviour": "Highly social, found in constant motion high in the canopy, often in mixed-species foraging flocks. Gives a thin, whistling call.",
-    "food": "Nectar, insects, small berries.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
-  },
-  {
     "id": "oriental-darter",
     "common_name": "Oriental Darter",
     "scientific_name": "Anhinga melanogaster",
