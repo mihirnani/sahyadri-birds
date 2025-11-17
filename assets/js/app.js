@@ -219,37 +219,17 @@ function buildSidebar() {
   const sidebar = document.querySelector(SB_CONFIG.ui.sidebarSelector);
   if (!sidebar || !SB_STATE.taxo) return;
 
-  // --- FIX: Cursor Loss & Functional Rebuild ---
-  const existingHeader = sidebar.querySelector(".sidebar-header-static");
-
-  // 1. Capture the search input element from the current DOM
-  const inputElement = sidebar.querySelector("#sidebar-search-input");
-
-  let isActive = false;
-  let cursorPosition = 0;
-
-  if (inputElement && inputElement === document.activeElement) {
-    isActive = true;
-    cursorPosition = inputElement.selectionStart;
+  // Keep the header (filters + search) as-is
+  const headerBlock = sidebar.querySelector(".sidebar-header-static");
+  if (!headerBlock) {
+    console.warn("Sidebar header not found; cannot build list.");
+    return;
   }
 
-  // Preserve the static header (filters, sort, search) HTML content
-  const headerHtml = existingHeader ? existingHeader.innerHTML : "";
-
-  // 2. Clear the entire sidebar
-  sidebar.innerHTML = "";
-
-  // 3. Rebuild the static header element
-  const headerBlock = document.createElement("div");
-  headerBlock.className = "sidebar-header-static";
-  headerBlock.innerHTML = headerHtml;
-  sidebar.appendChild(headerBlock);
-
-  // 4. ***CRUCIAL FIX: Reattach listeners to the newly created elements***
-  // This step ensures the filter and search events fire after the rebuild.
-  initSearch();
-  initFilters();
-  // --- END FIX: Cursor Loss & Functional Rebuild ---
+  // Remove everything AFTER the header (old groups/families/species)
+  while (headerBlock.nextSibling) {
+    sidebar.removeChild(headerBlock.nextSibling);
+  }
 
   const groups = [...(SB_STATE.taxo.groups || [])].sort(
     (a, b) =>
@@ -259,7 +239,7 @@ function buildSidebar() {
 
   const families = SB_STATE.taxo.families || [];
 
-  // 1. **Filter and Sort the entire bird list based on user selections**
+  // 1. Filter and sort the entire bird list based on user selections
   let filteredBirds = SB_STATE.birds;
   const currentFilter = SB_STATE.currentFilter;
   const currentSort = SB_STATE.currentSort;
@@ -273,8 +253,7 @@ function buildSidebar() {
         (bird) => Array.isArray(bird.photos) && bird.photos.length > 0
       );
     } else {
-      // Conservation Status check:
-      // FIX: Use bird.conservation_status?.iucn_code as suggested by user.
+      // IUCN code filter: LC, NT, VU, EN, CR etc.
       filteredBirds = filteredBirds.filter(
         (bird) => bird.conservation_status?.iucn_code === currentFilter
       );
@@ -295,7 +274,7 @@ function buildSidebar() {
     return (a.common_name || "").localeCompare(b.common_name || "");
   });
 
-  // 2. Precompute family -> species array using the FILTERED and SORTED list
+  // 2. Precompute family -> species array from the filtered list
   const birdsByFamily = {};
   filteredBirds.forEach((bird) => {
     if (!birdsByFamily[bird.family_id]) {
@@ -306,7 +285,7 @@ function buildSidebar() {
 
   const q = (SB_STATE.searchQuery || "").trim().toLowerCase();
 
-  // 3. Iterate through groups and families to build the list
+  // 3. Build groups + families + species list
   groups.forEach((group) => {
     const groupSection = document.createElement("section");
     groupSection.className = "sidebar-group";
@@ -334,10 +313,9 @@ function buildSidebar() {
     let hasAnyFamily = false;
 
     groupFamilies.forEach((fam) => {
-      // Use the pre-filtered/pre-sorted list from birdsByFamily
       let speciesList = birdsByFamily[fam.id] || [];
 
-      // Filter by SEARCH QUERY (common or scientific name) - this is the last step
+      // Apply search on top (common or scientific name)
       if (q) {
         speciesList = speciesList.filter((bird) => {
           const common = (bird.common_name || "").toLowerCase();
@@ -346,7 +324,6 @@ function buildSidebar() {
         });
       }
 
-      // Nothing in this family after filtering -> skip
       if (!speciesList.length) return;
 
       hasAnyFamily = true;
@@ -365,7 +342,6 @@ function buildSidebar() {
       speciesList.forEach((bird) => {
         const li = document.createElement("li");
         li.className = "sidebar-species-item";
-        // Highlight active selection
         li.classList.toggle("active", bird.id === SB_STATE.currentBirdId);
         li.textContent = bird.common_name;
         li.dataset.birdId = bird.id;
@@ -381,21 +357,6 @@ function buildSidebar() {
       sidebar.appendChild(groupSection);
     }
   });
-
-  // 5. **Restore focus and cursor position**
-  if (isActive) {
-    // Re-query the input element from the re-attached header block
-    const newlyRenderedInput = headerBlock.querySelector(
-      "#sidebar-search-input"
-    );
-    if (newlyRenderedInput) {
-      newlyRenderedInput.focus();
-      // Restore cursor position
-      if (typeof newlyRenderedInput.selectionStart === "number") {
-        newlyRenderedInput.setSelectionRange(cursorPosition, cursorPosition);
-      }
-    }
-  }
 }
 
 function highlightSidebarSelection(birdId) {

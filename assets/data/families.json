@@ -742,6 +742,15 @@
       "common_label": "Grassbirds & allies",
       "sidebar_label": "Grassbirds & Allies",
       "sidebar_order": 131
+    },
+    {
+      "id": "vangidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Vangidae",
+      "common_label": "Woodshrikes & allies",
+      "sidebar_label": "Woodshrikes & Allies",
+      "sidebar_order": 132
     }
   ]
 }
