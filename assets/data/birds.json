@@ -4,7 +4,7 @@
     "common_name": "Malabar Whistling Thrush",
     "scientific_name": "Myophonus horsfieldii",
     "order_id": "passeriformes",
-    "family_id": "turdidae",
+    "family_id": "muscicapidae",
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": true,
@@ -15,7 +15,7 @@
     "description": {
       "adult_male": "Glossy dark blue-black thrush with bright electric-blue shoulder patches. Stout bill.",
       "adult_female": "Glossy dark blue-black thrush with bright electric-blue shoulder patches. Stout bill.",
-      "juvenile": "Duller blue, more mottled.",
+      "juvenile": "Duller blue, mottled.",
       "in_flight": ""
     },
     "behaviour": "Often perches near forest streams; known for human-like whistling calls at dawn.",
@@ -150,18 +150,18 @@
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": false,
-    "habitat": "Open scrub, cultivation, and forest edges.",
+    "habitat": "Open scrub, cultivation, forest edges, grasslands; favors dry, open country with scattered bushes.",
     "size": {
       "length_cm": [23, 25]
     },
     "description": {
-      "adult_male": "Ashy grey head, rufous back and rump, black mask. Strong hooked bill.",
-      "adult_female": "Ashy grey head, rufous back and rump, black mask. Strong hooked bill.",
-      "juvenile": "",
-      "in_flight": ""
+      "adult_male": "Ashy-grey head, rufous back and rump, narrow black mask through eye, prominent white wing patches and long, black tail. Regional subspecies can have black head or more rufous on mantle.",
+      "adult_female": "Similar to male, may have brownish rather than pure grey head, reduced mask.",
+      "juvenile": "Paler, buff-brown plumage, barred upperparts, faint mask, shorter tail and yellowish gape.",
+      "in_flight": "Shows striking white wing patch and long tail. Perches, glides with rapid wingbeats, often flies low across open ground."
     },
-    "behaviour": "Perches conspicuously on wires/bushes; known for impaling prey on thorns ('butchering').",
-    "food": "Large insects, lizards, small rodents.",
+    "behaviour": "Conspicuously perches on wires, poles, or bush tops. Highly territorial and aggressive. Known for impaling prey on thorns ('butchering'). Breeding season involves noisy squabbles. Calls include clear whistles, harsh 'shak-shak', chattering.",
+    "food": "Large insects, lizards, small rodents, occasionally small birds.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
@@ -180,22 +180,22 @@
     "common_name": "Bright-capped Cisticola",
     "scientific_name": "Cisticola exilis",
     "order_id": "passeriformes",
-    "family_id": "sylviidae",
+    "family_id": "cisticolidae",
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": false,
-    "habitat": "Tall grass, wet areas, cultivation fringes.",
+    "habitat": "Tall grass, marshes, wetlands, cultivation fringes; mostly in open seasonally wet areas.",
     "size": {
       "length_cm": [9, 11]
     },
     "description": {
-      "adult_male": "Tiny, streaky brown bird with a bright rufous cap in breeding plumage.",
-      "adult_female": "Similar but duller cap.",
-      "juvenile": "",
-      "in_flight": ""
+      "adult_male": "Tiny brown bird. In breeding plumage: bright orange-golden cap, short tail, cream below, brown streaked above. In non-breeding: longer tail, dull brown streaked crown.",
+      "adult_female": "Similar to non-breeding male; brown cap, longer tail, paler below.",
+      "juvenile": "Buff streaked underparts, brownish above, lacks golden crown.",
+      "in_flight": "Small, round bird often seen briefly above grasses. Breeding males show short tails and hover or sing in flight."
     },
-    "behaviour": "Usually seen briefly on top of grass stems before dropping back into cover. Highly vocal.",
-    "food": "Small insects.",
+    "behaviour": "Secretive, emerges to sing from grass tops. Highly vocal, sings 'teewip' or buzzing calls during display. Males perform display flights, spiraling and singing. Nests are rounded and sewn with spider silk.",
+    "food": "Small insects, spiders, larvae from grass stems and leaves.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
@@ -218,28 +218,40 @@
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": false,
-    "habitat": "Open scrub, gardens, deciduous forest.",
+    "habitat": "Open scrub, gardens, secondary forest, dry deciduous woodland. Adapts to parks and villages.",
     "size": {
       "length_cm": [25, 27]
     },
     "description": {
-      "adult_male": "Dull brownish-grey bird with slight streaking, a pale throat, and a heavy bill.",
-      "adult_female": "Dull brownish-grey bird with slight streaking, a pale throat, and a heavy bill.",
-      "juvenile": "",
-      "in_flight": ""
+      "adult_male": "Dull brownish-grey, stout yellow bill, pale throat, slight streaking, pale iris. Slightly paler underparts.",
+      "adult_female": "Indistinguishable from male.",
+      "juvenile": "Fluffier, paler, less streaking, bright yellowish gape, food-begging calls.",
+      "in_flight": "Slow, noisy flight; wings and tail fanned, flock keeps close and noisy."
     },
-    "behaviour": "Highly social, found in groups of 7-10 (the 'Seven Sisters'); noisy, hop on the ground while foraging.",
-    "food": "Insects, seeds, berries.",
+    "behaviour": "Highly social, forage in groups of 6-10 ('Seven Sisters'), cooperative breeding; allogrooming and sentinel behavior. Forage mainly on ground; spend most time feeding, some time on alert watching for danger. Constant chattering, alarm and food-begging calls by juveniles; dominant individuals defend territory. Roost communally.",
+    "food": "Insects, seeds, berries, small fruits; occasionally takes human scraps.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
     "photos": [
       {
-        "file": "assets/images/species/jungle-babbler/main.jpg",
-        "caption": "",
-        "photographer": "",
-        "license": ""
+        "file": "assets/images/species/jungle-babbler/main.webp",
+        "caption": "A jungle babbler at Mangaon, Raigad",
+        "photographer": "Shantanu Kuveskar",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      },
+      {
+        "file": "assets/images/species/jungle-babbler/main2.webp",
+        "caption": "Not strictly from the Western Ghats: this is in Kawal Wildlife Sanctuary, Andhra Pradesh, India.",
+        "photographer": "JM Garg",
+        "license": "GNU Free Documentation License"
+      },
+      {
+        "file": "assets/images/species/jungle-babbler/main3.webp",
+        "caption": "A Pair of Jungle Babblers pecking each other after a monsoon rain in Chalakudy, Kerala.",
+        "photographer": "Jan J. George",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International l"
       }
     ]
   },
@@ -305,40 +317,6 @@
     "photos": [
       {
         "file": "assets/images/species/jungle-myna/main.jpg",
-        "caption": "",
-        "photographer": "",
-        "license": ""
-      }
-    ]
-  },
-  {
-    "id": "house-crow",
-    "common_name": "House Crow",
-    "scientific_name": "Corvus splendens",
-    "order_id": "passeriformes",
-    "family_id": "corvidae",
-    "group_id": "passerines",
-    "status_in_sahyadris": "resident",
-    "is_endemic": false,
-    "habitat": "Urban areas, villages, human habitation.",
-    "size": {
-      "length_cm": [40, 43]
-    },
-    "description": {
-      "adult_male": "Glossy black head and neck, dull grey breast and mantle.",
-      "adult_female": "Glossy black head and neck, dull grey breast and mantle.",
-      "juvenile": "",
-      "in_flight": ""
-    },
-    "behaviour": "Highly intelligent and adaptable; omnivorous and scavenges aggressively.",
-    "food": "Anything edible (scavenger).",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": [
-      {
-        "file": "assets/images/species/house-crow/main.jpg",
         "caption": "",
         "photographer": "",
         "license": ""
@@ -1078,11 +1056,11 @@
       "juvenile": "",
       "in_flight": ""
     },
-    "behaviour": "Arboreal and social; primarily feeds on fruit and nests in tree cavities, which the female seals.",
+    "behaviour": "Arboreal and social; primarily feeds on fruit and nests in tree cavities, which the female seals. The species was uplisted to Vulnerable on the IUCN Red List in 2018 due to habitat loss, fragmentation, and population decline.",
     "food": "Fruits (especially figs), insects, small reptiles.",
     "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
+      "iucn_code": "VU",
+      "label": "Vulnerable"
     },
     "photos": [
       {
@@ -1096,12 +1074,12 @@
   {
     "id": "plum-headed-parakeet",
     "common_name": "Plum-headed Parakeet",
-    "scientific_name": "Psittacula columboides",
+    "scientific_name": "Psittacula cyanocephala",
     "order_id": "psittaciformes",
     "family_id": "psittaculidae",
     "group_id": "non-passerines",
     "status_in_sahyadris": "resident",
-    "is_endemic": true,
+    "is_endemic": false,
     "habitat": "Evergreen and moist deciduous forests, wooded areas.",
     "size": {
       "length_cm": [38, 40]
@@ -1112,7 +1090,7 @@
       "juvenile": "",
       "in_flight": ""
     },
-    "behaviour": "Flies in small flocks, often at canopy level; noisy and conspicuous.",
+    "behaviour": "Flies in small flocks, often at canopy level; noisy and conspicuous.. Is endemic to the broader Indian subcontinent and not endemic to just the Western Ghats: unlike its cousin, Malabar Parakeet (Blue-winged Parakeet, Psittacula columboides).",
     "food": "Fruits, seeds, nectar, leaf buds.",
     "conservation_status": {
       "iucn_code": "LC",
@@ -1497,6 +1475,33 @@
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "nilgiri-blue-robin",
+    "common_name": "Nilgiri Blue Robin",
+    "scientific_name": "Sholicola major",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Shola forests (forest patches in valleys of high-altitude grasslands); dense canopy and undergrowth above 1200m in Nilgiris, Bababudan Hills, Brahmagiris.",
+    "size": {
+      "length_cm": [13, 15]
+    },
+    "description": {
+      "adult_male": "Small, chunky bird with long legs and short tail. Dark slaty-blue upperparts, throat and breast. Warm rufous lower plumage, transitioning to buffy white at center of belly. Black lores, diffuse bluish brow.",
+      "adult_female": "Similar to male, possibly with different iris color.",
+      "juvenile": "Duller than adults.",
+      "in_flight": "Short tail and chunky body conspicuous. Low, direct flight between dense vegetation."
+    },
+    "behaviour": "Skulking species found on forest floor and dark lower canopy. Can be confiding when observed. Calls frequently with tit-like notes and harsh rattles. Song consists of shrill whistles interspersed with twangy buzzing sounds.",
+    "food": "Insects and invertebrates from forest floor and low vegetation.",
+    "conservation_status": {
+      "iucn_code": "EN",
+      "label": "Endangered"
     },
     "photos": []
   },
@@ -2291,29 +2296,56 @@
     "photos": []
   },
   {
-    "id": "white-bellied-blue-robin",
-    "common_name": "White-bellied Blue Robin",
-    "scientific_name": "Sholicola albiventris",
+    "id": "wayanad-laughingthrush",
+    "common_name": "Wayanad Laughingthrush",
+    "scientific_name": "Pterorhinus delesserti",
     "order_id": "passeriformes",
-    "family_id": "muscicapidae",
+    "family_id": "leiothrichidae",
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": true,
-    "habitat": "Dense undergrowth and edges of high-altitude shola forests (South Western Ghats).",
+    "habitat": "Dense undergrowth in subtropical and tropical moist forests, from plains to higher hills; forest edges and secondary growth.",
     "size": {
-      "length_cm": [12, 14]
+      "length_cm": [23, 25]
     },
     "description": {
-      "adult_male": "Slaty-blue upperparts, black face, clean white belly and undertail coverts. Thin dark legs.",
-      "adult_female": "Duller blue and slightly browner on the flanks.",
-      "juvenile": "Brown with scaly patterning.",
-      "in_flight": ""
+      "adult_male": "Dark brownish-grey upperparts, broad black mask through eye, white throat. Grey breast, rufous belly and underside. Uniformly colored tail darker than back. Heavy bill with pale yellow lower mandible.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller than adults, less distinct mask.",
+      "in_flight": "Direct flight low through undergrowth, rarely flies in open."
     },
-    "behaviour": "Very secretive, foraging low on the ground and in dense vegetation; often only heard, singing a melodious territorial song.",
-    "food": "Insects and small invertebrates.",
+    "behaviour": "Extremely gregarious, moving in flocks of 6-40 birds. Skulks in undergrowth, feeding on ground by turning over leaves. Very vocal with loud shrill chattering, cackling and churring calls. Calls resemble those of Rufous Babbler in some instances.",
+    "food": "Insects, fallen seeds, berries; forages mainly on ground among leaf litter.",
     "conservation_status": {
-      "iucn_code": "EN",
-      "label": "Endangered"
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "nilgiri-thrush",
+    "common_name": "Nilgiri Thrush",
+    "scientific_name": "Zoothera neilgherriensis",
+    "order_id": "passeriformes",
+    "family_id": "turdidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Shola forests (isolated cloud forests at high altitudes) interspersed with montane grasslands; dense understory of moist evergreen forests above 1200m.",
+    "size": {
+      "length_cm": [21, 23]
+    },
+    "description": {
+      "adult_male": "Scaled pattern throughout\u2014dark brown upperparts with buff spots forming scale-like appearance. Underparts buff-white with dark brown crescent-shaped markings creating scaled effect. Head and neck greyish with scaling.",
+      "adult_female": "Similar to male.",
+      "juvenile": "More heavily spotted than adults.",
+      "in_flight": "Distinctive black band on white underwings visible in flight, similar to Siberian Thrush."
+    },
+    "behaviour": "Secretive and shy, keeping to dark understory and forest floor. Often seen on rainy days along forest roads. Forages on ground, turning over leaf litter. Scaled plumage provides excellent camouflage.",
+    "food": "Opportunistic insectivore; feeds primarily on insects and other invertebrates from forest floor.",
+    "conservation_status": {
+      "iucn_code": "VU",
+      "label": "Vulnerable"
     },
     "photos": []
   },
@@ -2336,8 +2368,69 @@
       "juvenile": "Duller, less distinct facial markings.",
       "in_flight": ""
     },
-    "behaviour": "Highly vocal, usually moving in noisy, close-knit groups; feeds on the ground and low bushes.",
+    "behaviour": "Highly vocal, usually moving in noisy, close-knit groups; feeds on the ground and low bushes. This species has a very restricted distribution in high elevation areas of the Nilgiris and adjoining ranges",
     "food": "Insects, grubs, berries.",
+    "conservation_status": {
+      "iucn_code": "EN",
+      "label": "Endangered"
+    },
+    "photos": []
+  },
+  {
+    "id": "malabar-parakeet",
+    "common_name": "Malabar Parakeet",
+    "scientific_name": "Psittacula columboides",
+    "order_id": "psittaciformes",
+    "family_id": "psittaculidae",
+    "group_id": "parrots",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Evergreen and moist deciduous forests between 450-1600m elevation; also visits coffee, tea, rubber plantations and cultivated areas.",
+    "size": {
+      "length_cm": [36, 38]
+    },
+    "description": {
+      "adult_male": "Bluish-grey head, neck, breast and back; green lores and upper cheeks with bluish tinge; black band across chin with bright blue-green lower border forming collar. Blue wings and primaries. Long blue tail tipped yellow. Bright red upper mandible with yellow tip, brown lower mandible. Light yellow iris.",
+      "adult_female": "Similar to male but smaller; breast and back greenish; lacks blue-green border below black collar; lores only faintly greenish; both mandibles blackish. Greyish-yellow underparts. Shorter tail.",
+      "juvenile": "Greyish-green head; black collar faintly marked or absent; lacks green band below collar. Bill pale orange-red initially, turning black at 6 weeks; in males becomes red again after 9 months.",
+      "in_flight": "Swift, straight flight through forest clearings. Long blue tail tipped yellow highly conspicuous. Dark blue wings contrast with grey body. Makes distinctive harsh screeching 'keek-keek-keek' calls while flying in flocks."
+    },
+    "behaviour": "Found in small groups of 4-5 birds or small flocks. Noisy and mostly noticed by harsh, raucous calls that differ from Plum-headed Parakeet. Almost always in tops of tall trees where difficult to detect. Only descends to ground in grain fields. Monogamous, pairing for life.",
+    "food": "Seeds, fruits (especially figs, mangoes), small nuts, blossoms and nectar. Sometimes feeds on leaves of Loranthus longiflorus. May eat small insects during breeding season.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/malabar-parakeet/main.webp",
+        "caption": "Male Malabar Parakeet near Mangaon, Raigad",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "nilgiri-woodpigeon",
+    "common_name": "Nilgiri Woodpigeon",
+    "scientific_name": "Columba elphinstonii",
+    "order_id": "columbiformes",
+    "family_id": "columbidae",
+    "group_id": "pigeons",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Moist deciduous forests and sholas of Western Ghats; dense hill forests with fruiting trees.",
+    "size": {
+      "length_cm": [38, 42]
+    },
+    "description": {
+      "adult_male": "Large, dark pigeon. Blackish head, neck and underparts. Upperparts dark slaty-grey. Distinctive black and white checkerboard pattern on nape and sides of neck. Red orbital skin, red legs. Bill greyish with reddish base.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller than adults, less distinct checkerboard pattern on nape.",
+      "in_flight": "Large size and dark appearance conspicuous. Heavy, direct flight through forest canopy."
+    },
+    "behaviour": "Mainly arboreal, foraging in canopy of dense hill forests. Usually seen singly, in pairs or small groups. Feeds on fruits in fruiting trees. Shy and wary, difficult to approach.",
+    "food": "Frugivorous; feeds on variety of forest fruits and berries in canopy.",
     "conservation_status": {
       "iucn_code": "VU",
       "label": "Vulnerable"
@@ -3642,6 +3735,101 @@
       {
         "file": "assets/images/species/olive-backed-pipit/main.webp",
         "caption": "Olive-backed pipit on forest rocks",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "malabar-woodshrike",
+    "common_name": "Malabar Woodshrike",
+    "scientific_name": "Tephrodornis sylvicola",
+    "order_id": "passeriformes",
+    "family_id": "vangidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Moist deciduous and evergreen forests, teak plantations, wooded areas; from lowlands to 1800m elevation.",
+    "size": {
+      "length_cm": [16, 17]
+    },
+    "description": {
+      "adult_male": "Large, dark woodshrike with broad dark mask through eye, no pale supercilium. Dark grey-brown upperparts, browner wings and tail. White rump conspicuous. Underparts whitish with grey wash on breast and flanks.",
+      "adult_female": "Similar to male. Slightly duller overall.",
+      "juvenile": "Duller than adults with less distinct mask; brownish upperparts.",
+      "in_flight": "White rump prominent in flight. Slow, undulating flight through canopy."
+    },
+    "behaviour": "Usually found singly or in pairs. Gleans insects from foliage in canopy and mid-storey. Sometimes joins mixed-species flocks. Calls include harsh chattering notes.",
+    "food": "Insects, including caterpillars, beetles, and other arthropods gleaned from foliage.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "broad-tailed-grassbird",
+    "common_name": "Broad-tailed Grassbird",
+    "scientific_name": "Schoenicola platyurus",
+    "order_id": "passeriformes",
+    "family_id": "locustellidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Grassy moist highlands, mainly above 1100m; marshes, wet grasslands near sholas, reed beds.",
+    "size": {
+      "length_cm": [16, 18]
+    },
+    "description": {
+      "adult_male": "Uniform brown upperparts with buff supercilium. Broad, round-tipped and long graduated tail with thin dark bars. Underside of tail very dark, feathers tipped white. Whitish underparts with buff on breast and flanks. Black gape visible when singing.",
+      "adult_female": "Similar to male but gape brown, not black.",
+      "juvenile": "Similar to adults but duller.",
+      "in_flight": "Broad tail fanned in display flights. Male performs fluttering song flight with fanned tail during breeding season."
+    },
+    "behaviour": "Skulking bird that moves rapidly through grass and reeds in non-breeding season. During breeding, males perform conspicuous song flights, flying up into air with fanned tail and fluttering wings while delivering lark-like trilled song. Calls include 'chack' and 'zink' notes.",
+    "food": "Insects gleaned from grass stems and ground.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/broad-tailed-grassbird/main.webp",
+        "caption": "Bramhagiri Wildlife Sanctuary, Karnataka",
+        "photographer": "B.V. Madhukar",
+        "license": "Released in public domain by author"
+      }
+    ]
+  },
+  {
+    "id": "malabar-pied-hornbill",
+    "common_name": "Malabar Pied Hornbill",
+    "scientific_name": "Anthracoceros coronatus",
+    "order_id": "bucerotiformes",
+    "family_id": "bucerotidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Moist deciduous, semi-evergreen and riverine forests of the Western Ghats foothills and lowlands; often along rivers, fruiting fig trees, and open forest edges. Occurs up to mid-elevations but largely a low-elevation species.",
+    "size": {
+      "length_cm": [65, 75]
+    },
+    "description": {
+      "adult_male": "Glossy black body with large white belly patch and white tips to the primaries and tail. Massive pale bill with a prominent casque: the male’s casque is large, blocky, and mostly pale yellowish with extensive black on the front. Facial skin around eye bluish. Tail long and white with a bold black subterminal band. Powerful wingbeats audible in flight.",
+      "adult_female": "Similar to male but casque smaller and less bulky, with reduced black marking on the front; overall appearance slightly smaller and bill proportionately narrower.",
+      "juvenile": "Duller blackish-brown plumage, smaller bill with minimal casque development, whitish underparts less sharply demarcated. Flight feathers and tail patterns develop with age.",
+      "in_flight": "Heavy, undulating flight with strong wingbeats producing a distinct whooshing sound. White primaries and tail tips flash prominently; flight silhouette shows long tail and heavy bill."
+    },
+    "behaviour": "Usually seen in pairs or small family groups; may join mixed-frugivore flocks at large fruiting trees. Strong preference for figs and other large native fruits but also takes insects, small vertebrates, and occasionally raids nests. Nesting involves the female sealing herself inside a tree cavity with a wall of mud and droppings, leaving only a narrow slit for the male to pass food; she and the chicks remain sealed until the young are nearly grown. Highly dependent on mature forest and large nest trees. Often perches conspicuously on tall emergent trees near rivers and forest edges.",
+    "food": "Fruits (especially figs), berries and drupes; also insects, lizards, small mammals, and occasionally eggs or nestlings. Diet dominated by fruit for most of the year.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/malabar-pied-hornbill/main.jpg",
+        "caption": "Adult perched near fruiting fig tree, Western Ghats foothills",
         "photographer": "",
         "license": ""
       }
