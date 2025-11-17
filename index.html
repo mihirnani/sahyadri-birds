@@ -18,8 +18,8 @@
         <div class="site-header-right">
           <nav class="site-tabs">
             <button class="site-tab-btn" data-tab="home">Home</button>
-            <button class="site-tab-btn" data-tab="about">About</button>
             <button class="site-tab-btn" data-tab="resources">Resources</button>
+            <button class="site-tab-btn" data-tab="about">About</button>
             <button class="site-tab-btn" data-tab="contact">Contact</button>
           </nav>
           <button
@@ -28,7 +28,7 @@
             type="button"
             aria-pressed="true"
           >
-            Light
+            Dark
           </button>
         </div>
       </header>
@@ -37,17 +37,51 @@
         <!-- Home / main field guide -->
         <section class="tab-content home-layout" data-tab-content="home">
           <aside id="sidebar" class="panel">
-            <div class="sidebar-search">
-              <div class="sidebar-search-label">Search</div>
-              <div class="sidebar-search-input-wrap">
-                <span class="sidebar-search-icon">🔍</span>
-                <input
-                  id="sidebar-search-input"
-                  class="sidebar-search-input"
-                  type="search"
-                  placeholder="Search by name…"
-                  autocomplete="off"
-                />
+            <!-- Static header block to be preserved during rebuild -->
+            <div class="sidebar-header-static">
+              <!-- Filter and Sort Controls Block -->
+              <div class="sidebar-filter-sort-block">
+                <div class="sidebar-filter">
+                  <label for="filter-select">Filter</label>
+                  <select id="filter-select">
+                    <option value="all">All Species</option>
+                    <option value="endemic">Endemic Only</option>
+                    <option value="with-photo">With Photo Only</option>
+                    <!-- Conservation Statuses (Using IUCN Codes for matching) -->
+                    <option disabled>--- IUCN Status ---</option>
+                    <option value="EW">EW (Extinct in the Wild)</option>
+                    <option value="CR">CR (Critically Endangered)</option>
+                    <option value="EN">EN (Endangered)</option>
+                    <option value="VU">VU (Vulnerable)</option>
+                    <option value="NT">NT (Near Threatened)</option>
+                    <option value="LC">LC (Least Concern)</option>
+                    <option value="DD">DD (Data Deficient)</option>
+                    <option value="NE">NE (Not Evaluated)</option>
+                  </select>
+                </div>
+                <div class="sidebar-sort">
+                  <label for="sort-select">Sort By</label>
+                  <select id="sort-select">
+                    <option value="common_name">Common Name</option>
+                    <option value="scientific_name">Scientific Name</option>
+                    <option value="status">Status (e.g., Resident)</option>
+                  </select>
+                </div>
+              </div>
+              <!-- END FILTER/SORT BLOCK -->
+
+              <div class="sidebar-search">
+                <div class="sidebar-search-label">Search</div>
+                <div class="sidebar-search-input-wrap">
+                  <span class="sidebar-search-icon">🔍</span>
+                  <input
+                    id="sidebar-search-input"
+                    class="sidebar-search-input"
+                    type="search"
+                    placeholder="Search by name…"
+                    autocomplete="off"
+                  />
+                </div>
               </div>
             </div>
           </aside>
@@ -61,8 +95,8 @@
         </section>
 
         <!-- Sites -->
-
         <section class="tab-content sites-layout" data-tab-content="sites">
+          <h2>Birding Sites in the Sahyadris</h2>
           <div id="sites-list"></div>
         </section>
 
@@ -77,26 +111,29 @@
         <!-- Contact -->
         <section class="tab-content contact-layout" data-tab-content="contact">
           <div id="contact-note"></div>
-          <form id="contact-form">
-            <!-- You can add actual form fields later -->
+          <form
+            id="contact-form"
+            onsubmit="event.preventDefault(); alert('Form submission is simulated. Thank you for your message!');"
+          >
             <div class="form-row">
               <label for="contact-name">Name</label>
-              <input id="contact-name" type="text" name="name" />
+              <input id="contact-name" type="text" name="name" required />
             </div>
             <div class="form-row">
               <label for="contact-email">Email</label>
-              <input id="contact-email" type="email" name="email" />
+              <input id="contact-email" type="email" name="email" required />
             </div>
             <div class="form-row">
               <label for="contact-message">Message</label>
-              <textarea id="contact-message" name="message"></textarea>
+              <textarea id="contact-message" name="message" required></textarea>
             </div>
-            <button class="btn" type="submit">Send</button>
+            <button class="btn" type="submit">Send Message</button>
           </form>
         </section>
       </main>
     </div>
 
+    <!-- Data and App Scripts -->
     <script src="assets/js/config.js"></script>
     <script src="assets/js/data-loader.js"></script>
     <script src="assets/js/app.js"></script>

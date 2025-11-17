@@ -289,7 +289,9 @@ a:hover {
     #e8dece 100%
   );
   border-right: 1px solid var(--border-soft);
-  padding-top: 0.95rem;
+  padding-top: 0; /* Remove top padding for the header to sit flush */
+  padding-right: 0;
+  padding-left: 0;
 }
 
 /* -----------------------------
@@ -308,6 +310,90 @@ a:hover {
     #101610 100%
   );
 }
+
+/* -----------------------------
+   NEW: STATIC SIDEBAR HEADER (Filters, Sort, Search)
+   ----------------------------- */
+.sidebar-header-static {
+  padding: 0.95rem 0.9rem 0.6rem 0.9rem; /* Top/Bottom padding */
+  background: var(--bg-panel);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.sidebar-filter-sort-block {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 0 0.2rem;
+}
+
+.sidebar-filter,
+.sidebar-sort {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-filter label,
+.sidebar-sort label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  margin-bottom: 0.2rem;
+}
+
+#filter-select,
+#sort-select {
+  width: 100%;
+  /* Increased padding and font-size for better visibility */
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  background: #fdfbf7;
+  color: var(--text-main);
+  font-family: var(--font-ui);
+  font-size: 0.95rem; /* Slightly larger text for better readability */
+
+  /* --- FIX: Removing custom arrow styling --- */
+  appearance: initial; /* Restore native arrow */
+  background-image: none; /* Remove custom SVG */
+}
+
+/* Styling for disabled option separators (IUCN header) for clarity */
+#filter-select option[disabled] {
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-panel-alt);
+  padding: 0.45rem 0.6rem;
+}
+
+:root[data-theme="dark"] #filter-select,
+:root[data-theme="dark"] #sort-select {
+  background: #111712;
+  border-color: #3c5040;
+  color: var(--text-main);
+  /* Dark theme SVG styling removed by primary selector override, 
+     but explicitly ensuring no image is set here for safety: */
+  background-image: none;
+}
+/* Dark theme styling for disabled options */
+:root[data-theme="dark"] #filter-select option[disabled] {
+  background: var(--bg-panel-alt);
+  color: var(--text-soft);
+}
+
+/* Ensure sidebar content padding matches the header when scrolling */
+.sidebar-group {
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+/* End new static sidebar header styles */
 
 /* Sidebar search */
 
@@ -910,7 +996,7 @@ button.btn {
 button.btn:hover {
   background: #214932;
   transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(21, 71, 47, 0.45);
+  box-shadow: 0 10px 22px rgba(21, 71, 47, 0.47);
 }
 
 /* ---------- SCROLLBARS (WEBKIT) ---------- */
@@ -989,6 +1075,13 @@ button.btn:hover {
   .site-header-right {
     flex-wrap: wrap;
     row-gap: 0.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-filter-sort-block {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 

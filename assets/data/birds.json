@@ -1800,7 +1800,14 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/rufous-babbler/main.webp",
+        "caption": "An endemic species...",
+        "photographer": "Swardeepak",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International l"
+      }
+    ]
   },
   {
     "id": "common-kingfisher",
@@ -2374,7 +2381,14 @@
       "iucn_code": "EN",
       "label": "Endangered"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/nilgiri-laughingthrush/main.webp",
+        "caption": "A Nilgiri Laughingthursh in Kothagiri, Tamilnadu, India",
+        "photographer": "Sidharth Srinivasan",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ]
   },
   {
     "id": "malabar-parakeet",

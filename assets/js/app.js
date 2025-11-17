@@ -10,6 +10,11 @@ let SB_STATE = {
   currentBirdId: null,
   searchQuery: "",
   theme: "dark",
+
+  // --- NEW STATE VARIABLES ---
+  currentFilter: "all", // e.g., 'all', 'endemic', 'vulnerable'
+  currentSort: "common_name", // e.g., 'common_name', 'scientific_name', 'status'
+  // ---------------------------
 };
 
 // Helper: Debounce function to limit how often a function is executed
@@ -40,7 +45,10 @@ async function initSite() {
 
   initTheme();
   initTabs();
+  // We call initSearch/initFilters here for the first time,
+  // but they are also called *inside* buildSidebar for subsequent rebuilds.
   initSearch();
+  initFilters();
   buildSidebar();
   renderResources();
   renderSites();
@@ -48,8 +56,14 @@ async function initSite() {
   renderContactMeta();
 
   const hashId = window.location.hash.replace("#", "");
-  const initialBirdId =
-    SB_CONFIG.defaults.initialBirdId || pickRandomBirdId(true); // true = requirePhoto
+  let initialBirdId = SB_CONFIG.defaults.initialBirdId;
+
+  if (hashId && SB_STATE.birdsById[hashId]) {
+    initialBirdId = hashId;
+  } else if (!initialBirdId) {
+    initialBirdId = pickRandomBirdId(true); // true = requirePhoto
+  }
+
   if (initialBirdId) {
     showBird(initialBirdId);
   }
@@ -145,7 +159,8 @@ function applyTheme(theme) {
 
   const btn = document.querySelector("#theme-toggle");
   if (btn) {
-    btn.textContent = "Theme"; // <<< changed
+    // Correctly reflect the *next* theme option on the button
+    btn.textContent = theme === "dark" ? "Light" : "Dark";
     btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
   }
 }
@@ -170,6 +185,33 @@ function initSearch() {
 }
 
 /* =====================
+   FILTERS & SORT (NEW)
+   ===================== */
+
+function initFilters() {
+  const filterSelect = document.querySelector("#filter-select");
+  const sortSelect = document.querySelector("#sort-select");
+
+  if (filterSelect) {
+    // Ensure the current state value is reflected in the rebuilt dropdown
+    filterSelect.value = SB_STATE.currentFilter;
+    filterSelect.addEventListener("change", (e) => {
+      SB_STATE.currentFilter = e.target.value;
+      buildSidebar();
+    });
+  }
+
+  if (sortSelect) {
+    // Ensure the current state value is reflected in the rebuilt dropdown
+    sortSelect.value = SB_STATE.currentSort;
+    sortSelect.addEventListener("change", (e) => {
+      SB_STATE.currentSort = e.target.value;
+      buildSidebar();
+    });
+  }
+}
+
+/* =====================
    SIDEBAR
    ===================== */
 
@@ -177,29 +219,37 @@ function buildSidebar() {
   const sidebar = document.querySelector(SB_CONFIG.ui.sidebarSelector);
   if (!sidebar || !SB_STATE.taxo) return;
 
-  // --- START FIX: Cursor Loss & Full Rebuild ---
+  // --- FIX: Cursor Loss & Functional Rebuild ---
+  const existingHeader = sidebar.querySelector(".sidebar-header-static");
 
-  // 1. Capture search element and its state (focus/cursor position)
-  const existingSearch = sidebar.querySelector(".sidebar-search");
+  // 1. Capture the search input element from the current DOM
   const inputElement = sidebar.querySelector("#sidebar-search-input");
 
   let isActive = false;
   let cursorPosition = 0;
 
-  if (inputElement === document.activeElement) {
+  if (inputElement && inputElement === document.activeElement) {
     isActive = true;
     cursorPosition = inputElement.selectionStart;
   }
 
-  // 2. Clear the dynamically generated content *after* the search box
-  sidebar.innerHTML = ""; // Clear everything
+  // Preserve the static header (filters, sort, search) HTML content
+  const headerHtml = existingHeader ? existingHeader.innerHTML : "";
 
-  // Re-add the search bar element first
-  if (existingSearch) {
-    sidebar.appendChild(existingSearch);
-  }
+  // 2. Clear the entire sidebar
+  sidebar.innerHTML = "";
 
-  // --- END FIX: Cursor Loss Setup ---
+  // 3. Rebuild the static header element
+  const headerBlock = document.createElement("div");
+  headerBlock.className = "sidebar-header-static";
+  headerBlock.innerHTML = headerHtml;
+  sidebar.appendChild(headerBlock);
+
+  // 4. ***CRUCIAL FIX: Reattach listeners to the newly created elements***
+  // This step ensures the filter and search events fire after the rebuild.
+  initSearch();
+  initFilters();
+  // --- END FIX: Cursor Loss & Functional Rebuild ---
 
   const groups = [...(SB_STATE.taxo.groups || [])].sort(
     (a, b) =>
@@ -209,9 +259,45 @@ function buildSidebar() {
 
   const families = SB_STATE.taxo.families || [];
 
-  // Precompute family -> species array
+  // 1. **Filter and Sort the entire bird list based on user selections**
+  let filteredBirds = SB_STATE.birds;
+  const currentFilter = SB_STATE.currentFilter;
+  const currentSort = SB_STATE.currentSort;
+
+  // Apply Filter
+  if (currentFilter !== "all") {
+    if (currentFilter === "endemic") {
+      filteredBirds = filteredBirds.filter((bird) => bird.is_endemic);
+    } else if (currentFilter === "with-photo") {
+      filteredBirds = filteredBirds.filter(
+        (bird) => Array.isArray(bird.photos) && bird.photos.length > 0
+      );
+    } else {
+      // Conservation Status check:
+      // FIX: Use bird.conservation_status?.iucn_code as suggested by user.
+      filteredBirds = filteredBirds.filter(
+        (bird) => bird.conservation_status?.iucn_code === currentFilter
+      );
+    }
+  }
+
+  // Apply Sort
+  filteredBirds.sort((a, b) => {
+    if (currentSort === "scientific_name") {
+      return (a.scientific_name || "").localeCompare(b.scientific_name || "");
+    }
+    if (currentSort === "status") {
+      return (a.status_in_sahyadris || "").localeCompare(
+        b.status_in_sahyadris || ""
+      );
+    }
+    // Default or 'common_name'
+    return (a.common_name || "").localeCompare(b.common_name || "");
+  });
+
+  // 2. Precompute family -> species array using the FILTERED and SORTED list
   const birdsByFamily = {};
-  SB_STATE.birds.forEach((bird) => {
+  filteredBirds.forEach((bird) => {
     if (!birdsByFamily[bird.family_id]) {
       birdsByFamily[bird.family_id] = [];
     }
@@ -220,6 +306,7 @@ function buildSidebar() {
 
   const q = (SB_STATE.searchQuery || "").trim().toLowerCase();
 
+  // 3. Iterate through groups and families to build the list
   groups.forEach((group) => {
     const groupSection = document.createElement("section");
     groupSection.className = "sidebar-group";
@@ -247,9 +334,10 @@ function buildSidebar() {
     let hasAnyFamily = false;
 
     groupFamilies.forEach((fam) => {
+      // Use the pre-filtered/pre-sorted list from birdsByFamily
       let speciesList = birdsByFamily[fam.id] || [];
 
-      // Filter by search query (common or scientific name)
+      // Filter by SEARCH QUERY (common or scientific name) - this is the last step
       if (q) {
         speciesList = speciesList.filter((bird) => {
           const common = (bird.common_name || "").toLowerCase();
@@ -262,11 +350,6 @@ function buildSidebar() {
       if (!speciesList.length) return;
 
       hasAnyFamily = true;
-
-      // Sort species alphabetically by common name
-      speciesList.sort((a, b) =>
-        (a.common_name || "").localeCompare(b.common_name || "")
-      );
 
       const famBlock = document.createElement("div");
       famBlock.className = "sidebar-family";
@@ -282,6 +365,8 @@ function buildSidebar() {
       speciesList.forEach((bird) => {
         const li = document.createElement("li");
         li.className = "sidebar-species-item";
+        // Highlight active selection
+        li.classList.toggle("active", bird.id === SB_STATE.currentBirdId);
         li.textContent = bird.common_name;
         li.dataset.birdId = bird.id;
         li.addEventListener("click", () => showBird(bird.id));
@@ -297,10 +382,12 @@ function buildSidebar() {
     }
   });
 
-  // 3. **Restore focus and cursor position**
+  // 5. **Restore focus and cursor position**
   if (isActive) {
-    // Re-query the input element (which is the detached element now re-attached)
-    const newlyRenderedInput = sidebar.querySelector("#sidebar-search-input");
+    // Re-query the input element from the re-attached header block
+    const newlyRenderedInput = headerBlock.querySelector(
+      "#sidebar-search-input"
+    );
     if (newlyRenderedInput) {
       newlyRenderedInput.focus();
       // Restore cursor position
@@ -312,6 +399,9 @@ function buildSidebar() {
 }
 
 function highlightSidebarSelection(birdId) {
+  // Since we rebuild the sidebar on filter/sort/search,
+  // we need to re-highlight the current selection on rebuild.
+  // This function is now mainly for when a bird is selected via click.
   const items = document.querySelectorAll(".sidebar-species-item");
   items.forEach((li) => {
     li.classList.toggle("active", li.dataset.birdId === birdId);
@@ -348,7 +438,7 @@ function showBird(birdId) {
   if (!bird) return;
 
   SB_STATE.currentBirdId = birdId;
-  highlightSidebarSelection(birdId);
+  buildSidebar(); // Rebuild sidebar to ensure correct item is highlighted
   renderBirdInfo(bird);
   renderBirdImages(bird);
 
@@ -393,7 +483,7 @@ function renderBirdInfo(bird) {
         }
         ${
           bird.conservation_status
-            ? `<span class="badge badge-iucn">${bird.conservation_status.label}</span>`
+            ? `<span class="badge badge-iucn">${bird.conservation_status.label} (${bird.conservation_status.iucn_code})</span>`
             : ""
         }
       </div>
@@ -457,7 +547,7 @@ function renderBirdImages(bird) {
 
   const photos = Array.isArray(bird.photos) ? bird.photos : [];
 
-  // No photos → show placeholder (unchanged)
+  // No photos → show placeholder
   if (!photos.length) {
     el.innerHTML = `
       <div class="image-placeholder">
@@ -493,38 +583,10 @@ function renderBirdImages(bird) {
   el.innerHTML = html;
 }
 
-// Global utility for switching images
+// Global utility for switching images (Now unused in favor of stacked images)
 window.switchMainImage = function (thumbnail) {
-  const mainImage = document.querySelector("#main-bird-image");
-  const mainCaptionDiv = document.querySelector("#main-image-caption");
-  const firstPhoto = SB_STATE.birdsById[SB_STATE.currentBirdId].photos[0];
-
-  if (mainImage && mainCaptionDiv) {
-    const isMain = thumbnail.getAttribute("data-file") === firstPhoto.file;
-
-    let file, caption, photographer, license;
-
-    if (isMain) {
-      file = firstPhoto.file;
-      caption = firstPhoto.caption || "";
-      photographer = firstPhoto.photographer || "";
-      license = firstPhoto.license || "";
-    } else {
-      file = thumbnail.getAttribute("data-file");
-      caption = thumbnail.getAttribute("data-caption");
-      photographer = thumbnail.getAttribute("data-photographer");
-      license = thumbnail.getAttribute("data-license");
-    }
-
-    mainImage.src = file;
-    mainCaptionDiv.innerHTML = `
-            <div>${caption}</div>
-            <div class="image-credit">
-                ${photographer ? `Photo: ${photographer}` : ""}
-                ${license ? `${photographer ? " · " : ""}${license}` : ""}
-            </div>
-        `;
-  }
+  // This function is no longer used as images are stacked vertically
+  console.warn("switchMainImage is deprecated in the current layout.");
 };
 
 /* =====================
