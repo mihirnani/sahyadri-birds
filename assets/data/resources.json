@@ -1,0 +1,72 @@
+[
+  {
+    "name": "eBird India",
+    "description": "Citizen science platform for recording bird observations; useful for exploring hotspots in and around the Sahyadris.",
+    "url": "https://ebird.org/region/IN"
+  },
+  {
+    "name": "eBird Western Ghats Hotspots",
+    "description": "Listing of active birding hotspots across the Western Ghats, sorted by species richness and effort.",
+    "url": "https://ebird.org/hotspots?region=IN-WG"
+  },
+  {
+    "name": "Merlin Bird ID – South Asia Pack",
+    "description": "Free bird ID app by Cornell Lab; includes call ID and photo-based suggestions for Indian birds.",
+    "url": "https://merlin.allaboutbirds.org"
+  },
+  {
+    "name": "Bird Count India",
+    "description": "Information on bird monitoring in India, including events and protocols.",
+    "url": "https://birdcount.in"
+  },
+  {
+    "name": "BNHS",
+    "description": "Bombay Natural History Society, with publications and resources on Indian birds and conservation.",
+    "url": "https://www.bnhs.org"
+  },
+  {
+    "name": "Birds of the Sahyadris (research article)",
+    "description": "Prakash Gole, 'Birds of the Sahyadri', (1998) 11 (1) Journal of the Ecological Society 5.",
+    "url": "https://www.scienceopen.com/hosted-document?doi=10.54081/JES.011/01"
+  },
+  {
+    "name": "Avibase checklist",
+    "description": "Avibase: Bird Checklists of the World - Sahyadri region",
+    "url": "https://avibase.bsc-eoc.org/checklist.jsp?region=INswmh08&list=howardmoore"
+  },
+  {
+    "name": "Birds of Konkan",
+    "description": "Sahyadri Nisarg Mitra, Birds of Konkan",
+    "url": "https://www.snmcpn.org/about-us/documentation/birds-of-konkan"
+  },
+  {
+    "name": "Salim Ali Centre for Ornithology and Natural History",
+    "description": "National centre for ornithology with research publications and data on Indian birds and ecosystems.",
+    "url": "https://www.sacon.in/"
+  },
+  {
+    "name": "Zoological Survey of India – Bird Publications",
+    "description": "Open-access checklists, monographs and faunal documents on Indian birds.",
+    "url": "https://zsi.gov.in/page/publications"
+  },
+  {
+    "name": "BirdLife International",
+    "description": "Global species factsheets including distribution maps and conservation assessments.",
+    "url": "https://www.birdlife.org"
+  },
+  {
+    "name": "Ecological Society",
+    "description": "A leading Pune-based organisation, which organises many local and educational activities.",
+    "url": "https://www.theecologicalsociety.org/"
+  },
+  {
+    "name": "Xeno-Canto (Indian Subcontinent)",
+    "description": "Open-access library of bird sounds (recordings for South Asia included). Playback may be slow in some browsers.",
+    "url": "https://xeno-canto.org/region/AS/IN"
+  },
+  {
+    "name": "Macaulay Library – OBI Collection",
+    "description": "Collection of the former Oriental Bird Images database, now integrated into the Macaulay Library; over 180,000 Asian bird photographs.",
+    "url": "https://www.macaulaylibrary.org/oriental-bird-images/"
+  }
+]

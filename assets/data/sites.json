@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Bhimashankar Wildlife Sanctuary",
+    "location": "Pune district, Maharashtra",
+    "description": "Moist evergreen forest on the crest of the northern Western Ghats. Trails and temple tracks pass through dense understorey and mixed forest edge, offering good views into both canopy and streamside vegetation.",
+    "places_to_stay": [
+      {
+        "name": "Forest rest houses (MTDC / Forest Dept)",
+        "description": "Basic accommodation inside or near the sanctuary; book in advance.",
+        "url": ""
+      },
+      {
+        "name": "Small lodges in Bhimashankar village",
+        "description": "Simple rooms with access to food and shops.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Tamhini Ghat",
+    "location": "Mulshi–Tamhini road, near Pune",
+    "description": "Roadside birding along forested slopes, streams and viewpoints. Classic monsoon ghat section with good visibility into the canopy and frequent mixed flocks along the road edges.",
+    "places_to_stay": [
+      {
+        "name": "Resorts around Mulshi lake",
+        "description": "Convenient base for Tamhini and Mulshi backwater birding.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Sinhagad Valley",
+    "location": "Sinhagad foothills, southwest Pune",
+    "description": "Narrow valley with seasonal streams, dense riparian growth and rocky slopes. A winter hotspot for thrushes and flycatchers, with excellent early-morning activity.",
+    "places_to_stay": [
+      {
+        "name": "Small lodges near Donje Phata",
+        "description": "Functional, convenient for early starts.",
+        "url": ""
+      },
+      {
+        "name": "Mulshi / Khadakwasla homestays",
+        "description": "Useful if combining multiple nearby sites.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Koyna Backwaters & Forests",
+    "location": "Satara district, Maharashtra",
+    "description": "A mosaic of semi-evergreen forest, reservoir edge and hilly villages. Excellent for raptors, hornbills, woodpeckers and forest-edge species. Backwater scanning can be productive in winter.",
+    "places_to_stay": [
+      {
+        "name": "Koyna MTDC",
+        "description": "Reliable and very close to prime birding areas.",
+        "url": ""
+      },
+      {
+        "name": "Local homestays around Bamnoli / Koynanagar",
+        "description": "Good for extended trips and backwater exploration.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Kaas Plateau & Forest Fringe",
+    "location": "Near Satara city, Maharashtra",
+    "description": "Lateritic plateau famous for post-monsoon flowers; edges drop into forested valleys with excellent visibility. Plateau edges hold pipits, larks and raptors; nearby forest has bulbuls, leafbirds and thrushes.",
+    "places_to_stay": [
+      {
+        "name": "Satara town hotels",
+        "description": "Best base for both Kaas and Chalkewadi.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Chalkewadi & Thoseghar Valley",
+    "location": "Windmill plateau above Thoseghar, Satara district",
+    "description": "High, open plateau with grassland, lateritic rock and deep adjoining valleys. Excellent for harriers, kestrels, pipits and winter migrants. Valley edges can produce vultures and eagles.",
+    "places_to_stay": [
+      {
+        "name": "Satara hotels",
+        "description": "Well-connected and convenient for early starts.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Mahabaleshwar Forest Patches",
+    "location": "Hill station region, Satara district",
+    "description": "Evergreen and semi-evergreen forest pockets around Arthur Seat Road, Venna lake fringes and Old Mahabaleshwar. Good for thrushes, drongos, leafbirds and hornbills.",
+    "places_to_stay": [
+      {
+        "name": "Hotels and homestays in Mahabaleshwar",
+        "description": "Abundant options for various budgets.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Matheran Plateau & Valleys",
+    "location": "Raigad district, Maharashtra",
+    "description": "Vehicle-free lateritic plateau surrounded by deep valleys. Good mix of forest edge, viewpoints and quiet paths offering views of drongos, thrushes, barbets and soaring raptors.",
+    "places_to_stay": [
+      {
+        "name": "Matheran hill-station hotels",
+        "description": "All visits involve walking; choose accommodation close to your preferred entry point.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Amboli Ghat",
+    "location": "Sindhudurg district, Maharashtra / Karnataka border",
+    "description": "Lush, high-rainfall ghat section with superb monsoon birding. Evergreen forest patches along the road support laughingthrushes, sunbirds, flycatchers and endemics.",
+    "places_to_stay": [
+      {
+        "name": "Amboli hotels and homestays",
+        "description": "Plenty of simple to mid-range options close to birding spots.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Anshi–Dandeli (Kali Tiger Reserve)",
+    "location": "Uttara Kannada district, Karnataka",
+    "description": "Dense evergreen and semi-evergreen forests with exceptional canopy birding. Known for hornbills, woodpeckers, flycatchers and rarities like the Malabar trogon.",
+    "places_to_stay": [
+      {
+        "name": "Resorts & jungle lodges around Dandeli",
+        "description": "Good access to forest drives and guided walks.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Agumbe & Someshwara Forest Belt",
+    "location": "Shimoga district, Karnataka",
+    "description": "Heavy-rainfall evergreen forest with excellent streamside and canopy birding. Commonly produces Malabar whistling thrush, fairy-bluebirds, woodpeckers and mixed flocks.",
+    "places_to_stay": [
+      {
+        "name": "Agumbe homestays",
+        "description": "Good access to forest trails and viewpoints.",
+        "url": ""
+      }
+    ]
+  },
+
+  {
+    "name": "Ooty–Avalanche–Emerald Landscape",
+    "location": "Nilgiris district, Tamil Nadu",
+    "description": "Montane shola–grassland mosaic with distinct high-altitude birdlife. Good for laughingthrushes, wood-pigeons, shola specialists and occasional raptors over the grasslands.",
+    "places_to_stay": [
+      {
+        "name": "Ooty hotels and homestays",
+        "description": "Wide range of stay options with access to multiple shola patches.",
+        "url": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,3650 @@
+[
+  {
+    "id": "malabar-whistling-thrush",
+    "common_name": "Malabar Whistling Thrush",
+    "scientific_name": "Myophonus horsfieldii",
+    "order_id": "passeriformes",
+    "family_id": "turdidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Evergreen and semi-evergreen forests, hill streams, shaded valleys.",
+    "size": {
+      "length_cm": [25, 28]
+    },
+    "description": {
+      "adult_male": "Glossy dark blue-black thrush with bright electric-blue shoulder patches. Stout bill.",
+      "adult_female": "Glossy dark blue-black thrush with bright electric-blue shoulder patches. Stout bill.",
+      "juvenile": "Duller blue, more mottled.",
+      "in_flight": ""
+    },
+    "behaviour": "Often perches near forest streams; known for human-like whistling calls at dawn.",
+    "food": "Insects, snails, small vertebrates; forages along streams.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/malabar-whistling-thrush/main.webp",
+        "caption": "Near Mangaon, Raigad",
+        "photographer": "Shantanu Kuveskar",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ]
+  },
+  {
+    "id": "white-rumped-shama",
+    "common_name": "White-rumped Shama",
+    "scientific_name": "Copsychus malabaricus",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense undergrowth in moist forests and plantations.",
+    "size": {
+      "length_cm": [23, 28]
+    },
+    "description": {
+      "adult_male": "Glossy black with chestnut belly and long tail; white rump highly visible.",
+      "adult_female": "Browner above, paler below; shorter tail.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Secretive but sings rich melodious phrases from low foliage.",
+    "food": "Insects mainly.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/white-rumped-shama/main.webp",
+        "caption": "Male white-rumped shama",
+        "photographer": "JJ Harrison",
+        "license": "Creative Commons Attribution-Share Alike 3.0"
+      },
+      {
+        "file": "assets/images/species/white-rumped-shama/main2.webp",
+        "caption": "Female white-rumped shama",
+        "photographer": "JJ Harrison",
+        "license": "Creative Commons Attribution-Share Alike 3.0"
+      }
+    ]
+  },
+  {
+    "id": "red-whiskered-bulbul",
+    "common_name": "Red-whiskered Bulbul",
+    "scientific_name": "Pycnonotus jocosus",
+    "order_id": "passeriformes",
+    "family_id": "pycnonotidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Gardens, plantations, forest edges.",
+    "size": {
+      "length_cm": [18, 20]
+    },
+    "description": {
+      "adult_male": "Brown with pointed black crest, red cheek patch, and red vent. White underparts.",
+      "adult_female": "Brown with pointed black crest, red cheek patch, and red vent. White underparts.",
+      "juvenile": "Browner crest, duller cheek patch.",
+      "in_flight": ""
+    },
+    "behaviour": "Highly vocal; often perches on wires and open branches.",
+    "food": "Fruits, insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/red-whiskered-bulbul/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "greater-racket-tailed-drongo",
+    "common_name": "Greater Racket-tailed Drongo",
+    "scientific_name": "Dicrurus paradiseus",
+    "order_id": "passeriformes",
+    "family_id": "dicruridae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense wet evergreen forests, forest edges.",
+    "size": {
+      "length_cm": [32, 35]
+    },
+    "description": {
+      "adult_male": "Glossy black bird with a prominent crest and long tail streamers ending in distinctive 'rackets'.",
+      "adult_female": "Glossy black bird with a prominent crest and long tail streamers ending in distinctive 'rackets'.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "A skillful mimic; often seen foraging in the canopy, sometimes with mixed-species flocks.",
+    "food": "Large insects, nectar, small birds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/greater-racket-tailed-drongo/main.jpg",
+        "caption": "Adult displaying tail rackets.",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "rufous-backed-shrike",
+    "common_name": "Rufous-backed Shrike",
+    "scientific_name": "Lanius schach",
+    "order_id": "passeriformes",
+    "family_id": "laniidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open scrub, cultivation, and forest edges.",
+    "size": {
+      "length_cm": [23, 25]
+    },
+    "description": {
+      "adult_male": "Ashy grey head, rufous back and rump, black mask. Strong hooked bill.",
+      "adult_female": "Ashy grey head, rufous back and rump, black mask. Strong hooked bill.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Perches conspicuously on wires/bushes; known for impaling prey on thorns ('butchering').",
+    "food": "Large insects, lizards, small rodents.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/rufous-backed-shrike/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "bright-capped-cisticola",
+    "common_name": "Bright-capped Cisticola",
+    "scientific_name": "Cisticola exilis",
+    "order_id": "passeriformes",
+    "family_id": "sylviidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Tall grass, wet areas, cultivation fringes.",
+    "size": {
+      "length_cm": [9, 11]
+    },
+    "description": {
+      "adult_male": "Tiny, streaky brown bird with a bright rufous cap in breeding plumage.",
+      "adult_female": "Similar but duller cap.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Usually seen briefly on top of grass stems before dropping back into cover. Highly vocal.",
+    "food": "Small insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/bright-capped-cisticola/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "jungle-babbler",
+    "common_name": "Jungle Babbler",
+    "scientific_name": "Argya striata",
+    "order_id": "passeriformes",
+    "family_id": "leiothrichidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open scrub, gardens, deciduous forest.",
+    "size": {
+      "length_cm": [25, 27]
+    },
+    "description": {
+      "adult_male": "Dull brownish-grey bird with slight streaking, a pale throat, and a heavy bill.",
+      "adult_female": "Dull brownish-grey bird with slight streaking, a pale throat, and a heavy bill.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly social, found in groups of 7-10 (the 'Seven Sisters'); noisy, hop on the ground while foraging.",
+    "food": "Insects, seeds, berries.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/jungle-babbler/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "purple-rumped-sunbird",
+    "common_name": "Purple-rumped Sunbird",
+    "scientific_name": "Leptocoma zeylonica",
+    "order_id": "passeriformes",
+    "family_id": "nectariniidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Gardens, groves, open woods, flowering trees.",
+    "size": {
+      "length_cm": [10, 11]
+    },
+    "description": {
+      "adult_male": "Glossy metallic green head/back, prominent yellow pectoral tufts, purplish-crimson rump.",
+      "adult_female": "Dull yellowish below, olive above.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Very active, probes flowers for nectar, capable of hovering briefly.",
+    "food": "Nectar, small spiders, and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/purple-rumped-sunbird/main.jpg",
+        "caption": "Male feeding on a flower.",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "jungle-myna",
+    "common_name": "Jungle Myna",
+    "scientific_name": "Acridotheres fuscus",
+    "order_id": "passeriformes",
+    "family_id": "sturnidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Forest clearing, open cultivation, towns.",
+    "size": {
+      "length_cm": [23, 25]
+    },
+    "description": {
+      "adult_male": "Dull greyish-brown plumage, tuft of feathers at the base of the bill, yellow bill/legs.",
+      "adult_female": "Dull greyish-brown plumage, tuft of feathers at the base of the bill, yellow bill/legs.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly social, forms large communal roosts, walks rather than hops on the ground.",
+    "food": "Insects, fruit, seeds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/jungle-myna/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "house-crow",
+    "common_name": "House Crow",
+    "scientific_name": "Corvus splendens",
+    "order_id": "passeriformes",
+    "family_id": "corvidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Urban areas, villages, human habitation.",
+    "size": {
+      "length_cm": [40, 43]
+    },
+    "description": {
+      "adult_male": "Glossy black head and neck, dull grey breast and mantle.",
+      "adult_female": "Glossy black head and neck, dull grey breast and mantle.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly intelligent and adaptable; omnivorous and scavenges aggressively.",
+    "food": "Anything edible (scavenger).",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/house-crow/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "red-rumped-swallow",
+    "common_name": "Red-rumped Swallow",
+    "scientific_name": "Cecropis daurica",
+    "order_id": "passeriformes",
+    "family_id": "hirundinidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "migrant",
+    "is_endemic": false,
+    "habitat": "Open country, often near cliffs, bridges, or caves for nesting.",
+    "size": {
+      "length_cm": [16, 17]
+    },
+    "description": {
+      "adult_male": "Deep blue upperparts, rufous collar and rump, heavily streaked underparts.",
+      "adult_female": "Deep blue upperparts, rufous collar and rump, heavily streaked underparts.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Fast aerial flyer, catches insects in flight. Builds enclosed mud nests.",
+    "food": "Flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/red-rumped-swallow/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "forest-wagtail",
+    "common_name": "Forest Wagtail",
+    "scientific_name": "Dendronanthus indicus",
+    "order_id": "passeriformes",
+    "family_id": "motacillidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Forest floor, wet undergrowth, coffee plantations.",
+    "size": {
+      "length_cm": [18, 19]
+    },
+    "description": {
+      "adult_male": "Olive-brown above, white below with two black breast bands. Unique lateral tail-wagging motion.",
+      "adult_female": "Olive-brown above, white below with two black breast bands. Unique lateral tail-wagging motion.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Usually solitary winter visitor; walks on the ground and constantly wags tail side-to-side.",
+    "food": "Insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/forest-wagtail/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "indian-bushlark",
+    "common_name": "Indian Bushlark",
+    "scientific_name": "Mirafra erythroptera",
+    "order_id": "passeriformes",
+    "family_id": "alaudidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry scrub, open grasslands, rocky hillsides.",
+    "size": {
+      "length_cm": [13, 15]
+    },
+    "description": {
+      "adult_male": "Streaky brown plumage, short tail, rufous wing patches visible in flight.",
+      "adult_female": "Streaky brown plumage, short tail, rufous wing patches visible in flight.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Terrestrial bird, known for its aerial song display flight high over the breeding territory.",
+    "food": "Seeds and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/indian-bushlark/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "black-headed-cuckooshrike",
+    "common_name": "Black-headed Cuckooshrike",
+    "scientific_name": "Lalage melanoptera",
+    "order_id": "passeriformes",
+    "family_id": "campephagidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Deciduous forest and woodland.",
+    "size": {
+      "length_cm": [18, 19]
+    },
+    "description": {
+      "adult_male": "Black head and upper breast, gray back, white belly.",
+      "adult_female": "Ashy grey where the male is black.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Forages in the canopy, often alone or in pairs. Has a slow, undulating flight.",
+    "food": "Insects and caterpillars.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/black-headed-cuckooshrike/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "indian-golden-oriole",
+    "common_name": "Indian Golden Oriole",
+    "scientific_name": "Oriolus kundoo",
+    "order_id": "passeriformes",
+    "family_id": "oriolidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "migrant/resident",
+    "is_endemic": false,
+    "habitat": "Open broadleaf forests, gardens, groves.",
+    "size": {
+      "length_cm": [24, 25]
+    },
+    "description": {
+      "adult_male": "Vibrant golden-yellow plumage, black eye-stripe and wing markings.",
+      "adult_female": "Duller, greener yellow with slight streaking.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Shy and arboreal, often hard to spot despite its bright colour. Known for its clear, fluting song.",
+    "food": "Fruits, berries, insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/indian-golden-oriole/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "jerdons-leafbird",
+    "common_name": "Jerdon's Leafbird",
+    "scientific_name": "Chloropsis jerdoni",
+    "order_id": "passeriformes",
+    "family_id": "chloropseidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Moist deciduous and evergreen forests.",
+    "size": {
+      "length_cm": [17, 18]
+    },
+    "description": {
+      "adult_male": "Brilliant grass-green body, yellow throat, black patch around the throat and beak.",
+      "adult_female": "Brilliant grass-green body, yellow throat, black patch around the throat and beak.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Stays high in the tree canopy; excellent mimics of other bird calls.",
+    "food": "Nectar, insects, berries.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/jerdons-leafbird/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "common-iora",
+    "common_name": "Common Iora",
+    "scientific_name": "Aegithina tiphia",
+    "order_id": "passeriformes",
+    "family_id": "aegithinidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Shrubland, open woodland, gardens.",
+    "size": {
+      "length_cm": [14, 15]
+    },
+    "description": {
+      "adult_male": "Bright yellow underparts, black wings with two white bars. Breeding males have a black cap and back.",
+      "adult_female": "Greener back, retains yellow/white below.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Often found in pairs; known for their distinctive, sweet whistling call and acrobatic courtship display.",
+    "food": "Insects and spiders.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/common-iora/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "baya-weaver",
+    "common_name": "Baya Weaver",
+    "scientific_name": "Ploceus philippinus",
+    "order_id": "passeriformes",
+    "family_id": "ploceidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open country, grasslands, near water and cultivation.",
+    "size": {
+      "length_cm": [15, 17]
+    },
+    "description": {
+      "adult_male": "Brilliant yellow crown and breast in breeding plumage, dark brown upperparts. (Non-breeding males resemble females).",
+      "adult_female": "Dull sparrow-like brown.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Colonial nesting bird; males weave intricate, pendulous nests often found in large numbers on thorny trees.",
+    "food": "Seeds, grains, insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/baya-weaver/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "white-rumped-munia",
+    "common_name": "White-rumped Munia",
+    "scientific_name": "Lonchura striata",
+    "order_id": "passeriformes",
+    "family_id": "estrildidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Grasslands, scrub, gardens, fields.",
+    "size": {
+      "length_cm": [10, 11]
+    },
+    "description": {
+      "adult_male": "Dark brown above, black throat, white underparts with streaking, short conical bill.",
+      "adult_female": "Dark brown above, black throat, white underparts with streaking, short conical bill.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly gregarious, feeds in large, active flocks on grass seeds. Nests communally.",
+    "food": "Grass seeds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/white-rumped-munia/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "crested-hawk-eagle",
+    "common_name": "Crested Hawk-Eagle",
+    "scientific_name": "Nisaetus cirrhatus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Forests, foothills, open woodland.",
+    "size": {
+      "length_cm": [60, 72]
+    },
+    "description": {
+      "adult_male": "Bold crest, heavily streaked underparts, broad wings; fierce yellow eyes.",
+      "adult_female": "Bold crest, heavily streaked underparts, broad wings; fierce yellow eyes.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Soars above forest; hunts birds, reptiles, small mammals.",
+    "food": "Small mammals, birds, reptiles.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/crested-hawk-eagle/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "peregrine-falcon",
+    "common_name": "Peregrine Falcon",
+    "scientific_name": "Falco peregrinus",
+    "order_id": "falconiformes",
+    "family_id": "falconidae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Cliffs, coasts, cliffs near ghats, open habitats.",
+    "size": {
+      "length_cm": [36, 49]
+    },
+    "description": {
+      "adult_male": "Slate-grey above, barred underparts, bold moustachial stripe.",
+      "adult_female": "Slate-grey above, barred underparts, bold moustachial stripe.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Fastest bird; hunts in dramatic aerial stoops (dives).",
+    "food": "Primarily birds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/peregrine-falcon/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "little-egret",
+    "common_name": "Little Egret",
+    "scientific_name": "Egretta garzetta",
+    "order_id": "pelecaniformes",
+    "family_id": "ardeidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Lakes, marshes, rivers, rice fields.",
+    "size": {
+      "length_cm": [55, 65]
+    },
+    "description": {
+      "adult_male": "Slender white egret, black bill and legs, yellow feet. Breeding adults have two long plumes on the nape.",
+      "adult_female": "Slender white egret, black bill and legs, yellow feet. Breeding adults have two long plumes on the nape.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Actively hunts fish by dashing and prodding, often shuffles feet to disturb prey.",
+    "food": "Fish, frogs, aquatic insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/little-egret/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "white-breasted-waterhen",
+    "common_name": "White-breasted Waterhen",
+    "scientific_name": "Amaurornis phoenicurus",
+    "order_id": "gruiformes",
+    "family_id": "rallidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Marshes, ponds, wet vegetation, ditches.",
+    "size": {
+      "length_cm": [27, 30]
+    },
+    "description": {
+      "adult_male": "Grey body, pure white face and breast, red vent. Greenish legs.",
+      "adult_female": "Grey body, pure white face and breast, red vent. Greenish legs.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Bold, often walks on floating vegetation or near thick cover, flicks its tail constantly.",
+    "food": "Insects, snails, small fish, seeds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/white-breasted-waterhen/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "asian-openbill",
+    "common_name": "Asian Openbill",
+    "scientific_name": "Anastomus oscitans",
+    "order_id": "ciconiiformes",
+    "family_id": "ciconiidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident/migrant",
+    "is_endemic": false,
+    "habitat": "Marshes, flooded fields, large shallow lakes.",
+    "size": {
+      "length_cm": [68, 81]
+    },
+    "description": {
+      "adult_male": "White to greyish-white plumage; unique gap between the two mandibles of the bill.",
+      "adult_female": "White to greyish-white plumage; unique gap between the two mandibles of the bill.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Wades in shallow water, often feeding in large groups. Bill gap is used to hold and crush snails.",
+    "food": "Aquatic snails, frogs, large insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/asian-openbill/main.webp",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "lesser-whistling-duck",
+    "common_name": "Lesser Whistling Duck",
+    "scientific_name": "Dendrocygna javanica",
+    "order_id": "anseriformes",
+    "family_id": "anatidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Shallow water, tanks, paddy fields, irrigation canals.",
+    "size": {
+      "length_cm": [40, 42]
+    },
+    "description": {
+      "adult_male": "Rufous-brown plumage, long neck, dark cap. Distinctive descending whistle call.",
+      "adult_female": "Rufous-brown plumage, long neck, dark cap. Distinctive descending whistle call.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Nocturnal feeder, diurnal resters, often perches on trees near water.",
+    "food": "Aquatic plants, rice seeds, small invertebrates.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/lesser-whistling-duck/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "indian-cormorant",
+    "common_name": "Indian Cormorant",
+    "scientific_name": "Phalacrocorax fuscicollis",
+    "order_id": "suliformes",
+    "family_id": "phalacrocoracidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Large inland waters, reservoirs, rocky coastlines.",
+    "size": {
+      "length_cm": [50, 65]
+    },
+    "description": {
+      "adult_male": "Glossy black plumage, slender bill with a hook. Pale patch on the side of the head in breeding season.",
+      "adult_female": "Glossy black plumage, slender bill with a hook. Pale patch on the side of the head in breeding season.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Swims low in the water, dives frequently to hunt fish. Often perches with wings outstretched to dry.",
+    "food": "Fish.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/indian-cormorant/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "little-grebe",
+    "common_name": "Little Grebe",
+    "scientific_name": "Tachybaptus ruficollis",
+    "order_id": "podicipediformes",
+    "family_id": "podicipedidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Small ponds, ditches, marshes with abundant vegetation.",
+    "size": {
+      "length_cm": [25, 29]
+    },
+    "description": {
+      "adult_male": "Small, dumpy water bird; dark brown with rufous neck in breeding plumage. Lacks a visible tail.",
+      "adult_female": "Small, dumpy water bird; dark brown with rufous neck in breeding plumage. Lacks a visible tail.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Spends most of its time in water, dives quickly to avoid disturbance. Eats its own feathers to line the stomach.",
+    "food": "Aquatic insects, small fish.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/little-grebe/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "common-sandpiper",
+    "common_name": "Common Sandpiper",
+    "scientific_name": "Actitis hypoleucos",
+    "order_id": "charadriiformes",
+    "family_id": "scolopacidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Riverbanks, rocky streams, reservoirs.",
+    "size": {
+      "length_cm": [18, 20]
+    },
+    "description": {
+      "adult_male": "Brownish-grey above, white below; dark smudge extending up the sides of the breast. Distinctive bobbing motion.",
+      "adult_female": "Brownish-grey above, white below; dark smudge extending up the sides of the breast. Distinctive bobbing motion.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Solitary wader; constantly bobs its body up and down while foraging along the water's edge.",
+    "food": "Aquatic insects and crustaceans.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/common-sandpiper/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "red-wattled-lapwing",
+    "common_name": "Red-wattled Lapwing",
+    "scientific_name": "Vanellus indicus",
+    "order_id": "charadriiformes",
+    "family_id": "charadriidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open fields, cultivation, near water bodies.",
+    "size": {
+      "length_cm": [32, 35]
+    },
+    "description": {
+      "adult_male": "Black head and chest, white belly, prominent red fleshy wattle in front of the eye.",
+      "adult_female": "Black head and chest, white belly, prominent red fleshy wattle in front of the eye.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Noisy and conspicuous ground bird; known for its alarm call 'Did-he-do-it!'",
+    "food": "Insects, earthworms.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/red-wattled-lapwing/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "greater-coucal",
+    "common_name": "Greater Coucal",
+    "scientific_name": "Centropus sinensis",
+    "order_id": "cuculiformes",
+    "family_id": "cuculidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Scrub, forest edges, fields, often near human habitation.",
+    "size": {
+      "length_cm": [45, 55]
+    },
+    "description": {
+      "adult_male": "Glossy black head/body, contrasting bright chestnut wings, and a very long tail. Red eyes.",
+      "adult_female": "Glossy black head/body, contrasting bright chestnut wings, and a very long tail. Red eyes.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Ground-feeding cuckoo; known for its deep, booming 'hoop-hoop-hoop' call. Poor flier.",
+    "food": "Large insects, caterpillars, small reptiles, bird eggs.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/greater-coucal/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "white-throated-kingfisher",
+    "common_name": "White-throated Kingfisher",
+    "scientific_name": "Halcyon smyrnensis",
+    "order_id": "coraciiformes",
+    "family_id": "alcedinidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Wetlands, fields, gardens, forest edges—often far from water.",
+    "size": {
+      "length_cm": [26, 28]
+    },
+    "description": {
+      "adult_male": "Bright blue wings/back, chocolate brown head/body, white throat and breast, large red bill.",
+      "adult_female": "Bright blue wings/back, chocolate brown head/body, white throat and breast, large red bill.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Common perch-hunter; dives for prey or sallies for insects from a prominent perch.",
+    "food": "Fish, insects, frogs, small snakes and lizards.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/white-throated-kingfisher/main.webp",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "malabar-grey-hornbill",
+    "common_name": "Malabar Grey Hornbill",
+    "scientific_name": "Ocyceros griseus",
+    "order_id": "bucerotiformes",
+    "family_id": "bucerotidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Moist deciduous and evergreen forests of the Western Ghats.",
+    "size": {
+      "length_cm": [45, 51]
+    },
+    "description": {
+      "adult_male": "Grey body, whitish streaked head, prominent casque above the large bill. Males have a larger, yellowish bill.",
+      "adult_female": "Grey body, whitish streaked head, prominent casque above the large bill. Females have a slightly smaller bill.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Arboreal and social; primarily feeds on fruit and nests in tree cavities, which the female seals.",
+    "food": "Fruits (especially figs), insects, small reptiles.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/malabar-grey-hornbill/main.jpg",
+        "caption": "Male with large yellowish bill.",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "plum-headed-parakeet",
+    "common_name": "Plum-headed Parakeet",
+    "scientific_name": "Psittacula columboides",
+    "order_id": "psittaciformes",
+    "family_id": "psittaculidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Evergreen and moist deciduous forests, wooded areas.",
+    "size": {
+      "length_cm": [38, 40]
+    },
+    "description": {
+      "adult_male": "Blue-grey head, green body, blue-green wings with a striking blue color on the rump/tail. Black neck ring and red bill.",
+      "adult_female": "Lacks the black neck ring; bill is black.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Flies in small flocks, often at canopy level; noisy and conspicuous.",
+    "food": "Fruits, seeds, nectar, leaf buds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-peafowl",
+    "common_name": "Indian Peafowl",
+    "scientific_name": "Pavo cristatus",
+    "order_id": "galliformes",
+    "family_id": "phasianidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Forest edges, cultivated fields, semi-arid habitats.",
+    "size": {
+      "length_cm": [180, 230]
+    },
+    "description": {
+      "adult_male": "Brilliant iridescent blue breast and neck; long, ornate train of tail coverts used in display.",
+      "adult_female": "Mottled brown/white, lacks the long train.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Omnivorous and ground-feeding; males display the train during the monsoon breeding season.",
+    "food": "Grains, insects, snakes, small rodents.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/indian-peafowl/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "spot-bellied-eagle-owl",
+    "common_name": "Spot-bellied Eagle-Owl",
+    "scientific_name": "Bubo nipalensis",
+    "order_id": "strigiformes",
+    "family_id": "strigidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense evergreen and moist deciduous forests, steep ravines.",
+    "size": {
+      "length_cm": [50, 65]
+    },
+    "description": {
+      "adult_male": "Large, dark brown owl with prominent ear-tufts, heavily spotted underparts, and large yellow eyes.",
+      "adult_female": "Large, dark brown owl with prominent ear-tufts, heavily spotted underparts, and large yellow eyes.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Strictly nocturnal, roosting quietly during the day in thick foliage; powerful predator.",
+    "food": "Large rodents, pheasants, junglefowl, and other medium-sized animals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/spot-bellied-eagle-owl/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "house-swift",
+    "common_name": "House Swift",
+    "scientific_name": "Apus affinis",
+    "order_id": "caprimulgiformes",
+    "family_id": "apodidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Towns, cities, cliffs and caves.",
+    "size": {
+      "length_cm": [12, 13]
+    },
+    "description": {
+      "adult_male": "Small, dark, sooty-brown swift with a distinct white patch on the throat and rump. Crescent-shaped in flight.",
+      "adult_female": "Small, dark, sooty-brown swift with a distinct white patch on the throat and rump. Crescent-shaped in flight.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly aerial, rarely perches, nests colonially under eaves or on high buildings/cliffs.",
+    "food": "Flying insects (aerial plankton).",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/house-swift/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "blue-tailed-bee-eater",
+    "common_name": "Blue-tailed Bee-eater",
+    "scientific_name": "Merops philippinus",
+    "order_id": "coraciiformes",
+    "family_id": "meropidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident/migrant",
+    "is_endemic": false,
+    "habitat": "Open areas, near water, farmlands, riverbeds.",
+    "size": {
+      "length_cm": [28, 30]
+    },
+    "description": {
+      "adult_male": "Bright green body, reddish throat, prominent black line through the eye, long central tail feathers.",
+      "adult_female": "Bright green body, reddish throat, prominent black line through the eye, long central tail feathers.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Perches high, often wires, darts out to catch insects in flight. Forms large communal roosts.",
+    "food": "Bees, wasps, flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/blue-tailed-bee-eater/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "indian-roller",
+    "common_name": "Indian Roller",
+    "scientific_name": "Coracias benghalensis",
+    "order_id": "coraciiformes",
+    "family_id": "coraciidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open fields, cultivation, forest clearings.",
+    "size": {
+      "length_cm": [30, 34]
+    },
+    "description": {
+      "adult_male": "Brilliant azure-blue and purple wings visible in flight; rusty brown breast and blue head.",
+      "adult_female": "Brilliant azure-blue and purple wings visible in flight; rusty brown breast and blue head.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Perches on prominent points (wires, dead trees) and dives to catch prey. Famous for its clumsy 'rolling' display flight.",
+    "food": "Large insects, small reptiles.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/indian-roller/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "rufous-woodpecker",
+    "common_name": "Rufous Woodpecker",
+    "scientific_name": "Micropternus brachyurus",
+    "order_id": "piciformes",
+    "family_id": "picidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Deciduous and evergreen forests, bamboo clumps.",
+    "size": {
+      "length_cm": [25, 28]
+    },
+    "description": {
+      "adult_male": "Unmistakable rufous-brown plumage with black barring on the flanks and wings. Male has a small red cheek patch.",
+      "adult_female": "Unmistakable rufous-brown plumage with black barring on the flanks and wings.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Forages mainly on ant-ridden trees; unique in using arboreal ant nests to build its own nest chamber.",
+    "food": "Ants and termites.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/rufous-woodpecker/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "white-cheeked-barbet",
+    "common_name": "White-cheeked Barbet",
+    "scientific_name": "Psilopogon viridis",
+    "order_id": "piciformes",
+    "family_id": "megalaimidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Moist deciduous and evergreen forests, fruiting trees.",
+    "size": {
+      "length_cm": [22, 23]
+    },
+    "description": {
+      "adult_male": "Overall green body, brown crown and cheek, distinct white streaking on the throat and cheeks.",
+      "adult_female": "Overall green body, brown crown and cheek, distinct white streaking on the throat and cheeks.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Arboreal, often heard but rarely seen; known for its monotonous, loud `ku-trook, ku-trook` call.",
+    "food": "Fruits (figs are favored), flowers, insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/white-cheeked-barbet/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "yellow-legged-buttonquail",
+    "common_name": "Yellow-legged Buttonquail",
+    "scientific_name": "Turnix tanki",
+    "order_id": "charadriiformes",
+    "family_id": "turnicidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Grasslands, scrub, cultivation (often hides in dense cover).",
+    "size": {
+      "length_cm": [15, 17]
+    },
+    "description": {
+      "adult_male": "Small, quail-like bird; yellowish legs, mottled rufous and black upperparts. Females are brighter and larger.",
+      "adult_female": "Small, quail-like bird; yellowish legs, mottled rufous and black upperparts. Females are brighter and larger.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Terrestrial, runs quickly to escape; the female is polyandrous and uses a low, soft booming call to attract mates.",
+    "food": "Seeds and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/yellow-legged-buttonquail/main.jpg",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "nilgiri-flycatcher",
+    "common_name": "Nilgiri Flycatcher",
+    "scientific_name": "Eumyias albicaudatus",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Montane evergreen forests (shola) and adjacent moist hill forests above 600m.",
+    "size": {
+      "length_cm": [13, 15]
+    },
+    "description": {
+      "adult_male": "Slaty blue body, brighter blue on the forehead and rump. Distinctive white patch at the base of the tail visible in flight.",
+      "adult_female": "Duller blue-grey overall, less distinct white tail patch.",
+      "juvenile": "Brownish with buff spotting; tail patch hinted.",
+      "in_flight": ""
+    },
+    "behaviour": "Perches upright and sallies out to catch insects; generally silent outside the breeding season.",
+    "food": "Insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "black-and-orange-flycatcher",
+    "common_name": "Black-and-orange Flycatcher",
+    "scientific_name": "Ficedula nigrorufa",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense undergrowth and stream banks in high-elevation shola forests.",
+    "size": {
+      "length_cm": [10, 12]
+    },
+    "description": {
+      "adult_male": "Unmistakable glossy black head and upperparts contrasting sharply with brilliant orange underparts and rump.",
+      "adult_female": "Similar to male but duller orange, and the black areas are brownish-black.",
+      "juvenile": "Dull brown and scaled.",
+      "in_flight": ""
+    },
+    "behaviour": "Skulks in dense low vegetation, flicking its tail; mainly insectivorous.",
+    "food": "Insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "malabar-barbet",
+    "common_name": "Malabar Barbet",
+    "scientific_name": "Psilopogon malabaricus",
+    "order_id": "piciformes",
+    "family_id": "megalaimidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Moist evergreen and semi-evergreen forests, especially fruiting fig trees.",
+    "size": {
+      "length_cm": [17, 18]
+    },
+    "description": {
+      "adult_male": "Predominantly green body; distinctive red forehead and black/white streaks on the throat. Orange eye-ring.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, markings less distinct.",
+      "in_flight": ""
+    },
+    "behaviour": "Arboreal; known for its ringing, territorial 'kutruk-kutruk' call. Feeds mostly on fruit.",
+    "food": "Fruits, especially figs; insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "nilgiri-flowerpecker",
+    "common_name": "Nilgiri Flowerpecker",
+    "scientific_name": "Dicaeum concolor",
+    "order_id": "passeriformes",
+    "family_id": "dicaeidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Forests, groves, and cultivated areas with berry-producing trees.",
+    "size": {
+      "length_cm": [8, 9]
+    },
+    "description": {
+      "adult_male": "Tiny, greyish-brown above, buffy-white below. Very short, stout bill. Plain plumage contrasts with other colourful flowerpeckers.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller overall.",
+      "in_flight": ""
+    },
+    "behaviour": "Highly active; feeds primarily on berries and figs, playing a crucial role in seed dispersal.",
+    "food": "Berries, nectar, and small spiders.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-bellied-blue-robin",
+    "common_name": "White-bellied Blue Robin",
+    "scientific_name": "Sholicola albiventris",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense undergrowth and edges of high-altitude shola forests (South Western Ghats).",
+    "size": {
+      "length_cm": [12, 14]
+    },
+    "description": {
+      "adult_male": "Slaty-blue upperparts, black face, clean white belly and undertail coverts. Thin dark legs.",
+      "adult_female": "Duller blue and slightly browner on the flanks.",
+      "juvenile": "Brown with scaly patterning.",
+      "in_flight": ""
+    },
+    "behaviour": "Very secretive, foraging low on the ground and in dense vegetation; often only heard, singing a melodious territorial song.",
+    "food": "Insects and small invertebrates.",
+    "conservation_status": {
+      "iucn_code": "EN",
+      "label": "Endangered"
+    },
+    "photos": []
+  },
+  {
+    "id": "grey-fronted-green-pigeon",
+    "common_name": "Grey-fronted Green Pigeon",
+    "scientific_name": "Treron affinis",
+    "order_id": "columbiformes",
+    "family_id": "columbidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Evergreen and moist deciduous forests, especially areas with fruiting trees.",
+    "size": {
+      "length_cm": [27, 30]
+    },
+    "description": {
+      "adult_male": "Olive-green overall with a lilac/pink patch on the mantle; grey cap and yellowish-green underparts.",
+      "adult_female": "Duller, lacks the lilac patch on the mantle.",
+      "juvenile": "Duller than female, greener head.",
+      "in_flight": "Fast, direct flight; yellow feet visible."
+    },
+    "behaviour": "Arboreal and social, feeds in flocks high in the canopy on fruit.",
+    "food": "Fruits and berries, especially figs.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-bellied-woodpecker",
+    "common_name": "White-bellied Woodpecker",
+    "scientific_name": "Dryocopus javensis",
+    "order_id": "piciformes",
+    "family_id": "picidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Moist deciduous and evergreen forests with tall, old trees.",
+    "size": {
+      "length_cm": [40, 48]
+    },
+    "description": {
+      "adult_male": "Very large, glossy black woodpecker with a clean white belly and prominent red crest/mustache stripe.",
+      "adult_female": "Similar, but red restricted to the hind-crown (no red mustache).",
+      "juvenile": "Duller black, less extensive red.",
+      "in_flight": ""
+    },
+    "behaviour": "Drums loudly and powerfully on tall trees; solitary or in pairs, climbing trunks and large branches.",
+    "food": "Wood-boring larvae, ants, beetles.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "malabar-trogon",
+    "common_name": "Malabar Trogon",
+    "scientific_name": "Harpactes fasciatus",
+    "order_id": "trogoniformes",
+    "family_id": "trogonidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense, dark understorey of evergreen and moist deciduous forests.",
+    "size": {
+      "length_cm": [30, 31]
+    },
+    "description": {
+      "adult_male": "Black head, broad white breast band, brilliant scarlet-red belly/undertail. Golden-brown back.",
+      "adult_female": "Chestnut head and breast, duller yellow-brown back, yellow belly.",
+      "juvenile": "Duller and browner overall.",
+      "in_flight": ""
+    },
+    "behaviour": "Perches upright and motionless on horizontal branches; sallies out for insects, often in the twilight hours.",
+    "food": "Insects, spiders, small lizards.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-pitta",
+    "common_name": "Indian Pitta",
+    "scientific_name": "Pitta brachyura",
+    "order_id": "passeriformes",
+    "family_id": "pittidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "migrant",
+    "is_endemic": false,
+    "habitat": "Dense undergrowth, forest floor of evergreen and deciduous forests.",
+    "size": {
+      "length_cm": [18, 20]
+    },
+    "description": {
+      "adult_male": "Brilliant and multicoloured: green wings, blue rump, black head/eye stripe, buff crown, bright red vent.",
+      "adult_female": "Slightly duller but similar.",
+      "juvenile": "Duller and browner.",
+      "in_flight": "Shows flashing white patch in the wing."
+    },
+    "behaviour": "Shy and solitary, forages on the forest floor; calls loudly and clearly: 'wett-t-wett-t-tee' during the breeding season.",
+    "food": "Insects, worms, grubs, and snails.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "grey-headed-bulbul",
+    "common_name": "Grey-headed Bulbul",
+    "scientific_name": "Pycnonotus priocephalus",
+    "order_id": "passeriformes",
+    "family_id": "pycnonotidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense reedbeds, scrub, and riparian vegetation along forest streams.",
+    "size": {
+      "length_cm": [14, 16]
+    },
+    "description": {
+      "adult_male": "Distinctive uniform grey head, olive-yellow body, and pale yellow undertail coverts.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, head brownish-grey.",
+      "in_flight": ""
+    },
+    "behaviour": "Skulks in dense cover; known for its characteristic high-pitched song and chattering calls.",
+    "food": "Fruits, berries, and insects.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-throated-fantail",
+    "common_name": "White-throated Fantail",
+    "scientific_name": "Rhipidura albicollis",
+    "order_id": "passeriformes",
+    "family_id": "rhipiduridae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Forest undergrowth, dense bushes, wooded gardens.",
+    "size": {
+      "length_cm": [17, 19]
+    },
+    "description": {
+      "adult_male": "Dark grey/black body, prominent white throat patch, and a distinct white supercilium. Fanned tail with white edges.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Browner, less distinct markings.",
+      "in_flight": ""
+    },
+    "behaviour": "Hyperactive; constantly fans and closes its tail in a semi-circle while hopping through foliage, catching insects.",
+    "food": "Insects and spiders.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-grey-hornbill",
+    "common_name": "Indian Grey Hornbill",
+    "scientific_name": "Ocyceros birostris",
+    "order_id": "bucerotiformes",
+    "family_id": "bucerotidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry deciduous forests, open groves, roadside trees, and urban areas.",
+    "size": {
+      "length_cm": [45, 61]
+    },
+    "description": {
+      "adult_male": "Dull greyish-brown body, long tail, and a large blackish bill with a small casque/horn that is mainly black.",
+      "adult_female": "Similar to male, with a smaller, duller casque.",
+      "juvenile": "Smaller bill, no casque.",
+      "in_flight": ""
+    },
+    "behaviour": "Arboreal; feeds on fruit and insects; like the Malabar Grey Hornbill, it nests in sealed tree cavities.",
+    "food": "Fruits, insects, small reptiles.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "red-spurfowl",
+    "common_name": "Red Spurfowl",
+    "scientific_name": "Galloperdix spadicea",
+    "order_id": "galliformes",
+    "family_id": "phasianidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry scrub, stony hillsides, and dense forest undergrowth.",
+    "size": {
+      "length_cm": [30, 37]
+    },
+    "description": {
+      "adult_male": "Rufous-brown body with fine grey barring and white spots; grey head, red legs with multiple spurs.",
+      "adult_female": "Duller, less spotted, lacks the prominent spurs.",
+      "juvenile": "",
+      "in_flight": "Short, rapid burst of flight before dropping into cover."
+    },
+    "behaviour": "Terrestrial; runs to escape rather than flies; often found in pairs; loud, cackling calls at dawn and dusk.",
+    "food": "Seeds, berries, tubers, and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "malabar-starling",
+    "common_name": "Malabar Starling",
+    "scientific_name": "Sturnia blythii",
+    "order_id": "passeriformes",
+    "family_id": "sturnidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Moist evergreen and deciduous forests; often seen near fruiting trees.",
+    "size": {
+      "length_cm": [20, 22]
+    },
+    "description": {
+      "adult_male": "Glossy black hood, grey back, white belly, and distinctive white patch in the wing, visible in flight.",
+      "adult_female": "Similar to male, but duller grey where the male is black.",
+      "juvenile": "Brownish-grey overall.",
+      "in_flight": "Strong, direct flight in small flocks."
+    },
+    "behaviour": "Highly social, forms flocks; feeds largely on fruit in the canopy.",
+    "food": "Fruits, berries, and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "rufous-babbler",
+    "common_name": "Rufous Babbler",
+    "scientific_name": "Argya subrufa",
+    "order_id": "passeriformes",
+    "family_id": "leiothrichidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense scrub and undergrowth in forests, especially along hillsides.",
+    "size": {
+      "length_cm": [24, 25]
+    },
+    "description": {
+      "adult_male": "Unstreaked rufous-brown cap and body, pale throat, and a relatively long tail.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, less rufous.",
+      "in_flight": ""
+    },
+    "behaviour": "Highly social, moves in small, noisy groups, foraging through thick bushes and low branches.",
+    "food": "Insects and berries.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "common-kingfisher",
+    "common_name": "Common Kingfisher",
+    "scientific_name": "Alcedo atthis",
+    "order_id": "coraciiformes",
+    "family_id": "alcedinidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Still or slow-moving clean water bodies: streams, lakes, ponds, backwaters.",
+    "size": {
+      "length_cm": [16, 17]
+    },
+    "description": {
+      "adult_male": "Small, electric blue upperparts, turquoise back, rufous underparts, long black bill.",
+      "adult_female": "Similar to male, but the lower mandible (jaw) is red/orange with a black tip.",
+      "juvenile": "Duller, sooty breast band.",
+      "in_flight": "Very fast, low flight over water, showing brilliant blue flash."
+    },
+    "behaviour": "Perches low and dives headfirst into the water to catch fish; solitary and highly territorial.",
+    "food": "Small fish and aquatic insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "chestnut-headed-bee-eater",
+    "common_name": "Chestnut-headed Bee-eater",
+    "scientific_name": "Merops leschenaulti",
+    "order_id": "coraciiformes",
+    "family_id": "meropidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Forest clearings, cultivated areas near water, open woodland.",
+    "size": {
+      "length_cm": [18, 20]
+    },
+    "description": {
+      "adult_male": "Brilliant green body, prominent chestnut head and breast, black throat band, no long tail streamers.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller green, chestnut head less pronounced.",
+      "in_flight": ""
+    },
+    "behaviour": "Feeds high up, catching flying insects from a prominent perch; highly social.",
+    "food": "Bees, wasps, and other flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "velvet-fronted-nuthatch",
+    "common_name": "Velvet-fronted Nuthatch",
+    "scientific_name": "Sitta frontalis",
+    "order_id": "passeriformes",
+    "family_id": "sittidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Forests and groves, specializing on the trunks and branches of trees.",
+    "size": {
+      "length_cm": [12, 13]
+    },
+    "description": {
+      "adult_male": "Sleek blue-grey upperparts, purple throat/breast, bold red bill, and a black forehead patch (velvet).",
+      "adult_female": "Similar to male, but lacks the black facial stripe.",
+      "juvenile": "Duller, paler colours.",
+      "in_flight": ""
+    },
+    "behaviour": "Unique among birds for climbing head-first down tree trunks; often part of mixed-species foraging flocks.",
+    "food": "Insects and spiders gleaned from bark crevices.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "rufous-tree-pie",
+    "common_name": "Rufous Treepie",
+    "scientific_name": "Dendrocitta vagabunda",
+    "order_id": "passeriformes",
+    "family_id": "corvidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open forest, scrub, cultivated land, gardens.",
+    "size": {
+      "length_cm": [46, 50]
+    },
+    "description": {
+      "adult_male": "Black head/breast, rufous-brown body, long grey tail with black tip, grey wings with black primaries.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, brownish-grey head.",
+      "in_flight": "Undulating, clumsy flight; very long tail conspicuous."
+    },
+    "behaviour": "Loud, unmistakable 'bob-o-link' call; omnivorous and inquisitive; often seen climbing trees.",
+    "food": "Fruits, seeds, insects, small reptiles, eggs, and nestlings.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-bellied-minivet",
+    "common_name": "White-bellied Minivet",
+    "scientific_name": "Pericrocotus erythropygius",
+    "order_id": "passeriformes",
+    "family_id": "campephagidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry scrub, thorn forest, and sparse woodland edges.",
+    "size": {
+      "length_cm": [14, 15]
+    },
+    "description": {
+      "adult_male": "Black head and upperparts, white belly, bright orange-red rump and wing patches.",
+      "adult_female": "Grey upperparts, yellow rump, black mask.",
+      "juvenile": "",
+      "in_flight": "Flies in small, active flocks, showing brilliant colour flashes."
+    },
+    "behaviour": "Feeds high in the canopy in mixed flocks, moving constantly.",
+    "food": "Insects and caterpillars.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "ashy-drongo",
+    "common_name": "Ashy Drongo",
+    "scientific_name": "Dicrurus leucophaeus",
+    "order_id": "passeriformes",
+    "family_id": "dicruridae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "migrant/resident",
+    "is_endemic": false,
+    "habitat": "Open wooded country, gardens, deciduous forests.",
+    "size": {
+      "length_cm": [28, 30]
+    },
+    "description": {
+      "adult_male": "Sleek, smoky grey drongo with a slightly forked tail; lacks the crest or 'rackets' of the Greater Racket-tailed Drongo.",
+      "adult_female": "Similar to male.",
+      "juvenile": "",
+      "in_flight": "Agile, acrobatic flyer."
+    },
+    "behaviour": "Perches conspicuously on wires or high branches, sallying out to catch insects; excellent mimic of other bird calls.",
+    "food": "Insects and nectar.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "green-imperial-pigeon",
+    "common_name": "Green Imperial Pigeon",
+    "scientific_name": "Ducula aenea",
+    "order_id": "columbiformes",
+    "family_id": "columbidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense evergreen and moist deciduous forests, especially in coastal and hill tracts.",
+    "size": {
+      "length_cm": [40, 47]
+    },
+    "description": {
+      "adult_male": "Large, heavy-bodied pigeon; brilliant metallic green back and wings, pale grey head and underparts, deep chestnut undertail coverts.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller green, less metallic sheen.",
+      "in_flight": "Heavy, powerful flight high above the canopy."
+    },
+    "behaviour": "Strictly arboreal, feeding in the canopy; gives a deep, resonant 'hoom' call.",
+    "food": "Large fruits and berries, swallowed whole.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "blue-faced-malkoha",
+    "common_name": "Blue-faced Malkoha",
+    "scientific_name": "Phaenicophaeus viridirostris",
+    "order_id": "cuculiformes",
+    "family_id": "cuculidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry scrub, thorn forest, and dense riparian vegetation.",
+    "size": {
+      "length_cm": [39, 41]
+    },
+    "description": {
+      "adult_male": "Long-tailed cuckoo; dark glossy green above, deep blue bare skin patch around the eye (face), prominent white tips to the tail feathers.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, less glossy.",
+      "in_flight": "Heavy, gliding flight; often seen scrambling through branches."
+    },
+    "behaviour": "Forages methodically for insects in foliage; rarely flies long distances.",
+    "food": "Large insects, caterpillars, and small vertebrates.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "spotted-owlet",
+    "common_name": "Spotted Owlet",
+    "scientific_name": "Athene brama",
+    "order_id": "strigiformes",
+    "family_id": "strigidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open woodland, cultivation, human settlements, ruins, and old trees.",
+    "size": {
+      "length_cm": [20, 21]
+    },
+    "description": {
+      "adult_male": "Small, stocky owl; grey-brown with heavy white spotting on the crown and back. Pale facial disc and large yellow eyes.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, less distinct spotting.",
+      "in_flight": ""
+    },
+    "behaviour": "Crepuscular and often diurnal; perches conspicuously; known for its familiar 'chiree-chiree-chiree' calls.",
+    "food": "Insects, small mammals, and small birds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "cattle-egret",
+    "common_name": "Cattle Egret",
+    "scientific_name": "Bubulcus ibis",
+    "order_id": "pelecaniformes",
+    "family_id": "ardeidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Grasslands, farmlands, damp fields, always near livestock.",
+    "size": {
+      "length_cm": [48, 53]
+    },
+    "description": {
+      "adult_male": "Stocky white egret. Breeding plumage: orange-buff plumes on the head, breast, and back; reddish bill/legs.",
+      "adult_female": "Similar, but less intense buff plumes in breeding season.",
+      "juvenile": "Entirely white with black bill.",
+      "in_flight": "Flies with neck retracted."
+    },
+    "behaviour": "Follows grazing cattle and buffalo to catch insects disturbed by their movement.",
+    "food": "Insects (especially grasshoppers), spiders, and small vertebrates.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "black-winged-stilt",
+    "common_name": "Black-winged Stilt",
+    "scientific_name": "Himantopus himantopus",
+    "order_id": "charadriiformes",
+    "family_id": "recurvirostridae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident/migrant",
+    "is_endemic": false,
+    "habitat": "Shallow wetlands, salt pans, and flooded fields.",
+    "size": {
+      "length_cm": [33, 36]
+    },
+    "description": {
+      "adult_male": "Pied plumage: black back/wings, white head/body. **Extremely long, thin pink legs.**",
+      "adult_female": "Similar, but the black plumage is often browner.",
+      "juvenile": "Brown-grey where the adult is black.",
+      "in_flight": "Long pink legs trail far behind the body."
+    },
+    "behaviour": "Wades in shallow water, sweeping its bill to find aquatic prey; graceful and vocal.",
+    "food": "Aquatic insects, small crustaceans, and mollusks.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "eastern-crowned-warbler",
+    "common_name": "Eastern Crowned Warbler",
+    "scientific_name": "Phylloscopus coronatus",
+    "order_id": "passeriformes",
+    "family_id": "phylloscopidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Moist deciduous and evergreen forests, forest edges.",
+    "size": {
+      "length_cm": [11, 12]
+    },
+    "description": {
+      "adult_male": "Small, greenish-yellow warbler with a distinct double pale wing-bar, a prominent pale supercilium (eyebrow), and a faint crown stripe.",
+      "adult_female": "Similar to male.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Active, restless, constantly gleaning insects from leaves and twigs in the middle and upper canopy.",
+    "food": "Small insects and larvae.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "osprey",
+    "common_name": "Osprey",
+    "scientific_name": "Pandion haliaetus",
+    "order_id": "accipitriformes",
+    "family_id": "pandionidae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Large rivers, reservoirs, coasts, and estuaries.",
+    "size": {
+      "length_cm": [55, 62]
+    },
+    "description": {
+      "adult_male": "Large raptor; dark brown upperparts, clean white head/underparts, and a distinct dark mask through the eye. Long, narrow wings.",
+      "adult_female": "Similar, often with a slightly more streaked breast.",
+      "juvenile": "Buff tips to the feathers, giving a scaly look.",
+      "in_flight": "Wings held in an M-shape; hovers and plunge-dives for fish."
+    },
+    "behaviour": "Feeds almost exclusively on fish, plunging feet-first into water to catch prey.",
+    "food": "Fish.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/osprey/main.webp",
+        "caption": "Near Bhigwan",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "indian-scimitar-babbler",
+    "common_name": "Indian Scimitar-Babbler",
+    "scientific_name": "Pomatorhinus horsfieldii",
+    "order_id": "passeriformes",
+    "family_id": "timaliidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense undergrowth, thickets, and forest floor.",
+    "size": {
+      "length_cm": [21, 23]
+    },
+    "description": {
+      "adult_male": "Brown upperparts, white throat, chestnut flanks, and a prominent, long, down-curved yellow bill (scimitar-like).",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, shorter bill.",
+      "in_flight": ""
+    },
+    "behaviour": "Feeds on the ground or low in bushes; known for its loud, repetitive 'whoop-whoop' duet calls.",
+    "food": "Insects and grubs found in leaf litter.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "orange-minivet",
+    "common_name": "Orange Minivet",
+    "scientific_name": "Pericrocotus flammeus",
+    "order_id": "passeriformes",
+    "family_id": "campephagidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Evergreen and moist deciduous forests, often high in the canopy.",
+    "size": {
+      "length_cm": [19, 21]
+    },
+    "description": {
+      "adult_male": "Glossy black head and back, brilliant orange-red underparts, rump, and wing patches.",
+      "adult_female": "Yellow replaces the orange-red of the male; grey head/back.",
+      "juvenile": "",
+      "in_flight": "Flies in loose flocks, showing striking flashes of black and orange/yellow."
+    },
+    "behaviour": "Feeds actively in the canopy, often in small groups, giving persistent whistling calls.",
+    "food": "Insects, spiders, and caterpillars.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-bellied-treepie",
+    "common_name": "White-bellied Treepie",
+    "scientific_name": "Dendrocitta leucogastra",
+    "order_id": "passeriformes",
+    "family_id": "corvidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense evergreen forests of the lower hills of the Western Ghats.",
+    "size": {
+      "length_cm": [45, 48]
+    },
+    "description": {
+      "adult_male": "Black head, chestnut mantle, clean white belly, and grey rump; long black and white tail.",
+      "adult_female": "Similar to male.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Arboreal and inquisitive; moves through the canopy alone or in small parties; loud, varied calls.",
+    "food": "Insects, small reptiles, berries, and fruits.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "common-myna",
+    "common_name": "Common Myna",
+    "scientific_name": "Acridotheres tristis",
+    "order_id": "passeriformes",
+    "family_id": "sturnidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Urban areas, cultivation, open country, near human habitation.",
+    "size": {
+      "length_cm": [23, 26]
+    },
+    "description": {
+      "adult_male": "Dark brown body, black hood, bright yellow bill, legs, and bare skin around the eye. Prominent white wing patches visible in flight.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, brownish hood.",
+      "in_flight": "White wing patch is a key identifier."
+    },
+    "behaviour": "Bold, noisy, highly social; walks on the ground, often in pairs, feeding opportunistically.",
+    "food": "Insects, seeds, fruit, food scraps.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-browed-wagtail",
+    "common_name": "White-browed Wagtail",
+    "scientific_name": "Motacilla maderaspatensis",
+    "order_id": "passeriformes",
+    "family_id": "motacillidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Near water, large rivers, lakeshores, irrigation canals, village ponds.",
+    "size": {
+      "length_cm": [20, 21]
+    },
+    "description": {
+      "adult_male": "Large wagtail; black upperparts and breast, white belly. Distinctive white supercilium and long black-and-white tail.",
+      "adult_female": "Black areas are sooty-grey.",
+      "juvenile": "Duller, brownish-grey.",
+      "in_flight": ""
+    },
+    "behaviour": "Walks briskly on the ground, constantly wagging its tail up and down; feeds close to water.",
+    "food": "Insects and aquatic invertebrates.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-bellied-blue-robin",
+    "common_name": "White-bellied Blue Robin",
+    "scientific_name": "Sholicola albiventris",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense undergrowth and edges of high-altitude shola forests (South Western Ghats).",
+    "size": {
+      "length_cm": [12, 14]
+    },
+    "description": {
+      "adult_male": "Slaty-blue upperparts, black face, clean white belly and undertail coverts. Thin dark legs.",
+      "adult_female": "Duller blue and slightly browner on the flanks.",
+      "juvenile": "Brown with scaly patterning.",
+      "in_flight": ""
+    },
+    "behaviour": "Very secretive, foraging low on the ground and in dense vegetation; often only heard, singing a melodious territorial song.",
+    "food": "Insects and small invertebrates.",
+    "conservation_status": {
+      "iucn_code": "EN",
+      "label": "Endangered"
+    },
+    "photos": []
+  },
+  {
+    "id": "nilgiri-laughingthrush",
+    "common_name": "Nilgiri Laughingthrush",
+    "scientific_name": "Montecincla cachinnans",
+    "order_id": "passeriformes",
+    "family_id": "leiothrichidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Dense montane evergreen forest (shola) and stunted rhododendron thickets at high elevations.",
+    "size": {
+      "length_cm": [22, 24]
+    },
+    "description": {
+      "adult_male": "Dark olive-brown thrush-like bird with a prominent black mask and white supercilium. Rich rufous patch on the belly/flanks.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, less distinct facial markings.",
+      "in_flight": ""
+    },
+    "behaviour": "Highly vocal, usually moving in noisy, close-knit groups; feeds on the ground and low bushes.",
+    "food": "Insects, grubs, berries.",
+    "conservation_status": {
+      "iucn_code": "VU",
+      "label": "Vulnerable"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-naped-woodpecker",
+    "common_name": "White-naped Woodpecker",
+    "scientific_name": "Chrysocolaptes festivus",
+    "order_id": "piciformes",
+    "family_id": "picidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry deciduous scrub, thorny jungle, open woodland.",
+    "size": {
+      "length_cm": [29, 31]
+    },
+    "description": {
+      "adult_male": "Large woodpecker; buff/white underparts, golden-yellow back, and striking black throat/cheeks contrasting with a **white nape**. Male has a red crest.",
+      "adult_female": "Lacks the red crest, which is black with white spots.",
+      "juvenile": "Duller colours.",
+      "in_flight": ""
+    },
+    "behaviour": "Forages alone or in pairs, typically on stout trunks and thick branches; constantly drumming.",
+    "food": "Insects and grubs under bark.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "painted-stork",
+    "common_name": "Painted Stork",
+    "scientific_name": "Mycteria leucocephala",
+    "order_id": "ciconiiformes",
+    "family_id": "ciconiidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident/migrant",
+    "is_endemic": false,
+    "habitat": "Large shallow lakes, flooded fields, marshes, river edges.",
+    "size": {
+      "length_cm": [93, 102]
+    },
+    "description": {
+      "adult_male": "Large white stork with a pinkish terminal band on the tertials (appearing pink in flight/resting). Bare yellow/orange head, deep pink bill with a down-curved tip.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Dull brown/grey, lacking the pink wash.",
+      "in_flight": "Flies with neck outstretched, long legs trailing."
+    },
+    "behaviour": "Wades in shallow water, sweeping its half-open bill from side to side to locate prey by touch.",
+    "food": "Fish, frogs, and large aquatic invertebrates.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": []
+  },
+  {
+    "id": "greater-flamingo",
+    "common_name": "Greater Flamingo",
+    "scientific_name": "Phoenicopterus roseus",
+    "order_id": "phoenicopteriformes",
+    "family_id": "phoenicopteridae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "migrant",
+    "is_endemic": false,
+    "habitat": "Coastal mudflats, saline lakes, estuaries (often near the coast of the Sahyadris).",
+    "size": {
+      "length_cm": [120, 150]
+    },
+    "description": {
+      "adult_male": "Very large, pale pink/white bird with long, stilt-like legs, and a black-tipped bill bent sharply downwards.",
+      "adult_female": "Similar, slightly smaller.",
+      "juvenile": "Dull greyish-brown; legs duller pink.",
+      "in_flight": "Wings show striking black primaries and pink coverts."
+    },
+    "behaviour": "Feeds with its head upside down, filtering algae and small organisms from the water.",
+    "food": "Algae, diatoms, small crustaceans.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "ashy-woodswallow",
+    "common_name": "Ashy Woodswallow",
+    "scientific_name": "Artamus fuscus",
+    "order_id": "passeriformes",
+    "family_id": "artamidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open woodlands, cultivation with scattered trees, forest clearings.",
+    "size": {
+      "length_cm": [18, 19]
+    },
+    "description": {
+      "adult_male": "Sleek, smoky grey/ashy plumage, long pointed wings, and a short, stout blue bill with a black tip.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Brownish with streaked plumage.",
+      "in_flight": "Glides frequently on wide, triangular wings; often seen in flocks."
+    },
+    "behaviour": "Highly aerial, catching insects in flight; noted for huddling together on branches in cold weather.",
+    "food": "Flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "western-ghats-bushlark",
+    "common_name": "Western Ghats Bushlark",
+    "scientific_name": "Mirafra affinis",
+    "order_id": "passeriformes",
+    "family_id": "alaudidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Scrub jungle, dry grasslands, stony hillsides in the rain-shadow areas.",
+    "size": {
+      "length_cm": [15, 17]
+    },
+    "description": {
+      "adult_male": "Stocky lark, streaky brown upperparts, rufous patch on the wings (visible in flight), and a distinct pale supercilium.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, less clearly marked.",
+      "in_flight": "Aerial display flight is noisy and undulating."
+    },
+    "behaviour": "Terrestrial; often detected by its song and display flight over breeding territory.",
+    "food": "Seeds and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "sri-lanka-frogmouth",
+    "common_name": "Sri Lanka Frogmouth",
+    "scientific_name": "Batrachostomus moniliger",
+    "order_id": "caprimulgiformes",
+    "family_id": "podargidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense forest undergrowth, particularly along streams and wet areas.",
+    "size": {
+      "length_cm": [22, 24]
+    },
+    "description": {
+      "adult_male": "Cryptic plumage (grey/brown/white mottling), huge broad head, and a wide frog-like mouth. Males are generally greyer.",
+      "adult_female": "Reddish-brown morph also common.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Strictly nocturnal; roosts motionless on low branches during the day, relying on camouflage.",
+    "food": "Large nocturnal insects (moths, beetles).",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/sri-lankan-frogmouth/main.webp",
+        "caption": "Female on the right. Thattekad, Kerala.",
+        "photographer": "Shanthanu Bhardwaj",
+        "license": "Creative Commons Attribution-Share Alike 3.0 Unported"
+      }
+    ]
+  },
+  {
+    "id": "malabar-whistling-robin",
+    "common_name": "Malabar Whistling Robin",
+    "scientific_name": "Myiophonus petersii",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": true,
+    "habitat": "Montane wet evergreen forests (shola) and dense hill scrub.",
+    "size": {
+      "length_cm": [16, 18]
+    },
+    "description": {
+      "adult_male": "Deep blue-black plumage, blue metallic spots on the head, chest, and wing-coverts. Often confused with the Malabar Whistling Thrush but smaller and with a different shape.",
+      "adult_female": "Similar, slightly duller.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly secretive, forages low in dense undergrowth. Known for its clear, human-like whistling song, often mistaken for the Thrush.",
+    "food": "Insects and small invertebrates.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": []
+  },
+  {
+    "id": "great-hornbill",
+    "common_name": "Great Hornbill",
+    "scientific_name": "Buceros bicornis",
+    "order_id": "bucerotiformes",
+    "family_id": "bucerotidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Tall, undisturbed evergreen forests, especially in high-density pockets of the Western Ghats.",
+    "size": {
+      "length_cm": [95, 120]
+    },
+    "description": {
+      "adult_male": "Massive bird; mostly black with white belly, white patches on wings/tail, and a huge, bright yellow and black casque/horn above the bill.",
+      "adult_female": "Similar, but the casque is smaller and the black marking is more extensive.",
+      "juvenile": "Small bill and casque.",
+      "in_flight": "Slow, powerful wingbeats producing a noticeable whooshing sound."
+    },
+    "behaviour": "Arboreal and social; feeds primarily on fruit (especially figs); noisy, territorial call.",
+    "food": "Fruits (figs are favoured), small mammals, reptiles, insects.",
+    "conservation_status": {
+      "iucn_code": "VU",
+      "label": "Vulnerable"
+    },
+    "photos": []
+  },
+  {
+    "id": "white-eyed-buzzard",
+    "common_name": "White-eyed Buzzard",
+    "scientific_name": "Butastur teesa",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open plains, cultivation, low hills, and dry deciduous forests.",
+    "size": {
+      "length_cm": [40, 45]
+    },
+    "description": {
+      "adult_male": "Brown upperparts, dark streaking below, distinctive white patch on the nape/throat, and prominent **white eyes** (iris).",
+      "adult_female": "Similar to male.",
+      "juvenile": "Browner eyes.",
+      "in_flight": "Banded tail and dark patches near the wing tips visible when soaring."
+    },
+    "behaviour": "Perches conspicuously on telegraph poles or open branches, hunting insects and small vertebrates.",
+    "food": "Lizards, small snakes, rodents, and large insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-skimmer",
+    "common_name": "Indian Skimmer",
+    "scientific_name": "Rynchops albicollis",
+    "order_id": "charadriiformes",
+    "family_id": "laridae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "migrant",
+    "is_endemic": false,
+    "habitat": "Large rivers, lakes, and estuaries with sandbanks for resting and nesting.",
+    "size": {
+      "length_cm": [40, 43]
+    },
+    "description": {
+      "adult_male": "Black crown and upperparts, white underparts, and an extremely large, **bright orange and yellow bill** with the lower mandible much longer than the upper.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller bill and streaked back.",
+      "in_flight": "Flies low over the water, skimming the surface with the lower bill to catch fish."
+    },
+    "behaviour": "Highly social; feeds in groups, flying in long, straight lines just above the water surface.",
+    "food": "Small surface-dwelling fish.",
+    "conservation_status": {
+      "iucn_code": "VU",
+      "label": "Vulnerable"
+    },
+    "photos": []
+  },
+  {
+    "id": "paddyfield-pipit",
+    "common_name": "Paddyfield Pipit",
+    "scientific_name": "Anthus rufulus",
+    "order_id": "passeriformes",
+    "family_id": "motacillidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open cultivated fields, grasslands, paddies, and short scrub.",
+    "size": {
+      "length_cm": [15, 17]
+    },
+    "description": {
+      "adult_male": "Streaky brown upperparts, buff-white breast with fine streaking, long tail, and thin legs.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Heavier streaking.",
+      "in_flight": "Undulating flight, revealing white outer tail feathers."
+    },
+    "behaviour": "Terrestrial; walks briskly on the ground, often flicking its tail; known for its buzzing, repetitive song flight display.",
+    "food": "Insects and small seeds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "red-headed-bunting",
+    "common_name": "Red-headed Bunting",
+    "scientific_name": "Emberiza bruniceps",
+    "order_id": "passeriformes",
+    "family_id": "emberizidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Open scrub, dry stony areas, cultivated lands, often near water.",
+    "size": {
+      "length_cm": [16, 17]
+    },
+    "description": {
+      "adult_male": "Bright chestnut-red head and breast, yellow underparts, and olive-green back.",
+      "adult_female": "Dull brownish-grey overall, yellow wash below, streaked back.",
+      "juvenile": "Resembles female, duller.",
+      "in_flight": ""
+    },
+    "behaviour": "Highly gregarious in non-breeding season, feeding on the ground in large flocks, often near grain fields.",
+    "food": "Seeds and grains.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "western-crowned-warbler",
+    "common_name": "Western Crowned Warbler",
+    "scientific_name": "Phylloscopus occipitalis",
+    "order_id": "passeriformes",
+    "family_id": "phylloscopidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Forest canopy, open wooded areas, gardens.",
+    "size": {
+      "length_cm": [11, 12]
+    },
+    "description": {
+      "adult_male": "Greenish-yellow warbler, distinguished by a yellowish **median crown stripe** and a distinct **double wing bar**.",
+      "adult_female": "Similar to male.",
+      "juvenile": "",
+      "in_flight": ""
+    },
+    "behaviour": "Highly active, constantly gleaning insects from the canopy and outer foliage.",
+    "food": "Small insects and larvae.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "eurasian-spoonbill",
+    "common_name": "Eurasian Spoonbill",
+    "scientific_name": "Platalea leucorodia",
+    "order_id": "pelecaniformes",
+    "family_id": "threskiornithidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "migrant",
+    "is_endemic": false,
+    "habitat": "Large shallow lakes, muddy marshes, tidal flats.",
+    "size": {
+      "length_cm": [80, 93]
+    },
+    "description": {
+      "adult_male": "Large white wading bird with long, black legs. Unmistakable long, flattened, spoon-shaped bill (yellow-tipped black).",
+      "adult_female": "Similar to male.",
+      "juvenile": "Black flight feathers.",
+      "in_flight": "Flies with neck extended."
+    },
+    "behaviour": "Feeds by sweeping its bill side-to-side through shallow water to catch aquatic prey.",
+    "food": "Aquatic insects, small fish, crustaceans.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/eurasian-spoonbill/main.webp",
+        "caption": "Near Bhigwan",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "asian-green-bee-eater",
+    "common_name": "Asian Green Bee-eater",
+    "scientific_name": "Merops orientalis",
+    "order_id": "coraciiformes",
+    "family_id": "meropidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open country, thin scrub, grasslands, often far from water.",
+    "size": {
+      "length_cm": [16, 18]
+    },
+    "description": {
+      "adult_male": "Bright emerald green plumage, blue tinge on the throat, black eye-line and a prominent black gorget (narrow collar). Long, slender central tail streamers.",
+      "adult_female": "Similar to male, sometimes shorter tail streamers.",
+      "juvenile": "Duller, lacks long tail streamers and gorget.",
+      "in_flight": "Flies with graceful zig-zag movement; call is a gentle nasal trill."
+    },
+    "behaviour": "Perches high, sallies out to catch insects (especially bees and wasps) in mid-air; often seen dust-bathing socially.",
+    "food": "Bees, wasps, flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/asian-green-bee-eater/main.webp",
+        "caption": "Near Bhigwan",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "indian-paradise-flycatcher",
+    "common_name": "Indian Paradise Flycatcher",
+    "scientific_name": "Terpsiphone paradisi",
+    "order_id": "passeriformes",
+    "family_id": "monarchidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "migrant/resident",
+    "is_endemic": false,
+    "habitat": "Thick forests, well-wooded habitats, orchards, and groves.",
+    "size": {
+      "length_cm": [19, 22]
+    },
+    "description": {
+      "adult_male": "Glossy black crested head. Two morphs: Rufous (chestnut body/tail) and White (white body/tail). Both have extremely long, ribbon-like central tail streamers (up to 30 cm).",
+      "adult_female": "Rufous back/wings, grey throat, lacks long streamers.",
+      "juvenile": "Rufous, short tail, black throat and blue-ringed eyes.",
+      "in_flight": "Ethereal, long tail streamers visible; chases insects in mid-air."
+    },
+    "behaviour": "Hunts insects in flight; breeds from May to July; often builds nest near drongos for protection.",
+    "food": "Flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/indian-paradise-flycatcher/main.webp",
+        "caption": "Near Bhigwan",
+        "photographer": "",
+        "license": ""
+      },
+      {
+        "file": "assets/images/species/indian-paradise-flycatcher/main1.webp",
+        "caption": "Near Bhigwan",
+        "photographer": "",
+        "license": ""
+      },
+      {
+        "file": "assets/images/species/indian-paradise-flycatcher/main2.webp",
+        "caption": "Near Bhigwan",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "brahminy-kite",
+    "common_name": "Brahminy Kite",
+    "scientific_name": "Haliastur indus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Lakes, rivers, mangroves, coasts and wetlands; often around villages and towns near water.",
+    "size": {
+      "length_cm": [44, 52],
+      "wingspan_cm": [110, 125]
+    },
+    "description": {
+      "adult_male": "Striking raptor with rich chestnut body and wings, contrasting white head, neck and breast. Tail medium-length and slightly rounded.",
+      "adult_female": "Similar to male, often slightly larger and bulkier.",
+      "juvenile": "Overall dark brown above, buffy streaked below; lacks sharp white head and looks more uniformly brown.",
+      "in_flight": "Broad wings with slightly fingered tips; white head and breast contrast with rich chestnut underwings and body."
+    },
+    "behaviour": "Often seen soaring or circling lazily over waterbodies and settlements, frequently scavenging around fish-landing sites and rubbish dumps.",
+    "food": "Fish, carrion, crustaceans and other small aquatic or terrestrial animals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/brahminy-kite/main.webp",
+        "caption": "Juvenile on a dead tree near water. Bhigwan.",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "black-kite",
+    "common_name": "Black Kite",
+    "scientific_name": "Milvus migrans govinda",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Urban areas, villages, farmland, and open country; often near rubbish dumps, slaughterhouses and waterbodies.",
+    "size": {
+      "length_cm": [48, 60],
+      "wingspan_cm": [120, 150]
+    },
+    "description": {
+      "adult_male": "Medium-sized dark brown kite with long wings and a slightly forked tail. Pale panel in underwing, faint streaking on head and breast.",
+      "adult_female": "Similar to male, usually a little bulkier.",
+      "juvenile": "More heavily streaked below, paler edges to upperparts giving a slightly scaly look; tail often appears less obviously forked.",
+      "in_flight": "Soars and glides with wings slightly raised, tail often flexed; shows long, narrow wings and shallow forked tail."
+    },
+    "behaviour": "Common scavenger; often seen circling over towns, following tractors, and snatching food in mid-air with great agility.",
+    "food": "Carrion, refuse, small vertebrates, insects and offal.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/black-kite/main.webp",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "shikra",
+    "common_name": "Shikra",
+    "scientific_name": "Accipiter badius",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Woodlands, plantations, gardens, and urban areas with tree cover.",
+    "size": {
+      "length_cm": [26, 30],
+      "wingspan_cm": [50, 65]
+    },
+    "description": {
+      "adult_male": "Small, compact hawk with grey upperparts, fine rufous barring on underparts and bright red eyes. Tail with dark bands and a narrow white tip.",
+      "adult_female": "Larger, browner above with yellow to orange eyes and coarser barring below.",
+      "juvenile": "Brown above with pale edges to feathers; underparts white with bold brown streaks rather than bars; yellow eyes.",
+      "in_flight": "Short rounded wings and long tail; quick, powerful flapping interspersed with short glides, often weaving through trees."
+    },
+    "behaviour": "Stealthy predator of small birds, lizards and rodents; often seen perched quietly inside foliage before making rapid dashes.",
+    "food": "Small birds, lizards, rodents and large insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/shikra/main.webp",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "crested-serpent-eagle",
+    "common_name": "Crested Serpent-Eagle",
+    "scientific_name": "Spilornis cheela",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Moist and dry forests, wooded hillsides, forest edges and large plantations.",
+    "size": {
+      "length_cm": [55, 65],
+      "wingspan_cm": [110, 150]
+    },
+    "description": {
+      "adult_male": "Dark brown eagle with small crest, yellow bare skin around eyes and on legs, and white-spotted wings. Tail with broad dark and pale bands.",
+      "adult_female": "Similar to male, slightly larger; underparts may show more spotting or fine barring.",
+      "juvenile": "Paler brown with more extensive white spotting and streaking, especially on head and underparts; tail banding less crisp.",
+      "in_flight": "Broad, rounded wings and medium-length tail; distinctive broad white and dark bands in wings and tail; often soars with wings held flat."
+    },
+    "behaviour": "Typically perches quietly in forest, giving a loud, far-carrying whistling call; hunts mainly snakes and other reptiles.",
+    "food": "Snakes, lizards, frogs and small mammals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/crested-serpent-eagle/main.webp",
+        "caption": "",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "oriental-honey-buzzard",
+    "common_name": "Oriental Honey Buzzard",
+    "scientific_name": "Pernis ptilorhynchus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor/resident",
+    "is_endemic": false,
+    "habitat": "Wooded areas, forests, groves, and hillsides.",
+    "size": {
+      "length_cm": [57, 60]
+    },
+    "description": {
+      "adult_male": "Highly variable plumage, often brown/rufous. Small, pigeon-like head. Long tail with broad dark bands.",
+      "adult_female": "Similar to male; distinguishable in close proximity.",
+      "juvenile": "Darker, more barred plumage.",
+      "in_flight": "Broad, paddle-shaped wings; holds wings flat when gliding. Often confused with the Crested Honey Buzzard."
+    },
+    "behaviour": "Specialist feeder on larvae and nests of bees and wasps; feathers on head protect against stings.",
+    "food": "Honeycombs, bee/wasp larvae, insects, small reptiles.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-vulture",
+    "common_name": "Indian Vulture",
+    "scientific_name": "Gyps indicus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Rocky cliffs, open country, plains, and low hills (where carcasses are found).",
+    "size": {
+      "length_cm": [80, 100]
+    },
+    "description": {
+      "adult_male": "Large vulture with a pale body, dark flight feathers, and a long, slender neck. Head is mostly bald.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Darker plumage, less bald neck.",
+      "in_flight": "Very broad wings; soars high in the sky using thermals."
+    },
+    "behaviour": "Feeds communally on animal carcasses; severely threatened by poisoning from veterinary drugs (Diclofenac).",
+    "food": "Carrion.",
+    "conservation_status": {
+      "iucn_code": "CR",
+      "label": "Critically Endangered"
+    },
+    "photos": []
+  },
+  {
+    "id": "booted-eagle",
+    "common_name": "Booted Eagle",
+    "scientific_name": "Hieraaetus pennatus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Open forest, wooded hillsides, and cultivated land.",
+    "size": {
+      "length_cm": [45, 55]
+    },
+    "description": {
+      "adult_male": "Small eagle; occurs in two morphs: pale (white belly, brown back) and dark (dark brown all over). Distinctive feathered legs ('booted').",
+      "adult_female": "Similar to male.",
+      "juvenile": "Similar to adult, but with softer plumage.",
+      "in_flight": "Wings slightly pinched at the base; square tail."
+    },
+    "behaviour": "Agile hunter, often hunts from a perch or in low flight; feeds mostly on small birds and lizards.",
+    "food": "Birds, lizards, rodents.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "short-toed-snake-eagle",
+    "common_name": "Short-toed Snake Eagle",
+    "scientific_name": "Circaetus gallicus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Rocky hillsides, open forests, and dry scrub.",
+    "size": {
+      "length_cm": [62, 67]
+    },
+    "description": {
+      "adult_male": "Large eagle, grey-brown upperparts, white belly, and dark-spotted throat/chest. Large, owl-like round head and bright yellow eyes.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Palere overall.",
+      "in_flight": "Long, broad wings and short tail. Often hovers motionless while hunting."
+    },
+    "behaviour": "Specializes almost entirely on snake prey, often drops to the ground to catch them.",
+    "food": "Snakes (non-venomous and venomous), lizards.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "eurasian-kestrel",
+    "common_name": "Eurasian Kestrel",
+    "scientific_name": "Falco tinnunculus",
+    "order_id": "falconiformes",
+    "family_id": "falconidae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Open country, grasslands, agricultural land, and urban edges.",
+    "size": {
+      "length_cm": [32, 39]
+    },
+    "description": {
+      "adult_male": "Small, slender falcon. Rufous-brown back with black spots, blue-grey head/tail (male), creamy streaked underparts.",
+      "adult_female": "Browner head/tail, heavier barring than male.",
+      "juvenile": "Duller, heavily streaked brown.",
+      "in_flight": "Pointed wings and long tail. Famous for hovering (kiting) in mid-air."
+    },
+    "behaviour": "Hunts primarily by hovering into the wind to spot small prey on the ground.",
+    "food": "Insects, small rodents, lizards.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "black-baza",
+    "common_name": "Black Baza",
+    "scientific_name": "Aviceda leuphotes",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "migrant/resident",
+    "is_endemic": false,
+    "habitat": "Evergreen and moist deciduous forests, sometimes moving to semi-open areas.",
+    "size": {
+      "length_cm": [30, 35]
+    },
+    "description": {
+      "adult_male": "Small, dark raptor with a prominent crest, black upperparts, and boldly barred white/black underparts (belly). White throat.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Brownish-black, duller barring.",
+      "in_flight": "Broad, rounded wings. Distinct white patch on the throat is visible."
+    },
+    "behaviour": "Agile hunter, often feeds on insects, catching them in flight or by dropping onto foliage.",
+    "food": "Large insects, lizards, small birds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "bonellis-eagle",
+    "common_name": "Bonelli's Eagle",
+    "scientific_name": "Aquila fasciata",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Rocky slopes, remote hills, dry open forests, and steep gorges.",
+    "size": {
+      "length_cm": [65, 75]
+    },
+    "description": {
+      "adult_male": "Large, powerful eagle. Dark brown upperparts, white underparts with sparse streaking, and a dark terminal band on the tail.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Rich rufous/chestnut underside, darkening with age.",
+      "in_flight": "Long, square-tipped tail and narrow wings visible. Glides on flat wings."
+    },
+    "behaviour": "A fierce and fast predator, often hunting birds and small mammals in steep terrain.",
+    "food": "Birds, large rodents, small mammals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "pied-harrier",
+    "common_name": "Pied Harrier",
+    "scientific_name": "Circus melanoleucos",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Open grasslands, marshes, rice fields, and cultivation.",
+    "size": {
+      "length_cm": [43, 50]
+    },
+    "description": {
+      "adult_male": "Strikingly pied (black/white) plumage. Black head/chest, white underparts, and pale flight feathers.",
+      "adult_female": "Brown and streaked, resembles a small buzzard, but with typical harrier shape.",
+      "juvenile": "Brown, often rufous-tinged below.",
+      "in_flight": "Flies low over the ground with wings held in a shallow 'V' shape."
+    },
+    "behaviour": "Hunts small prey while flying low and slow over open ground, often dropping down suddenly on prey.",
+    "food": "Rodents, lizards, frogs, birds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "lesser-kestrel",
+    "common_name": "Lesser Kestrel",
+    "scientific_name": "Falco naumanni",
+    "order_id": "falconiformes",
+    "family_id": "falconidae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Open steppes, agricultural fields, and dry grasslands.",
+    "size": {
+      "length_cm": [29, 33]
+    },
+    "description": {
+      "adult_male": "Smaller than Eurasian Kestrel. Male has uniform blue-grey head/tail, rufous back lacking spots.",
+      "adult_female": "Similar to Eurasian Kestrel but generally smaller and paler.",
+      "juvenile": "Resembles female.",
+      "in_flight": "Hovers less frequently than the Eurasian Kestrel; glides more."
+    },
+    "behaviour": "Highly gregarious, often forming large roosts and feeding flocks in the winter.",
+    "food": "Insects (mainly grasshoppers and beetles).",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-white-eye",
+    "common_name": "Indian White-eye",
+    "scientific_name": "Zosterops palpebrosus",
+    "order_id": "passeriformes",
+    "family_id": "zosteropidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Gardens, groves, scrub, thin forest, and tree-covered urban areas.",
+    "size": {
+      "length_cm": [9, 10]
+    },
+    "description": {
+      "adult_male": "Tiny, bright yellow-green bird with a prominent, distinct white ring of feathers around the eye. Yellow throat, pale greyish-white belly.",
+      "adult_female": "Similar to male; sexes look alike.",
+      "juvenile": "Duller plumage, eye-ring less distinct.",
+      "in_flight": "Small, rapid, flitting flight; often flies in fast, cohesive flocks."
+    },
+    "behaviour": "Highly social, found in constant motion high in the canopy, often in mixed-species foraging flocks. Gives a thin, whistling call.",
+    "food": "Nectar, insects, small berries.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "red-vented-bulbul",
+    "common_name": "Red-vented Bulbul",
+    "scientific_name": "Pycnonotus cafer",
+    "order_id": "passeriformes",
+    "family_id": "pycnonotidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "The most widespread urban bulbul, found in gardens, farmlands, open woodlands, and scrub.",
+    "size": {
+      "length_cm": [19, 21]
+    },
+    "description": {
+      "adult_male": "Dark brown body with a scaly appearance, glossy black head and crest. Distinctive crimson-red patch visible under the tail (vent).",
+      "adult_female": "Similar to male; sexes look alike.",
+      "juvenile": "Brown head/crest; vent patch is dull orange/pink.",
+      "in_flight": "Undulating flight pattern; the white rump is prominent."
+    },
+    "behaviour": "Bold, noisy, and highly territorial. Perches conspicuously on wires and bushes, delivering a short, sharp call.",
+    "food": "Fruits, berries, insects, flower buds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "common-tailorbird",
+    "common_name": "Common Tailorbird",
+    "scientific_name": "Orthotomus sutorius",
+    "order_id": "passeriformes",
+    "family_id": "cisticolidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dense scrub, gardens, open country, and thickets.",
+    "size": {
+      "length_cm": [10, 14]
+    },
+    "description": {
+      "adult_male": "Bright olive-green back, buffy white underparts, rufous crown, and notably long central tail feathers (pin-like).",
+      "adult_female": "Similar to male, but shorter central tail feathers.",
+      "juvenile": "Duller green, crown less rufous.",
+      "in_flight": "Rapid, fluttering flight low among shrubs."
+    },
+    "behaviour": "Known for stitching leaves together to form its nest pouch. Extremely vocal with a loud, repetitive 'toolip-toolip' call.",
+    "food": "Small insects and spiders gleaned from leaves.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "eurasian-sparrowhawk",
+    "common_name": "Eurasian Sparrowhawk",
+    "scientific_name": "Accipiter nisus",
+    "order_id": "accipitriformes",
+    "family_id": "accipitridae",
+    "group_id": "raptors",
+    "status_in_sahyadris": "winter visitor/resident",
+    "is_endemic": false,
+    "habitat": "Woodlands, forest edges, and large urban parks with dense tree cover.",
+    "size": {
+      "length_cm": [29, 39]
+    },
+    "description": {
+      "adult_male": "Small, blue-grey back/wings, white underparts finely barred with reddish-brown. Yellow legs and yellow eyes.",
+      "adult_female": "Much larger than the male; brown/grey-brown above with brown barring below.",
+      "juvenile": "Brown above, streaked below.",
+      "in_flight": "Short, broad wings and long tail; flies with a distinctive flap-flap-glide action."
+    },
+    "behaviour": "A quick, agile bird-hunter; relies on surprise, flying low and fast along hedges and edges of woods.",
+    "food": "Small birds, occasionally large insects or small mammals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-spot-billed-duck",
+    "common_name": "Indian Spot-billed Duck",
+    "scientific_name": "Anas poecilorhyncha",
+    "order_id": "anseriformes",
+    "family_id": "anatidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Freshwater lakes, reservoirs, ponds, and slow-moving rivers.",
+    "size": {
+      "length_cm": [55, 63]
+    },
+    "description": {
+      "adult_male": "Large grey-brown duck with pale head/neck and dark cap/eye-stripe. **Black bill tipped bright yellow** with a prominent red spot at the base.",
+      "adult_female": "Similar to male; red spot may be duller or absent.",
+      "juvenile": "Duller plumage, less contrasting bill markings.",
+      "in_flight": "White and dark green speculum (wing patch) visible in flight."
+    },
+    "behaviour": "Feeds primarily by dabbling (tipping tail up) in shallow water. Less gregarious than other ducks, often seen in pairs or small groups.",
+    "food": "Aquatic vegetation, seeds, small invertebrates.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "little-cormorant",
+    "common_name": "Little Cormorant",
+    "scientific_name": "Microcarbo niger",
+    "order_id": "suliformes",
+    "family_id": "phalacrocoracidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "All types of freshwater wetlands, ponds, irrigation tanks, and reservoirs.",
+    "size": {
+      "length_cm": [50, 55]
+    },
+    "description": {
+      "adult_male": "Small, slender, glossy black cormorant with a relatively short tail and bill. Breeding adults have a slight crest and white tufts on the side of the head.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller brownish-black, paler throat.",
+      "in_flight": "Flies low and fast, flapping with extended neck."
+    },
+    "behaviour": "Highly social, feeds and roosts in large flocks. Swims low with only neck and head visible, diving frequently to chase fish.",
+    "food": "Small fish and aquatic insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "lesser-flamingo",
+    "common_name": "Lesser Flamingo",
+    "scientific_name": "Phoeniconaias minor",
+    "order_id": "phoenicopteriformes",
+    "family_id": "phoenicopteridae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "migrant",
+    "is_endemic": false,
+    "habitat": "Coastal mudflats, estuaries, and large saline/alkaline lakes (often seen with Greater Flamingo).",
+    "size": {
+      "length_cm": [90, 105]
+    },
+    "description": {
+      "adult_male": "Smaller than Greater Flamingo. Has deep pink/crimson plumage. Bill is shorter and deeper pink.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Pale greyish-brown.",
+      "in_flight": "Flies with neck and legs extended; smaller wingspan than the Greater Flamingo."
+    },
+    "behaviour": "Feeds primarily on specific algae (Spirulina), giving it the deeper pink color. Highly gregarious, often forming flocks of hundreds of thousands.",
+    "food": "Algae (microscopic plant matter).",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-pond-heron",
+    "common_name": "Indian Pond Heron",
+    "scientific_name": "Ardeola grayii",
+    "order_id": "pelecaniformes",
+    "family_id": "ardeidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Paddy fields, marshes, ponds, lakes and river edges; often in human-dominated landscapes.",
+    "size": {
+      "length_cm": [40, 46]
+    },
+    "description": {
+      "adult_male": "Short-necked heron with dull brown streaked body when perched; transforms into a striking white bird in flight with bright white wings.",
+      "adult_female": "Similar to male.",
+      "juvenile": "More heavily streaked brown above and below; overall duller.",
+      "in_flight": "Completely white wings and body except for brown back; slow, steady wingbeats."
+    },
+    "behaviour": "Often sits motionless near edges of water, suddenly striking at prey; very tame near villages.",
+    "food": "Fish, frogs, crustaceans, insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "grey-heron",
+    "common_name": "Grey Heron",
+    "scientific_name": "Ardea cinerea",
+    "order_id": "pelecaniformes",
+    "family_id": "ardeidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "winter visitor",
+    "is_endemic": false,
+    "habitat": "Lakes, rivers, reservoirs, marshlands and coastal wetlands.",
+    "size": {
+      "length_cm": [90, 98],
+      "wingspan_cm": [175, 195]
+    },
+    "description": {
+      "adult_male": "Large grey heron with long neck, black supercilium and plumes, and pale grey body. Black shoulder patch and long yellowish bill.",
+      "adult_female": "Similar to male, slightly smaller.",
+      "juvenile": "Duller grey, lacks black head plumes, head more uniformly grey.",
+      "in_flight": "Slow deep wingbeats, neck folded into an S-shape, long legs trailing behind."
+    },
+    "behaviour": "Stalks fish in shallow water; often stands motionless for long periods.",
+    "food": "Fish, frogs, crabs, insects, small mammals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "river-tern",
+    "common_name": "River Tern",
+    "scientific_name": "Sterna aurantia",
+    "order_id": "charadriiformes",
+    "family_id": "laridae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident, local migrant",
+    "is_endemic": false,
+    "habitat": "Large rivers, reservoirs, lakes and sandbars.",
+    "size": {
+      "length_cm": [38, 43],
+      "wingspan_cm": [80, 90]
+    },
+    "description": {
+      "adult_male": "Graceful tern with grey upperparts, white underparts, black cap and yellow bill. Tail long and deeply forked.",
+      "adult_female": "Identical to male.",
+      "juvenile": "Brownish mottling above, paler cap, bill duller.",
+      "in_flight": "Slender tern with buoyant flight; long narrow wings and deep forked tail."
+    },
+    "behaviour": "Feeds by plunge-diving in shallow waters; often rests on sandbars.",
+    "food": "Small fish and aquatic insects.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": []
+  },
+  {
+    "id": "oriental-darter",
+    "common_name": "Oriental Darter",
+    "scientific_name": "Anhinga melanogaster",
+    "order_id": "suliformes",
+    "family_id": "phalacrocoracidae",
+    "group_id": "waterbirds",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Lakes, reservoirs, marshes and slow-moving rivers with ample trees or snags.",
+    "size": {
+      "length_cm": [85, 97]
+    },
+    "description": {
+      "adult_male": "Slender waterbird with snake-like neck, blackish body, silvery streaks on wings; pointed bill.",
+      "adult_female": "Palier neck, browner tones, less glossy.",
+      "juvenile": "Much paler brown with faint streaks; neck dull buff.",
+      "in_flight": "Long-necked silhouette with neck outstretched; wings broad and dark."
+    },
+    "behaviour": "Swims low in water with only neck exposed; dries wings with outstretched pose.",
+    "food": "Fish, captured by underwater pursuit.",
+    "conservation_status": {
+      "iucn_code": "NT",
+      "label": "Near Threatened"
+    },
+    "photos": []
+  },
+  {
+    "id": "small-minivet",
+    "common_name": "Small Minivet",
+    "scientific_name": "Pericrocotus cinnamomeus",
+    "order_id": "passeriformes",
+    "family_id": "campephagidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry deciduous forest, mixed scrub, orchards and open wooded areas.",
+    "size": {
+      "length_cm": [16, 17]
+    },
+    "description": {
+      "adult_male": "Bright male with grey upperparts, vivid orange underparts and rump, black wings with orange patches.",
+      "adult_female": "Grey above, yellowish underparts, yellow wing panel.",
+      "juvenile": "Duller versions of female with faint yellow tones.",
+      "in_flight": "Quick, fluttery movements between canopy; flashes orange or yellow."
+    },
+    "behaviour": "Moves in small flocks; active canopy feeder.",
+    "food": "Insects, caterpillars and other arthropods.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "indian-nightjar",
+    "common_name": "Indian Nightjar",
+    "scientific_name": "Caprimulgus asiaticus",
+    "order_id": "caprimulgiformes",
+    "family_id": "caprimulgidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open scrub, grassland, agricultural edges, dry forest and village outskirts.",
+    "size": {
+      "length_cm": [22, 25]
+    },
+    "description": {
+      "adult_male": "Cryptic brown-grey nightjar with mottled plumage, white throat patch and narrow white corners on tail.",
+      "adult_female": "Similar to male but lacks strong white tail corners.",
+      "juvenile": "Even more cryptically patterned with softer, duller markings.",
+      "in_flight": "Short, rounded wings; erratic fluttery flight at dusk."
+    },
+    "behaviour": "Roosts on ground in leaf litter; active at dusk and night, making distinctive ‘chuk-chuk-chuk’ calls.",
+    "food": "Moths, beetles and flying insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "spotted-dove",
+    "common_name": "Spotted Dove",
+    "scientific_name": "Streptopelia chinensis",
+    "order_id": "columbiformes",
+    "family_id": "columbidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Gardens, farmlands, forest edges, villages and open countryside.",
+    "size": {
+      "length_cm": [28, 30]
+    },
+    "description": {
+      "adult_male": "Grey-brown dove with pinkish underparts, white-spotted black hind-neck patch, and long tail with white corners.",
+      "adult_female": "Similar to male.",
+      "juvenile": "Duller, with less distinct hind-neck patch.",
+      "in_flight": "Fast direct flight; white tail corners visible."
+    },
+    "behaviour": "Often seen in pairs or small groups; feeds on ground.",
+    "food": "Seeds, grains, small fruits and insects.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": []
+  },
+  {
+    "id": "tree-pipit",
+    "common_name": "Tree Pipit",
+    "scientific_name": "Anthus trivialis",
+    "order_id": "passeriformes",
+    "family_id": "motacillidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "winter_visitor",
+    "is_endemic": false,
+    "habitat": "Open woodland, forest edges, grassland plateaus and semi-open slopes during winter.",
+    "size": {
+      "length_cm": [15, 16]
+    },
+    "description": {
+      "adult_male": "Brown, finely streaked bird with pale buff underparts and neat breast streaking. Supercilium pale but not strong; bill base slightly pinkish.",
+      "adult_female": "Similar to male with subtle overall dullness; same field marks.",
+      "juvenile": "",
+      "in_flight": "Shows white-edged tail feathers; flight is slightly undulating with soft call notes."
+    },
+    "behaviour": "Walks on the ground with deliberate steps, often perching on exposed twigs or wires. Gently bobs tail and body after landing.",
+    "food": "Insects and small invertebrates; occasionally seeds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/tree-pipit/main.webp",
+        "caption": "Tree pipit perched on a branch",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  },
+  {
+    "id": "olive-backed-pipit",
+    "common_name": "Olive-backed Pipit",
+    "scientific_name": "Anthus hodgsoni",
+    "order_id": "passeriformes",
+    "family_id": "motacillidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "winter_visitor",
+    "is_endemic": false,
+    "habitat": "Shaded gullies, evergreen and semi-evergreen forest edges, shola patches and riparian undergrowth.",
+    "size": {
+      "length_cm": [14, 15]
+    },
+    "description": {
+      "adult_male": "Clean, crisp appearance with strong pale supercilium, olive-toned upperparts and fine neat streaking on a whitish breast.",
+      "adult_female": "Similar to male; slight variation in tone but same diagnostic features.",
+      "juvenile": "",
+      "in_flight": "Rises to low branches when flushed; gives thin, high 'tsee' call."
+    },
+    "behaviour": "More arboreal than most pipits; forages quietly on forest floor and lower branches. Walks rather than hops; often flicks wings when alert.",
+    "food": "Insects, larvae and small arthropods.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [
+      {
+        "file": "assets/images/species/olive-backed-pipit/main.webp",
+        "caption": "Olive-backed pipit on forest floor",
+        "photographer": "",
+        "license": ""
+      }
+    ]
+  }
+]

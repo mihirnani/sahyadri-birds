@@ -1,0 +1,40 @@
+# macOS noise
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail / metadata files created by macOS
+._*
+
+# Node / tooling (if added later)
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+
+# Parcel / Vite / Webpack (if you ever experiment with them)
+.parcel-cache/
+.vite/
+webpack-stats.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/project files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files (not needed now, but safe)
+.env
+.env.local
+.env.*.local
+
+# System files from older macOS versions
+Icon?
+Thumbs.db

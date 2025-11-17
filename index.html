@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Birds of the Sahyadris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div>
+          <div class="site-title">Birds of the Sahyadris</div>
+          <div class="site-tagline">
+            A small field guide to the Western Ghats
+          </div>
+        </div>
+        <div class="site-header-right">
+          <nav class="site-tabs">
+            <button class="site-tab-btn" data-tab="home">Home</button>
+            <button class="site-tab-btn" data-tab="about">About</button>
+            <button class="site-tab-btn" data-tab="resources">Resources</button>
+            <button class="site-tab-btn" data-tab="contact">Contact</button>
+          </nav>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            type="button"
+            aria-pressed="true"
+          >
+            Light
+          </button>
+        </div>
+      </header>
+
+      <main class="site-main">
+        <!-- Home / main field guide -->
+        <section class="tab-content home-layout" data-tab-content="home">
+          <aside id="sidebar" class="panel">
+            <div class="sidebar-search">
+              <div class="sidebar-search-label">Search</div>
+              <div class="sidebar-search-input-wrap">
+                <span class="sidebar-search-icon">🔍</span>
+                <input
+                  id="sidebar-search-input"
+                  class="sidebar-search-input"
+                  type="search"
+                  placeholder="Search by name…"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+          </aside>
+          <section id="bird-info" class="panel"></section>
+          <section id="bird-images" class="panel"></section>
+        </section>
+
+        <!-- About -->
+        <section class="tab-content about-layout" data-tab-content="about">
+          <div id="about-content"></div>
+        </section>
+
+        <!-- Sites -->
+
+        <section class="tab-content sites-layout" data-tab-content="sites">
+          <div id="sites-list"></div>
+        </section>
+
+        <!-- Resources -->
+        <section
+          class="tab-content resources-layout"
+          data-tab-content="resources"
+        >
+          <div id="resources-list"></div>
+        </section>
+
+        <!-- Contact -->
+        <section class="tab-content contact-layout" data-tab-content="contact">
+          <div id="contact-note"></div>
+          <form id="contact-form">
+            <!-- You can add actual form fields later -->
+            <div class="form-row">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" type="text" name="name" />
+            </div>
+            <div class="form-row">
+              <label for="contact-email">Email</label>
+              <input id="contact-email" type="email" name="email" />
+            </div>
+            <div class="form-row">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message"></textarea>
+            </div>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/data-loader.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

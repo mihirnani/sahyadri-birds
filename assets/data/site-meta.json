@@ -1,0 +1,9 @@
+{
+  "site_title": "Birds of the Sahyadris",
+  "tagline": "A simple field guide to some of the birds of the Western Ghats.",
+  "about_html": "<h1>Birds of the Sahyadris</h1> <p><strong> Birds of the Sahyadris </strong>is a small project focused on the birds of the Western Ghats. It aims to give clear, practical descriptions for identification, along with notes on habitat, behaviour and conservation.</p><p>This is a work in progress and will grow over time as new species, photographs and notes are added.</p>",
+  "contact": {
+    "email": "you@example.com",
+    "note_html": "<p>If you have questions, corrections, or would like to contribute photographs taken in the Sahyadris, you can get in touch using the form below.</p>"
+  }
+}

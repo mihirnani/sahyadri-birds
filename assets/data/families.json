@@ -1,0 +1,738 @@
+{
+  "groups": [
+    {
+      "id": "passerines",
+      "label": "Passerines",
+      "sidebar_order": 1
+    },
+    {
+      "id": "raptors",
+      "label": "Raptors",
+      "sidebar_order": 2
+    },
+    {
+      "id": "waterbirds",
+      "label": "Water birds",
+      "sidebar_order": 3
+    },
+    {
+      "id": "non-passerines",
+      "label": "Other non-passerines",
+      "sidebar_order": 4
+    }
+  ],
+
+  "orders": [
+    {
+      "id": "passeriformes",
+      "scientific_name": "Passeriformes",
+      "common_label": "Perching birds",
+      "sidebar_label": "Passerines (Passeriformes)",
+      "sidebar_order": 1
+    },
+    {
+      "id": "accipitriformes",
+      "scientific_name": "Accipitriformes",
+      "common_label": "Raptors",
+      "sidebar_label": "Raptors (Accipitriformes)",
+      "sidebar_order": 2
+    },
+    {
+      "id": "falconiformes",
+      "scientific_name": "Falconiformes",
+      "common_label": "Falcons",
+      "sidebar_label": "Falcons (Falconiformes)",
+      "sidebar_order": 2
+    },
+    {
+      "id": "anseriformes",
+      "scientific_name": "Anseriformes",
+      "common_label": "Ducks, geese & allies",
+      "sidebar_label": "Waterfowl (Anseriformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "pelecaniformes",
+      "scientific_name": "Pelecaniformes",
+      "common_label": "Ibises, herons, egrets",
+      "sidebar_label": "Herons & Ibises (Pelecaniformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "gruiformes",
+      "scientific_name": "Gruiformes",
+      "common_label": "Rails, coots & cranes",
+      "sidebar_label": "Rails & Coots (Gruiformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "charadriiformes",
+      "scientific_name": "Charadriiformes",
+      "common_label": "Waders & shorebirds",
+      "sidebar_label": "Waders & Shorebirds (Charadriiformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "ciconiiformes",
+      "scientific_name": "Ciconiiformes",
+      "common_label": "Storks",
+      "sidebar_label": "Storks (Ciconiiformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "suliformes",
+      "scientific_name": "Suliformes",
+      "common_label": "Cormorants & allies",
+      "sidebar_label": "Cormorants (Suliformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "podicipediformes",
+      "scientific_name": "Podicipediformes",
+      "common_label": "Grebes",
+      "sidebar_label": "Grebes (Podicipediformes)",
+      "sidebar_order": 3
+    },
+    {
+      "id": "columbiformes",
+      "scientific_name": "Columbiformes",
+      "common_label": "Pigeons & doves",
+      "sidebar_label": "Pigeons & Doves (Columbiformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "cuculiformes",
+      "scientific_name": "Cuculiformes",
+      "common_label": "Cuckoos",
+      "sidebar_label": "Cuckoos (Cuculiformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "strigiformes",
+      "scientific_name": "Strigiformes",
+      "common_label": "Owls",
+      "sidebar_label": "Owls (Strigiformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "caprimulgiformes",
+      "scientific_name": "Caprimulgiformes",
+      "common_label": "Nightjars & swifts",
+      "sidebar_label": "Nightjars & Swifts (Caprimulgiformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "coraciiformes",
+      "scientific_name": "Coraciiformes",
+      "common_label": "Kingfishers, rollers, bee-eaters",
+      "sidebar_label": "Kingfishers & Allies (Coraciiformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "piciformes",
+      "scientific_name": "Piciformes",
+      "common_label": "Woodpeckers, barbets",
+      "sidebar_label": "Woodpeckers & Barbets (Piciformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "galliformes",
+      "scientific_name": "Galliformes",
+      "common_label": "Gamebirds",
+      "sidebar_label": "Gamebirds (Galliformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "psittaciformes",
+      "scientific_name": "Psittaciformes",
+      "common_label": "Parrots & parakeets",
+      "sidebar_label": "Parrots & Parakeets (Psittaciformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "bucerotiformes",
+      "scientific_name": "Bucerotiformes",
+      "common_label": "Hornbills",
+      "sidebar_label": "Hornbills (Bucerotiformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "trogoniformes",
+      "scientific_name": "Trogoniformes",
+      "common_label": "Trogons",
+      "sidebar_label": "Trogons (Trogoniformes)",
+      "sidebar_order": 4
+    },
+    {
+      "id": "phoenicopteriformes",
+      "scientific_name": "Phoenicopteriformes",
+      "common_label": "Flamingos",
+      "sidebar_label": "Flamingos (Phoenicopteriformes)",
+      "sidebar_order": 3
+    }
+  ],
+
+  "families": [
+    {
+      "id": "turdidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Turdidae",
+      "common_label": "Thrushes",
+      "sidebar_label": "Thrushes",
+      "sidebar_order": 100
+    },
+    {
+      "id": "muscicapidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Muscicapidae",
+      "common_label": "Flycatchers",
+      "sidebar_label": "Flycatchers",
+      "sidebar_order": 101
+    },
+    {
+      "id": "pycnonotidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Pycnonotidae",
+      "common_label": "Bulbuls",
+      "sidebar_label": "Bulbuls",
+      "sidebar_order": 102
+    },
+    {
+      "id": "dicruridae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Dicruridae",
+      "common_label": "Drongos",
+      "sidebar_label": "Drongos",
+      "sidebar_order": 103
+    },
+    {
+      "id": "laniidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Laniidae",
+      "common_label": "Shrikes",
+      "sidebar_label": "Shrikes",
+      "sidebar_order": 104
+    },
+    {
+      "id": "sylviidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Sylviidae",
+      "common_label": "Warblers",
+      "sidebar_label": "Warblers",
+      "sidebar_order": 105
+    },
+    {
+      "id": "leiothrichidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Leiothrichidae",
+      "common_label": "Babblers",
+      "sidebar_label": "Babblers",
+      "sidebar_order": 106
+    },
+    {
+      "id": "nectariniidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Nectariniidae",
+      "common_label": "Sunbirds",
+      "sidebar_label": "Sunbirds",
+      "sidebar_order": 107
+    },
+    {
+      "id": "sturnidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Sturnidae",
+      "common_label": "Starlings & mynas",
+      "sidebar_label": "Starlings & Mynas",
+      "sidebar_order": 108
+    },
+    {
+      "id": "corvidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Corvidae",
+      "common_label": "Crows & jays",
+      "sidebar_label": "Crows & Jays",
+      "sidebar_order": 109
+    },
+    {
+      "id": "hirundinidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Hirundinidae",
+      "common_label": "Swallows & martins",
+      "sidebar_label": "Swallows & Martins",
+      "sidebar_order": 110
+    },
+    {
+      "id": "motacillidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Motacillidae",
+      "common_label": "Wagtails & pipits",
+      "sidebar_label": "Wagtails & Pipits",
+      "sidebar_order": 111
+    },
+    {
+      "id": "alaudidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Alaudidae",
+      "common_label": "Larks",
+      "sidebar_label": "Larks",
+      "sidebar_order": 112
+    },
+    {
+      "id": "campephagidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Campephagidae",
+      "common_label": "Cuckooshrikes",
+      "sidebar_label": "Cuckooshrikes",
+      "sidebar_order": 113
+    },
+    {
+      "id": "oriolidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Oriolidae",
+      "common_label": "Orioles",
+      "sidebar_label": "Orioles",
+      "sidebar_order": 114
+    },
+    {
+      "id": "chloropseidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Chloropseidae",
+      "common_label": "Leafbirds",
+      "sidebar_label": "Leafbirds",
+      "sidebar_order": 115
+    },
+    {
+      "id": "aegithinidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Aegithinidae",
+      "common_label": "Ioras",
+      "sidebar_label": "Ioras",
+      "sidebar_order": 116
+    },
+    {
+      "id": "ploceidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Ploceidae",
+      "common_label": "Weavers",
+      "sidebar_label": "Weavers",
+      "sidebar_order": 117
+    },
+    {
+      "id": "estrildidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Estrildidae",
+      "common_label": "Munias",
+      "sidebar_label": "Munias",
+      "sidebar_order": 118
+    },
+    {
+      "id": "monarchidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Monarchidae",
+      "common_label": "Monarch Flycatchers",
+      "sidebar_label": "Monarch Flycatchers",
+      "sidebar_order": 119
+    },
+    {
+      "id": "pittidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Pittidae",
+      "common_label": "Pittas",
+      "sidebar_label": "Pittas",
+      "sidebar_order": 120
+    },
+    {
+      "id": "rhipiduridae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Rhipiduridae",
+      "common_label": "Fantails",
+      "sidebar_label": "Fantails",
+      "sidebar_order": 121
+    },
+    {
+      "id": "zosteropidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Zosteropidae",
+      "common_label": "White-eyes",
+      "sidebar_label": "White-eyes",
+      "sidebar_order": 122
+    },
+    {
+      "id": "cisticolidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Cisticolidae",
+      "common_label": "Cisticolas & Tailorbirds",
+      "sidebar_label": "Cisticolas & Tailorbirds",
+      "sidebar_order": 123
+    },
+    {
+      "id": "artamidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Artamidae",
+      "common_label": "Woodswallows",
+      "sidebar_label": "Woodswallows",
+      "sidebar_order": 124
+    },
+    {
+      "id": "sittidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Sittidae",
+      "common_label": "Nuthatches",
+      "sidebar_label": "Nuthatches",
+      "sidebar_order": 125
+    },
+    {
+      "id": "phylloscopidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Phylloscopidae",
+      "common_label": "Leaf Warblers",
+      "sidebar_label": "Leaf Warblers",
+      "sidebar_order": 126
+    },
+    {
+      "id": "timaliidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Timaliidae",
+      "common_label": "Scimitar Babblers",
+      "sidebar_label": "Scimitar Babblers",
+      "sidebar_order": 127
+    },
+    {
+      "id": "emberizidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Emberizidae",
+      "common_label": "Buntings",
+      "sidebar_label": "Buntings",
+      "sidebar_order": 128
+    },
+
+    {
+      "id": "accipitridae",
+      "order_id": "accipitriformes",
+      "group_id": "raptors",
+      "scientific_name": "Accipitridae",
+      "common_label": "Hawks, eagles & kites",
+      "sidebar_label": "Hawks, Eagles & Kites",
+      "sidebar_order": 200
+    },
+    {
+      "id": "falconidae",
+      "order_id": "falconiformes",
+      "group_id": "raptors",
+      "scientific_name": "Falconidae",
+      "common_label": "Falcons",
+      "sidebar_label": "Falcons",
+      "sidebar_order": 201
+    },
+    {
+      "id": "pandionidae",
+      "order_id": "accipitriformes",
+      "group_id": "raptors",
+      "scientific_name": "Pandionidae",
+      "common_label": "Osprey",
+      "sidebar_label": "Osprey",
+      "sidebar_order": 202
+    },
+
+    {
+      "id": "anatidae",
+      "order_id": "anseriformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Anatidae",
+      "common_label": "Ducks & geese",
+      "sidebar_label": "Ducks & Geese",
+      "sidebar_order": 500
+    },
+    {
+      "id": "ardeidae",
+      "order_id": "pelecaniformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Ardeidae",
+      "common_label": "Herons & egrets",
+      "sidebar_label": "Herons & Egrets",
+      "sidebar_order": 501
+    },
+    {
+      "id": "threskiornithidae",
+      "order_id": "pelecaniformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Threskiornithidae",
+      "common_label": "Ibises",
+      "sidebar_label": "Ibises",
+      "sidebar_order": 502
+    },
+    {
+      "id": "rallidae",
+      "order_id": "gruiformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Rallidae",
+      "common_label": "Rails & coots",
+      "sidebar_label": "Rails & Coots",
+      "sidebar_order": 503
+    },
+    {
+      "id": "charadriidae",
+      "order_id": "charadriiformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Charadriidae",
+      "common_label": "Plovers",
+      "sidebar_label": "Plovers",
+      "sidebar_order": 504
+    },
+    {
+      "id": "scolopacidae",
+      "order_id": "charadriiformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Scolopacidae",
+      "common_label": "Sandpipers",
+      "sidebar_label": "Sandpipers",
+      "sidebar_order": 505
+    },
+    {
+      "id": "ciconiidae",
+      "order_id": "ciconiiformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Ciconiidae",
+      "common_label": "Storks",
+      "sidebar_label": "Storks",
+      "sidebar_order": 506
+    },
+    {
+      "id": "phalacrocoracidae",
+      "order_id": "suliformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Phalacrocoracidae",
+      "common_label": "Cormorants",
+      "sidebar_label": "Cormorants",
+      "sidebar_order": 507
+    },
+    {
+      "id": "podicipedidae",
+      "order_id": "podicipediformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Podicipedidae",
+      "common_label": "Grebes",
+      "sidebar_label": "Grebes",
+      "sidebar_order": 508
+    },
+    {
+      "id": "recurvirostridae",
+      "order_id": "charadriiformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Recurvirostridae",
+      "common_label": "Stilts & Avocets",
+      "sidebar_label": "Stilts & Avocets",
+      "sidebar_order": 509
+    },
+    {
+      "id": "laridae",
+      "order_id": "charadriiformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Laridae",
+      "common_label": "Gulls, Terns & Skimmers",
+      "sidebar_label": "Gulls, Terns & Skimmers",
+      "sidebar_order": 510
+    },
+    {
+      "id": "phoenicopteridae",
+      "order_id": "phoenicopteriformes",
+      "group_id": "waterbirds",
+      "scientific_name": "Phoenicopteridae",
+      "common_label": "Flamingos",
+      "sidebar_label": "Flamingos",
+      "sidebar_order": 511
+    },
+
+    {
+      "id": "columbidae",
+      "order_id": "columbiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Columbidae",
+      "common_label": "Pigeons & doves",
+      "sidebar_label": "Pigeons & Doves",
+      "sidebar_order": 700
+    },
+    {
+      "id": "cuculidae",
+      "order_id": "cuculiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Cuculidae",
+      "common_label": "Cuckoos",
+      "sidebar_label": "Cuckoos",
+      "sidebar_order": 701
+    },
+    {
+      "id": "strigidae",
+      "order_id": "strigiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Strigidae",
+      "common_label": "Owls",
+      "sidebar_label": "Owls",
+      "sidebar_order": 702
+    },
+    {
+      "id": "caprimulgidae",
+      "order_id": "caprimulgiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Caprimulgidae",
+      "common_label": "Nightjars",
+      "sidebar_label": "Nightjars",
+      "sidebar_order": 703
+    },
+    {
+      "id": "apodidae",
+      "order_id": "caprimulgiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Apodidae",
+      "common_label": "Swifts",
+      "sidebar_label": "Swifts",
+      "sidebar_order": 704
+    },
+    {
+      "id": "alcedinidae",
+      "order_id": "coraciiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Alcedinidae",
+      "common_label": "Kingfishers",
+      "sidebar_label": "Kingfishers",
+      "sidebar_order": 705
+    },
+    {
+      "id": "meropidae",
+      "order_id": "coraciiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Meropidae",
+      "common_label": "Bee-eaters",
+      "sidebar_label": "Bee-eaters",
+      "sidebar_order": 706
+    },
+    {
+      "id": "coraciidae",
+      "order_id": "coraciiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Coraciidae",
+      "common_label": "Rollers",
+      "sidebar_label": "Rollers",
+      "sidebar_order": 707
+    },
+    {
+      "id": "picidae",
+      "order_id": "piciformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Picidae",
+      "common_label": "Woodpeckers",
+      "sidebar_label": "Woodpeckers",
+      "sidebar_order": 708
+    },
+    {
+      "id": "megalaimidae",
+      "order_id": "piciformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Megalaimidae",
+      "common_label": "Barbets",
+      "sidebar_label": "Barbets",
+      "sidebar_order": 709
+    },
+    {
+      "id": "phasianidae",
+      "order_id": "galliformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Phasianidae",
+      "common_label": "Junglefowl & partridges",
+      "sidebar_label": "Junglefowl & Partridges",
+      "sidebar_order": 710
+    },
+    {
+      "id": "psittaculidae",
+      "order_id": "psittaciformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Psittaculidae",
+      "common_label": "Parakeets",
+      "sidebar_label": "Parakeets",
+      "sidebar_order": 711
+    },
+    {
+      "id": "bucerotidae",
+      "order_id": "bucerotiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Bucerotidae",
+      "common_label": "Hornbills",
+      "sidebar_label": "Hornbills",
+      "sidebar_order": 712
+    },
+    {
+      "id": "turnicidae",
+      "order_id": "charadriiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Turnicidae",
+      "common_label": "Buttonquails",
+      "sidebar_label": "Buttonquails",
+      "sidebar_order": 713
+    },
+    {
+      "id": "trogonidae",
+      "order_id": "trogoniformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Trogonidae",
+      "common_label": "Trogons",
+      "sidebar_label": "Trogons",
+      "sidebar_order": 714
+    },
+    {
+      "id": "podargidae",
+      "order_id": "caprimulgiformes",
+      "group_id": "non-passerines",
+      "scientific_name": "Podargidae",
+      "common_label": "Frogmouths",
+      "sidebar_label": "Frogmouths",
+      "sidebar_order": 715
+    },
+    {
+      "id": "dicaeidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Dicaeidae",
+      "common_label": "Flowerpeckers",
+      "sidebar_label": "Flowerpeckers",
+      "sidebar_order": 129
+    },
+    {
+      "id": "irenaeidae",
+      "order_id": "passeriformes",
+      "group_id": "passerines",
+      "scientific_name": "Irenaeidae",
+      "common_label": "Fairy-bluebirds",
+      "sidebar_label": "Fairy-bluebirds",
+      "sidebar_order": 130
+    }
+  ]
+}
