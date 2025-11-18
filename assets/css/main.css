@@ -769,6 +769,41 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
+/* --- Did you know? box (light + dark theme matched) --- */
+
+.dyk-box {
+  background: var(--bg-soft);
+  border-left: 4px solid var(--accent);
+  padding: 14px 18px;
+  margin-top: 28px;
+  border-radius: 8px;
+}
+
+.dyk-box h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.dyk-box p {
+  margin: 0;
+  color: var(--text-main);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* Dark mode override */
+:root[data-theme="dark"] .dyk-box {
+  background: #141c16; /* consistent with your dark-card backgrounds */
+  border-left-color: var(--accent);
+}
+
+:root[data-theme="dark"] .dyk-box h3,
+:root[data-theme="dark"] .dyk-box p {
+  color: var(--text-main);
+}
+
 /* ---------- OTHER TABS: ABOUT / RESOURCES / CONTACT ---------- */
 
 .about-layout,

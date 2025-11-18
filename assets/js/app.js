@@ -427,7 +427,8 @@ function renderBirdInfo(bird) {
     ? bird.status_in_sahyadris.replace(/_/g, " ")
     : "";
 
-  el.innerHTML = `
+  // Build HTML in a string first
+  let html = `
     <header class="bird-header">
       <h1 class="bird-common-name">${bird.common_name}</h1>
       <h2 class="bird-scientific-name"><em>${bird.scientific_name}</em></h2>
@@ -500,6 +501,19 @@ function renderBirdInfo(bird) {
       <p>${bird.behaviour || ""}</p>
     </section>
   `;
+
+  // Append the "Did you know?" box if present
+  if (bird.did_you_know) {
+    html += `
+      <section class="dyk-box">
+        <h3>Did you know?</h3>
+        <p>${bird.did_you_know}</p>
+      </section>
+    `;
+  }
+
+  // Finally write everything to the DOM once
+  el.innerHTML = html;
 }
 
 function renderBirdImages(bird) {
