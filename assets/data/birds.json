@@ -538,7 +538,14 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/baya-weaver/main.webp",
+        "caption": "A Baya Weaver in Bhigwan",
+        "photographer": "Tisha Mukherjee",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ]
   },
   {
     "id": "white-rumped-munia",
@@ -730,7 +737,7 @@
     "photos": [
       {
         "file": "assets/images/species/asian-openbill/main.webp",
-        "caption": "",
+        "caption": "An Asian openbill, showing why it is 'openbill'. Bhigwan, Maharashtra.",
         "photographer": "",
         "license": ""
       }
@@ -2234,14 +2241,7 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": [
-      {
-        "file": "assets/images/species/malabar-parakeet/main.webp",
-        "caption": "Male Malabar Parakeet near Mangaon, Raigad",
-        "photographer": "",
-        "license": ""
-      }
-    ]
+    "photos": []
   },
   {
     "id": "nilgiri-woodpigeon",
@@ -2724,19 +2724,19 @@
     "photos": [
       {
         "file": "assets/images/species/indian-paradise-flycatcher/main.webp",
-        "caption": "Near Bhigwan",
+        "caption": "Sinhagad Valley, Pune",
         "photographer": "",
         "license": ""
       },
       {
         "file": "assets/images/species/indian-paradise-flycatcher/main1.webp",
-        "caption": "Near Bhigwan",
+        "caption": "Sinhagad Valley, Pune",
         "photographer": "",
         "license": ""
       },
       {
         "file": "assets/images/species/indian-paradise-flycatcher/main2.webp",
-        "caption": "Near Bhigwan",
+        "caption": "Sinhagad Valley, Pune",
         "photographer": "",
         "license": ""
       }
