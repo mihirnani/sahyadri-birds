@@ -99,7 +99,14 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/red-whiskered-bulbul/main.webp",
+        "caption": "Palakkad, Kerala.",
+        "photographer": "Shino Jacob Koottanad",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ]
   },
   {
     "id": "greater-racket-tailed-drongo",
@@ -126,7 +133,14 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/greater-racket-tailed-drongo/main.webp",
+        "caption": "A boisterous bird. This one is calm, though: Kannur, Kerala",
+        "photographer": "Swardeepak",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ]
   },
   {
     "id": "rufous-backed-shrike",
@@ -147,13 +161,20 @@
       "juvenile": "Warm buff-brown with fine barring on upperparts and flanks. Weak mask. Shorter tail, yellowish gape. Gradual loss of barring with age.",
       "in_flight": "White wing patch and rufous mantle flash distinctly. Flight low and direct with rapid wingbeats; often glides between exposed perches."
     },
-    "behaviour": "Bold and highly territorial. Hunts from exposed perches such as wires, poles, or prominent twigs. Classic shrike behaviour includes impaling prey on thorns or barbed wire ('larders'), used for storage and mating displays. Calls include clear whistles, harsh 'shak-shak', chatters and scolding notes. Pairs defend territories vigorously, especially in breeding season. Frequently patrols open fields for prey.",
+    "behaviour": "Bold and highly territorial bird, also known as the long-tailed shrike. Hunts from exposed perches such as wires, poles, or prominent twigs. Classic shrike behaviour includes impaling prey on thorns or barbed wire ('larders'), used for storage and mating displays. Calls include clear whistles, harsh 'shak-shak', chatters and scolding notes. Pairs defend territories vigorously, especially in breeding season. Frequently patrols open fields for prey.",
     "food": "Large insects, grasshoppers, beetles, caterpillars, lizards, small rodents, and occasionally small birds. Uses perch-to-ground sallying and ambush techniques.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/rufous-backed-shrike/main.webp",
+        "caption": "Standing tall: a rufous-backed shrike in an upright posture.",
+        "photographer": "JM Garg",
+        "license": "GNU Free Documentation License"
+      }
+    ]
   },
   {
     "id": "bright-capped-cisticola",
@@ -174,13 +195,20 @@
       "juvenile": "Buff and brown with streaked upperparts; lacks bright golden crown. Underparts warm buff with diffuse streaks. Appears softer-toned and more rounded.",
       "in_flight": "Short, fluttery flight above grass-tops. Breeding males rise briefly for display flights, hovering with buzzing calls; short tail makes the bird appear more compact."
     },
-    "behaviour": "Skulking but becomes conspicuous when singing. Males sing repetitive 'teewip' or buzzing notes from exposed grass stems. Performs display flights—spiralling upward then parachuting down while singing. Forages low within grasses, picking insects from stems. Builds elaborate sewn nests using grass and spider silk; dome-shaped with side entrance.",
+    "behaviour": "The bright-capped cisticola, also called the golden-headed cisticola, becomes conspicuous when singing. Males sing repetitive 'teewip' or buzzing notes from exposed grass stems. Performs display flights—spiralling upward then parachuting down while singing. Forages low within grasses, picking insects from stems. Builds elaborate sewn nests using grass and spider silk; dome-shaped with side entrance.",
     "food": "Small insects and larvae, spiders and other invertebrates gleaned from tall grass stems and leaves.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/bright-capped-cisticola/main.webp",
+        "caption": "The Cisticola exilis exilis.",
+        "photographer": "Savithri Singh",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ]
   },
   {
     "id": "jungle-babbler",
@@ -254,7 +282,20 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/purple-rumped-sunbird/main.webp",
+        "caption": "The male of the species, spotted in Goa.",
+        "photographer": "Prateik Kulkarni",
+        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+      },
+      {
+        "file": "assets/images/species/purple-rumped-sunbird/main2.webp",
+        "caption": "A female purple-rumped sunbird.",
+        "photographer": "JJM Garg",
+        "license": "GNU Free Documentation License"
+      }
+    ]
   },
   {
     "id": "jungle-myna",
@@ -1024,14 +1065,7 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": [
-      {
-        "file": "assets/images/species/blue-tailed-bee-eater/main.jpg",
-        "caption": "",
-        "photographer": "",
-        "license": ""
-      }
-    ]
+    "photos": []
   },
   {
     "id": "indian-roller",
@@ -1099,14 +1133,7 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": [
-      {
-        "file": "assets/images/species/rufous-woodpecker/main.jpg",
-        "caption": "",
-        "photographer": "",
-        "license": ""
-      }
-    ]
+    "photos": []
   },
   {
     "id": "white-cheeked-barbet",
@@ -1133,14 +1160,7 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": [
-      {
-        "file": "assets/images/species/white-cheeked-barbet/main.jpg",
-        "caption": "",
-        "photographer": "",
-        "license": ""
-      }
-    ]
+    "photos": []
   },
   {
     "id": "yellow-legged-buttonquail",
@@ -1167,14 +1187,7 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": [
-      {
-        "file": "assets/images/species/yellow-legged-buttonquail/main.jpg",
-        "caption": "",
-        "photographer": "",
-        "license": ""
-      }
-    ]
+    "photos": []
   },
   {
     "id": "nilgiri-flycatcher",
@@ -3627,13 +3640,6 @@
       "iucn_code": "NT",
       "label": "Near Threatened"
     },
-    "photos": [
-      {
-        "file": "assets/images/species/malabar-pied-hornbill/main.jpg",
-        "caption": "Adult perched near fruiting fig tree, Western Ghats foothills",
-        "photographer": "",
-        "license": ""
-      }
-    ]
+    "photos": []
   }
 ]
