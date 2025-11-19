@@ -1066,25 +1066,26 @@
     "order_id": "coraciiformes",
     "family_id": "meropidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident/migrant",
+    "status_in_sahyadris": "Winter Visitor / Passage Migrant",
     "is_endemic": false,
-    "habitat": "Open areas, near water, farmlands, riverbeds.",
+    "habitat": "Open country near large waterbodies, estuaries, river banks, wetlands, and paddy fields. Unlike the Green Bee-eater, it is strongly associated with water and rarely found in dry scrub far from aquatic sources.",
     "size": {
       "length_cm": [28, 30]
     },
     "description": {
-      "adult_male": "Bright green body, reddish throat, prominent black line through the eye, long central tail feathers.",
-      "adult_female": "Bright green body, reddish throat, prominent black line through the eye, long central tail feathers.",
-      "juvenile": "",
-      "in_flight": ""
+      "adult_male": "Larger and sleeker than the Green Bee-eater. Upperparts are green with a distinct golden-bronze sheen. Face has a bold black mask bordered by fine blue lines above and below. Throat is rich chestnut-rufous, shading into a yellowish-green breast. Rump and tail are bright azure-blue. Central tail feathers are elongated into narrow 'pins' (streamers).",
+      "adult_female": "Visually similar to the male with identical plumage patterns; however, the central tail streamers are often shorter or sometimes absent depending on the moult stage.",
+      "juvenile": "Much duller than adults. The throat is pale fading to whitish-buff (lacking the rich chestnut). The plumage lacks the bronze sheen, appearing flatter green. Central tail streamers are absent, and the breast often shows faint scaly mottling.",
+      "in_flight": "Flight is graceful, buoyant, and agile, often involving long glides on flat triangular wings. The bright blue rump and tail contrast sharply with the green back, which is a key identification feature in flight. Gives a distinctive, rolling liquid call 'te-lew' or 'pruu-pruu' while flying."
     },
-    "behaviour": "Perches high, often wires, darts out to catch insects in flight. Forms large communal roosts.",
-    "food": "Bees, wasps, flying insects.",
+    "behaviour": "Highly gregarious. Perches on wires, exposed branches, or reeds near water, sallying out to snatch dragonflies and bees in mid-air. Returns to the perch to batter the prey against the branch to remove stingers before swallowing. Roosts communally in huge numbers (sometimes thousands) in mangroves, coconut groves, or tall trees near water, creating a deafening spectacle at dusk.",
+    "food": "Specializes in dragonflies, bees, and wasps; also takes butterflies and flying ants.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "They nest in colonies by excavating tunnels into sandy riverbanks or flat open ground, sometimes digging burrows up to 2 meters long."
   },
   {
     "id": "indian-roller",
@@ -1424,25 +1425,26 @@
     "order_id": "piciformes",
     "family_id": "picidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Moist deciduous and evergreen forests with tall, old trees.",
+    "habitat": "Mature moist deciduous and evergreen forests with tall, old trees. It is highly dependent on large, dying timber for nesting and foraging. Also seen in old plantations (coffee/cardamom) that retain massive shade trees.",
     "size": {
       "length_cm": [40, 48]
     },
     "description": {
-      "adult_male": "Very large, glossy black woodpecker with a clean white belly and prominent red crest/mustache stripe.",
-      "adult_female": "Similar, but red restricted to the hind-crown (no red mustache).",
-      "juvenile": "Duller black, less extensive red.",
-      "in_flight": ""
+      "adult_male": "The largest woodpecker in peninsular India. Glossy slate-black upperparts, throat, and breast, contrasting sharply with a clean white belly and white rump. Features a spectacular bright red crest covering the entire crown and a distinct red malar (mustache) stripe. Eyes are creamy-yellow.",
+      "adult_female": "Similar in size and plumage to the male, but the red is restricted to the nape (back of the head). The forecrown and malar area are black, lacking the mustache stripe.",
+      "juvenile": "Softer, sooty-black plumage rather than glossy. The crest is shorter and duller red. Throat often shows faint greyish or whitish streaking. Eyes are dark brown, lightening with age.",
+      "in_flight": "Flight is distinctively different from other woodpeckers: heavy, direct, and 'crow-like' with slow, deep wingbeats, rather than the bounding (undulating) flight of smaller species. The brilliant white rump and white underwing linings flash conspicuously against the black wings."
     },
-    "behaviour": "Drums loudly and powerfully on tall trees; solitary or in pairs, climbing trunks and large branches.",
-    "food": "Wood-boring larvae, ants, beetles.",
+    "behaviour": "Shy and wary, often retreating to the far side of a trunk when observed. Its presence is usually announced by a loud, ringing, single-note call 'kyuk' or a manic, laughing trill. Drums loudly and powerfully on resonant dead wood. Forages by scaling off large plates of bark to expose borers, often leaving piles of debris at the base of trees.",
+    "food": "Large wood-boring beetle larvae, ants (especially large Camponotus carpenter ants), termites, and other insects extracted from decaying heartwood.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "It has a specialized 'chisel-tipped' bill and shock-absorbent skull that allow it to hammer into hard hardwoods that smaller woodpeckers cannot penetrate."
   },
   {
     "id": "malabar-trogon",
@@ -1480,27 +1482,21 @@
     "order_id": "passeriformes",
     "family_id": "pittidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "migrant",
+    "status_in_sahyadris": "Winter Visitor / Passage Migrant",
     "is_endemic": false,
-
-    "habitat": "Dense leaf litter, shady undergrowth, bamboo brakes, and damp forest floors of evergreen, semi-evergreen, and deciduous forests. Frequently encountered in monsoon and winter migration.",
-
+    "habitat": "Thick undergrowth, dry and moist deciduous forests, scrub, and bamboo groves. In the Sahyadris, it is often found in shady ravines, coffee plantations, and damp nullahs during migration.",
     "size": { "length_cm": [18, 20] },
-
     "description": {
-      "adult_male": "Brilliantly multicoloured: rich green upperparts, cobalt-blue rump, buff crown with a central black stripe, broad black eye-stripe, pale buff supercilium, bright sandy underparts, and vivid red vent and undertail. Wings show blue, green, and black panels.",
-      "adult_female": "Similar to male with slightly duller tones; sexes nearly identical in the field.",
-      "juvenile": "Much duller brown above with faint buff scaling; reduced blue and green; red vent far less vivid.",
-      "in_flight": "Short, explosive, low flight showing a conspicuous white wing patch and bright red undertail as it darts into cover."
+      "adult_male": "A stubby, tailless bird famous as the 'Navrang' (Nine Colours). Features a bold black stripe through the eye, a white throat, and a buff crown with a central black stripe. Upperparts are emerald green with a shining cobalt-blue shoulder patch. Underparts are warm buff, transitioning to a vivid crimson vent and undertail coverts.",
+      "adult_female": "Identical to the male in plumage; sexes cannot be distinguished in the field.",
+      "juvenile": "Significantly duller. The crown is plain brown without the distinct black stripe; upperparts are olive-brown rather than green; the red vent is washed out or pinkish.",
+      "in_flight": "Transforms from a ground-bird into a flash of colour. It shows large, rounded wings with a striking white patch (primary coverts) that contrasts brilliantly with the black and blue wings. The tiny tail is barely visible."
     },
-
-    "behaviour": "A shy, largely terrestrial migrant. Hops through leaf litter with a distinctive, springy gait, often pausing upright. Gives loud, ringing 'wheet-tee-wheet-tee' or 'wett-t-wett-t-tee' calls during breeding (central India), but usually silent in winter quarters. Often detected by rustling leaves before being seen. Forages alone, probing soil for worms and grubs.",
-
-    "food": "Insects, beetles, ants, worms, snails, and other soil invertebrates.",
-
+    "behaviour": "Strictly terrestrial during the day, hopping on long pink legs to turn over dead leaves for prey. It has a distinct 'stop-start' motion, often flicking its short tail. While vocal breeding in the north, it is largely silent in the Sahyadris, though it may give a harsh 'skeer' alarm call. Roosts high in trees at night, unusual for a ground feeder.",
+    "food": "Earthworms, termites, ants, beetles, and snails. It often uses a stone as an 'anvil' to crack open snail shells.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-
-    "photos": []
+    "photos": [],
+    "did_you_know": "Its Hindi name 'Navrang' means 'Nine Colours,' referring to the green, blue, black, white, buff, ochre, brown, pink, and red in its plumage."
   },
   {
     "id": "grey-headed-bulbul",
@@ -1509,27 +1505,21 @@
     "order_id": "passeriformes",
     "family_id": "pycnonotidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-
-    "habitat": "Wet evergreen and semi-evergreen forests of the Western Ghats, especially in dense mid-storey thickets, vine tangles, bamboo brakes, and riparian vegetation along shaded forest streams.",
-
+    "habitat": "Restricted to the Western Ghats (from Goa southwards). Prefers dense evergreen forests, shola edges, and swampy areas dominated by Ochlandra reeds (bamboo). Rarely comes out into open clearings.",
     "size": { "length_cm": [14, 16] },
-
     "description": {
-      "adult_male": "Uniform dove-grey head and throat contrasting with bright olive-yellow upperparts and yellowish-green underparts. Undertail coverts pale yellow; eyes reddish-brown. Bill dark and short.",
-      "adult_female": "Similar to male; sexes indistinguishable in the field.",
-      "juvenile": "Browner head and less clean grey tones; body dull olive with weaker yellow tones; iris paler.",
-      "in_flight": "Weak, fluttery flight across short distances within dense cover; yellowish body and grey head visible as it darts between shrubs."
+      "adult_male": "Distinctive separation of colours: a clean, slate-grey head and throat that contrasts sharply with an olive-green back and wings. The rump is brighter yellow-green. Underparts are yellowish. A key field mark is the pale white or bluish-white iris, which gives it a 'staring' expression, unlike the dark eyes of most bulbuls. Bill is greenish-grey.",
+      "adult_female": "Similar to male but often slightly duller; the head may appear a darker, sootier grey rather than slate.",
+      "juvenile": "Head is olive-brown (not grey); the iris is dark (not pale). The distinct contrast between head and body is missing.",
+      "in_flight": "Flight is weak and dipping; usually seen making short dashes across gaps in the canopy. The tail appears squared-off and greyish at the tip."
     },
-
-    "behaviour": "A shy, skulking bulbul that stays inside dense foliage. Moves quietly through mid-storey and riparian thickets, often foraging in pairs or small, loose groups. Voice consists of thin, high-pitched whistles and soft chatters. Often detected by movement in vine tangles rather than by song.",
-
-    "food": "Fruits, berries, soft figs, and insects gleaned from foliage.",
-
+    "behaviour": "Much shyer than the Red-vented or Red-whiskered Bulbuls. It tends to forage in the mid-story to upper canopy, often solitary or in pairs. Its call is unique: a sharp, metallic single note 'chwang' or 'pink', and a fast, bubbling chatter. It plays a vital role in dispersing seeds of forest vines and figs.",
+    "food": "Frugivorous, feeding on small berries (Lantana, Ficus) and fruits; occasionally takes insects during the breeding season.",
     "conservation_status": { "iucn_code": "NT", "label": "Near Threatened" },
-
-    "photos": []
+    "photos": [],
+    "did_you_know": "It is one of the few bulbuls that nests primarily in bamboo reeds or cane brakes deep inside the rainforest."
   },
   {
     "id": "white-throated-fantail",
@@ -1538,27 +1528,21 @@
     "order_id": "passeriformes",
     "family_id": "rhipiduridae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-
-    "habitat": "Forest undergrowth, bamboo thickets, tangled bushes, shaded ravines, and wooded gardens and plantations.",
-
+    "habitat": "Shady undergrowth of forests, ravines, nullahs, bamboo thickets, and wooded gardens. Loves vicinity to streams. Found from foothills up to the highest peaks of the Ghats.",
     "size": { "length_cm": [17, 19] },
-
     "description": {
-      "adult_male": "Dark grey to blackish upperparts, prominent white throat and breast patch, bold white supercilium, and long black tail with clean white outer edges. Underparts greyish-white.",
-      "adult_female": "Similar to male; sexes not reliably separable in the field.",
-      "juvenile": "Warmer brown overall with faint buff streaks and reduced throat white; tail pattern duller.",
-      "in_flight": "Erratic, fluttery flight with constant tail-fanning and rapid changes of direction as it chases insects."
+      "adult_male": "Uniform sooty-black or deep slate-grey plumage that looks almost black in poor light. Features a crisp white throat band (like a bow tie) and narrow white eyebrows (supercilium). The tail is long, dark, and white-tipped; usually held fanned out. Wings are unmarked sooty-brown.",
+      "adult_female": "Plumage is identical to the male but can be slightly paler or browner in tone; indistinguishable in the field.",
+      "juvenile": "Upperparts and wing coverts are tipped with rufous-brown, giving a scaly appearance. The white throat patch is duller or buff-tinged.",
+      "in_flight": "Flight is acrobatic and erratic. It performs loops and sudden turns to hawk insects. The tail remains fanned during flight, showing the white tips clearly."
     },
-
-    "behaviour": "Hyperactive and conspicuous. Fans and closes its tail repeatedly into a semi-circular 'fantail' while hopping through undergrowth. Often follows people or animals, catching insects disturbed by them. Gives sharp 'chee-ree' calls and soft chattering notes. Actively joins mixed-species flocks.",
-
-    "food": "Insects, spiders, and small arthropods, caught by sallying and gleaning.",
-
+    "behaviour": "Restless and confiding; often allows close approach. It 'dances' through the foliage, constantly pirouetting 180 degrees while fanning and drooping its wings and tail to flush hiding insects. Vocalizes frequently with a sweet, descending scale of 3-4 whistled notes ('tri-rri-rri'), which is a characteristic sound of the Western Ghats forests.",
+    "food": "Small flying insects (flies, gnats, mosquitoes) caught on the wing; also gleans spiders from leaves.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-
-    "photos": []
+    "photos": [],
+    "did_you_know": "It builds a remarkably neat, cup-shaped nest plastered with cobwebs that often has a 'tail' of trailing grass, making it look like a wine glass."
   },
   {
     "id": "indian-grey-hornbill",
@@ -1567,27 +1551,21 @@
     "order_id": "bucerotiformes",
     "family_id": "bucerotidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-
-    "habitat": "Dry and moist deciduous forests, wooded groves, large roadside trees, orchards, and urban parks with mature fig and neem trees.",
-
-    "size": { "length_cm": [45, 61] },
-
+    "habitat": "Dry and moist deciduous forests, groves, and scrub lands. It is remarkably adaptable and is the most common hornbill found in urban gardens, avenue trees (especially Banyan and Peepal), and parks in cities like Pune and Mumbai.",
+    "size": { "length_cm": [45, 50] },
     "description": {
-      "adult_male": "Pale greyish-brown body, darker flight feathers, long tail with white tips, and a large dark bill topped with a blackish casque. Face and throat grey-white; eyes reddish with dark orbital skin.",
-      "adult_female": "Similar to male but with a smaller, duller casque and slightly smaller bill.",
-      "juvenile": "Lacks casque entirely; bill smaller and pale; body plumage softer grey.",
-      "in_flight": "Powerful wingbeats with broad, rounded wings; shows white-tipped tail and pale-grey body. Glides between tall trees in long arcs."
+      "adult_male": "Overall greyish-brown plumage with a slightly paler grey head. The beak is dark grey/black, curved, and topped with a distinct, narrow, pointed casque (helmet) extending about halfway down the bill. The iris is reddish-brown to red. The long tail is grey with a broad black subterminal band and a white tip.",
+      "adult_female": "Very similar to the male in plumage but lacks the prominent pointed casque; the bill profile looks flatter. A key identification feature is the iris colour, which is dark brown (not red like the male).",
+      "juvenile": "Lacks the casque entirely; the bill is pale horn-coloured or yellowish at the base. Plumage is softer, fluffier, and often has a brownish wash. The iris is pale grey or dull brown.",
+      "in_flight": "Flight is labored and undulating: a series of rapid, noisy flaps followed by a long glide with wings held flat. The white trailing edge of the tail and the black band are very conspicuous in flight. The wings appear broad and rounded."
     },
-
-    "behaviour": "Social and vocal, often in small groups. Loud cackling or grating calls carry far. Arboreal, feeding mainly in canopy fruiting trees. Nests in sealed tree cavities, with the female walling herself inside until young are large. Frequently visits figs, banyan, and raintrees in urban areas.",
-
-    "food": "Fruits (particularly figs), insects, lizards, and small vertebrates.",
-
+    "behaviour": "Arboreal and social, usually moving in pairs or small noisy family parties. Their call is a high-pitched, squealing 'chee-eee' or 'kye-kye-kye' resembling a Black Kite's whistle but more frantic. They are important seed dispersers for Ficus trees. Unlike large forest hornbills, they are quite tolerant of human activity.",
+    "food": "Primarily frugivorous (figs, berries, neem fruits); also eats insects, small lizards, and occasionally nestlings of other birds.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-
-    "photos": []
+    "photos": [],
+    "did_you_know": "They are one of the few hornbill species that have successfully adapted to breeding in city avenue trees, often using cavities in Rain Trees and Gulmohars."
   },
   {
     "id": "red-spurfowl",
@@ -1654,26 +1632,19 @@
     "order_id": "passeriformes",
     "family_id": "leiothrichidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-
-    "habitat": "Evergreen and semi-evergreen forests of the Western Ghats, favouring dense undergrowth, tangled thickets, forest edges, hill slopes, and scrubby, moist secondary growth. Often near shola edges and bamboo-rich gullies.",
-
+    "habitat": "Restricted to the Western Ghats. Favours dense, damp undergrowth, particularly thickets of bamboo, cane, and tall grass along forest edges and ravines. Unlike the Jungle Babbler, it avoids human habitation and open gardens.",
     "size": { "length_cm": [24, 25] },
-
     "description": {
-      "adult_male": "Rich, warm rufous-brown overall with an unstreaked rufous cap and mantle. Underparts slightly paler rufous; throat often buffish or pale rufous. Tail long and rufous with rounded tip. Eyes pale yellowish-white, creating a striking expression; bill dark horn-coloured.",
-      "adult_female": "Similar to male; sexes cannot be reliably separated in the field.",
-      "juvenile": "Duller and browner with less saturated rufous tones; iris darker; plumage softer and more loosely textured.",
-      "in_flight": "Weak, low, fluttery flight across short gaps; long rufous tail is the most visible feature as the bird drops quickly back into cover."
+      "adult_male": "A large, dark, sleek babbler. The body is a rich, saturated rufous-brown (much darker and warmer than the Jungle Babbler). Key identification features are the greyish forehead which blends into the brown cap, and the bill, which is dark above with a distinct yellow lower mandible. The iris is pale creamy-white or yellow, creating a fierce expression. Legs are yellowish.",
+      "adult_female": "Identical to the male in plumage and size.",
+      "juvenile": "Plumage is softer and fluffier with a duller, more olive-brown tone. The iris is dark brown or grey, lightening to yellow as the bird matures.",
+      "in_flight": "Flight is labored and weak, usually consisting of short, low flutters between thickets. The long, graduated rufous tail appears heavy and loose in flight."
     },
-
-    "behaviour": "A highly social, noisy babbler species moving in cohesive parties of 5–15 birds. Constant chattering, 'chik-chik' scolds, rattles, and harsh notes while foraging through thick bushes, lianas, and low branches. Hops energetically through dense vegetation, rarely showing itself in the open. Strongly tied to moisture-rich evergreen slopes and stays close to cover. Groups often stay loosely connected by near-continuous vocal contact.",
-
-    "food": "Insects, caterpillars, beetles, and other arthropods, supplemented with berries and small fruits taken from shrubs and forest-edge vegetation.",
-
+    "behaviour": "Skulking and shy compared to other 'Seven Sisters'. Moves in noisy parties of 6–12 birds through the base of dense vegetation, rarely climbing high. Vocalizations include a musical, tinkling 'tring-tring' call (quite different from the harsh nasal notes of other babblers) and a rapid chattering alarm. They are difficult to observe clearly as they stick to deep cover.",
+    "food": "Insects, larvae, berries (especially Lantana), and nectar from flowering trees like Erythrina.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-
     "photos": [
       {
         "file": "assets/images/species/rufous-babbler/main.webp",
@@ -1681,7 +1652,8 @@
         "photographer": "Swardeepak",
         "license": "Creative Commons Attribution-Share Alike 4.0 International"
       }
-    ]
+    ],
+    "did_you_know": "Despite being a babbler, its call has a surprisingly musical, metallic quality, often described as sounding like a small silver bell."
   },
   {
     "id": "common-kingfisher",
@@ -1690,27 +1662,21 @@
     "order_id": "coraciiformes",
     "family_id": "alcedinidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-
-    "habitat": "Clean, still or slow-moving freshwater habitats including forest streams, shaded rivulets, backwaters, ponds, wetlands, and lake edges with overhanging vegetation. Avoids large, fast-flowing rivers.",
-
-    "size": { "length_cm": [16, 17] },
-
+    "habitat": "Open freshwater bodies: streams, rivers, village tanks, lakes, and mangrove edges. Crucially, it prefers open, sunlit water, whereas the similar Blue-eared Kingfisher is restricted to dense, shaded forest streams.",
+    "size": { "length_cm": [16, 18] },
     "description": {
-      "adult_male": "Compact, brightly coloured kingfisher with electric blue crown and mantle, turquoise back and rump, and rich rufous-orange underparts. Bill long, straight, and entirely black. White bib on throat and a small white neck patch. Legs bright red.",
-      "adult_female": "Similar to male but with a distinctly orange to red lower mandible tipped black. Underparts slightly duller in some individuals.",
-      "juvenile": "Duller blue above with greener tones; legs dark; bill mostly dark; underparts paler rufous. A faint greyish breast band often present. Feathers on crown appear slightly scaled due to pale edges.",
-      "in_flight": "Very fast, direct, low flight close to the water surface. Upperparts flash bright blue; wings appear short and rapidly beating."
+      "adult_male": "A small, brilliant blue-and-orange bird. Upperparts are sparkling electric blue (appearing turquoise or greenish depending on light). Underparts are rich chestnut-orange. **Key ID Feature:** It has a distinct orange patch over the ear-coverts (cheeks), which distinguishes it from the deep-forest Blue-eared Kingfisher (which has blue ear-coverts). Bill is entirely black.",
+      "adult_female": "Similar to the male, but the lower mandible is reddish-orange with a black tip (often described as appearing like 'lipstick'), whereas the male's bill is all black.",
+      "juvenile": "Duller overall; the blue upperparts are greener and less glossy. The breast feathers may show faint greyish scalloping or duskiness. The bill is shorter and has a small white tip.",
+      "in_flight": "Flies fast, low, and direct over water like a blue bullet. The brilliant cobalt-blue back stripe is extremely conspicuous in flight, often the first thing noticed."
     },
-
-    "behaviour": "Solitary and strongly territorial around favoured fishing stretches. Hunts from low perches such as reeds, branches, or rocks, making sudden headfirst dives into the water to seize small fish. Frequently bobs head before diving. Often emits sharp, high-pitched whistles while flying along waterways. Nesting occurs in tunnels excavated into earthen banks.",
-
-    "food": "Small freshwater fish, aquatic insects, tadpoles, and occasionally small crustaceans.",
-
+    "behaviour": "Solitary and highly territorial. Perches motionless on overhanging branches or rocks, bobbing its head before plunging into water to catch fish. It beats the prey against the perch to kill it and align the spines before swallowing. Vocalizes with a sharp, piercing 'cheeee' whistle, often given while flying.",
+    "food": "Small fish (minnows, sticklebacks), aquatic insects, dragonfly larvae, and tadpoles.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-
-    "photos": []
+    "photos": [],
+    "did_you_know": "It has a transparent third eyelid (nictitating membrane) that covers the eye as it hits the water, acting like built-in swimming goggles."
   },
   {
     "id": "chestnut-headed-bee-eater",
@@ -1746,25 +1712,21 @@
     "order_id": "passeriformes",
     "family_id": "sittidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Forests and groves, specializing on the trunks and branches of trees.",
-    "size": {
-      "length_cm": [12, 13]
-    },
+    "habitat": "Moist deciduous and evergreen forests, coffee plantations, and old wooded groves. It prefers mossy trunks and high canopy branches.",
+    "size": { "length_cm": [10, 12] },
     "description": {
-      "adult_male": "Sleek blue-grey upperparts, purple throat/breast, bold red bill, and a black forehead patch (velvet).",
-      "adult_female": "Similar to male, but lacks the black facial stripe.",
-      "juvenile": "Duller, paler colours.",
-      "in_flight": ""
+      "adult_male": "A vibrant, active bird. Upperparts are violet-blue; underparts are lilac-buff shading to whitish on the throat. The bill is velvety-red. A distinct black patch on the forehead extends into a black stripe over the eye (supercilium). The iris is bright yellow.",
+      "adult_female": "Similar to the male in the violet-blue upperparts and red bill, but lacks the black stripe behind the eye. The underparts are often slightly duller.",
+      "juvenile": "Duller overall; the bill is blackish or dark horn-coloured, turning red with age. The violet sheen on the back is less intense.",
+      "in_flight": "Flight is short, bounding, and undulating. The short tail and compact, neckless profile are distinctive in the air."
     },
-    "behaviour": "Unique among birds for climbing head-first down tree trunks; often part of mixed-species foraging flocks.",
-    "food": "Insects and spiders gleaned from bark crevices.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Hyperactive and acrobatic. Unique among birds for its ability to climb head-first down vertical tree trunks (unlike woodpeckers which only climb up). Constantly calls with a rapid 'sit-sit-sit'. Often joins mixed-species hunting flocks with tit-babblers and flycatchers.",
+    "food": "Insects, spiders, and larvae gleaned from bark crevices; also nuts and seeds.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "Nuthatches are the only birds that can walk head-first down a tree; their large hind toe provides the necessary grip."
   },
   {
     "id": "rufous-tree-pie",
@@ -1773,25 +1735,21 @@
     "order_id": "passeriformes",
     "family_id": "corvidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Open forest, scrub, cultivated land, gardens.",
-    "size": {
-      "length_cm": [46, 50]
-    },
+    "habitat": "Open dry and moist deciduous forest, scrub, agricultural edges, and urban gardens. Avoids deep, heavy evergreen rainforest.",
+    "size": { "length_cm": [46, 50] },
     "description": {
-      "adult_male": "Black head/breast, rufous-brown body, long grey tail with black tip, grey wings with black primaries.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller, brownish-grey head.",
-      "in_flight": "Undulating, clumsy flight; very long tail conspicuous."
+      "adult_male": "A long-tailed, orange-brown crow relative. The head and neck are sooty black; the body is rich rufous-orange. Wings show a striking contrast of silver-grey coverts and black flight feathers. The tail is extremely long, graduated, and grey with a broad black tip.",
+      "adult_female": "Identical to the male; sexes cannot be distinguished in the field.",
+      "juvenile": "The head is brown rather than black; the tail is shorter; the rufous body is duller and fluffier. The bill is pinkish-horn rather than black.",
+      "in_flight": "Flight is dipping and undulating (wave-like). It alternates between flapping and gliding. The silver-grey wing panels and the long, trailing tail are unmistakable."
     },
-    "behaviour": "Loud, unmistakable 'bob-o-link' call; omnivorous and inquisitive; often seen climbing trees.",
-    "food": "Fruits, seeds, insects, small reptiles, eggs, and nestlings.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Bold, inquisitive, and opportunistic. It has a loud, metallic, musical call often rendered as 'bob-o-link' or 'ko-tree'. It is a known nest predator, raiding the eggs of smaller birds. Frequently seen in association with deer in forests, sometimes riding them to pick off ticks.",
+    "food": "Omnivorous: fruits, nectar, insects, lizards, small mammals, eggs, and nestlings.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "Its scientific name 'Dendrocitta' literally means 'Tree Magpie'."
   },
   {
     "id": "white-bellied-minivet",
@@ -1800,25 +1758,21 @@
     "order_id": "passeriformes",
     "family_id": "campephagidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Dry scrub, thorn forest, and sparse woodland edges.",
-    "size": {
-      "length_cm": [14, 15]
-    },
+    "habitat": "Dry deciduous scrub, acacia thorn forests, and open arid country. In the Sahyadris, it is found on the drier eastern slopes and plateaus (rain-shadow regions), avoiding the wet western face.",
+    "size": { "length_cm": [14, 15] },
     "description": {
-      "adult_male": "Black head and upperparts, white belly, bright orange-red rump and wing patches.",
-      "adult_female": "Grey upperparts, yellow rump, black mask.",
-      "juvenile": "",
-      "in_flight": "Flies in small, active flocks, showing brilliant colour flashes."
+      "adult_male": "Glossy black head, chin, and upperparts. The breast is white, leading to a clean white belly (unlike other minivets which are yellow/orange). The rump and wing patches are brilliant flame-orange. The tail is black with white outer feathers.",
+      "adult_female": "Upperparts are grey-brown; the head is grey (no black hood). The rump is orange but paler than the male. Underparts are white.",
+      "juvenile": "Resembles the female but has heavy spotting or barring on the upperparts and breast, giving a scaly appearance.",
+      "in_flight": "Flight is somewhat erratic and bounding. The flock moves one by one or in small groups, flashing the orange rump and white wing-stripe."
     },
-    "behaviour": "Feeds high in the canopy in mixed flocks, moving constantly.",
-    "food": "Insects and caterpillars.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Gregarious, moving in small flocks through the canopy of acacia and thorn trees. Constantly calls with a soft, whistling 'twee-twee'. It often hovers briefly to pick insects off leaves.",
+    "food": "Small insects, caterpillars, and spiders.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "It is one of the few minivets where the male lacks any red or orange on the underparts, being entirely black-and-white below."
   },
   {
     "id": "ashy-drongo",
@@ -1827,25 +1781,21 @@
     "order_id": "passeriformes",
     "family_id": "dicruridae",
     "group_id": "passerines",
-    "status_in_sahyadris": "migrant/resident",
+    "status_in_sahyadris": "Winter Visitor / Resident",
     "is_endemic": false,
-    "habitat": "Open wooded country, gardens, deciduous forests.",
-    "size": {
-      "length_cm": [28, 30]
-    },
+    "habitat": "Tall deciduous and evergreen forests, forest edges, and well-wooded plantations. Unlike the Black Drongo, it prefers forest canopies over open agricultural fields.",
+    "size": { "length_cm": [28, 30] },
     "description": {
-      "adult_male": "Sleek, smoky grey drongo with a slightly forked tail; lacks the crest or 'rackets' of the Greater Racket-tailed Drongo.",
-      "adult_female": "Similar to male.",
-      "juvenile": "",
-      "in_flight": "Agile, acrobatic flyer."
+      "adult_male": "Slender, sleek, and glossy slate-grey (varying from pale to dark sooty grey depending on the subspecies). The tail is deeply forked. Key ID features are the **bright crimson-red iris** (adults) and the lack of a white rictal spot (which the Black Drongo has).",
+      "adult_female": "Similar to the male; sexes are indistinguishable in the field.",
+      "juvenile": "Brownish-grey, often with whitish scaling on the underparts and wings. The iris is dark brown, turning red as it matures.",
+      "in_flight": "Flight is extremely agile and acrobatic, often involving vertical dives and twists to catch insects. The deep fork of the long tail is clearly visible in silhouette."
     },
-    "behaviour": "Perches conspicuously on wires or high branches, sallying out to catch insects; excellent mimic of other bird calls.",
-    "food": "Insects and nectar.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Perches high on bare branches or canopy tops. It is an expert mimic, frequently copying the calls of shikras, orioles, and other forest birds. It is aggressive towards raptors and crows. Often seen flycatching from high perches in the late afternoon.",
+    "food": "Flying insects (moths, dragonflies, winged termites) and nectar from trees like Silk Cotton (Bombax) and Coral trees (Erythrina).",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "During winter, they often join mixed-species flocks and act as 'sentinels,' giving alarm calls that warn (and sometimes trick) other birds."
   },
   {
     "id": "green-imperial-pigeon",
@@ -1854,25 +1804,26 @@
     "order_id": "columbiformes",
     "family_id": "columbidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Dense evergreen and moist deciduous forests, especially in coastal and hill tracts.",
+    "habitat": "Lowland evergreen forests, coastal mangroves, and moist deciduous tracts. Unlike the Mountain Imperial Pigeon, it prefers foothills and coastal belts rather than high-altitude ranges.",
     "size": {
       "length_cm": [40, 47]
     },
     "description": {
-      "adult_male": "Large, heavy-bodied pigeon; brilliant metallic green back and wings, pale grey head and underparts, deep chestnut undertail coverts.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller green, less metallic sheen.",
-      "in_flight": "Heavy, powerful flight high above the canopy."
+      "adult_male": "A massive, heavy arboreal pigeon. The back, wings, and tail are brilliant metallic green with a bronze or coppery sheen. The head, neck, and underparts are delicate vinous-grey (pinkish-grey). Key identification feature: deep chestnut-maroon undertail coverts. Eyes are dark red; bill is blue-grey.",
+      "adult_female": "Identical to the male; sexes cannot be distinguished in the field.",
+      "juvenile": "Duller overall with less metallic gloss on the upperparts. The chestnut undertail is paler or rusty-brown.",
+      "in_flight": "Flight is powerful, fast, and direct. It flies high above the canopy with steady, deep wingbeats. The wings appear broad and rounded; the chestnut undertail is visible from below."
     },
-    "behaviour": "Strictly arboreal, feeding in the canopy; gives a deep, resonant 'hoom' call.",
-    "food": "Large fruits and berries, swallowed whole.",
+    "behaviour": "Strictly arboreal; almost never descends to the ground. It is highly frugivorous and swallows large fruits whole. Its call is a deep, resonant, booming 'wuck-wuck-wooooo' that carries far across the forest. Often seen sunning on bare top branches in the morning.",
+    "food": "Large forest fruits, specifically wild nutmeg (Myristica) and large figs.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "Its gizzard has specialized grinding plates to digest the pulp of wild nutmegs without damaging the seed, making it a vital disperser for nutmeg trees."
   },
   {
     "id": "blue-faced-malkoha",
@@ -1881,25 +1832,26 @@
     "order_id": "cuculiformes",
     "family_id": "cuculidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Dry scrub, thorn forest, and dense riparian vegetation.",
+    "habitat": "Scrub jungle, dry deciduous forest, thorny thickets, and Euphorbia-dominated rocky hills. Prefers drier habitats than the Sirkeer Malkoha.",
     "size": {
       "length_cm": [39, 41]
     },
     "description": {
-      "adult_male": "Long-tailed cuckoo; dark glossy green above, deep blue bare skin patch around the eye (face), prominent white tips to the tail feathers.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller, less glossy.",
-      "in_flight": "Heavy, gliding flight; often seen scrambling through branches."
+      "adult_male": "A slender, long-tailed cuckoo with slate-grey upperparts that have an oily greenish gloss. The most striking feature is the large patch of naked, warty bright blue skin around the eye. The tail is long, graduated, and broadly tipped with white. The bill is distinctively apple-green.",
+      "adult_female": "Similar to the male, but the iris color may differ (brown in female vs red in male in some descriptions, though hard to see in field).",
+      "juvenile": "Duller grey with a shorter tail and a smaller, paler blue eye-patch. The white tail tips are less distinct.",
+      "in_flight": "Reluctant flier. When forced, flight is weak and labored, consisting of a glide followed by a scramble into cover. The broad white tail tips are very prominent in flight."
     },
-    "behaviour": "Forages methodically for insects in foliage; rarely flies long distances.",
-    "food": "Large insects, caterpillars, and small vertebrates.",
+    "behaviour": "Skulks inside dense bushes, creeping through branches like a squirrel or lizard rather than flying. Unlike many cuckoos, it is not a brood parasite; it builds its own saucer-shaped nest in thorny bushes. Generally silent, but makes a low croaking 'kraa' sound.",
+    "food": "Large insects (mantises, grasshoppers), caterpillars, lizards, and sometimes small berries.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "The name 'Malkoha' is derived from the Sinhala word for 'flower-cuckoo'."
   },
   {
     "id": "spotted-owlet",
@@ -1908,25 +1860,26 @@
     "order_id": "strigiformes",
     "family_id": "strigidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Open woodland, cultivation, human settlements, ruins, and old trees.",
+    "habitat": "Extremely adaptable: open country, mango orchards, ancient ruins, agricultural fields, and urban settlements. Avoids dense, heavy forest.",
     "size": {
-      "length_cm": [20, 21]
+      "length_cm": [19, 21]
     },
     "description": {
-      "adult_male": "Small, stocky owl; grey-brown with heavy white spotting on the crown and back. Pale facial disc and large yellow eyes.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller, less distinct spotting.",
-      "in_flight": ""
+      "adult_male": "A small, stocky, earless owl. Upperparts are grey-brown, heavily spotted with white. Underparts are white with distinct brown barring. The facial disc is pale greyish-white, defined by dark brown eyebrows. Eyes are large and bright yellow, giving a staring expression.",
+      "adult_female": "Identical to the male in plumage; females are often slightly larger.",
+      "juvenile": "Head is barred rather than spotted; plumage is fluffier and softer with less distinct markings on the underparts.",
+      "in_flight": "Flight is deeply undulating (up-and-down) with rapid wingbeats interspersed with closing the wings. It is silent in flight. The broad, rounded wings and short tail create a compact silhouette."
     },
-    "behaviour": "Crepuscular and often diurnal; perches conspicuously; known for its familiar 'chiree-chiree-chiree' calls.",
-    "food": "Insects, small mammals, and small birds.",
+    "behaviour": "Crepuscular and nocturnal, but often active in late afternoon or on cloudy days. Roosts in hollows of ancient trees or building crevices, often in pairs or small family groups. Famous for its comic 'bobbing' head movements when observing intruders. Vocal and noisy, giving a harsh, screeching 'chirurr-chirurr-chirurr' followed by a cackle.",
+    "food": "Beetles, moths, grasshoppers, small rodents (mice), lizards, and small birds.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "They frequently hunt near streetlights in towns to catch insects attracted to the light."
   },
   {
     "id": "cattle-egret",
@@ -1935,25 +1888,26 @@
     "order_id": "pelecaniformes",
     "family_id": "ardeidae",
     "group_id": "waterbirds",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Grasslands, farmlands, damp fields, always near livestock.",
+    "habitat": "Predominantly terrestrial, unlike other egrets. Found in pastures, agricultural fields, grasslands, and garbage dumps. While it roosts near water, it feeds in dry fields, almost always in association with grazing livestock (cattle, buffalo) or tractors.",
     "size": {
       "length_cm": [48, 53]
     },
     "description": {
-      "adult_male": "Stocky white egret. Breeding plumage: orange-buff plumes on the head, breast, and back; reddish bill/legs.",
-      "adult_female": "Similar, but less intense buff plumes in breeding season.",
-      "juvenile": "Entirely white with black bill.",
-      "in_flight": "Flies with neck retracted."
+      "adult_male": "A small, stocky, short-necked heron. **Non-breeding:** Pure white plumage with a yellow bill and dull greyish-yellow legs. It has a distinctive 'heavy-chinned' or jowly look compared to the slender Little Egret. **Breeding:** Transformed by rich orange-buff plumes on the crown, breast, and mantle. The bill and legs may flush bright red or magenta for a brief period during courtship.",
+      "adult_female": "Identical to the male in plumage; breeding plumes may be slightly less voluminous but not reliably distinguishable in the field.",
+      "juvenile": "Pure white like the non-breeding adult, but the bill is typically blackish, gradually turning yellow as it matures. Legs are dark grey-black.",
+      "in_flight": "Flies with the neck retracted in a tight 'S' shape (typical of herons). The wings appear broad and rounded compared to the Little Egret. The wingbeats are steady and shallow."
     },
-    "behaviour": "Follows grazing cattle and buffalo to catch insects disturbed by their movement.",
-    "food": "Insects (especially grasshoppers), spiders, and small vertebrates.",
+    "behaviour": "Gregarious and bold. Famous for its commensal relationship with cattle and buffalo, walking near their hooves to catch insects flushed by the animals' movement. They sometimes perch on the backs of large mammals to pick off ticks. They roost communally in huge numbers in trees (heronries), often mixed with cormorants and Pond Herons.",
+    "food": "Primarily insects (grasshoppers, crickets, flies), but also opportunistic on frogs, lizards, and worms exposed by ploughing.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "They are known to execute a 'leapfrog' feeding maneuver where birds from the back of the flock fly to the front to get first access to fresh prey."
   },
   {
     "id": "black-winged-stilt",
@@ -1989,25 +1943,26 @@
     "order_id": "passeriformes",
     "family_id": "phylloscopidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "winter visitor",
+    "status_in_sahyadris": "Winter Visitor",
     "is_endemic": false,
-    "habitat": "Moist deciduous and evergreen forests, forest edges.",
+    "habitat": "Canopy and sub-canopy of moist deciduous and evergreen forests. It is strictly arboreal, preferring the tops of tall trees, and is rarely seen in low scrub.",
     "size": {
       "length_cm": [11, 12]
     },
     "description": {
-      "adult_male": "Small, greenish-yellow warbler with a distinct double pale wing-bar, a prominent pale supercilium (eyebrow), and a faint crown stripe.",
-      "adult_female": "Similar to male.",
-      "juvenile": "",
-      "in_flight": ""
+      "adult_male": "A medium-sized, bright olive-green warbler. **Key ID Feature:** The underparts are silky white, which contrasts sharply with the **pale lemon-yellow undertail coverts (vent)**. The head shows a long, pale yellow supercilium (eyebrow) and a faint, pale median crown stripe (often only visible at the back of the head). Wings show one distinct yellowish wing-bar (sometimes a second faint one).",
+      "adult_female": "Identical to the male in plumage and size.",
+      "juvenile": "Upperparts are a fresher, brighter green; underparts may have a slight yellowish wash throughout, making the contrast with the vent less sharp. The wing-bar is often bolder.",
+      "in_flight": "Flight is restless, flitting, and erratic. It often hovers or 'tumbles' briefly in the air while picking insects off leaves. The yellow vent can sometimes be seen from below during these maneuvers."
     },
-    "behaviour": "Active, restless, constantly gleaning insects from leaves and twigs in the middle and upper canopy.",
-    "food": "Small insects and larvae.",
+    "behaviour": "Energetic and constantly in motion. It joins mixed-species hunting flocks (often with minivets and flycatchers). It has a distinctive habit of sally-gleaning: flying out to snap an insect off a leaf without landing. Its call is a deep, husky, monosyllabic 'dweee' or 'tsip'.",
+    "food": "Small insects, larvae, spiders, and canopy-dwelling arthropods.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "The 'crown stripe' that gives it its name is often obscure and hard to see in the field; the yellow vent is a much more reliable identification mark."
   },
   {
     "id": "osprey",
@@ -2050,25 +2005,21 @@
     "order_id": "passeriformes",
     "family_id": "timaliidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
-    "is_endemic": false,
-    "habitat": "Dense undergrowth, thickets, and forest floor.",
-    "size": {
-      "length_cm": [21, 23]
-    },
+    "status_in_sahyadris": "Resident",
+    "is_endemic": true,
+    "habitat": "Dense undergrowth of moist deciduous and evergreen forests, bamboo brakes, and secondary scrub. It prefers steep, shaded ravines and is rarely seen in the open.",
+    "size": { "length_cm": [21, 23] },
     "description": {
-      "adult_male": "Brown upperparts, white throat, chestnut flanks, and a prominent, long, down-curved yellow bill (scimitar-like).",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller, shorter bill.",
-      "in_flight": ""
+      "adult_male": "A distinctively shaped babbler with a long, decurved (scimitar-shaped) yellow bill. Upperparts are dark olive-brown. A prominent white supercilium (eyebrow) contrasts with a broad black mask through the eye. The throat and breast are white, bordered by a black mustache stripe. Flanks are slatish-grey (unlike the chestnut flanks of the Sri Lankan species).",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": "Upperparts are warmer, rusty-brown; the white throat is duller; the black mask is less distinct, and the bill is shorter and paler.",
+      "in_flight": "Flight is weak, short, and labored, usually consisting of a fluttery glide across a forest path into dense cover. The rounded wings and long tail are noticeable."
     },
-    "behaviour": "Feeds on the ground or low in bushes; known for its loud, repetitive 'whoop-whoop' duet calls.",
-    "food": "Insects and grubs found in leaf litter.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Skulking and secretive. It forages on the ground, using its curved bill to probe deep into moss and leaf litter. Famous for its synchronized duetting: the male calls a fluty 'whoop-whoop', and the female instantly responds with 'kuku', often so quickly it sounds like a single bird calling.",
+    "food": "Insects, grubs, spiders, and berries.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "This species is endemic to peninsular India and was recently split from the Sri Lankan Scimitar Babbler based on plumage and vocal differences."
   },
   {
     "id": "orange-minivet",
@@ -2077,25 +2028,21 @@
     "order_id": "passeriformes",
     "family_id": "campephagidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Evergreen and moist deciduous forests, often high in the canopy.",
-    "size": {
-      "length_cm": [19, 21]
-    },
+    "habitat": "Canopy of evergreen and moist deciduous forests; also found in coffee/cardamom plantations with tall shade trees. Rarely descends to the ground.",
+    "size": { "length_cm": [19, 21] },
     "description": {
-      "adult_male": "Glossy black head and back, brilliant orange-red underparts, rump, and wing patches.",
-      "adult_female": "Yellow replaces the orange-red of the male; grey head/back.",
-      "juvenile": "",
-      "in_flight": "Flies in loose flocks, showing striking flashes of black and orange/yellow."
+      "adult_male": "A brilliant canopy bird. Head, mantle, and wings are glossy blue-black. The breast, belly, rump, and wing patches are a glowing, deep fiery orange (not the deep blood-red of the Himalayan Scarlet Minivet). The central tail feathers are black, while outer feathers are orange.",
+      "adult_female": "Very different from the male. The head and back are greenish-grey. The underparts, rump, and wing patches are bright yellow. The lores (area between eye and bill) are yellow.",
+      "juvenile": "Resembles the female but has scaly barring on the upperparts and whitish underparts with faint barring.",
+      "in_flight": "Flies in loose, follow-the-leader flocks above the canopy. The flashes of orange (males) and yellow (females) against the black wings are spectacular and unmistakable."
     },
-    "behaviour": "Feeds actively in the canopy, often in small groups, giving persistent whistling calls.",
-    "food": "Insects, spiders, and caterpillars.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Highly arboreal and active. It constantly flits among the leaves, gleaning insects or making short aerial sallies. It often leads mixed-species hunting flocks. The call is a melodic, sweeping whistle 'sweep-sweep' often given in flight.",
+    "food": "Caterpillars, crickets, beetles, and spiders; occasionally takes small berries.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "The Orange Minivet is the specific species found in the Western Ghats and Sri Lanka; it was formerly considered a subspecies of the Scarlet Minivet."
   },
   {
     "id": "white-bellied-treepie",
@@ -2104,25 +2051,21 @@
     "order_id": "passeriformes",
     "family_id": "corvidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-    "habitat": "Dense evergreen forests of the lower hills of the Western Ghats.",
-    "size": {
-      "length_cm": [45, 48]
-    },
+    "habitat": "Strictly confined to the wet evergreen and semi-evergreen forests of the Western Ghats, usually in the mid-to-upper canopy. Unlike the Rufous Treepie, it avoids open scrub and dry deciduous zones.",
+    "size": { "length_cm": [45, 48] },
     "description": {
-      "adult_male": "Black head, chestnut mantle, clean white belly, and grey rump; long black and white tail.",
-      "adult_female": "Similar to male.",
-      "juvenile": "",
-      "in_flight": ""
+      "adult_male": "More striking and contrasting than the Rufous Treepie. It has a black face and throat, a white nape (back of neck), and a chestnut back. The wings are black with a prominent white patch. The underparts are pure white (hence the name), and the two central tail feathers are long, black, and white-tipped.",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": "Duller; the black face is sootier, the white belly is washed with buff, and the chestnut back is paler.",
+      "in_flight": "Flight is dipping and buoyant. The pure white underparts and the black-and-white wing pattern create a flashing strobe effect as it flies through dark forest canopies."
     },
-    "behaviour": "Arboreal and inquisitive; moves through the canopy alone or in small parties; loud, varied calls.",
-    "food": "Insects, small reptiles, berries, and fruits.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Social and noisy, often moving in pairs or small family groups. It is a core member of 'bird waves' (mixed hunting flocks) often led by Racket-tailed Drongos. Its call is a loud, metallic, grating 'kt-kt-kt' followed by a harsh 'charr', very different from the musical bob-o-link of the Rufous Treepie.",
+    "food": "Omnivorous: insects, fruits, small reptiles, eggs, and nestlings of other birds.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "This species is restricted entirely to the rainforests south of Goa and is an indicator of good quality evergreen forest."
   },
   {
     "id": "common-myna",
@@ -2131,25 +2074,21 @@
     "order_id": "passeriformes",
     "family_id": "sturnidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Urban areas, cultivation, open country, near human habitation.",
-    "size": {
-      "length_cm": [23, 26]
-    },
+    "habitat": "Found everywhere except dense forests. Thrives in urban areas, villages, cultivation, and roadsides. Closely associated with human habitation.",
+    "size": { "length_cm": [23, 26] },
     "description": {
-      "adult_male": "Dark brown body, black hood, bright yellow bill, legs, and bare skin around the eye. Prominent white wing patches visible in flight.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller, brownish hood.",
-      "in_flight": "White wing patch is a key identifier."
+      "adult_male": "Brown body with a black hood (head and neck). **Key ID Feature:** Distinct bare yellow skin patch behind the eye (the Jungle Myna lacks this). Bill and legs are bright yellow. In flight, large white patches on the primary feathers are very conspicuous.",
+      "adult_female": "Identical to the male; slightly smaller on average but not noticeable in the field.",
+      "juvenile": "Duller and browner; the black hood is sooty-brown and less defined. The yellow eye patch is pale or absent.",
+      "in_flight": "Direct, strong flight with rapid wingbeats. The large white wing patches and white-tipped tail corners are diagnostic in flight."
     },
-    "behaviour": "Bold, noisy, highly social; walks on the ground, often in pairs, feeding opportunistically.",
-    "food": "Insects, seeds, fruit, food scraps.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Bold, aggressive, and intelligent. Walks with a jaunty, strutting gait. Roosts communally in thousands in city trees, creating a deafening noise. It is highly vocal, with a range of croaks, squawks, and mimicked sounds. Often seen perched on cattle.",
+    "food": "Omnivorous scavenger: insects, fruits, seeds, kitchen scraps, small reptiles, and carrion.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "It pairs for life and vigorously defends its territory, often engaging in 'grappling matches' where two birds lock claws and roll on the ground."
   },
   {
     "id": "white-browed-wagtail",
@@ -2158,25 +2097,21 @@
     "order_id": "passeriformes",
     "family_id": "motacillidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Near water, large rivers, lakeshores, irrigation canals, village ponds.",
-    "size": {
-      "length_cm": [20, 21]
-    },
+    "habitat": "Almost exclusively associated with water bodies, including riverbanks, rocky streams, irrigation canals, village tanks, and even rooftop water tanks. Unlike other wagtails, it rarely ventures far into dry fields.",
+    "size": { "length_cm": [21, 23] },
     "description": {
-      "adult_male": "Large wagtail; black upperparts and breast, white belly. Distinctive white supercilium and long black-and-white tail.",
-      "adult_female": "Black areas are sooty-grey.",
-      "juvenile": "Duller, brownish-grey.",
-      "in_flight": ""
+      "adult_male": "The largest and most striking wagtail in the region. It has a bold piebald (black and white) pattern: a jet-black head, back, and broad breast band, contrasting with a pure white belly and a prominent, thick white supercilium (eyebrow). The wings show a massive white panel visible at rest.",
+      "adult_female": "Similar pattern to the male but the black parts are replaced by a dull, sooty grey. The contrast between the grey head and white eyebrow is less sharp.",
+      "juvenile": "Greyish-brown above with a dirty-white belly; the black breast patch is reduced to a smudge or faint crescent.",
+      "in_flight": "Flight is bounding and undulating. The large white wing stripe is very conspicuous in flight, flashing against the black wings. It often gives a loud, clear 3-4 note call while flying."
     },
-    "behaviour": "Walks briskly on the ground, constantly wagging its tail up and down; feeds close to water.",
-    "food": "Insects and aquatic invertebrates.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Usually seen in pairs (they are known to pair for life). It walks briskly on wet mud or rocks, constantly pumping its long tail up and down. It is quite tame and often sings a loud, melodious, and complex song from rooftops or wires, which is unusual for a wagtail.",
+    "food": "Small insects, beetles, dragonflies, and tiny snails picked from the water's edge or wet mud.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "It is one of the few birds that has adapted perfectly to human-made water structures, often nesting in crevices of dam walls, bridges, and under ferry jetties."
   },
   {
     "id": "wayanad-laughingthrush",
@@ -2185,25 +2120,21 @@
     "order_id": "passeriformes",
     "family_id": "leiothrichidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-    "habitat": "Dense undergrowth in subtropical and tropical moist forests, from plains to higher hills; forest edges and secondary growth.",
-    "size": {
-      "length_cm": [23, 25]
-    },
+    "habitat": "Dense, humid undergrowth of evergreen and semi-evergreen forests, often near forest edges or clearings with heavy secondary growth (like Lantana). Found mainly in the central and southern Western Ghats (Goa southwards).",
+    "size": { "length_cm": [23, 25] },
     "description": {
-      "adult_male": "Dark brownish-grey upperparts, broad black mask through eye, white throat. Grey breast, rufous belly and underside. Uniformly colored tail darker than back. Heavy bill with pale yellow lower mandible.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller than adults, less distinct mask.",
-      "in_flight": "Direct flight low through undergrowth, rarely flies in open."
+      "adult_male": "A dark, uncrested laughingthrush. Upperparts are slate-grey shading into olive-brown on the wings. Features a distinctive broad black mask through the eye and a pure white throat. The breast is grey, transitioning to a rich rufous belly and vent. **Key ID Feature:** The bill is heavy and black with a bright yellow lower mandible.",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": "Duller and browner; the black mask is sootier and less defined; the rufous belly is paler.",
+      "in_flight": "Flight is weak, labored, and floppy. It typically flutters low over bushes for short distances, showing rounded wings and a heavy tail, before crashing back into cover."
     },
-    "behaviour": "Extremely gregarious, moving in flocks of 6-40 birds. Skulks in undergrowth, feeding on ground by turning over leaves. Very vocal with loud shrill chattering, cackling and churring calls. Calls resemble those of Rufous Babbler in some instances.",
-    "food": "Insects, fallen seeds, berries; forages mainly on ground among leaf litter.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Extremely gregarious and noisy. Moves in tight flocks of 6–20 birds, rummaging through leaf litter like the Jungle Babbler but in denser cover. The flock maintains contact with a cacophony of squeals, cackles, and 'laughing' chatter. They are hard to see clearly as they stay constantly moving in deep shade.",
+    "food": "Insects, beetles, fallen fruits, and berries; feeds almost exclusively on the ground.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "It was formerly placed in the genus *Garrulax* but was moved to *Pterorhinus* based on genetic studies; its specific name honors the French naturalist Adolphe Delessert."
   },
   {
     "id": "nilgiri-thrush",
@@ -2212,25 +2143,21 @@
     "order_id": "passeriformes",
     "family_id": "turdidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-    "habitat": "Shola forests (isolated cloud forests at high altitudes) interspersed with montane grasslands; dense understory of moist evergreen forests above 1200m.",
-    "size": {
-      "length_cm": [21, 23]
-    },
+    "habitat": "Restricted to the damp, dark floor of Shola forests (high-altitude stunted evergreen forests) in the Western Ghats, typically above 1,200m. It rarely ventures into the open grasslands surrounding the sholas.",
+    "size": { "length_cm": [21, 23] },
     "description": {
-      "adult_male": "Scaled pattern throughout\u2014dark brown upperparts with buff spots forming scale-like appearance. Underparts buff-white with dark brown crescent-shaped markings creating scaled effect. Head and neck greyish with scaling.",
-      "adult_female": "Similar to male.",
-      "juvenile": "More heavily spotted than adults.",
-      "in_flight": "Distinctive black band on white underwings visible in flight, similar to Siberian Thrush."
+      "adult_male": "A heavily patterned, cryptic thrush. The entire body is golden-brown to olive-brown, intricately marked with black crescent-shaped scales. This 'scaly' pattern provides perfect camouflage against dead leaves. The bill is dark; legs are flesh-coloured. Unlike the Pied Thrush, it lacks large solid patches of color.",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": "Similar to the adult but the scaling is less defined and the upperparts appear more spotted.",
+      "in_flight": "Flight is strong and direct but usually short, diving back into cover. A key feature visible only in flight is the **broad black band** running across the white underwing, which is diagnostic for the *Zoothera* genus."
     },
-    "behaviour": "Secretive and shy, keeping to dark understory and forest floor. Often seen on rainy days along forest roads. Forages on ground, turning over leaf litter. Scaled plumage provides excellent camouflage.",
-    "food": "Opportunistic insectivore; feeds primarily on insects and other invertebrates from forest floor.",
-    "conservation_status": {
-      "iucn_code": "VU",
-      "label": "Vulnerable"
-    },
-    "photos": []
+    "behaviour": "Extremely secretive and shy. It forages quietly on the forest floor, turning over leaf litter to find prey. It is most often seen on misty, rainy days when it comes out to the edges of forest paths. Its song is a haunting, mechanical series of whistles given from a concealed perch, often at dawn.",
+    "food": "Earthworms, insects, snails, and fallen berries.",
+    "conservation_status": { "iucn_code": "VU", "label": "Vulnerable" },
+    "photos": [],
+    "did_you_know": "It was widely believed to be a subspecies of the widespread Scaly Thrush until recent DNA studies confirmed it is a distinct species that has been isolated in the 'sky islands' of the Ghats for millions of years."
   },
   {
     "id": "nilgiri-laughingthrush",
@@ -2239,29 +2166,19 @@
     "order_id": "passeriformes",
     "family_id": "leiothrichidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-
-    "habitat": "High-elevation shola forests and adjoining stunted montane thickets of the Nilgiri plateau and adjacent ranges. Stays close to dense undergrowth, rhododendron scrub, forest edges, and damp, mossy slopes typically above 1600–1800 m.",
-
+    "habitat": "Strictly confined to the high-altitude Shola forests and edges of the Nilgiri Biosphere Reserve (e.g., Ooty, Mukurthi, Upper Bhavani), usually above 1,600m. It loves dense Rhododendron thickets and Strobilanthes scrub.",
     "size": { "length_cm": [22, 24] },
-
     "description": {
-      "adult_male": "Distinctive laughingthrush with dark olive-brown upperparts, a bold black facial mask, and a clear white supercilium. Throat greyish; breast brownish-olive; flanks and lower belly washed rich rufous. Tail rounded and dark with slight chestnut tones. Bill dark; iris reddish-brown.",
-      "adult_female": "Similar to male; sexes not reliably separable in the field.",
-      "juvenile": "Duller overall with a browner face, weaker mask, and muted white supercilium. Underparts less rufous; feathering softer and slightly fluffier.",
-      "in_flight": "Weak, low, bounding flight over short distances; generally stays deep within cover. Rufous flanks may flash briefly as the bird drops back into vegetation."
+      "adult_male": "A handsome, dark olive-brown bird with a striking facial pattern. It has a black velvety mask (lores and ear-coverts) contrasted by a **prominent, brilliant white supercilium (eyebrow)**. The chin is white; the breast is greyish, and the belly and flanks are a rich rufous-chestnut. The bill is black.",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": "Duller overall; the white eyebrow is shorter and less distinct; the rufous belly is paler and washed out.",
+      "in_flight": "Flight is weak, floppy, and short-distance. It typically flutters between shola patches or across narrow streams, showing its rounded wings and rufous flanks."
     },
-
-    "behaviour": "A highly social and vocal species, moving in tight, noisy parties through dense thickets and along shola edges. Often forages on or near the ground, flicking leaf litter and inspecting low shrubs for insects and berries. Gives rapid chattering, scolding notes and loud laughing calls that carry far through the misty valleys. Strongly tied to high-altitude sholas and extremely localized in distribution.",
-
-    "food": "Insects, beetles, grubs, small invertebrates, berries, and occasionally nectar-rich flowers.",
-
-    "conservation_status": {
-      "iucn_code": "EN",
-      "label": "Endangered"
-    },
-
+    "behaviour": "Highly social and noisy. They move in tight parties of 6–15 birds, constantly calling to one another with a series of high-pitched squeals, cackles, and 'laughing' notes ('pee-koko… pee-koko'). They are inquisitive and will often approach humans standing quietly near shola edges.",
+    "food": "Wild raspberry (Rubus), hill guava (Rhodomyrtus), insects, and nectar from Lobelia and Rhododendron flowers.",
+    "conservation_status": { "iucn_code": "EN", "label": "Endangered" },
     "photos": [
       {
         "file": "assets/images/species/nilgiri-laughingthrush/main.webp",
@@ -2269,7 +2186,8 @@
         "photographer": "Sidharth Srinivasan",
         "license": "Creative Commons Attribution-Share Alike 4.0 International"
       }
-    ]
+    ],
+    "did_you_know": "The entire population of this species is restricted to a single mountain block (the Nilgiris), making it one of the most range-restricted birds in India."
   },
   {
     "id": "malabar-parakeet",
@@ -2440,25 +2358,26 @@
     "order_id": "passeriformes",
     "family_id": "alaudidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": true,
-    "habitat": "Scrub jungle, dry grasslands, stony hillsides in the rain-shadow areas.",
+    "habitat": "Scrub jungle, dry grasslands, stony hillsides, and open agricultural land. In the Sahyadris, it is strictly restricted to the drier 'rain-shadow' regions (eastern slopes) and lateritic plateaus, avoiding the wet evergreen crests.",
     "size": {
       "length_cm": [15, 17]
     },
     "description": {
-      "adult_male": "Stocky lark, streaky brown upperparts, rufous patch on the wings (visible in flight), and a distinct pale supercilium.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Duller, less clearly marked.",
-      "in_flight": "Aerial display flight is noisy and undulating."
+      "adult_male": "A stocky, broad-winged lark with a stout bill. The upperparts are warm brown, heavily streaked with black (heavier streaking than the Indian Bushlark). It has a distinct pale supercilium (eyebrow) and a dark cheek patch bordered by pale lines. The breast is spotted with triangular brown marks.",
+      "adult_female": "Identical to the male in plumage and size.",
+      "juvenile": "Upperparts have pale buff fringes, giving a scaly appearance; the breast spotting is more diffuse.",
+      "in_flight": "The most diagnostic feature is the large, bright rufous (copper-red) patch on the flight feathers, which contrasts sharply with the brown body. Flight is fluttering and weak; it rarely flies long distances."
     },
-    "behaviour": "Terrestrial; often detected by its song and display flight over breeding territory.",
-    "food": "Seeds and insects.",
+    "behaviour": "Terrestrial and secretive, often running through grass rather than flying. However, during the breeding season, the male becomes conspicuous, perching on top of bushes or wires to sing. The song is a dry, rattling trill, often delivered during a short, fluttering display flight where the bird rises 10-20 meters and parachutes down with wings held in a 'V'.",
+    "food": "Grass seeds, weed seeds, and ground-dwelling insects (beetles, ants).",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "It was historically considered a subspecies of the Rufous-winged Bushlark (*Mirafra assamica*) but was split as a distinct species due to its isolated range in southern India and Sri Lanka."
   },
   {
     "id": "sri-lanka-frogmouth",
@@ -2508,25 +2427,40 @@
     "order_id": "bucerotiformes",
     "family_id": "bucerotidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Tall, undisturbed evergreen forests, especially in high-density pockets of the Western Ghats.",
+    "habitat": "Restricted to old-growth, wet evergreen and moist deciduous forests with massive, tall trees. It requires vast stretches of undisturbed canopy and is highly sensitive to logging and habitat fragmentation.",
     "size": {
-      "length_cm": [95, 120]
+      "length_cm": [95, 120],
+      "wingspan_cm": [150, 160]
     },
     "description": {
-      "adult_male": "Massive bird; mostly black with white belly, white patches on wings/tail, and a huge, bright yellow and black casque/horn above the bill.",
-      "adult_female": "Similar, but the casque is smaller and the black marking is more extensive.",
-      "juvenile": "Small bill and casque.",
-      "in_flight": "Slow, powerful wingbeats producing a noticeable whooshing sound."
+      "adult_male": "A massive, pied bird. The body is mostly black, with a white neck, wing coverts, and lower belly. The tail is white with a broad black subterminal band. The massive bill is topped by a large, U-shaped casque (double-horned look) that is bright yellow-orange. **Key ID Feature:** The iris is deep crimson red. The yellow color on the bill and white feathers is actually cosmetic, stained by oil from the preen gland.",
+      "adult_female": "Smaller than the male. The casque is smaller and lacks the black rim at the back. **Diagnostic Feature:** The iris is pearly white, distinguishing her from the red-eyed male. The orbital skin around the eye is pinkish-red.",
+      "juvenile": "Bill is smaller and pale yellow; the casque is undeveloped or absent. The plumage is duller, and the eyes are pale blue-grey.",
+      "in_flight": "Flight is heavy, slow, and deliberate. It lacks underwing coverts, so the wind passing through the flight feathers produces a loud, rhythmic 'whooshing' or 'chugging' sound (like a steam engine) audible from over a kilometer away."
     },
-    "behaviour": "Arboreal and social; feeds primarily on fruit (especially figs); noisy, territorial call.",
-    "food": "Fruits (figs are favoured), small mammals, reptiles, insects.",
+    "behaviour": "Generally seen in pairs or small family groups. They are arboreal and roost in the highest canopy branches. During breeding, the female seals herself inside a large tree hollow with mud and feces, leaving only a narrow slit for the male to pass food. She remains incarcerated for 3-4 months until the chick is ready to fledge. The call is a loud, resonant 'kok' or a deep, guttural roar.",
+    "food": "Primarily lipid-rich fruits (figs, nutmegs, Polyalthia); also an opportunistic carnivore, taking reptiles, small mammals, and nestlings.",
     "conservation_status": {
       "iucn_code": "VU",
       "label": "Vulnerable"
     },
-    "photos": []
+    "photos": [
+      {
+        "file": "assets/images/species/great-hornbill/main.webp",
+        "caption": "Male: note the casque and the eye colour to distinguish from the females.",
+        "photographer": "Shantanu Kuweskar",
+        "license": " Creative Commons Attribution-Share Alike 4.0 International"
+      },
+      {
+        "file": "assets/images/species/great-hornbill/main2.webp",
+        "caption": "Female: no black rim on the casque (bony enlargement on the head); white eyes",
+        "photographer": "Shantanu Kuweskar",
+        "license": " Creative Commons Attribution-Share Alike 4.0 International"
+      }
+    ],
+    "did_you_know": "The vibrant yellow colour on its bill and casque is not a pigment but is painted on by the bird using oil from its uropygial (preen) gland."
   },
   {
     "id": "white-eyed-buzzard",
@@ -2616,25 +2550,21 @@
     "order_id": "passeriformes",
     "family_id": "emberizidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "winter visitor",
+    "status_in_sahyadris": "Winter Visitor",
     "is_endemic": false,
-    "habitat": "Open scrub, dry stony areas, cultivated lands, often near water.",
-    "size": {
-      "length_cm": [16, 17]
-    },
+    "habitat": "Open cultivation, particularly Jowar (sorghum) and Bajra fields, dry scrub, and thorny bushland. In the Sahyadris, it is common in the drier eastern plains and plateaus rather than the wet forests.",
+    "size": { "length_cm": [16, 17] },
     "description": {
-      "adult_male": "Bright chestnut-red head and breast, yellow underparts, and olive-green back.",
-      "adult_female": "Dull brownish-grey overall, yellow wash below, streaked back.",
-      "juvenile": "Resembles female, duller.",
-      "in_flight": ""
+      "adult_male": "Unmistakable. The head, throat, and breast are a rich, rusty chestnut-red. The belly and underparts are brilliant lemon-yellow. The upperparts are greenish-yellow with dark streaking. The brightness of the red head varies; non-breeding males may look duller or patchy.",
+      "adult_female": "Dull grey-brown above with faint streaking; underparts are whitish to pale buff, often with a yellow wash on the vent (undertail coverts). **ID Challenge:** Extremely difficult to distinguish from the female Black-headed Bunting; the Red-headed female typically lacks any rufous tone on the rump and is generally greyer.",
+      "juvenile": "Resembles the female but is heavily streaked on the breast and flanks. The yellow wash is usually absent or very faint; the plumage is sandy-grey.",
+      "in_flight": "Flight is bounding and undulating. The bright yellow underparts and greenish-yellow rump of the male are conspicuous in flight. Flocks fly in loose, bouncy waves, constantly twittering."
     },
-    "behaviour": "Highly gregarious in non-breeding season, feeding on the ground in large flocks, often near grain fields.",
-    "food": "Seeds and grains.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Highly gregarious winter visitor. They arrive in huge flocks (hundreds or thousands) that descend upon ripening grain fields, making them a significant agricultural pest in some areas. They roost communally in thorny acacia trees or sugarcane fields, creating a deafening chatter at dusk. The call is a liquid, metallic 'quit-quit' or 'zip-zip'.",
+    "food": "Primarily seeds and grains (sorghum, millet, rice, wheat); occasionally insects.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "In their wintering grounds in India, they form mixed flocks with Black-headed Buntings, often devastating standing crops shortly before harvest."
   },
   {
     "id": "western-crowned-warbler",
@@ -3203,25 +3133,21 @@
     "order_id": "passeriformes",
     "family_id": "pycnonotidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "The most widespread urban bulbul, found in gardens, farmlands, open woodlands, and scrub.",
-    "size": {
-      "length_cm": [19, 21]
-    },
+    "habitat": "Ubiquitous. Found in dry deciduous forests, open scrub, agricultural fields, and heavily urbanized areas. It is one of the few native birds that thrives in concrete jungles, provided there is some shrubbery.",
+    "size": { "length_cm": [19, 21] },
     "description": {
-      "adult_male": "Dark brown body with a scaly appearance on the breast, glossy black head and crest. Distinctive crimson-red patch visible under the tail (vent) and white rump.",
-      "adult_female": "Similar to male; sexes look alike.",
-      "juvenile": "Browner head and crest; vent patch dull orange to pink and overall plumage less glossy.",
-      "in_flight": "Undulating flight pattern; white rump and red vent flash clearly as the bird flies between perches."
+      "adult_male": "A dark, crested bird. The head and short crest are glossy black. The body is dark brown with a 'scaled' appearance on the breast and back (feathers edged with white). **Key ID Feature:** The rump is pure white, contrasting sharply with the black tail (which has white tips). The vent (undertail coverts) is a conspicuous crimson-red.",
+      "adult_female": "Identical to the male in plumage; slightly smaller.",
+      "juvenile": "Duller and browner; the head is not glossy black but sooty brown. The red vent is pale orange or pinkish, and the white rump is less distinct.",
+      "in_flight": "Flight is strong and direct with a distinct dipping motion. The white rump and white tail-tips are extremely visible in flight, flashing against the dark body."
     },
-    "behaviour": "Bold, noisy, and highly adaptable. Perches conspicuously on wires, bushes, roof edges and tree-tops, delivering varied bubbling notes, whistles and harsh calls. Aggressive around feeding sites and often chases other small birds.",
-    "food": "Fruits, berries, insects, flower buds and nectar; also takes kitchen scraps around habitation.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Bold, boisterous, and aggressive. It often chases away other birds (like sunbirds or white-eyes) from flowering trees. It has a wide repertoire of calls, most commonly a sharp, rhythmic 'kig-a-rig' or 'be-care-ful'. It roosts communally in large numbers in leafy trees or bamboo clumps.",
+    "food": "Highly omnivorous: fruits (Lantana, Banyan, Peepal), nectar, flower buds, insects, and kitchen waste.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "It is considered one of the world's 100 worst invasive species; introduced populations in places like Fiji and Hawaii have decimated local birdlife."
   },
   {
     "id": "common-tailorbird",
@@ -3230,25 +3156,21 @@
     "order_id": "passeriformes",
     "family_id": "cisticolidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Dense scrub, gardens, open country and thickets, often close to human habitation.",
-    "size": {
-      "length_cm": [10, 14]
-    },
+    "habitat": "Gardens, hedges, scrubland, and forest edges. It prefers low vegetation and is rarely seen high in the canopy. It adapts very well to urban gardens with broad-leaved plants (like crotons or hibiscus) suitable for nesting.",
+    "size": { "length_cm": [10, 14] },
     "description": {
-      "adult_male": "Bright olive-green back, buffy white underparts, rufous crown and nape, and notably long central tail feathers (pin-like), especially in breeding season. Slender bill and pale throat.",
-      "adult_female": "Similar to male but with shorter central tail feathers and slightly duller crown.",
-      "juvenile": "Duller green, crown less rufous, underparts more uniformly buff; tail shorter with less accentuated pins.",
-      "in_flight": "Rapid, fluttering flight low among shrubs, usually over short distances before diving back into cover."
+      "adult_male": "A tiny, energetic bird with a long, upright tail. Upperparts are bright olive-green; underparts are creamy-white. The forehead and crown are rufous (rust-coloured). **Breeding Male Feature:** The central two tail feathers become greatly elongated and pin-like, extending well beyond the rest of the tail.",
+      "adult_female": "Similar to the male (rufous crown, olive back) but lacks the elongated central tail feathers. The tail is shorter and rounded.",
+      "juvenile": "Duller overall; the rufous crown is faint or absent (head appears olive-grey). The underparts are washed with yellow.",
+      "in_flight": "Flight is weak and top-heavy due to the long tail. It makes short, jerky dashes between bushes, rarely flying in the open for long."
     },
-    "behaviour": "Famous for stitching leaves together with spider silk and plant fibres to form a cradle for its nest. Extremely vocal with a loud, repetitive \"toolip-toolip\" or \"cheeup\" call that rings out from bushes. Skulks in low vegetation, flicking tail and wings while foraging.",
-    "food": "Small insects and spiders gleaned from leaves, twigs and low undergrowth.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Restless and skulking. It hops among branches with its tail cocked high over its back (wren-like). It is disproportionately loud for its size, giving a loud, rapid, repetitive call 'chu-wee, chu-wee, chu-wee' or 'towit-towit-towit'. Pairs often countersing.",
+    "food": "Tiny insects, beetles, caterpillars, and nectar (from flowers like Bombax and Erythrina).",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "To build its nest, it pierces holes in the edges of a large leaf with its beak and sews them together using spider silk or plant fibres, creating a living cradle."
   },
   {
     "id": "eurasian-sparrowhawk",
@@ -3448,25 +3370,21 @@
     "order_id": "suliformes",
     "family_id": "phalacrocoracidae",
     "group_id": "waterbirds",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Lakes, reservoirs, marshes and slow-moving rivers with ample trees or snags.",
-    "size": {
-      "length_cm": [85, 97]
-    },
+    "habitat": "Deep freshwater lakes, large reservoirs (e.g., Bhigwan, Koyna), and slow-moving rivers. It requires open water for swimming and submerged trees or rocks for drying its wings.",
+    "size": { "length_cm": [85, 97] },
     "description": {
-      "adult_male": "Slender waterbird with snake-like neck, blackish body, silvery streaks on wings; pointed bill.",
-      "adult_female": "Palier neck, browner tones, less glossy.",
-      "juvenile": "Much paler brown with faint streaks; neck dull buff.",
-      "in_flight": "Long-necked silhouette with neck outstretched; wings broad and dark."
+      "adult_male": "A large, sleek waterbird with a very long, slender, kinked neck and a dagger-like bill. The body is glossy black; the wings and mantle feature long, silver-grey streaks (often looking like piano keys). **Key ID Feature:** A white stripe runs down the side of the neck, bordering the chin. The chin and throat are white.",
+      "adult_female": "Similar to the male, but the neck and breast are pale buff-brown rather than black, fading into a white belly. The silver wing streaks are less contrasting.",
+      "juvenile": "Much paler; the neck and underparts are dirty white or pale buff; the upperparts are brown without the distinct silver streaks.",
+      "in_flight": "In flight, it looks cross-shaped due to its long, thin neck and long, fanned tail. It often soars on thermals high above water, which cormorants rarely do."
     },
-    "behaviour": "Swims low in water with only neck exposed; dries wings with outstretched pose.",
-    "food": "Fish, captured by underwater pursuit.",
-    "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
-    },
-    "photos": []
+    "behaviour": "It swims with its body submerged, leaving only the long, sinuous neck above water, resembling a swimming snake. Unlike cormorants that grab fish, the Darter spears fish with its sharp bill. It has wettable plumage (lacking oil), so it must sit with wings spread wide to dry them after diving.",
+    "food": "Almost exclusively fish; occasionally snakes or aquatic invertebrates.",
+    "conservation_status": { "iucn_code": "NT", "label": "Near Threatened" },
+    "photos": [],
+    "did_you_know": "It has a special hinge in its neck vertebrae that allows it to snap its head forward with explosive speed to harpoon fish."
   },
   {
     "id": "small-minivet",
@@ -3475,25 +3393,21 @@
     "order_id": "passeriformes",
     "family_id": "campephagidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Dry deciduous forest, mixed scrub, orchards and open wooded areas.",
-    "size": {
-      "length_cm": [16, 17]
-    },
+    "habitat": "Dry deciduous forests, open thorn scrub, acacia groves, and mango orchards. In the Sahyadris, it is common on the dry eastern foothills and plateaus, generally avoiding the wet evergreen crests where the Orange Minivet lives.",
+    "size": { "length_cm": [15, 16] },
     "description": {
-      "adult_male": "Bright male with grey upperparts, vivid orange underparts and rump, black wings with orange patches.",
-      "adult_female": "Grey above, yellowish underparts, yellow wing panel.",
-      "juvenile": "Duller versions of female with faint yellow tones.",
-      "in_flight": "Quick, fluttery movements between canopy; flashes orange or yellow."
+      "adult_male": "A tiny, slender bird with a long tail. **Key ID Feature:** The head and back are dark grey (not glossy black like the Orange Minivet). The breast is a soft salmon-orange, deepening to fiery orange on the rump and outer tail feathers. The wings are black with an orange panel.",
+      "adult_female": "Much paler. The upperparts are pale grey. The underparts are off-white or washed with pale yellow (not bright yellow like female Orange Minivets). The rump is dull orange-yellow.",
+      "juvenile": "Resembles the female but has faint barring on the flanks and white tips to the wing coverts.",
+      "in_flight": "Flight is fluttery and hovering. It often hovers like a hummingbird at the tips of branches to pick off insects."
     },
-    "behaviour": "Moves in small flocks; active canopy feeder.",
-    "food": "Insects, caterpillars and other arthropods.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Active and restless. Moves in small flocks of 5–10 birds, constantly calling with a thin, high-pitched 'swee-swee'. They forage in the upper canopy of acacia and neem trees. They often join mixed hunting parties with woodshrikes and ioras.",
+    "food": "Small caterpillars, moths, and beetles.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "The male's breast color can vary from yellow-orange to deep scarlet depending on the subspecies; the Western Ghats race (*malabaricus*) is particularly vibrant."
   },
   {
     "id": "indian-nightjar",
@@ -3502,25 +3416,21 @@
     "order_id": "caprimulgiformes",
     "family_id": "caprimulgidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Open scrub, grassland, agricultural edges, dry forest and village outskirts.",
-    "size": {
-      "length_cm": [22, 25]
-    },
+    "habitat": "Open scrub, dry stony wastelands, fallow agricultural fields, and outskirts of villages. It avoids dense forests.",
+    "size": { "length_cm": [22, 24] },
     "description": {
-      "adult_male": "Cryptic brown-grey nightjar with mottled plumage, white throat patch and narrow white corners on tail.",
-      "adult_female": "Similar to male but lacks strong white tail corners.",
-      "juvenile": "Even more cryptically patterned with softer, duller markings.",
-      "in_flight": "Short, rounded wings; erratic fluttery flight at dusk."
+      "adult_male": "A cryptically patterned bird of grey, brown, and buff, mimicking dead leaves and bark. **Key ID Feature:** It has a distinct white patch on either side of the throat (moustachial stripe). In flight, males show expansive white patches near the wing tips and on the outer tail corners.",
+      "adult_female": "Similar camouflage to the male but lacks the large white patches on the wings and tail (these spots are buff or absent).",
+      "juvenile": "Plumage is softer and fluffier with less defined vermiculations; looks like a pale version of the female.",
+      "in_flight": "Silent, erratic, and moth-like flight. It often flies low over cattle or open ground, twisting and turning to catch moths."
     },
-    "behaviour": "Roosts on ground in leaf litter; active at dusk and night, making distinctive ‘chuk-chuk-chuk’ calls.",
-    "food": "Moths, beetles and flying insects.",
-    "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
-    },
-    "photos": []
+    "behaviour": "Strictly nocturnal/crepuscular. During the day, it roosts on the ground, relying on camouflage. It becomes active at dusk, often sitting on dirt roads where its eyes reflect red in headlights ('eye-shine'). Its call is diagnostic: a rhythmic 'chuk-chuk-chuk-chuk-r-r-r', sounding exactly like a stone skipping over ice.",
+    "food": "Moths, beetles, crickets, and winged termites caught on the wing.",
+    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
+    "photos": [],
+    "did_you_know": "Its generic name *Caprimulgus* means 'Goatsucker', based on an ancient myth that they suck milk from goats at night: in reality, they just hunt insects attracted to livestock."
   },
   {
     "id": "spotted-dove",
@@ -3556,25 +3466,26 @@
     "order_id": "passeriformes",
     "family_id": "motacillidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "winter_visitor",
+    "status_in_sahyadris": "Winter Visitor",
     "is_endemic": false,
-    "habitat": "Open woodland, grassy forest clearings, forest edges, hill-plateaus and semi-open scrubby slopes during winter.",
+    "habitat": "Open woodlands, grassy slopes with scattered acacia or scrub, and forest edges. Unlike the Olive-backed Pipit, it avoids deep shade and leaf litter, preferring open grassy patches with clear perches.",
     "size": {
       "length_cm": [15, 16]
     },
     "description": {
-      "adult_male": "Heavily streaked brown upperparts with bold dark spotting, buff underparts with strong breast streaking and variable flank streaking. Pale supercilium present but not striking. Underparts warmer buff compared to Olive-backed Pipit. Bill sturdy with pinkish base; legs pink.",
-      "adult_female": "Similar to male; slightly duller and with marginally finer streaking.",
-      "juvenile": "Warmer brown overall with blurred breast streaking and buff fringes.",
-      "in_flight": "Shows white-edged tail feathers; flight distinctly undulating with soft, explosive 'tzip' call."
+      "adult_male": "A neat, streaky brown pipit. Upperparts are warm brown with heavy blackish streaking (lacking the greenish-olive tone of the Olive-backed Pipit). The breast is buff with bold black streaks that continue down the flanks as finer lines. **Key ID Feature:** It has a short, curved hindclaw (unlike the long, straight spur of the Paddyfield Pipit), though this is hard to see. The facial pattern is relatively plain with a weak supercilium.",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": "Upperparts are more scaly; underparts are paler with less distinct streaking.",
+      "in_flight": "Flight is buoyant and undulating. It gives a characteristic, harsh, buzzing call 'teez' or 'speek', which is quite different from the thin whistle of the Olive-backed Pipit."
     },
-    "behaviour": "Typically feeds on the ground with steady, purposeful walking (not creeping). Frequently perches on exposed twigs, stumps or wires, especially when alarmed. After landing, often bobs tail and body together—a useful behavioural cue. In winter, usually solitary or scattered individuals on open slopes and forest fringes.",
-    "food": "Insects and small invertebrates; occasionally takes small seeds.",
+    "behaviour": "True to its name, it flushes into trees when disturbed, rather than flying far away over the ground like meadow pipits. It walks with a steady gait (not hopping). Before spring migration, males may be heard practicing their song from tree tops.",
+    "food": "Small insects, weevils, beetles, and grass seeds.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "During the breeding season (in the Himalayas/Europe), it performs a spectacular 'parachute' display flight, singing while descending with wings held up in a V-shape."
   },
   {
     "id": "olive-backed-pipit",
@@ -3583,29 +3494,24 @@
     "order_id": "passeriformes",
     "family_id": "motacillidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "winter_visitor",
+    "status_in_sahyadris": "Winter Visitor",
     "is_endemic": false,
-
-    "habitat": "Shaded forest gullies, moist evergreen and semi-evergreen forest edges, shola understorey, riparian thickets and damp, leaf-littered slopes. Strong preference for cool, shaded, mid- and high-elevation habitats in winter.",
-
-    "size": { "length_cm": [14, 15] },
-
-    "description": {
-      "adult_male": "Compact, neat pipit with olive-brown upperparts, strong pale yellowish supercilium, bold submoustachial stripe and clean white underparts. Breast shows narrow, crisp dark streaks that taper along the flanks. Two clear white wingbars. Legs pinkish to flesh-coloured.",
-      "adult_female": "Indistinguishable from male in the field; same plumage and structure.",
-      "juvenile": "Warmer brown above with buffier supercilium; breast streaking less clean and more blurred. Overall softer plumage texture.",
-      "in_flight": "Typically flies up to low branches or mid-storey perches when flushed. Flight is quick and direct with shallow wingbeats. Gives a thin, high-pitched 'tsee' or 'tseet' call, distinct from the sharper call of Tree Pipit."
+    "habitat": "Shade-loving. Found in the understorey of evergreen forests, sholas, coffee plantations, and damp wooded ravines. It loves leaf litter and is rarely seen in open sunny grasslands.",
+    "size": {
+      "length_cm": [15, 16]
     },
-
-    "behaviour": "More arboreal than most pipits; frequently uses low branches, logs and sloping trunks as perches. Forages quietly on the forest floor, walking steadily rather than hopping, lifting leaves and debris for insects. Flicks wings and tail when alert. Usually solitary or in loose, scattered individuals in shaded wintering sites, rarely mixing with open-habitat pipits.",
-
-    "food": "Insects, larvae, spiders and other small arthropods gleaned from leaf litter and low vegetation.",
-
+    "description": {
+      "adult_male": "Distinctly greenish-olive above (not warm brown like the Tree Pipit) with faint streaking on the back. **Key ID Features:** 1) A bold supercilium (eyebrow) that is buff in front of the eye and white behind it. 2) A diagnostic black-and-white spot pattern on the ear coverts (often appearing as two pale spots separated by a dark line). Underparts are whitish with bold black streaks on the breast and flanks.",
+      "adult_female": "Identical to the male in plumage.",
+      "juvenile": " Browner above with more spotting; less green.",
+      "in_flight": "Flushes silently or with a thin, high-pitched 'tseep' into the mid-canopy of nearby trees. It rarely flies long distances when disturbed."
+    },
+    "behaviour": "Highly arboreal for a pipit. When flushed, it flies up into a tree and walks along horizontal branches, pumping its tail slowly up and down. On the ground, it is incredibly camouflaged among dead leaves, often allowing a very close approach before exploding upwards.",
+    "food": "Insects, spiders, and seeds found in forest leaf litter.",
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-
     "photos": [
       {
         "file": "assets/images/species/olive-backed-pipit/main.webp",
@@ -3614,7 +3520,7 @@
         "license": ""
       }
     ],
-    "did_you_know": "It is one of the few pipits that regularly perches on trees—despite the Tree Pipit being named for trees."
+    "did_you_know": "It is famously difficult to spot until it moves; its olive-green back matches the shade of the forest floor perfectly."
   },
   {
     "id": "malabar-woodshrike",
@@ -3691,24 +3597,27 @@
     "order_id": "bucerotiformes",
     "family_id": "bucerotidae",
     "group_id": "non-passerines",
-    "status_in_sahyadris": "resident",
+    "status_in_sahyadris": "Resident",
     "is_endemic": false,
-    "habitat": "Moist and semi-evergreen forests, riparian forest, and tall deciduous forest along the Western Ghats foothills and lowlands; especially near rivers and large fruiting fig trees.",
-    "size": {
-      "length_cm": [65, 75]
-    },
+    "habitat": "Lowland riparian forests, riverine belts, and moist deciduous forests at the foothills. Unlike the Great Hornbill, it avoids high-altitude rainforests, preferring areas near waterbodies (e.g., Dandeli, Konkan streams).",
+    "size": { "length_cm": [65, 75] },
     "description": {
-      "adult_male": "Glossy black hornbill with large white belly patch and white tips to primaries and tail. Massive pale bill with high, blocky casque showing extensive black on the front. Facial skin around eye bluish. Long white tail with broad black subterminal band.",
-      "adult_female": "Similar but casque smaller and less projecting; bill proportionately slimmer with reduced black on the casque front.",
-      "juvenile": "Duller brownish-black, bill smaller with minimal casque; underparts less sharply demarcated.",
-      "in_flight": "Heavy, undulating flight with powerful wingbeats that produce loud whooshing sounds. White primaries and tail tips flash conspicuously."
+      "adult_male": "A large, pied hornbill. Plumage is glossy black with a white belly, white throat, and white trailing edge to the wings. The massive yellow-and-black casque is shaped like a high, single-bladed axe ('axe-blade' shape), with a large black patch on the front. **Key ID Feature:** The outer tail feathers are pure white (not black-tipped), while the central pair is black. The bare skin around the eye is blue-black.",
+      "adult_female": "Similar to the male but smaller. **Diagnostic Feature:** The bare skin around the eye is white or pinkish-flesh coloured (unlike the black skin of the male). The bill and casque are slightly smaller.",
+      "juvenile": "Bill is small and pale yellow; the casque is undeveloped or just a small ridge. The eye patch is pale.",
+      "in_flight": "Flight is labored and heavy, with a few flaps followed by a glide. The all-white outer tail feathers and the broad white trailing edge of the wings create a striking pattern. The noise of the wings is loud but lacks the heavy 'chugging' sound of the Great Hornbill."
     },
-    "behaviour": "Often in pairs or family groups; may join mixed-frugivore gatherings at giant fig trees. Strongly frugivorous but takes insects, small reptiles and occasionally eggs. Nesting involves female sealing herself inside a hollow tree with mud and pulp; male feeds her through a slit. Highly dependent on mature forest with large cavity-bearing trees. One of the most conspicuous large birds of lowland Western Ghats.",
-    "food": "Figs and other large fruits dominate diet; also insects, lizards, small mammals and occasional nestlings.",
-    "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
-    },
-    "photos": []
+    "behaviour": "Noisy and gregarious. Usually found in pairs or small noisy flocks that congregate at fruiting trees (especially Ficus and Strychnos). Their call is a raucous, shrill, cackling 'kak-kak-kak-kak' that rises in pitch. They are famously fond of riverine habitats and often fly across water channels in the evening to roost.",
+    "food": "Predominantly frugivorous (figs, drupes); also takes small fish (from drying pools), lizards, and large insects.",
+    "conservation_status": { "iucn_code": "NT", "label": "Near Threatened" },
+    "photos": [
+      {
+        "file": "assets/images/species/malabar-pied-hornbill/main.webp",
+        "caption": "Dustbathing times...",
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:MalabarPiedHornbill_Dustbath.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Ajit Hota</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+      }
+    ],
+    "did_you_know": "It is popularly known as the 'River Hornbill' due to its strong association with watercourses and riparian vegetation. The Malabar Pied Hornbill also performs a signature 'dust bath' to get rid of parasites and excess oil from its feathers."
   }
 ]
