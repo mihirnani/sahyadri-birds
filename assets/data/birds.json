@@ -140,7 +140,8 @@
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:GRTDrongo_Sandeep.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Swardeepak</a>",
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
-    ]
+    ],
+    "did_you_know": "Its mimicry is so advanced that it can imitate alarm calls of multiple species to manipulate mixed flocks for its own feeding advantage."
   },
   {
     "id": "rufous-backed-shrike",
@@ -1217,7 +1218,8 @@
         "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:White-cheeked_Barbet,_Bengaluru,_05_FEB_2017.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Vimal Rajyaguru</a>",
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
-    ]
+    ],
+    "did_you_know": "Its call is so steady and metronomic that in parts of Kerala and Karnataka villagers use it as a natural 'forest clock' during the day."
   },
   {
     "id": "yellow-legged-buttonquail",
@@ -1684,7 +1686,7 @@
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ],
-    "did_you_know": "Despite being a babbler, its call has a surprisingly musical, metallic quality, often described as sounding like a small silver bell."
+    "did_you_know": "Despite being a babbler, its call has a surprisingly musical, metallic quality, often described as sounding like a small silver bell. This Western Ghats endemic is so foliage-bound that even experienced birders often hear entire flocks without seeing a single bird."
   },
   {
     "id": "common-kingfisher",
@@ -2119,7 +2121,7 @@
     "food": "Omnivorous scavenger: insects, fruits, seeds, kitchen scraps, small reptiles, and carrion.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
     "photos": [],
-    "did_you_know": "It pairs for life and vigorously defends its territory, often engaging in 'grappling matches' where two birds lock claws and roll on the ground."
+    "did_you_know": "It pairs for life and vigorously defends its territory, often engaging in 'grappling matches' where two birds lock claws and roll on the ground. In many cities, Common Mynas have learned to ride on the backs of grazing cattle to catch insects flushed from the grass."
   },
   {
     "id": "white-browed-wagtail",
@@ -2525,7 +2527,8 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "Unlike many raptors, the White-eyed Buzzard often hunts large insects and frequently hawks them in mid-air like a flycatcher."
   },
   {
     "id": "indian-skimmer",
@@ -2552,7 +2555,8 @@
       "iucn_code": "VU",
       "label": "Vulnerable"
     },
-    "photos": []
+    "photos": [],
+    "did_you_know": "Its lower mandible is so long that when skimming, it relies entirely on touch—when the bill hits a fish, the upper mandible snaps shut instantly."
   },
   {
     "id": "paddyfield-pipit",
