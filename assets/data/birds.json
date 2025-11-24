@@ -3207,22 +3207,41 @@
     "order_id": "passeriformes",
     "family_id": "pycnonotidae",
     "group_id": "passerines",
-    "status_in_sahyadris": "Resident",
+    "status_in_sahyadris": "resident",
     "is_endemic": false,
-    "habitat": "Ubiquitous. Found in dry deciduous forests, open scrub, agricultural fields, and heavily urbanized areas. It is one of the few native birds that thrives in concrete jungles, provided there is some shrubbery.",
+
+    "habitat": "Extremely adaptable and widespread. Occurs in dry and moist deciduous forest edges, open scrub, agricultural fields, orchards, village groves, roadside avenues and heavily urbanised areas. One of the few native birds that thrives in concrete-dominated cities, provided there are scattered shrubs, small trees or ornamental plantings.",
+
     "size": { "length_cm": [19, 21] },
+
     "description": {
-      "adult_male": "A dark, crested bird. The head and short crest are glossy black. The body is dark brown with a 'scaled' appearance on the breast and back (feathers edged with white). **Key ID Feature:** The rump is pure white, contrasting sharply with the black tail (which has white tips). The vent (undertail coverts) is a conspicuous crimson-red.",
-      "adult_female": "Identical to the male in plumage; slightly smaller.",
-      "juvenile": "Duller and browner; the head is not glossy black but sooty brown. The red vent is pale orange or pinkish, and the white rump is less distinct.",
-      "in_flight": "Flight is strong and direct with a distinct dipping motion. The white rump and white tail-tips are extremely visible in flight, flashing against the dark body."
+      "adult_male": "Medium-sized, dark, crested bulbul. Head, throat and short crest are glossy black; breast and upperparts dark brown with a scaly appearance created by pale feather edges. Underparts grey-brown. The vent (undertail coverts) is a conspicuous crimson-red patch, contrasting with the otherwise dark rear. Tail is blackish with distinct white tips to the outer tail feathers.",
+      "adult_female": "Plumage essentially identical to male; may average slightly smaller and a little duller, but not separable in the field.",
+      "juvenile": "Duller and browner than adults with a sooty-brown head instead of glossy black. Scaling on the breast is less marked. The red vent is initially pale orange or pinkish, becoming brighter with age. Iris slightly darker; gape flanges may be visible at close range.",
+      "in_flight": "Flight is strong, direct and slightly bouncing. From behind, the dark body, flashing white tail-tips and small crimson vent patch are very distinctive as the bird makes short sallies between perches and feeding trees."
     },
-    "behaviour": "Bold, boisterous, and aggressive. It often chases away other birds (like sunbirds or white-eyes) from flowering trees. It has a wide repertoire of calls, most commonly a sharp, rhythmic 'kig-a-rig' or 'be-care-ful'. It roosts communally in large numbers in leafy trees or bamboo clumps.",
-    "food": "Highly omnivorous: fruits (Lantana, Banyan, Peepal), nectar, flower buds, insects, and kitchen waste.",
-    "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-    "photos": [],
-    "did_you_know": "It is considered one of the world's 100 worst invasive species; introduced populations in places like Fiji and Hawaii have decimated local birdlife."
+
+    "behaviour": "Bold, noisy and highly adaptable. Freely mixes with human activity in villages, towns and cities. Often perches conspicuously on wires, roof edges and treetops, giving a variety of loud, chattering calls and musical phrases. Aggressive at fruiting and flowering trees, frequently chasing away smaller species such as sunbirds and white-eyes. Roosts communally in dense trees, bamboo clumps or ornamental hedges, arriving at dusk in noisy flocks. Nests are cup-shaped structures placed in shrubs, small trees, creepers or even potted balcony plants.",
+
+    "food": "Highly omnivorous. Takes a wide range of fruits and berries (including Lantana, Banyan, Peepal and many garden plants), flower buds and nectar, as well as insects, caterpillars and other small invertebrates. In urban areas readily exploits kitchen scraps and human food waste. An important local seed disperser, but also a prolific consumer of cultivated fruits.",
+
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+
+    "photos": [
+      {
+        "file": "assets/images/species/red-vented-bulbul/main.webp",
+        "caption": "Adult red=vented bulbul",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Red-vented_bulbul_-_Jamnagar_2023-11-13.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Mahmadanesh</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a>"
+      }
+    ],
+
+    "did_you_know": "During courtship, the male performs a peculiar ‘puff-and-fan’ display—raising his crest, fluffing his throat, and flicking his red vent in rapid pulses while circling the female."
   },
+
   {
     "id": "common-tailorbird",
     "common_name": "Common Tailorbird",
