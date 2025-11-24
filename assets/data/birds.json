@@ -2077,7 +2077,20 @@
     "behaviour": "Highly arboreal and active. It constantly flits among the leaves, gleaning insects or making short aerial sallies. It often leads mixed-species hunting flocks. The call is a melodic, sweeping whistle 'sweep-sweep' often given in flight.",
     "food": "Caterpillars, crickets, beetles, and spiders; occasionally takes small berries.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-    "photos": [],
+    "photos": [
+      {
+        "file": "assets/images/species/orange-minivet/main.webp",
+        "caption": "A male orange minivet",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Orange_Minivet,_Ganeshgudi,_28_FEB_2016,_Vimal_Rajyaguru.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Vimal Rajyaguru</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+      },
+      {
+        "file": "assets/images/species/orange-minivet/main2.webp",
+        "caption": "A female orange minivet: very different from the male",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Pericrocotus_flammeus_-Sri_Lanka_-female-8a.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Hafeez Issadeen</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by/2.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.0</a>"
+      }
+    ],
     "did_you_know": "The Orange Minivet is the specific species found in the Western Ghats and Sri Lanka; it was formerly considered a subspecies of the Scarlet Minivet."
   },
   {
