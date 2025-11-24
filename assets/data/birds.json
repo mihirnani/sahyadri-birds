@@ -28,8 +28,8 @@
       {
         "file": "assets/images/species/malabar-whistling-thrush/main.webp",
         "caption": "Adult near a shaded stream at Mangaon, Raigad.",
-        "photographer": "Shantanu Kuveskar",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Malabar_Whistling_Thrush_by_Shantanu_Kuveskar.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shantanu Kuveskar</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -62,14 +62,14 @@
       {
         "file": "assets/images/species/white-rumped-shama/main.webp",
         "caption": "Adult male showing long tail and bold white rump.",
-        "photographer": "JJ Harrison",
-        "license": "Creative Commons Attribution-Share Alike 3.0"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Copsychus_malabaricus_male_-_Khao_Yai.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JJ Harrison</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>"
       },
       {
         "file": "assets/images/species/white-rumped-shama/main2.webp",
         "caption": "Female white-rumped shama perched in foliage.",
-        "photographer": "JJ Harrison",
-        "license": "Creative Commons Attribution-Share Alike 3.0"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Copsychus_malabaricus_-_Khao_Yai.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JJ Harrison</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>"
       }
     ]
   },
@@ -103,8 +103,8 @@
       {
         "file": "assets/images/species/red-whiskered-bulbul/main.webp",
         "caption": "Palakkad, Kerala.",
-        "photographer": "Shino Jacob Koottanad",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Red-whiskered_bulbul_(Pycnonotus_jocosus_).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shino Jacob Koottanad</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -137,8 +137,8 @@
       {
         "file": "assets/images/species/greater-racket-tailed-drongo/main.webp",
         "caption": "A boisterous bird. This one is calm, though: Kannur, Kerala",
-        "photographer": "Swardeepak",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:GRTDrongo_Sandeep.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Swardeepak</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -171,8 +171,8 @@
       {
         "file": "assets/images/species/rufous-backed-shrike/main.webp",
         "caption": "Standing tall: a rufous-backed shrike in an upright posture.",
-        "photographer": "JM Garg",
-        "license": "GNU Free Documentation License"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Long-tailed_Shrike_(Lanius_schach)-_erythronotus_race_at_Bharatpur_I_IMG_5401.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JM Garg</a>",
+        "license": "<a href=\"https://www.gnu.org/licenses/old-licenses/fdl-1.2.html\" target=\"_blank\" rel=\"noopener noreferrer\">GFDL 1.2</a>"
       }
     ]
   },
@@ -205,8 +205,8 @@
       {
         "file": "assets/images/species/bright-capped-cisticola/main.webp",
         "caption": "The Cisticola exilis exilis.",
-        "photographer": "Savithri Singh",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Golden-headed_Cisticola_AMSM1384.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Savithri Singh</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -239,24 +239,23 @@
       {
         "file": "assets/images/species/jungle-babbler/main.webp",
         "caption": "A Jungle Babbler perched at Mangaon, Raigad.",
-        "photographer": "Shantanu Kuveskar",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Jungle_babbler_(Turdoides_striata)_Photograph_by_Shantanu_Kuveskar.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shantanu Kuveskar</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       },
       {
         "file": "assets/images/species/jungle-babbler/main2.webp",
         "caption": "Individual from Kawal Wildlife Sanctuary, Andhra Pradesh.",
-        "photographer": "JM Garg",
-        "license": "GNU Free Documentation License"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Jungle_Babbler_(Turdoides_striatus)_in_Kawal,_AP_W_IMG_1953.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JM Garg</a>",
+        "license": "<a href=\"https://www.gnu.org/licenses/old-licenses/fdl-1.2.html\" target=\"_blank\" rel=\"noopener noreferrer\">GFDL 1.2</a>"
       },
       {
         "file": "assets/images/species/jungle-babbler/main3.webp",
         "caption": "A pair interacting after monsoon rain in Chalakudy, Kerala.",
-        "photographer": "Jan J. George",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:A_Pair_of_Jungle_Babblers.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Jan J. George</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
-
   {
     "id": "purple-rumped-sunbird",
     "common_name": "Purple-rumped Sunbird",
@@ -286,14 +285,14 @@
       {
         "file": "assets/images/species/purple-rumped-sunbird/main.webp",
         "caption": "The male of the species, spotted in Goa.",
-        "photographer": "Prateik Kulkarni",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Purple-rumped_Sunbird_(male).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Prateik Kulkarni</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       },
       {
         "file": "assets/images/species/purple-rumped-sunbird/main2.webp",
         "caption": "A female purple-rumped sunbird.",
-        "photographer": "JJM Garg",
-        "license": "GNU Free Documentation License"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Purple-rumped_Sunbird_(Female)_I_IMG_7397.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JM Garg</a>",
+        "license": "<a href=\"https://www.gnu.org/licenses/old-licenses/fdl-1.2.html\" target=\"_blank\" rel=\"noopener noreferrer\">GFDL 1.2</a>"
       }
     ]
   },
@@ -542,8 +541,8 @@
       {
         "file": "assets/images/species/baya-weaver/main.webp",
         "caption": "A Baya Weaver in Bhigwan",
-        "photographer": "Tisha Mukherjee",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Baya_Weaver_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Tisha Mukherjee</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -744,7 +743,7 @@
         "file": "assets/images/species/asian-openbill/main.webp",
         "caption": "Asian Openbill showing its characteristic bill gap. Bhigwan, Maharashtra.",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       }
     ],
     "did_you_know": "Juveniles hatch with normal closed bills: the signature 'open bill' develops later for snail feeding."
@@ -1116,14 +1115,14 @@
       {
         "file": "assets/images/species/indian-roller/main.webp",
         "caption": "Adult perched on roadside wire showing typical bright turquoise crown and rufous breast.",
-        "photographer": "Shantanu Kuveskar",
-        "license": "Creative Commons Attribution 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:20._Indian_roller_(Coracias_benghalensis)_photograph_by_Shantanu_Kuveskar.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shantanu Kuveskar</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a>"
       },
       {
         "file": "assets/images/species/indian-roller/main2.webp",
-        "caption": "Individual in flight with vivid ultramarine and purple wing panels.",
-        "photographer": "Charles Sharp",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "caption": "Individual with vivid ultramarine and purple wing panels.",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Indian_roller_(Coracias_benghalensis_benghalensis).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Charles Sharp</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -1183,8 +1182,8 @@
       {
         "file": "assets/images/species/white-cheeked-barbet/main.webp",
         "caption": "A white-cheeked barbet with its distinctive white cheek patch below the eye, spotted near Bengaluru.",
-        "photographer": "Vimal Rajyaguru",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:White-cheeked_Barbet,_Bengaluru,_05_FEB_2017.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Vimal Rajyaguru</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ]
   },
@@ -1649,8 +1648,8 @@
       {
         "file": "assets/images/species/rufous-babbler/main.webp",
         "caption": "An endemic species of the Western Ghats.",
-        "photographer": "Swardeepak",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Rufous_Babbler_Sandeep.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Swardeepak</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ],
     "did_you_know": "Despite being a babbler, its call has a surprisingly musical, metallic quality, often described as sounding like a small silver bell."
@@ -1992,9 +1991,9 @@
     "photos": [
       {
         "file": "assets/images/species/osprey/main.webp",
-        "caption": "Osprey fishing near Bhigwan",
+        "caption": "Osprey near Bhigwan",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       }
     ]
   },
@@ -2133,7 +2132,14 @@
     "behaviour": "Extremely gregarious and noisy. Moves in tight flocks of 6–20 birds, rummaging through leaf litter like the Jungle Babbler but in denser cover. The flock maintains contact with a cacophony of squeals, cackles, and 'laughing' chatter. They are hard to see clearly as they stay constantly moving in deep shade.",
     "food": "Insects, beetles, fallen fruits, and berries; feeds almost exclusively on the ground.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-    "photos": [],
+    "photos": [
+      {
+        "file": "assets/images/species/wayanad-laughingthrush/main.webp",
+        "caption": "",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Wynaad_Laughingthrush_-_Garrulax_delesserti_at_western_ghats.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Prasanna Parab</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/2.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.0</a>"
+      }
+    ],
     "did_you_know": "It was formerly placed in the genus *Garrulax* but was moved to *Pterorhinus* based on genetic studies; its specific name honors the French naturalist Adolphe Delessert."
   },
   {
@@ -2183,8 +2189,8 @@
       {
         "file": "assets/images/species/nilgiri-laughingthrush/main.webp",
         "caption": "A Nilgiri Laughingthrush in Kotagiri, Tamil Nadu, India.",
-        "photographer": "Sidharth Srinivasan",
-        "license": "Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:NilgiriLaughingthursh_Kothagiri.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Sigharth Srinivasan</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ],
     "did_you_know": "The entire population of this species is restricted to a single mountain block (the Nilgiris), making it one of the most range-restricted birds in India."
@@ -2413,8 +2419,8 @@
       {
         "file": "assets/images/species/sri-lankan-frogmouth/main.webp",
         "caption": "Female Sri Lanka Frogmouth (rufous morph) at Thattekad, Kerala.",
-        "photographer": "Shanthanu Bhardwaj",
-        "license": "Creative Commons Attribution-Share Alike 3.0 Unported"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:SriLankaFrogmouths.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shanthanu Bhardwaj</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0 Unported</a>"
       }
     ],
     "did_you_know": "When threatened, it freezes with its bill pointed upward, perfectly imitating a broken branch."
@@ -2450,14 +2456,14 @@
       {
         "file": "assets/images/species/great-hornbill/main.webp",
         "caption": "Male: note the casque and the eye colour to distinguish from the females.",
-        "photographer": "Shantanu Kuweskar",
-        "license": " Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Great_hornbill_Photograph_by_Shantanu_Kuveskar.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shantanu Kuweskar</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       },
       {
         "file": "assets/images/species/great-hornbill/main2.webp",
         "caption": "Female: no black rim on the casque (bony enlargement on the head); white eyes",
-        "photographer": "Shantanu Kuweskar",
-        "license": " Creative Commons Attribution-Share Alike 4.0 International"
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Female_Great_Hornbill_by_Shantanu_Kuveskar.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shantanu Kuweskar</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ],
     "did_you_know": "The vibrant yellow colour on its bill and casque is not a pigment but is painted on by the bird using oil from its uropygial (preen) gland."
@@ -2628,7 +2634,7 @@
         "file": "assets/images/species/eurasian-spoonbill/main.webp",
         "caption": "Near Bhigwan",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       }
     ],
     "did_you_know": "Its beak snaps shut automatically when it feels even a tiny ripple from prey."
@@ -2708,19 +2714,19 @@
         "file": "assets/images/species/indian-paradise-flycatcher/main.webp",
         "caption": "Sinhagad Valley, Pune",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       },
       {
         "file": "assets/images/species/indian-paradise-flycatcher/main1.webp",
         "caption": "Sinhagad Valley, Pune",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       },
       {
         "file": "assets/images/species/indian-paradise-flycatcher/main2.webp",
         "caption": "Sinhagad Valley, Pune",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       }
     ],
     "did_you_know": "Adult males may grow tail streamers longer than the rest of their body."
@@ -2763,7 +2769,7 @@
         "file": "assets/images/species/brahminy-kite/main.webp",
         "caption": "Juvenile perched near a wetland at Bhigwan.",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       }
     ],
 
@@ -3517,7 +3523,7 @@
         "file": "assets/images/species/olive-backed-pipit/main.webp",
         "caption": "Olive-backed Pipit foraging on moss-covered rocks.",
         "photographer": "",
-        "license": ""
+        "license": "Personal collection of photographer"
       }
     ],
     "did_you_know": "It is famously difficult to spot until it moves; its olive-green back matches the shade of the forest floor perfectly."
@@ -3583,8 +3589,8 @@
       {
         "file": "assets/images/species/broad-tailed-grassbird/main.webp",
         "caption": "Broad-tailed Grassbird in wet montane grassland, Brahmagiri Wildlife Sanctuary, Karnataka.",
-        "photographer": "B.V. Madhukar",
-        "license": "Released in public domain by author"
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Broad-tailed_Grassbird.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">B.V. Madhukar</a>",
+        "license": "Public domain (released by the author)"
       }
     ],
 
