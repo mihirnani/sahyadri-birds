@@ -79,6 +79,12 @@ function initTabs() {
     btn.addEventListener("click", () => {
       const target = btn.getAttribute("data-tab");
       setActiveTab(target);
+
+      // NEW: every time Home is clicked, show a new random bird
+      if (target === "home") {
+        const newId = pickRandomBirdId(true); // true = require photo
+        if (newId) showBird(newId);
+      }
     });
   });
 
