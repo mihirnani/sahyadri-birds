@@ -1096,7 +1096,7 @@ button.btn:hover {
 
   /* Sidebar: capped height + its own scroll, so content panel is visible */
   #sidebar {
-    max-height: 45vh; /* keep it around half the viewport */
+    max-height: 40vh; /* keep it around half the viewport */
     overflow-y: auto; /* scroll inside the sidebar */
     border-bottom: 1px solid var(--border-soft);
   }
