@@ -1094,10 +1094,18 @@ button.btn:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 
+  /* CHANGE: let the sidebar be a normal block that scrolls with the page */
   #sidebar {
-    max-height: 45vh; /* was 240px */
-    overflow-y: auto; /* ensure it scrolls */
+    max-height: none; /* remove 45vh cap on mobile */
+    overflow: visible;
     border-bottom: 1px solid var(--border-soft);
+  }
+
+  /* NEW: disable sticky header on mobile so the list is clearly visible */
+  .sidebar-header-static {
+    position: static;
+    top: auto;
+    z-index: auto;
   }
 
   #bird-info {
@@ -1121,6 +1129,13 @@ button.btn:hover {
   }
 }
 
+@media (max-width: 600px) {
+  .sidebar-species-item {
+    padding: 0.45rem 0.7rem; /* more height + width for thumb */
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 480px) {
   .site-header {
     padding-inline: 0.8rem;
@@ -1138,12 +1153,5 @@ button.btn:hover {
   .theme-toggle {
     font-size: 0.72rem;
     padding-inline: 0.7rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .sidebar-species-item {
-    padding: 0.45rem 0.7rem; /* more height + width for thumb */
-    font-size: 0.9rem;
   }
 }
