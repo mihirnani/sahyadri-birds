@@ -1094,14 +1094,14 @@ button.btn:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  /* CHANGE: let the sidebar be a normal block that scrolls with the page */
+  /* Sidebar: capped height + its own scroll, so content panel is visible */
   #sidebar {
-    max-height: none; /* remove 45vh cap on mobile */
-    overflow: visible;
+    max-height: 45vh; /* keep it around half the viewport */
+    overflow-y: auto; /* scroll inside the sidebar */
     border-bottom: 1px solid var(--border-soft);
   }
 
-  /* NEW: disable sticky header on mobile so the list is clearly visible */
+  /* Disable sticky header on mobile so filters don't cover the list */
   .sidebar-header-static {
     position: static;
     top: auto;
