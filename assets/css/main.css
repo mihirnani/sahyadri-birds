@@ -1095,7 +1095,8 @@ button.btn:hover {
   }
 
   #sidebar {
-    max-height: 240px;
+    max-height: 45vh; /* was 240px */
+    overflow-y: auto; /* ensure it scrolls */
     border-bottom: 1px solid var(--border-soft);
   }
 
@@ -1137,5 +1138,12 @@ button.btn:hover {
   .theme-toggle {
     font-size: 0.72rem;
     padding-inline: 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar-species-item {
+    padding: 0.45rem 0.7rem; /* more height + width for thumb */
+    font-size: 0.9rem;
   }
 }
