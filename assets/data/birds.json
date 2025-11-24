@@ -2322,23 +2322,39 @@
     "group_id": "waterbirds",
     "status_in_sahyadris": "resident/migrant",
     "is_endemic": false,
-    "habitat": "Large shallow lakes, flooded fields, marshes, river edges.",
+
+    "habitat": "Large shallow lakes, marshes, river edges, irrigation tanks, village ponds and flooded agricultural fields. Favors broad, open wetlands with slow-moving water and exposed mudbanks. Often nests colonially in tall trees near waterbodies, frequently alongside herons, ibises and spoonbills.",
+
     "size": {
       "length_cm": [93, 102]
     },
+
     "description": {
-      "adult_male": "Large white stork with a pinkish terminal band on the tertials (appearing pink in flight/resting). Bare yellow/orange head, deep pink bill with a down-curved tip.",
-      "adult_female": "Similar to male.",
-      "juvenile": "Dull brown/grey, lacking the pink wash.",
-      "in_flight": "Flies with neck outstretched, long legs trailing."
+      "adult_male": "Large white stork with a bare orange-yellow head, long yellowish downcurved bill, black-and-white barred inner wings and a distinctive pink wash over the tertial feathers, giving the 'painted' appearance. Tail short and dark. Legs long and pinkish.",
+      "adult_female": "Very similar to male; females may average slightly smaller and paler-headed, but sexes not reliably separable in the field.",
+      "juvenile": "Dull brown and grey overall, with brownish wings lacking the bold black-and-white barring. Bill duller and straighter, head feathered with brown down. Pink tertial wash absent. Gradually acquires adult colours over several months.",
+      "in_flight": "Flies with neck fully outstretched and legs trailing straight behind. Broad white wings show striking black flight feathers and barred coverts; pink tertials form a clear patch on the upperwing. Soaring flight common on thermals."
     },
-    "behaviour": "Wades in shallow water, sweeping its half-open bill from side to side to locate prey by touch.",
-    "food": "Fish, frogs, and large aquatic invertebrates.",
+
+    "behaviour": "Feeds by slowly wading in shallow water with bill partly open, sweeping it from side to side to detect prey through touch. When the bill contacts a fish or frog, it snaps shut reflexively—an extremely fast tactile response. Often feeds in loose groups, especially at productive wetlands. Highly colonial breeder: dozens to hundreds of pairs nest together on large trees, producing a noisy rookery. Adults commute long distances between feeding and nesting sites. Juveniles gather in post-breeding communal groups.",
+
+    "food": "Primarily fish caught by tactile sweeping. Also takes frogs, tadpoles, large aquatic insects, crustaceans and small reptiles. Opportunistically feeds at drying tanks where fish are concentrated.",
+
     "conservation_status": {
       "iucn_code": "NT",
       "label": "Near Threatened"
     },
-    "photos": []
+
+    "photos": [
+      {
+        "file": "assets/images/species/painted-stork/main.webp",
+        "caption": "A Painted Stork in flight.",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Painted_stork_(Mycteria_Leucocephala)_in_flight.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Charles J. Sharp</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+      }
+    ],
+
+    "did_you_know": "The Painted Stork’s famous pink wing patch isn’t a feather pigment—it's caused by carotenoid pigments in secretions from their preen gland. When they apply these oils during grooming, the tertial feathers blush pink, giving the bird its ‘painted’ look."
   },
   {
     "id": "greater-flamingo",
