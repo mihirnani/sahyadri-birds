@@ -174,7 +174,8 @@
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Long-tailed_Shrike_(Lanius_schach)-_erythronotus_race_at_Bharatpur_I_IMG_5401.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JM Garg</a>",
         "license": "<a href=\"https://www.gnu.org/licenses/old-licenses/fdl-1.2.html\" target=\"_blank\" rel=\"noopener noreferrer\">GFDL 1.2</a>"
       }
-    ]
+    ],
+    "did_you_know": "Shrikes are sometimes called 'butcher birds' because they impale prey on thorns or barbed wire. These grisly larders may help them handle prickly or toxic prey such as hairy caterpillars, allowing the prey to dry out before being eaten."
   },
   {
     "id": "bright-capped-cisticola",
@@ -208,7 +209,8 @@
         "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Golden-headed_Cisticola_AMSM1384.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Savithri Singh</a>",
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
-    ]
+    ],
+    "did_you_know": "This tiny grassland warbler changes its look dramatically between seasons: in the breeding season it has a short tail and glowing golden crown, while in the non-breeding season the tail becomes much longer and the crown duller, so much so that inexperienced observers often think they are seeing two different species."
   },
   {
     "id": "jungle-babbler",
@@ -219,22 +221,27 @@
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": false,
+
     "habitat": "Open scrub, dry deciduous forest, secondary woodland, village edges, gardens, orchards and parks. Readily adapts to semi-urban and agricultural landscapes.",
-    "size": {
-      "length_cm": [25, 27]
-    },
+
+    "size": { "length_cm": [25, 27] },
+
     "description": {
-      "adult_male": "Dull brownish-grey overall with a slightly streaked forehead and throat, pale greyish underparts, and a stout yellowish bill. Iris pale yellow to whitish, giving a 'staring' expression. Feathers loosely arranged, giving a scruffy appearance typical of the species.",
+      "adult_male": "Dull brownish-grey overall with a slightly streaked forehead and throat, pale greyish underparts and a stout yellowish bill. Iris pale yellow to whitish, giving a 'staring' expression. Feathers loosely arranged, giving a scruffy appearance typical of the species.",
       "adult_female": "Indistinguishable from male in the field; sexes share identical plumage, size and behaviour.",
       "juvenile": "Fluffier and paler than adults with less defined streaking, duller grey-brown tone and a bright yellow gape. Iris darker than adults. Juveniles stay close to the group, following adults and giving persistent food-begging calls.",
       "in_flight": "Short, low, and noisy flights with wings and tail fanned. Typical movement is a series of fluttering hops between bushes or along the ground. Flocks keep tightly together while calling."
     },
+
     "behaviour": "Exceptionally social, usually found in cohesive groups of 6–10+ birds, giving rise to the nickname 'Seven Sisters'. Engages in cooperative breeding: several group members assist in incubation, feeding nestlings and defending territories. Frequent allopreening and allogrooming reinforce social bonds. Forages mostly on the ground, turning over leaf litter for insects and fallen fruits. Sentinels take elevated positions and give rasping alarm calls. Constant contact chatter keeps the flock coordinated. Roosts communally in dense shrubbery or low trees.",
+
     "food": "Wide-ranging diet including insects, beetles, ants, termites, caterpillars, seeds, berries, small fruits and occasional human food scraps. Will opportunistically take small lizards or frogs when available.",
+
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
+
     "photos": [
       {
         "file": "assets/images/species/jungle-babbler/main.webp",
@@ -254,7 +261,9 @@
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:A_Pair_of_Jungle_Babblers.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Jan J. George</a>",
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
-    ]
+    ],
+
+    "did_you_know": "Jungle Babblers practise cooperative breeding: older siblings, cousins and unrelated helpers all assist with raising chicks. Groups have well-defined roles—sentinel, babysitter, feeder—and individuals take turns in these duties, making them one of India’s most socially complex small birds."
   },
   {
     "id": "purple-rumped-sunbird",
@@ -265,22 +274,27 @@
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": false,
+
     "habitat": "Flowering gardens, orchards, hedges, groves, scrub, open woodland, forest edges, coffee plantations and urban parks. Closely associated with flowering shrubs and trees including hibiscus, bottlebrush and ornamental species.",
-    "size": {
-      "length_cm": [10, 11]
-    },
+
+    "size": { "length_cm": [10, 11] },
+
     "description": {
       "adult_male": "Very small, intensely coloured sunbird with iridescent metallic plumage. Crown, mantle and sides of head glossy green; throat and chest deep maroon; shoulder patch bright metallic purple. Rump a vivid purplish-crimson. Belly pale yellow; undertail coverts whitish. Distinctive lemon-yellow pectoral tufts visible when excited or displaying. Bill thin, decurved and black.",
       "adult_female": "Much duller than male: upperparts olive-brown; underparts clean yellow with whitish throat; faint eyebrow; wings brownish. Tail dark with white outer tail shafts sometimes visible in flight.",
       "juvenile": "Resembles the adult female but even duller; brownish-olive above and washed-out yellow below. Bill shorter and paler at base. Lacks the clean contrasts of adults and shows faint gape flanges. Young males begin showing dull maroon tones on throat as they mature.",
       "in_flight": "Fast, buzzing, and highly agile flight with rapid wingbeats. Frequently darts between flowers in short bursts. Capable of brief hovering, though usually perches to feed. In backlit conditions the male’s purple rump and green crown flash conspicuously."
     },
+
     "behaviour": "Restless, energetic and constantly moving among flowers. Often hangs upside down to reach deep corollas. Males display by fluffing yellow pectoral tufts and singing from exposed perches. Aggressive around rich nectar sources; frequently chases other sunbirds and even larger birds. At the nest, female performs most building and incubation while the male guards territory. Nest is a delicate hanging purse with a side entrance, woven from plant fibres, cobwebs and lichens. Vocalisations include sharp 'chip' notes and a rapid metallic twittering.",
+
     "food": "Primarily nectar from flowering shrubs and trees; also takes insects, small spiders and caterpillars, especially during breeding to feed young. Opportunistically gleans insects from foliage.",
+
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
+
     "photos": [
       {
         "file": "assets/images/species/purple-rumped-sunbird/main.webp",
@@ -294,7 +308,9 @@
         "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Purple-rumped_Sunbird_(Female)_I_IMG_7397.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JM Garg</a>",
         "license": "<a href=\"https://www.gnu.org/licenses/old-licenses/fdl-1.2.html\" target=\"_blank\" rel=\"noopener noreferrer\">GFDL 1.2</a>"
       }
-    ]
+    ],
+
+    "did_you_know": "The purple-rumped sunbird’s nest is an architectural marvel: a tiny hanging pouch stitched together with cobwebs. Birds often steal spider silk directly from webs—and sometimes from spiders still sitting in them—to get the perfect building material."
   },
   {
     "id": "jungle-myna",
@@ -1135,23 +1151,39 @@
     "group_id": "non-passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": false,
-    "habitat": "Deciduous and evergreen forests, bamboo clumps.",
+
+    "habitat": "Deciduous and evergreen forests, bamboo clumps. Prefers areas with large arboreal ant nests, especially in mid-storey trees.",
+
     "size": {
       "length_cm": [25, 28]
     },
+
     "description": {
       "adult_male": "Unmistakable rufous-brown plumage with black barring on the flanks and wings. Male has a small red cheek patch.",
-      "adult_female": "Unmistakable rufous-brown plumage with black barring on the flanks and wings.",
+      "adult_female": "Unmistakable rufous-brown plumage with black barring on the flanks and wings; lacks the male’s red cheek patch.",
       "juvenile": "Duller, paler rufous overall with less distinct barring; the male’s red cheek patch is absent or replaced by dark mottling. Feathers may appear looser and fluffier.",
-      "in_flight": "Typical woodpecker-flight: strong, undulating, and direct, but rather rapid. The rufous body and heavily barred wings are conspicuous against the black underwings."
+      "in_flight": "Typical woodpecker flight: strong, undulating and direct, but rather rapid. The rufous body and heavily barred wings are conspicuous against the black underwings."
     },
-    "behaviour": "Forages mainly on ant-ridden trees; unique in using arboreal ant nests to build its own nest chamber. Feeds low down and is often seen clambering in dense tangles. Calls are fast, high-pitched notes.",
-    "food": "Ants and termites.",
+
+    "behaviour": "Forages mainly on ant-ridden trees. Unique among woodpeckers in its near-obligate association with arboreal ant nests of Crematogaster (Pagoda ants). Pairs excavate nest chambers inside active ant nests—tolerating the ants’ aggressive defence. Often clambers in dense tangles and bamboo. Calls are fast, high-pitched and sharp.",
+
+    "food": "Arboreal ants, termites, larvae and other small invertebrates. Shows a strong preference for Crematogaster ants and their brood.",
+
     "conservation_status": {
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": []
+
+    "photos": [
+      {
+        "file": "assets/images/species/rufous-woodpecker/main.webp",
+        "caption": "The male of the species: with the small red cheek patch. Dandeli, Karnataka.",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Rufous_woodpecker.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Prajwalkm</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0 Unported</a>"
+      }
+    ],
+
+    "did_you_know": "The Rufous Woodpecker is one of the only birds in the world that *nests inside active ant nests*. It excavates its breeding chamber inside the carton nests of Crematogaster 'Pagoda ants'—ants known for fierce chemical defences. Instead of attacking the woodpeckers, the ants often tolerate them, and the birds may even benefit from the ants’ protection. Scientists believe the woodpecker’s feathers contain secretions that reduce ant aggression, allowing this unusual symbiosis to evolve."
   },
   {
     "id": "white-cheeked-barbet",
