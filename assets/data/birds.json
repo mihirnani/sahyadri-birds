@@ -2640,7 +2640,14 @@
     "behaviour": "Highly gregarious winter visitor. They arrive in huge flocks (hundreds or thousands) that descend upon ripening grain fields, making them a significant agricultural pest in some areas. They roost communally in thorny acacia trees or sugarcane fields, creating a deafening chatter at dusk. The call is a liquid, metallic 'quit-quit' or 'zip-zip'.",
     "food": "Primarily seeds and grains (sorghum, millet, rice, wheat); occasionally insects.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-    "photos": [],
+    "photos": [
+      {
+        "file": "assets/images/species/red-headed-bunting/main.webp",
+        "caption": "Adult at Mangaon, Raigad.",
+        "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:Red-headed_bunting_%28Emberiza_bruniceps%29_Photograph_by_Shantanu_Kuveskar.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shantanu Kuveskar</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+      }
+    ],
     "did_you_know": "In their wintering grounds in India, they form mixed flocks with Black-headed Buntings, often devastating standing crops shortly before harvest."
   },
   {
