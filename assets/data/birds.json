@@ -2116,7 +2116,14 @@
     "behaviour": "Social and noisy, often moving in pairs or small family groups. It is a core member of 'bird waves' (mixed hunting flocks) often led by Racket-tailed Drongos. Its call is a loud, metallic, grating 'kt-kt-kt' followed by a harsh 'charr', very different from the musical bob-o-link of the Rufous Treepie.",
     "food": "Omnivorous: insects, fruits, small reptiles, eggs, and nestlings of other birds.",
     "conservation_status": { "iucn_code": "LC", "label": "Least Concern" },
-    "photos": [],
+    "photos": [
+      {
+        "file": "assets/images/species/white-bellied-treepie/main.webp",
+        "caption": "A white-bellied treepie: an endemic species.",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:White-bellied_treepie_-_Dendrocitta_leucogastra).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Davidvraju</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+      }
+    ],
     "did_you_know": "This species is restricted entirely to the rainforests south of Goa and is an indicator of good quality evergreen forest."
   },
   {
