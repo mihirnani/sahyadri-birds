@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <title>Birds of the Sahyadris</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set theme before first paint to avoid a flash of the wrong theme.
+      (function () {
+        var theme = "dark";
+        try {
+          var saved = window.localStorage.getItem("sb-theme");
+          if (saved === "light" || saved === "dark") theme = saved;
+        } catch (e) {}
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
@@ -18,6 +30,7 @@
         <div class="site-header-right">
           <nav class="site-tabs">
             <button class="site-tab-btn" data-tab="home">Home</button>
+            <button class="site-tab-btn" data-tab="sites">Sites</button>
             <button class="site-tab-btn" data-tab="resources">Resources</button>
             <button class="site-tab-btn" data-tab="about">About</button>
           </nav>
@@ -46,16 +59,7 @@
                     <option value="all">All Species</option>
                     <option value="endemic">Endemic Only</option>
                     <option value="with-photo">With Photo Only</option>
-                    <!-- Conservation Statuses (Using IUCN Codes for matching) -->
-                    <option disabled>--- IUCN Status ---</option>
-                    <option value="EW">EW (Extinct in the Wild)</option>
-                    <option value="CR">CR (Critically Endangered)</option>
-                    <option value="EN">EN (Endangered)</option>
-                    <option value="VU">VU (Vulnerable)</option>
-                    <option value="NT">NT (Near Threatened)</option>
-                    <option value="LC">LC (Least Concern)</option>
-                    <option value="DD">DD (Data Deficient)</option>
-                    <option value="NE">NE (Not Evaluated)</option>
+                    <!-- IUCN status options are injected from the data by app.js -->
                   </select>
                 </div>
                 <div class="sidebar-sort">

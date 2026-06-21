@@ -7,17 +7,42 @@ let SB_STATE = {
   familiesById: {},
   resources: [],
   siteMeta: null,
+  sites: [],
+  iucnCodes: [],
   currentBirdId: null,
   searchQuery: "",
   theme: "dark",
 
-  // --- NEW STATE VARIABLES ---
-  currentFilter: "all", // e.g., 'all', 'endemic', 'vulnerable'
-  currentSort: "common_name", // e.g., 'common_name', 'scientific_name', 'status'
-  // ---------------------------
+  currentFilter: "all", // 'all' | 'endemic' | 'with-photo' | IUCN code
+  currentSort: "common_name", // 'common_name' | 'scientific_name' | 'status'
 };
 
-// Helper: Debounce function to limit how often a function is executed
+// IUCN code -> human label, used only for the filter dropdown text.
+const SB_IUCN_LABELS = {
+  EW: "Extinct in the Wild",
+  CR: "Critically Endangered",
+  EN: "Endangered",
+  VU: "Vulnerable",
+  NT: "Near Threatened",
+  LC: "Least Concern",
+  DD: "Data Deficient",
+  NE: "Not Evaluated",
+};
+
+// Inline SVG used for species without a photograph yet.
+const SB_EMPTY_GLYPH = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 7h.01"/><path d="M3.4 18c-.6-1.1-.9-2.4-.9-3.7C2.5 9.2 6.4 5 11.2 5c3.6 0 6.6 2.1 7.9 5.2.2.5.7.8 1.2.8h.2c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3h-2.1c-1 0-1.9.5-2.5 1.3L13 18"/><path d="M8 21c.5-2 2-3.5 4-4"/></svg>`;
+
+// Escape user-authored text before injecting it into innerHTML.
+function escapeHtml(value) {
+  if (value === null || value === undefined) return "";
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 function debounce(func, delay) {
   let timeoutId;
   return function (...args) {
@@ -45,8 +70,6 @@ async function initSite() {
 
   initTheme();
   initTabs();
-  // We call initSearch/initFilters here for the first time,
-  // but they are also called *inside* buildSidebar for subsequent rebuilds.
   initSearch();
   initFilters();
   buildSidebar();
@@ -80,26 +103,24 @@ function initTabs() {
       const target = btn.getAttribute("data-tab");
       setActiveTab(target);
 
-      // NEW: every time Home is clicked, show a new random bird
+      // Preserved behaviour: tapping Home surfaces a fresh random bird.
       if (target === "home") {
-        const newId = pickRandomBirdId(true); // true = require photo
+        const newId = pickRandomBirdId(true); // require photo
         if (newId) showBird(newId);
       }
     });
   });
 
-  // Default tab = home
   setActiveTab("home");
 }
 
 function setActiveTab(tabName) {
-  // Buttons
   document.querySelectorAll(SB_CONFIG.ui.tabsSelector).forEach((btn) => {
     const isActive = btn.getAttribute("data-tab") === tabName;
     btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-current", isActive ? "page" : "false");
   });
 
-  // Contents
   document
     .querySelectorAll(SB_CONFIG.ui.tabContentSelector)
     .forEach((section) => {
@@ -110,7 +131,6 @@ function setActiveTab(tabName) {
         return;
       }
 
-      // Active section
       if (section.classList.contains("home-layout")) {
         section.style.display = "grid"; // keep the 3-panel grid
       } else {
@@ -124,18 +144,17 @@ function setActiveTab(tabName) {
    ===================== */
 
 function initTheme() {
-  // 1. Try localStorage
+  // The pre-paint script in <head> has already set data-theme from storage;
+  // read it back so JS state and the toggle button agree with the DOM.
   let stored = null;
   try {
     stored = window.localStorage.getItem("sb-theme");
-  } catch (e) {
-    // ignore
-  }
+  } catch (e) {}
 
-  // 2. Default to dark if nothing stored
-  let theme = stored || "dark";
+  const domTheme = document.documentElement.getAttribute("data-theme");
+  const theme = stored || domTheme || "dark";
 
-  SB_STATE.theme = theme === "dark" ? "dark" : "light";
+  SB_STATE.theme = theme === "light" ? "light" : "dark";
   applyTheme(SB_STATE.theme);
 
   const btn = document.querySelector("#theme-toggle");
@@ -144,28 +163,21 @@ function initTheme() {
       const next = SB_STATE.theme === "dark" ? "light" : "dark";
       SB_STATE.theme = next;
       applyTheme(next);
-
       try {
         window.localStorage.setItem("sb-theme", next);
-      } catch (e) {
-        // ignore
-      }
+      } catch (e) {}
     });
   }
 }
 
 function applyTheme(theme) {
-  const root = document.documentElement;
-
-  if (theme === "dark") {
-    root.setAttribute("data-theme", "dark");
-  } else {
-    root.setAttribute("data-theme", "light");
-  }
+  document.documentElement.setAttribute(
+    "data-theme",
+    theme === "dark" ? "dark" : "light"
+  );
 
   const btn = document.querySelector("#theme-toggle");
   if (btn) {
-    // Correctly reflect the *next* theme option on the button
     btn.textContent = theme === "dark" ? "Light" : "Dark";
     btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
   }
@@ -179,7 +191,6 @@ function initSearch() {
   const input = document.querySelector("#sidebar-search-input");
   if (!input) return;
 
-  // Use a debounced function to limit rebuilding the sidebar
   const debouncedBuildSidebar = debounce((query) => {
     SB_STATE.searchQuery = query;
     buildSidebar();
@@ -191,7 +202,7 @@ function initSearch() {
 }
 
 /* =====================
-   FILTERS & SORT (NEW)
+   FILTERS & SORT
    ===================== */
 
 function initFilters() {
@@ -199,7 +210,29 @@ function initFilters() {
   const sortSelect = document.querySelector("#sort-select");
 
   if (filterSelect) {
-    // Ensure the current state value is reflected in the rebuilt dropdown
+    // Inject only the IUCN codes that actually appear in the data.
+    // Idempotent: clear any previously injected options first.
+    filterSelect
+      .querySelectorAll("option[data-iucn]")
+      .forEach((o) => o.remove());
+
+    if (SB_STATE.iucnCodes && SB_STATE.iucnCodes.length) {
+      const sep = document.createElement("option");
+      sep.disabled = true;
+      sep.dataset.iucn = "1";
+      sep.textContent = "--- IUCN Status ---";
+      filterSelect.appendChild(sep);
+
+      SB_STATE.iucnCodes.forEach((code) => {
+        const opt = document.createElement("option");
+        opt.value = code;
+        opt.dataset.iucn = "1";
+        const label = SB_IUCN_LABELS[code] || code;
+        opt.textContent = `${code} (${label})`;
+        filterSelect.appendChild(opt);
+      });
+    }
+
     filterSelect.value = SB_STATE.currentFilter;
     filterSelect.addEventListener("change", (e) => {
       SB_STATE.currentFilter = e.target.value;
@@ -208,7 +241,6 @@ function initFilters() {
   }
 
   if (sortSelect) {
-    // Ensure the current state value is reflected in the rebuilt dropdown
     sortSelect.value = SB_STATE.currentSort;
     sortSelect.addEventListener("change", (e) => {
       SB_STATE.currentSort = e.target.value;
@@ -225,14 +257,13 @@ function buildSidebar() {
   const sidebar = document.querySelector(SB_CONFIG.ui.sidebarSelector);
   if (!sidebar || !SB_STATE.taxo) return;
 
-  // Keep the header (filters + search) as-is
   const headerBlock = sidebar.querySelector(".sidebar-header-static");
   if (!headerBlock) {
     console.warn("Sidebar header not found; cannot build list.");
     return;
   }
 
-  // Remove everything AFTER the header (old groups/families/species)
+  // Remove everything after the static header (previous render).
   while (headerBlock.nextSibling) {
     sidebar.removeChild(headerBlock.nextSibling);
   }
@@ -245,12 +276,11 @@ function buildSidebar() {
 
   const families = SB_STATE.taxo.families || [];
 
-  // 1. Filter and sort the entire bird list based on user selections
-  let filteredBirds = SB_STATE.birds;
+  // 1. Filter + sort the full list.
+  let filteredBirds = SB_STATE.birds.slice();
   const currentFilter = SB_STATE.currentFilter;
   const currentSort = SB_STATE.currentSort;
 
-  // Apply Filter
   if (currentFilter !== "all") {
     if (currentFilter === "endemic") {
       filteredBirds = filteredBirds.filter((bird) => bird.is_endemic);
@@ -259,39 +289,39 @@ function buildSidebar() {
         (bird) => Array.isArray(bird.photos) && bird.photos.length > 0
       );
     } else {
-      // IUCN code filter: LC, NT, VU, EN, CR etc.
       filteredBirds = filteredBirds.filter(
         (bird) => bird.conservation_status?.iucn_code === currentFilter
       );
     }
   }
 
-  // Apply Sort
   filteredBirds.sort((a, b) => {
     if (currentSort === "scientific_name") {
       return (a.scientific_name || "").localeCompare(b.scientific_name || "");
     }
     if (currentSort === "status") {
-      return (a.status_in_sahyadris || "").localeCompare(
-        b.status_in_sahyadris || ""
+      // Sort by the normalised residency label so casing/spelling variants
+      // no longer fragment the order; common name breaks ties.
+      const sa = (a.residency && a.residency.label) || "";
+      const sb = (b.residency && b.residency.label) || "";
+      return (
+        sa.localeCompare(sb) ||
+        (a.common_name || "").localeCompare(b.common_name || "")
       );
     }
-    // Default or 'common_name'
     return (a.common_name || "").localeCompare(b.common_name || "");
   });
 
-  // 2. Precompute family -> species array from the filtered list
+  // 2. Group by family.
   const birdsByFamily = {};
   filteredBirds.forEach((bird) => {
-    if (!birdsByFamily[bird.family_id]) {
-      birdsByFamily[bird.family_id] = [];
-    }
-    birdsByFamily[bird.family_id].push(bird);
+    (birdsByFamily[bird.family_id] =
+      birdsByFamily[bird.family_id] || []).push(bird);
   });
 
   const q = (SB_STATE.searchQuery || "").trim().toLowerCase();
 
-  // 3. Build groups + families + species list
+  // 3. Render group -> family -> species.
   groups.forEach((group) => {
     const groupSection = document.createElement("section");
     groupSection.className = "sidebar-group";
@@ -321,7 +351,6 @@ function buildSidebar() {
     groupFamilies.forEach((fam) => {
       let speciesList = birdsByFamily[fam.id] || [];
 
-      // Apply search on top (common or scientific name)
       if (q) {
         speciesList = speciesList.filter((bird) => {
           const common = (bird.common_name || "").toLowerCase();
@@ -331,7 +360,6 @@ function buildSidebar() {
       }
 
       if (!speciesList.length) return;
-
       hasAnyFamily = true;
 
       const famBlock = document.createElement("div");
@@ -347,11 +375,19 @@ function buildSidebar() {
 
       speciesList.forEach((bird) => {
         const li = document.createElement("li");
-        li.className = "sidebar-species-item";
-        li.classList.toggle("active", bird.id === SB_STATE.currentBirdId);
-        li.textContent = bird.common_name;
-        li.dataset.birdId = bird.id;
-        li.addEventListener("click", () => showBird(bird.id));
+
+        // Real button => focusable + Enter/Space activation for free.
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "sidebar-species-item";
+        const isActive = bird.id === SB_STATE.currentBirdId;
+        btn.classList.toggle("active", isActive);
+        if (isActive) btn.setAttribute("aria-current", "true");
+        btn.textContent = bird.common_name;
+        btn.dataset.birdId = bird.id;
+        btn.addEventListener("click", () => showBird(bird.id));
+
+        li.appendChild(btn);
         list.appendChild(li);
       });
 
@@ -365,16 +401,6 @@ function buildSidebar() {
   });
 }
 
-function highlightSidebarSelection(birdId) {
-  // Since we rebuild the sidebar on filter/sort/search,
-  // we need to re-highlight the current selection on rebuild.
-  // This function is now mainly for when a bird is selected via click.
-  const items = document.querySelectorAll(".sidebar-species-item");
-  items.forEach((li) => {
-    li.classList.toggle("active", li.dataset.birdId === birdId);
-  });
-}
-
 /* =====================
    BIRD RENDERING
    ===================== */
@@ -383,17 +409,11 @@ function pickRandomBirdId(requirePhoto = false) {
   if (!SB_STATE.birds.length) return null;
 
   let pool = SB_STATE.birds;
-
   if (requirePhoto) {
     const withPhotos = SB_STATE.birds.filter(
       (b) => Array.isArray(b.photos) && b.photos.length > 0
     );
-
-    // If at least one bird has photos, restrict the random choice to that pool.
-    if (withPhotos.length > 0) {
-      pool = withPhotos;
-    }
-    // If no birds have photos, fall back silently to all birds.
+    if (withPhotos.length > 0) pool = withPhotos;
   }
 
   const idx = Math.floor(Math.random() * pool.length);
@@ -405,15 +425,13 @@ function showBird(birdId) {
   if (!bird) return;
 
   SB_STATE.currentBirdId = birdId;
-  buildSidebar(); // Rebuild sidebar to ensure correct item is highlighted
+  buildSidebar(); // rebuild so the active item is highlighted
   renderBirdInfo(bird);
   renderBirdImages(bird);
 
-  // Update URL hash for deep-linking
   window.location.hash = birdId;
 }
 
-// Helper function to format size ranges neatly
 function formatRange(range) {
   if (!range || !Array.isArray(range)) return "n/a";
   const unique = [...new Set(range)];
@@ -429,15 +447,15 @@ function renderBirdInfo(bird) {
     (o) => o.id === bird.order_id
   );
 
-  const statusLabel = bird.status_in_sahyadris
-    ? bird.status_in_sahyadris.replace(/_/g, " ")
-    : "";
+  const statusLabel = (bird.residency && bird.residency.label) || "";
+  const cs = bird.conservation_status;
 
-  // Build HTML in a string first
   let html = `
     <header class="bird-header">
-      <h1 class="bird-common-name">${bird.common_name}</h1>
-      <h2 class="bird-scientific-name"><em>${bird.scientific_name}</em></h2>
+      <h1 class="bird-common-name">${escapeHtml(bird.common_name)}</h1>
+      <h2 class="bird-scientific-name"><em>${escapeHtml(
+        bird.scientific_name
+      )}</em></h2>
       <div class="bird-badges">
         ${
           bird.is_endemic
@@ -446,24 +464,30 @@ function renderBirdInfo(bird) {
         }
         ${
           statusLabel
-            ? `<span class="badge badge-status">${statusLabel}</span>`
+            ? `<span class="badge badge-status">${escapeHtml(statusLabel)}</span>`
             : ""
         }
         ${
-          bird.conservation_status
-            ? `<span class="badge badge-iucn">${bird.conservation_status.label} (${bird.conservation_status.iucn_code})</span>`
+          cs
+            ? `<span class="badge badge-iucn">${escapeHtml(cs.label)} (${escapeHtml(
+                cs.iucn_code
+              )})</span>`
             : ""
         }
       </div>
       <div class="bird-classification">
         ${
           order
-            ? `<div><span class="label">Order:</span> ${order.scientific_name}</div>`
+            ? `<div><span class="label">Order:</span> ${escapeHtml(
+                order.scientific_name
+              )}</div>`
             : ""
         }
         ${
           family
-            ? `<div><span class="label">Family:</span> ${family.scientific_name} – ${family.common_label}</div>`
+            ? `<div><span class="label">Family:</span> ${escapeHtml(
+                family.scientific_name
+              )} – ${escapeHtml(family.common_label)}</div>`
             : ""
         }
       </div>
@@ -471,16 +495,14 @@ function renderBirdInfo(bird) {
 
     <section class="bird-section">
       <h3>Habitat</h3>
-      <p>${bird.habitat || ""}</p>
+      <p>${escapeHtml(bird.habitat)}</p>
     </section>
 
     <section class="bird-section">
-      <h3>Size & appearance</h3>
+      <h3>Size &amp; appearance</h3>
       ${
         bird.size
-          ? `<p><strong>Length:</strong> ${
-              formatRange(bird.size.length_cm) + " cm"
-            }${
+          ? `<p><strong>Length:</strong> ${formatRange(bird.size.length_cm)} cm${
               bird.size.wingspan_cm
                 ? `; <strong>Wingspan:</strong> ${formatRange(
                     bird.size.wingspan_cm
@@ -489,36 +511,40 @@ function renderBirdInfo(bird) {
             }</p>`
           : ""
       }
-      <p><strong>Adult male:</strong> ${bird.description?.adult_male || ""}</p>
-      <p><strong>Adult female:</strong> ${
-        bird.description?.adult_female || ""
-      }</p>
-      <p><strong>Juvenile:</strong> ${bird.description?.juvenile || ""}</p>
-      <p><strong>In flight:</strong> ${bird.description?.in_flight || ""}</p>
+      <p><strong>Adult male:</strong> ${escapeHtml(
+        bird.description?.adult_male
+      )}</p>
+      <p><strong>Adult female:</strong> ${escapeHtml(
+        bird.description?.adult_female
+      )}</p>
+      <p><strong>Juvenile:</strong> ${escapeHtml(
+        bird.description?.juvenile
+      )}</p>
+      <p><strong>In flight:</strong> ${escapeHtml(
+        bird.description?.in_flight
+      )}</p>
     </section>
 
     <section class="bird-section">
       <h3>Food</h3>
-      <p>${bird.food || ""}</p>
+      <p>${escapeHtml(bird.food)}</p>
     </section>
 
     <section class="bird-section">
       <h3>Behaviour</h3>
-      <p>${bird.behaviour || ""}</p>
+      <p>${escapeHtml(bird.behaviour)}</p>
     </section>
   `;
 
-  // Append the "Did you know?" box if present
   if (bird.did_you_know) {
     html += `
       <section class="dyk-box">
         <h3>Did you know?</h3>
-        <p>${bird.did_you_know}</p>
+        <p>${escapeHtml(bird.did_you_know)}</p>
       </section>
     `;
   }
 
-  // Finally write everything to the DOM once
   el.innerHTML = html;
 }
 
@@ -528,33 +554,35 @@ function renderBirdImages(bird) {
 
   const photos = Array.isArray(bird.photos) ? bird.photos : [];
 
-  // No photos → show placeholder
   if (!photos.length) {
     el.innerHTML = `
       <div class="image-placeholder">
-        <img src="${SB_CONFIG.images.placeholder}" alt="No photo available">
-        <p>No photographs added yet for this species.</p>
+        ${SB_EMPTY_GLYPH}
+        <p>Photograph to come for ${escapeHtml(bird.common_name)}.</p>
       </div>
     `;
     return;
   }
 
-  // Stack all images vertically, each with full caption + credit
   const html = photos
     .map((p) => {
+      // caption / photographer / license are author-controlled HTML
+      // (the credits contain attribution <a> links), like about_html.
       const caption = p.caption || "";
       const photographer = p.photographer || "";
       const license = p.license || "";
+      const credit = [photographer ? `Photo: ${photographer}` : "", license]
+        .filter(Boolean)
+        .join(" · ");
 
       return `
         <figure class="bird-main-image">
-          <img src="${p.file}" alt="${bird.common_name}">
+          <img src="${encodeURI(p.file)}" alt="${escapeHtml(
+        bird.common_name
+      )}" loading="lazy">
           <figcaption class="image-caption">
-            <div>${caption}</div>
-            <div class="image-credit">
-              ${photographer ? `Photo: ${photographer}` : ""}
-              ${license ? `${photographer ? " · " : ""}${license}` : ""}
-            </div>
+            ${caption ? `<div>${caption}</div>` : ""}
+            ${credit ? `<div class="image-credit">${credit}</div>` : ""}
           </figcaption>
         </figure>
       `;
@@ -563,12 +591,6 @@ function renderBirdImages(bird) {
 
   el.innerHTML = html;
 }
-
-// Global utility for switching images (Now unused in favor of stacked images)
-window.switchMainImage = function (thumbnail) {
-  // This function is no longer used as images are stacked vertically
-  console.warn("switchMainImage is deprecated in the current layout.");
-};
 
 /* =====================
    RESOURCES TAB
@@ -584,20 +606,18 @@ function renderResources() {
     return;
   }
 
-  const html = items
+  container.innerHTML = items
     .map(
       (r) => `
       <article class="resource-item">
-        <h3><a href="${r.url}" target="_blank" rel="noopener noreferrer">${
+        <h3><a href="${encodeURI(r.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(
         r.name
-      }</a></h3>
-        <p>${r.description || ""}</p>
+      )}</a></h3>
+        <p>${escapeHtml(r.description)}</p>
       </article>
     `
     )
     .join("");
-
-  container.innerHTML = html;
 }
 
 /* =====================
@@ -615,19 +635,24 @@ function renderSites() {
     div.className = "site-entry";
 
     const locationLine = site.location
-      ? `<p class="site-location"><strong>Location:</strong> ${site.location}</p>`
+      ? `<p class="site-location"><strong>Location:</strong> ${escapeHtml(
+          site.location
+        )}</p>`
       : "";
 
-    // Places-to-stay block
     let placesBlock = "";
     if (Array.isArray(site.places_to_stay) && site.places_to_stay.length > 0) {
       const items = site.places_to_stay
         .map((p) => {
           const link =
             p.url && p.url.trim()
-              ? ` <a href="${p.url}" target="_blank" rel="noopener noreferrer">(details)</a>`
+              ? ` <a href="${encodeURI(
+                  p.url
+                )}" target="_blank" rel="noopener noreferrer">(details)</a>`
               : "";
-          return `<li><strong>${p.name}</strong> – ${p.description}${link}</li>`;
+          return `<li><strong>${escapeHtml(p.name)}</strong> – ${escapeHtml(
+            p.description
+          )}${link}</li>`;
         })
         .join("");
 
@@ -640,9 +665,9 @@ function renderSites() {
     }
 
     div.innerHTML = `
-      <h2>${site.name}</h2>
+      <h2>${escapeHtml(site.name)}</h2>
       ${locationLine}
-      <p>${site.description}</p>
+      <p>${escapeHtml(site.description)}</p>
       ${placesBlock}
     `;
 
@@ -659,6 +684,7 @@ function renderAbout() {
   if (!meta) return;
   const about = document.querySelector("#about-content");
   if (about) {
+    // about_html is intentional, author-controlled markup.
     about.innerHTML = meta.about_html || "";
   }
 }

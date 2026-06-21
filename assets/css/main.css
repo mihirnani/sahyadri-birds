@@ -2,7 +2,8 @@
 
 :root {
   --bg-body: #f4f0e7;
-  --bg-header: linear-gradient(135deg, #234834, #2c6e49);
+  --bg-header: #234834;
+  --header-rule: rgba(253, 251, 247, 0.16);
   --bg-panel: #fdfbf7;
   --bg-panel-alt: #faf4ea;
 
@@ -39,7 +40,8 @@
 
 :root[data-theme="dark"] {
   --bg-body: #0d1410;
-  --bg-header: linear-gradient(135deg, #06140d, #10281b);
+  --bg-header: #10281b;
+  --header-rule: rgba(233, 227, 214, 0.14);
   --bg-panel: #151c18;
   --bg-panel-alt: #191f1b;
 
@@ -124,6 +126,7 @@ a:hover {
   align-items: baseline;
   justify-content: space-between;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
+  border-bottom: 1px solid var(--header-rule);
   position: sticky;
   top: 0;
   z-index: 20;
@@ -500,6 +503,12 @@ a:hover {
 }
 
 .sidebar-species-item {
+  display: block;
+  width: calc(100% - 0.4rem);
+  text-align: left;
+  border: 0;
+  background: none;
+  font: inherit;
   padding: 0.22rem 0.45rem 0.22rem 0.55rem;
   border-radius: 6px;
   cursor: pointer;
@@ -508,6 +517,11 @@ a:hover {
   color: var(--text-muted);
   transition: background var(--transition-fast), color var(--transition-fast),
     transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.sidebar-species-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
 }
 
 .sidebar-species-item::before {
@@ -757,16 +771,31 @@ a:hover {
 }
 
 .image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
   text-align: center;
   font-size: 0.9rem;
   color: var(--text-muted);
+  min-height: 240px;
+  padding: 2rem 1.4rem;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-panel);
+  background: var(--bg-panel-alt);
 }
 
-.image-placeholder img {
-  max-width: 80%;
-  opacity: 0.6;
-  border-radius: 8px;
-  margin-bottom: 0.4rem;
+.image-placeholder svg {
+  width: 54px;
+  height: 54px;
+  opacity: 0.5;
+  color: var(--accent);
+}
+
+.image-placeholder p {
+  margin: 0;
+  max-width: 24ch;
 }
 
 /* --- Did you know? box (light + dark theme matched) --- */
