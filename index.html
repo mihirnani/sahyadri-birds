@@ -17,7 +17,9 @@
       })();
     </script>
     <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
+  
+<meta name="description" content="A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs."><meta name="theme-color" content="#111311"><link rel="manifest" href="sahyadri-birds.webmanifest"><link rel="icon" href="sahyadri-birds-icon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="sahyadri-birds-icon-192.png" sizes="192x192" type="image/png"><link rel="apple-touch-icon" href="sahyadri-birds-icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Sahyadri Birds"><link rel="canonical" href="https://naniwadekar.com/sahyadri-birds/"><meta property="og:title" content="Birds of the Sahyadris"><meta property="og:description" content="A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs."><meta property="og:type" content="website"><meta property="og:url" content="https://naniwadekar.com/sahyadri-birds/"><meta property="og:image" content="https://naniwadekar.com/sahyadri-birds-icon-512.png">
+</head>
   <body>
     <div class="site-shell">
       <header class="site-header">
@@ -117,5 +119,16 @@
     <script src="assets/js/config.js"></script>
     <script src="assets/js/data-loader.js"></script>
     <script src="assets/js/app.js"></script>
-  </body>
+  <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("sahyadri-birds-sw.js", { scope: "./" })
+            .catch(function (error) {
+              console.warn("Offline support was not installed:", error);
+            });
+        });
+      }
+    </script>
+</body>
 </html>

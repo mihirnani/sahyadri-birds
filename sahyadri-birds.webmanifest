@@ -1,0 +1,26 @@
+{
+  "id": "/sahyadri-birds/",
+  "name": "Birds of the Sahyadris",
+  "short_name": "Sahyadri Birds",
+  "description": "A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs.",
+  "start_url": "/sahyadri-birds/index.html",
+  "scope": "/sahyadri-birds/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111311",
+  "theme_color": "#111311",
+  "icons": [
+    {
+      "src": "sahyadri-birds-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "sahyadri-birds-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
