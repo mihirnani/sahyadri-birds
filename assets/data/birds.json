@@ -1556,7 +1556,12 @@
     "behaviour": "Much shyer than the Red-vented or Red-whiskered Bulbuls. It tends to forage in the mid-story to upper canopy, often solitary or in pairs. Its call is unique: a sharp, metallic single note 'chwang' or 'pink', and a fast, bubbling chatter. It plays a vital role in dispersing seeds of forest vines and figs.",
     "food": "Frugivorous, feeding on small berries (Lantana, Ficus) and fruits; occasionally takes insects during the breeding season.",
     "conservation_status": { "iucn_code": "NT", "label": "Near Threatened" },
-    "photos": [],
+    "photos": [{
+      "file": "assets/images/species/grey-headed-bulbul/main.webp",
+      "caption": "A grey-headed bulbul perched at Udupi, Karnataka.",
+      "photographer": "<a href=\"https://en.wikipedia.org/wiki/Grey-headed_bulbul#/media/File:Grey-headed_Bulbul.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Sahana M</a>",
+      "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+    }],
     "did_you_know": "It is one of the few bulbuls that nests primarily in bamboo reeds or cane brakes deep inside the rainforest."
   },
   {
