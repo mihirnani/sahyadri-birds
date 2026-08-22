@@ -8,10 +8,11 @@
     <script>
       // Set theme before first paint to avoid a flash of the wrong theme.
       (function () {
-        var theme = "dark";
+        var theme = "light";
         try {
-          var saved = window.localStorage.getItem("sb-theme");
+          var saved = window.localStorage.getItem("root-theme");
           if (saved === "light" || saved === "dark") theme = saved;
+          else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) theme = "dark";
         } catch (e) {}
         document.documentElement.setAttribute("data-theme", theme);
       })();

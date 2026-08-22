@@ -148,7 +148,7 @@ function initTheme() {
   // read it back so JS state and the toggle button agree with the DOM.
   let stored = null;
   try {
-    stored = window.localStorage.getItem("sb-theme");
+    stored = window.localStorage.getItem("root-theme");
   } catch (e) {}
 
   const domTheme = document.documentElement.getAttribute("data-theme");
@@ -164,7 +164,7 @@ function initTheme() {
       SB_STATE.theme = next;
       applyTheme(next);
       try {
-        window.localStorage.setItem("sb-theme", next);
+        window.localStorage.setItem("root-theme", next);
       } catch (e) {}
     });
   }
