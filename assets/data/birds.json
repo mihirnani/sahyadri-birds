@@ -4842,5 +4842,191 @@
     },
     "photos": [],
     "did_you_know": "Smaller birds such as doves and orioles often nest near Black Drongos, benefiting from the drongos' aggressive defence of their territory against crows and raptors."
+  },
+  {
+    "id": "pied-kingfisher",
+    "common_name": "Pied Kingfisher",
+    "scientific_name": "Ceryle rudis",
+    "order_id": "coraciiformes",
+    "family_id": "alcedinidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open water of all kinds: rivers, reservoirs, irrigation tanks, canals, estuaries, creeks and coastal backwaters throughout the lowlands and foothills of the Western Ghats. Scarce in the forested interior and at higher elevations, where clear open water is limited. Widespread across Africa and southern Asia.",
+    "size": {
+      "length_cm": [
+        25,
+        29
+      ]
+    },
+    "description": {
+      "adult_male": "Unmistakable black-and-white kingfisher with a shaggy black crest, a long, heavy black bill and a broad white supercilium. Upperparts black, boldly spotted and barred with white; underparts white with two black breast bands, the upper one broad and complete, the lower narrower and often broken.",
+      "adult_female": "Similar to the male but with a single black breast band, usually broken in the centre.",
+      "juvenile": "Like the female but duller, with a greyish wash and fine dark scaling on the throat and breast, and a brownish tinge to the black upperparts.",
+      "in_flight": "Strong, direct flight low over the water on rapid wingbeats, the black-and-white wings and tail strikingly patterned. Habitually hovers with the body held near vertical and the bill pointing down, before plunging headlong."
+    },
+    "behaviour": "The most conspicuous kingfisher of open water, fishing by hovering steadily some metres above the surface, often for many seconds, then diving. Also hunts from perches on posts, rocks and overhead wires. Usually in pairs or small family groups, and sociable where prey is plentiful, with several birds fishing together. Call is a sharp, chattering 'chirruk chirruk', given frequently in flight. Nests in a tunnel in a sandy river bank or cutting, breeding mainly from November to April; young from earlier broods and other adults sometimes help at the nest.",
+    "food": "Small fish, taken mainly by hovering and plunge-diving; also aquatic insects, tadpoles, frogs and crustaceans. Small prey is swallowed in flight, allowing the bird to feed far from any perch.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [],
+    "did_you_know": "It is one of the largest birds capable of sustained hovering, and by swallowing small fish on the wing it can fish over large lakes and estuaries where there are no perches at all."
+  },
+  {
+    "id": "purple-sunbird",
+    "common_name": "Purple Sunbird",
+    "scientific_name": "Cinnyris asiaticus",
+    "order_id": "passeriformes",
+    "family_id": "nectariniidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open woodland, dry and moist deciduous forest, scrub, thorn forest, farmland, plantations, gardens and towns, from the plains into the lower hills of the Western Ghats. Much less common in dense evergreen forest and in the wettest high hills, where Purple-rumped, Crimson-backed and Vigors's Sunbirds predominate.",
+    "size": {
+      "length_cm": [
+        10,
+        11
+      ]
+    },
+    "description": {
+      "adult_male": "In breeding plumage appears all black at a distance, but in good light glossy metallic purple-blue over the entire head, upperparts and breast, with a narrow maroon band across the breast and dark blackish belly. Small yellow and orange tufts at the sides of the breast are usually hidden. Bill long, thin and decurved, black. In non-breeding or eclipse plumage, mainly from around June to November, the male resembles the female but retains a broad glossy purple-black stripe down the centre of the throat and breast and dark blue-black wings and tail.",
+      "adult_female": "Dull olive-brown above with a faint pale supercilium, and uniform pale yellow below. Tail blackish with white tips to the outer feathers. Told from the female Purple-rumped Sunbird by the yellow rather than grey throat and the lack of any grey on the breast.",
+      "juvenile": "Like the female; young males soon begin to show dark blotches on the throat and breast as the glossy feathers come through.",
+      "in_flight": "Fast, darting flight between flowering shrubs and trees, and frequently hovers briefly in front of flowers, particularly when the corolla offers no perch."
+    },
+    "behaviour": "Active and noisy, singly or in pairs, working rapidly through flowering trees and shrubs and probing blossoms with the long bill. Often pierces the base of large or tubular flowers to reach the nectar. Males sing a rapid, twittering 'cheewit-cheewit' from an exposed twig and give a sharp 'chwit' call. Builds a pear-shaped pouch nest of fibres, bark and cobwebs with a side entrance, suspended from a low branch or even from wires and verandah plants, mainly from February to June in the region; only the female builds and incubates.",
+    "food": "Nectar from a wide range of flowering plants, including Erythrina, Bombax, Butea, Calotropis, Woodfordia and many garden species; also small insects and spiders, especially when feeding young.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [],
+    "did_you_know": "Unlike most Indian sunbirds, the male Purple Sunbird moults into a drab eclipse plumage after breeding, looking much like the female except for a dark stripe down the throat and breast."
+  },
+  {
+    "id": "asian-koel",
+    "common_name": "Asian Koel",
+    "scientific_name": "Eudynamys scolopaceus",
+    "order_id": "cuculiformes",
+    "family_id": "cuculidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open woodland, deciduous forest, forest edges, orchards, plantations, farmland with scattered trees, village groves, gardens and city parks throughout the plains and foothills of the Western Ghats. Follows its crow hosts into towns and is scarce only in dense evergreen forest and on the highest plateaus.",
+    "size": {
+      "length_cm": [
+        39,
+        46
+      ]
+    },
+    "description": {
+      "adult_male": "Large, slim, long-tailed cuckoo, entirely glossy blue-black with a stout pale greenish bill and a striking crimson eye. Legs grey. Superficially crow-like, but the slender shape, long graduated tail and red eye are distinctive.",
+      "adult_female": "Very different: dark brown above, densely spotted and barred with white and buff, with the crown streaked and the wings and tail barred; underparts whitish, heavily barred dark brown. Eye crimson, bill pale green.",
+      "juvenile": "Resembles the female but browner and more uniformly barred, with a dark eye. Young males soon show patches of black.",
+      "in_flight": "Direct flight with steady wingbeats, the long tail evident; usually seen dashing between tree canopies, often pursued by crows."
+    },
+    "behaviour": "Shy and skulking despite its size, keeping within dense foliage and far more often heard than seen. The male's loud, rising 'ko-el, ko-el' call, repeated with increasing pitch and urgency, dominates the pre-monsoon months from March to June, and is heard day and night; the female gives a shrill, bubbling 'kik-kik-kik'. A brood parasite that in India lays its eggs mainly in the nests of House and Large-billed Crows; the male often distracts the crows while the female slips in to lay. Unlike many cuckoos, the koel chick does not usually evict its nest mates, and both koel and crow young may fledge from the same nest.",
+    "food": "Mainly fruits and berries, especially figs, and also mulberries, papaya and other cultivated fruit; also caterpillars, other insects and occasionally eggs of small birds. An important disperser of fig and other tree seeds.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [],
+    "did_you_know": "The koel's eggs resemble those of its crow hosts, and its chicks often grow up alongside crow nestlings rather than pushing them out, so the foster parents may raise both."
+  },
+  {
+    "id": "coppersmith-barbet",
+    "common_name": "Coppersmith Barbet",
+    "scientific_name": "Psilopogon haemacephalus",
+    "order_id": "piciformes",
+    "family_id": "megalaimidae",
+    "group_id": "non-passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Open woodland, dry and moist deciduous forest, groves, orchards, roadside avenues, gardens and city parks, from the plains into the foothills of the Western Ghats. Favours areas with fig trees and dead branches for nesting. Largely absent from dense evergreen forest and the higher hills, where White-cheeked and Malabar Barbets take its place.",
+    "size": {
+      "length_cm": [
+        15,
+        17
+      ]
+    },
+    "description": {
+      "adult_male": "Small, dumpy, bright green barbet with a short, thick bill. Crimson forehead and a crimson patch on the upper breast, separated by a yellow throat; bright yellow patches above and below the eye set in a black face. Underparts pale yellowish-green with heavy dark green streaking. Legs and feet reddish.",
+      "adult_female": "Sexes alike.",
+      "juvenile": "Duller, lacking the crimson on the forehead and breast, which are replaced by dull green and yellow; face pattern more subdued.",
+      "in_flight": "Direct, slightly undulating flight on whirring wings, appearing green and stubby; often flies some distance between fruiting trees."
+    },
+    "behaviour": "Best known for its monotonous, metallic 'tuk, tuk, tuk' call, delivered for minutes on end from a bare treetop, the bird bobbing its head and jerking its tail with each note; several birds often call at once. Calls mainly in the hot months but may be heard year-round. Singly or in pairs, and in groups at fruiting figs. Excavates a small nest hole in a dead branch or soft-wooded trunk, often on the underside of a bough, breeding chiefly from December to June. Both sexes dig the hole and feed the young.",
+    "food": "Fruits and berries, above all figs, together with other soft fruits such as those of Lantana and mulberry; also takes insects, especially winged termites, and occasionally flower petals.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [],
+    "did_you_know": "Its name comes from its call, a steady metallic 'tuk, tuk, tuk' likened to a coppersmith hammering a sheet of metal, and the bird may repeat the note more than a hundred times a minute."
+  },
+  {
+    "id": "oriental-magpie-robin",
+    "common_name": "Oriental Magpie-Robin",
+    "scientific_name": "Copsychus saularis",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Gardens, villages, towns, farmland, orchards, open woodland, forest edges and plantations throughout the Western Ghats lowlands and hills, up to the hill stations. One of the most familiar birds around human habitation, but scarce inside dense, unbroken evergreen forest.",
+    "size": {
+      "length_cm": [
+        19,
+        21
+      ]
+    },
+    "description": {
+      "adult_male": "Neat black-and-white chat with a glossy blue-black head, breast and upperparts, white belly and vent, a long white wing bar and a long black tail with white outer feathers. Bill and legs black. Stands upright with the tail often cocked.",
+      "adult_female": "Pattern as in the male but the black replaced by dark slaty grey, especially on the throat and breast; the white belly is tinged greyish.",
+      "juvenile": "Like the female but browner, with the throat and breast mottled and scaled buff-brown.",
+      "in_flight": "Short, low flights between the ground and perches, the white wing bar and white outer tail feathers flashing; rarely flies far."
+    },
+    "behaviour": "Confiding and conspicuous, hopping on lawns, paths and ploughed fields and flicking up its tail, or singing from a rooftop, post or treetop. The song, given especially at dawn and dusk in the breeding season, is a rich, varied series of clear whistled phrases, often including imitations of other birds; also a harsh 'chrr' scold and a plaintive rising whistle. Males are strongly territorial, raising the tail and puffing out the feathers in display and in disputes with neighbours. Nests in a tree hole, wall crevice, pipe or nest box, breeding mainly from March to July.",
+    "food": "Mainly insects and other invertebrates, including beetles, grasshoppers, caterpillars, ants and earthworms, picked from the ground and low vegetation; occasionally small geckos, nectar and berries.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [],
+    "did_you_know": "Though popularly called a robin, it is a chat in the flycatcher family, and it is the national bird of Bangladesh, where it is known as the doyel."
+  },
+  {
+    "id": "tickells-blue-flycatcher",
+    "common_name": "Tickell's Blue Flycatcher",
+    "scientific_name": "Cyornis tickelliae",
+    "order_id": "passeriformes",
+    "family_id": "muscicapidae",
+    "group_id": "passerines",
+    "status_in_sahyadris": "resident",
+    "is_endemic": false,
+    "habitat": "Dry and moist deciduous forest, bamboo, thorn scrub with trees, shaded ravines, plantations, overgrown orchards and wooded gardens, from the plains into the foothills of the Western Ghats. Prefers drier, more open woodland than the Blue-throated Flycatcher and is often found near streams in the dry season.",
+    "size": {
+      "length_cm": [
+        13,
+        15
+      ]
+    },
+    "description": {
+      "adult_male": "Small, long-tailed flycatcher with bright blue upperparts, head and tail, the forehead and shoulder paler, brighter blue. Throat and breast rich orange-rufous, grading sharply into a clean white belly. Lores blackish. Bill and legs dark.",
+      "adult_female": "Duller, with the blue of the upperparts replaced by greyish-blue and the crown and mantle tinged brown; tail and wings bluish. Throat and breast paler orange than the male, belly white.",
+      "juvenile": "Brown above and buff below, heavily spotted and scaled with pale buff and dark brown, with bluish wings and tail.",
+      "in_flight": "Short, quick sallies from a low perch after flying insects, returning to the same or a nearby perch; the blue tail is spread and flicked on landing."
+    },
+    "behaviour": "Quiet and unobtrusive, perching upright in the shade of the middle and lower storey, from where it makes brief sallies or drops to the ground for insects. Singly or in pairs, and sometimes with mixed flocks. The song is a short, sweet, descending trill of six to ten clear notes, often given through the heat of the day when few other birds are calling; also a sharp 'tik' and a harsh churr. Nests in a cup of moss and rootlets in a hollow, rock crevice or bank, or among roots, breeding mainly from April to August.",
+    "food": "Small insects, including flies, beetles, moths and caterpillars, taken in the air and from foliage and the ground.",
+    "conservation_status": {
+      "iucn_code": "LC",
+      "label": "Least Concern"
+    },
+    "photos": [],
+    "did_you_know": "It is named after Samuel Tickell, a nineteenth-century army officer and naturalist in India, and is the only one of the region's blue-and-orange flycatchers with a white belly sharply cut off from the orange breast."
   }
 ]
