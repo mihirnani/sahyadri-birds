@@ -6,12 +6,12 @@
   },
   {
     "name": "eBird Western Ghats Hotspots",
-    "description": "Listing of active birding hotspots across the Western Ghats, sorted by species richness and effort.",
-    "url": "https://ebird.org/hotspots?region=IN-WG"
+    "description": "eBird hotspots for Maharashtra; switch the region to Karnataka, Goa, Kerala or Tamil Nadu for the rest of the range.",
+    "url": "https://ebird.org/region/IN-MH/hotspots"
   },
   {
-    "name": "Merlin Bird ID – South Asia Pack",
-    "description": "Free bird ID app by Cornell Lab; includes call ID and photo-based suggestions for Indian birds.",
+    "name": "Merlin Bird ID",
+    "description": "Free bird-identification app from the Cornell Lab; the “Birds of India” packs include sound ID and photo-based suggestions.",
     "url": "https://merlin.allaboutbirds.org"
   },
   {
@@ -20,8 +20,8 @@
     "url": "https://birdcount.in"
   },
   {
-    "name": "BNHS",
-    "description": "Bombay Natural History Society, with publications and resources on Indian birds and conservation.",
+    "name": "Bombay Natural History Society",
+    "description": "Publications, journal and resources on Indian birds and conservation.",
     "url": "https://www.bnhs.org"
   },
   {
@@ -31,12 +31,12 @@
   },
   {
     "name": "Avibase checklist",
-    "description": "Avibase: Bird Checklists of the World - Sahyadri region",
+    "description": "Avibase checklist for the Sahyadri region (Howard & Moore taxonomy)",
     "url": "https://avibase.bsc-eoc.org/checklist.jsp?region=INswmh08&list=howardmoore"
   },
   {
     "name": "Birds of Konkan",
-    "description": "Sahyadri Nisarg Mitra, Birds of Konkan",
+    "description": "Sahyadri Nisarg Mitra’s documentation of the birds of the Konkan coast.",
     "url": "https://www.snmcpn.org/about-us/documentation/birds-of-konkan"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "name": "Ecological Society",
-    "description": "A leading Pune-based organisation, which organises many local and educational activities.",
+    "description": "Pune-based organisation running ecology courses, field visits and the Journal of the Ecological Society.",
     "url": "https://www.theecologicalsociety.org/"
   },
   {

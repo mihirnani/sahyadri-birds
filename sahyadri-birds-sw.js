@@ -1,9 +1,9 @@
-/* Birds of the Sahyadris — offline service worker.
+/* Birds of the Sahyadris – offline service worker.
    Cache-safe pattern: a cache/quota failure never blocks a network response. */
 "use strict";
 
 const PREFIX = "sahyadri-birds-";
-const VERSION = "v1";
+const VERSION = "v5";
 const SHELL_CACHE = `${PREFIX}shell-${VERSION}`;
 const IMAGE_CACHE = `${PREFIX}images-${VERSION}`;
 

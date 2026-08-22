@@ -13,65 +13,28 @@ async function sbLoadJson(url) {
    The hand-authored `status_in_sahyadris` field has accumulated many
    spellings/casings for a handful of real categories. We map each raw
    string to a canonical { code, label } pair at load time, so sorting,
-   filtering and the badge are consistent — WITHOUT mutating birds.json.
+   filtering and the badge are consistent – WITHOUT mutating birds.json.
    Any unmapped value is surfaced via console.warn (and shown verbatim),
    so new species you add can't silently fragment the list.
    --------------------------------------------------------------- */
-
-const SB_RESIDENCY_MAP = {
-  "resident": { code: "resident", label: "Resident" },
-  "migrant": { code: "migrant", label: "Migrant" },
-  "winter visitor": { code: "winter_visitor", label: "Winter visitor" },
-  "winter_visitor": { code: "winter_visitor", label: "Winter visitor" },
-  "resident/migrant": { code: "resident_migrant", label: "Resident / migrant" },
-  "migrant/resident": { code: "resident_migrant", label: "Resident / migrant" },
-  "resident, local migrant": {
-    code: "resident_migrant",
-    label: "Resident / local migrant",
-  },
-  "winter visitor/resident": {
-    code: "winter_visitor_resident",
-    label: "Winter visitor / resident",
-  },
-  "winter visitor / resident": {
-    code: "winter_visitor_resident",
-    label: "Winter visitor / resident",
-  },
-  "winter visitor / passage migrant": {
-    code: "winter_visitor_passage",
-    label: "Winter visitor / passage migrant",
-  },
-  "winter visitor/passage migrant": {
-    code: "winter_visitor_passage",
-    label: "Winter visitor / passage migrant",
-  },
-  "vagrant/winter_visitor": {
-    code: "vagrant_winter_visitor",
-    label: "Vagrant / winter visitor",
-  },
-  "rare/edge-of-range": {
-    code: "rare_edge_of_range",
-    label: "Rare / edge-of-range",
-  },
-};
 
 function sbNormaliseResidency(raw) {
   if (!raw || typeof raw !== "string") {
     return { code: "unknown", label: "" };
   }
-  const key = raw.trim().toLowerCase().replace(/\s+/g, " ");
-  const hit = SB_RESIDENCY_MAP[key];
-  if (hit) return hit;
-
-  // Unmapped: keep the original text as the label, derive a code, warn.
-  console.warn(
-    `[data-loader] Unmapped residency status: "${raw}". ` +
-      `Add it to SB_RESIDENCY_MAP in data-loader.js.`
-  );
-  return {
-    code: key.replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, ""),
-    label: raw.trim(),
-  };
+  // Controlled vocabulary in birds.json: resident, winter visitor,
+  // summer breeder, passage migrant, local migrant, vagrant – joined
+  // with " / " when a species fits more than one.
+  const parts = raw
+    .trim()
+    .toLowerCase()
+    .replace(/_/g, " ")
+    .split(/\s*[\/,]\s*/)
+    .filter(Boolean);
+  const label = parts
+    .map((p, i) => (i === 0 ? p.charAt(0).toUpperCase() + p.slice(1) : p))
+    .join(" / ");
+  return { code: parts.join("_").replace(/\s+/g, "_"), label };
 }
 
 const SB_IUCN_ORDER = ["EW", "CR", "EN", "VU", "NT", "LC", "DD", "NE"];

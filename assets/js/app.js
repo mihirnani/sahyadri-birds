@@ -558,7 +558,7 @@ function renderBirdImages(bird) {
     el.innerHTML = `
       <div class="image-placeholder">
         ${SB_EMPTY_GLYPH}
-        <p>Photograph to come for ${escapeHtml(bird.common_name)}.</p>
+        <p>No photograph yet for ${escapeHtml(bird.common_name)} – contributions from the Sahyadris are welcome.</p>
       </div>
     `;
     return;
@@ -650,7 +650,7 @@ function renderSites() {
                   p.url
                 )}" target="_blank" rel="noopener noreferrer">(details)</a>`
               : "";
-          return `<li><strong>${escapeHtml(p.name)}</strong> – ${escapeHtml(
+          return `<li><strong>${escapeHtml(p.name)}</strong>– ${escapeHtml(
             p.description
           )}${link}</li>`;
         })

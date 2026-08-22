@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Spectral:ital,wght@0,300;0,400;0,500;1,400&display=swap');
 
 /* =================================================================
-   Birds of the Sahyadris — restyled to match the
+   Birds of the Sahyadris – restyled to match the
    "Curiosities" home page and "The European Gaze" collection.
    Same type pairing (Cormorant Garamond + Spectral), same warm
    paper palette and hairline editorial grammar. Green is kept as
@@ -190,6 +190,13 @@ img {
   color: var(--accent-bright);
 }
 
+.site-home-link {
+  text-decoration: none;
+  color: var(--muted);
+  padding-right: 0.6rem;
+  border-right: 1px solid var(--line);
+}
+
 .site-tab-btn.active {
   color: var(--text);
   border-bottom-color: var(--accent);
@@ -200,7 +207,7 @@ img {
   outline-offset: 4px;
 }
 
-/* Theme toggle — bordered uppercase, matching the collection */
+/* Theme toggle – bordered uppercase, matching the collection */
 
 .theme-toggle {
   border: 1px solid var(--line);
@@ -706,7 +713,7 @@ img {
   flex-direction: column;
 }
 
-/* About — editorial prose */
+/* About – editorial prose */
 
 #about-content {
   max-width: var(--measure);
@@ -756,7 +763,7 @@ img {
   color: var(--muted);
 }
 
-/* Sites & Resources — ruled list rows (room-row grammar) */
+/* Sites & Resources – ruled list rows (room-row grammar) */
 
 #sites-list,
 #resources-list {
