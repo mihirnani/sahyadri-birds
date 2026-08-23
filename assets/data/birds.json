@@ -1393,8 +1393,8 @@
     "behaviour": "A quiet, unobtrusive shola specialist. Typically perches upright on low to mid-level branches inside dense, moist forest, making short sallies to capture insects. Frequently flicks the tail when alert. Often forages singly or in loose association with mixed-species flocks. Outside the breeding season it becomes notably silent and inconspicuous, relying heavily on sit-and-wait hunting from shaded perches.",
     "food": "Primarily insects – caught by short aerial sallies or gleaned from foliage. Occasionally takes small arthropods from the understorey leaves, mossy trunks, and lichen-covered branches.",
     "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [],
     "did_you_know": "One of the few Western Ghats endemics confined almost entirely to the high sholas; below about 900 m it is quickly replaced by the Tickell’s Blue Flycatcher."
@@ -1424,8 +1424,8 @@
     "behaviour": "A shola undergrowth specialist that keeps close to the ground. Skulks in dense vegetation, hopping rapidly between low perches and leaf litter. Frequently pumps or flicks its tail. Often seen foraging singly or in pairs, rarely joining mixed flocks. Breeding birds give sharp ticks and soft trills; otherwise quiet. Territorial during the breeding season.",
     "food": "Small insects and other invertebrates gleaned from leaf litter, mossy logs, low shrubs, and ground-level foliage.",
     "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [],
     "did_you_know": "Long placed in its own genus Ochromela because of its odd colours, DNA studies have shown it is a true Ficedula flycatcher that evolved in isolation in the high sholas."
@@ -1517,8 +1517,8 @@
     "behaviour": "A skulker of dark, damp shola interiors. Hunts insects on the forest floor or low branches, hopping rapidly with long-legged gait. Frequently gives sharp tit-like notes and harsh rattles; song is a mix of thin whistles and twanging buzzes. Can be surprisingly confiding when encountered but rarely leaves deep cover. Very site-faithful.",
     "food": "Insects and small invertebrates gathered from leaf litter, moss, and low vegetation.",
     "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
+      "iucn_code": "EN",
+      "label": "Endangered"
     },
     "photos": [],
     "did_you_know": "For over a century it was called a shortwing and placed with Brachypteryx; DNA work in 2017 showed it is an old, isolated lineage of flycatcher, and the new genus Sholicola was coined from 'shola' and the Latin for dweller."
@@ -1548,8 +1548,8 @@
     "behaviour": "Exceptionally secretive. Forages very low – often on or just above the forest floor – taking insects from leaf litter and tangled undergrowth. More often heard than seen; song is a clear, melodious series of whistles used in territory defence. Shy and quick to retreat into thickets.",
     "food": "Insects, small invertebrates, and other arthropods from damp forest-floor microhabitats.",
     "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
+      "iucn_code": "EN",
+      "label": "Endangered"
     },
     "photos": [],
     "did_you_know": "The Palghat Gap, a 30 km break in the Ghats, separates it from its sister species the Nilgiri Sholakili; the two have been isolated for millions of years on opposite sides of this gap."
@@ -1938,7 +1938,7 @@
       "label": "Least Concern"
     },
     "photos": [],
-    "did_you_know": "Its species name leschenaulti honours the French botanist Jean-Baptiste Leschenault de la Tour, who collected in southern India in the early 1800s; it is the only Indian bee-eater with a square-ended tail and no streamers."
+    "did_you_know": "Its species name leschenaulti honours the French botanist Jean-Baptiste Leschenault de la Tour, who collected in southern India in the early 1800s; it is the only Indian Merops bee-eater with a square-ended tail and no streamers."
   },
   {
     "id": "velvet-fronted-nuthatch",
@@ -2541,7 +2541,7 @@
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": true,
-    "habitat": "Strictly confined to the high-altitude Shola forests and edges of the Nilgiri Biosphere Reserve (e.g., Ooty, Mukurthi, Upper Bhavani), usually above 1,600m. It loves dense Rhododendron thickets and Strobilanthes scrub.",
+    "habitat": "Strictly confined to the high-altitude Shola forests and edges of the Nilgiri Biosphere Reserve (e.g., Ooty, Mukurthi, Upper Bhavani), usually above about 1,200 m and commonest above 1,500 m. It loves dense Rhododendron thickets and Strobilanthes scrub.",
     "size": {
       "length_cm": [
         22,
@@ -2557,8 +2557,8 @@
     "behaviour": "Highly social and noisy. They move in tight parties of 6–15 birds, constantly calling to one another with a series of high-pitched squeals, cackles, and 'laughing' notes ('pee-koko… pee-koko'). They are inquisitive and will often approach humans standing quietly near shola edges.",
     "food": "Wild raspberry (Rubus), hill guava (Rhodomyrtus), insects, and nectar from Lobelia and Rhododendron flowers.",
     "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
+      "iucn_code": "EN",
+      "label": "Endangered"
     },
     "photos": [
       {
@@ -2626,8 +2626,8 @@
     "behaviour": "Mainly arboreal, foraging in canopy of dense hill forests. Usually seen singly, in pairs or small groups. Feeds on fruits in fruiting trees. Shy and wary, difficult to approach.",
     "food": "Frugivorous; feeds on variety of forest fruits and berries in canopy.",
     "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
+      "iucn_code": "VU",
+      "label": "Vulnerable"
     },
     "photos": [],
     "did_you_know": "Described by Colonel W. H. Sykes in 1832, it was named after Mountstuart Elphinstone, Governor of Bombay and a patron of natural history in the Deccan."
@@ -3513,8 +3513,8 @@
     "habitat": "Rocky slopes, remote hills, dry open forests and steep gorges; strongly associated with crags and broken terrain.",
     "size": {
       "length_cm": [
-        65,
-        75
+        55,
+        67
       ]
     },
     "description": {
@@ -3661,7 +3661,7 @@
         "license": "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a>"
       }
     ],
-    "did_you_know": "Introduced through the cage-bird trade to Fiji, Hawaii, Samoa and elsewhere, it is the only bird listed among the IUCN's '100 of the World's Worst Invasive Alien Species' for its damage to orchards and native birds."
+    "did_you_know": "Introduced through the cage-bird trade to Fiji, Hawaii, Samoa and elsewhere, it is one of only three birds listed among the IUCN's '100 of the World's Worst Invasive Alien Species' (with the Common Myna and the European Starling) for its damage to orchards and native birds."
   },
   {
     "id": "common-tailorbird",
@@ -4228,7 +4228,7 @@
     "group_id": "passerines",
     "status_in_sahyadris": "resident",
     "is_endemic": true,
-    "habitat": "Moist deciduous and semi-evergreen forest, forest edges, wooded ravines, hill-station gardens and plantations of the northern and central Western Ghats, from the foothills to about 1,500 m. Most numerous in Maharashtra and Goa, where it replaces the Crimson Sunbird; becomes scarce south of Karnataka.",
+    "habitat": "Moist deciduous and semi-evergreen forest, forest edges, wooded ravines, hill-station gardens and plantations of the northern and central Western Ghats, from the foothills to about 1,500 m. Most numerous in Maharashtra and Goa, where it replaces the Crimson Sunbird; is essentially absent south of northern Karnataka.",
     "size": {
       "length_cm": [
         14,
