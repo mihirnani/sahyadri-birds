@@ -1025,3 +1025,14 @@ button.btn:hover {
   font: inherit;
 }
 .site-title-btn:hover { text-decoration: underline; text-underline-offset: 0.15em; }
+
+/* Site footer, identical across Curiosities. */
+.site-foot {
+  margin: 2.4rem 1.25rem 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.site-foot a { color: inherit; text-decoration: none; }
+.site-foot a:hover { text-decoration: underline; }
