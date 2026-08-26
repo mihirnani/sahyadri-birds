@@ -141,7 +141,7 @@
       "juvenile": "Duller sooty black with little or no iridescence. Crest absent or minimal. Tail streamers short or undeveloped; 'rackets' not yet formed. Iris dark brown.",
       "in_flight": "Long tail streamers trail dramatically, twisting during turns. Flashy silhouette with broad wings and characteristic undulating flight through canopy gaps."
     },
-    "behaviour": "A bold, intelligent forest bird. Famous for exceptional mimicry – copies alarm calls, songs, and even mammal noises. Regular leader species in mixed hunting flocks, using its mimicked alarm calls to influence flock movement. Feeds actively by sallying for insects from exposed canopy perches or following mammals for disturbed prey. Aggressive towards predators and larger birds; known to chase raptors from territory. Crest raised when excited or during vocal displays.",
+    "behaviour": "A bold, intelligent forest bird. Famous for exceptional mimicry – copies alarm calls, songs, and even mammal noises. A prominent sentinel and nuclear participant in mixed-species flocks; in some communities it helps initiate or lead flocks. Its contextual mimicry can attract other species and sometimes improve its own foraging success. Feeds actively by sallying for insects from exposed canopy perches or following mammals for disturbed prey. Aggressive towards predators and larger birds; known to chase raptors from territory. Crest raised when excited or during vocal displays.",
     "food": "Large flying insects, beetles, winged termites, small lizards, nectar, and occasionally fledglings or small birds. Often captures insects in aerial sallies.",
     "conservation_status": {
       "iucn_code": "LC",
@@ -155,7 +155,7 @@
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
       }
     ],
-    "did_you_know": "Its mimicry is so advanced that it can imitate alarm calls of multiple species to manipulate mixed flocks for its own feeding advantage."
+    "did_you_know": "Its mimicry is so advanced that it imitates the alarm calls of several other species; experiments show these calls attract flock-mates, and a false alarm is sometimes followed by a drongo feeding on what the startled birds dropped."
   },
   {
     "id": "rufous-backed-shrike",
@@ -255,7 +255,7 @@
       "juvenile": "Fluffier and paler than adults with less defined streaking, duller grey-brown tone and a bright yellow gape. Iris darker than adults. Juveniles stay close to the group, following adults and giving persistent food-begging calls.",
       "in_flight": "Short, low, and noisy flights with wings and tail fanned. Typical movement is a series of fluttering hops between bushes or along the ground. Flocks keep tightly together while calling."
     },
-    "behaviour": "Exceptionally social, usually found in cohesive groups of 6–10+ birds, giving rise to the nickname 'Seven Sisters'. Engages in cooperative breeding: several group members assist in incubation, feeding nestlings and defending territories. Frequent allopreening and allogrooming reinforce social bonds. Forages mostly on the ground, turning over leaf litter for insects and fallen fruits. Sentinels take elevated positions and give rasping alarm calls. Constant contact chatter keeps the flock coordinated. Roosts communally in dense shrubbery or low trees.",
+    "behaviour": "Exceptionally social, usually found in cohesive groups of 6–10+ birds, giving rise to the nickname 'Seven Sisters'. Engages in cooperative breeding: several group members may help the breeding pair defend the territory and feed the young. Frequent allopreening and allogrooming reinforce social bonds. Forages mostly on the ground, turning over leaf litter for insects and fallen fruits. Sentinels take elevated positions and give rasping alarm calls. Constant contact chatter keeps the flock coordinated. Roosts communally in dense shrubbery or low trees.",
     "food": "Wide-ranging diet including insects, beetles, ants, termites, caterpillars, seeds, berries, small fruits and occasional human food scraps. Will opportunistically take small lizards or frogs when available.",
     "conservation_status": {
       "iucn_code": "LC",
@@ -1444,8 +1444,8 @@
     "behaviour": "Typically seen perched conspicuously on wires, poles or bare branches, scanning the ground for prey. Hunts by dropping from a perch in a rapid glide to seize insects or small vertebrates. Frequently active near roadsides where insects are abundant. During the breeding season performs its famous 'rolling' aerial display with tumbling, diving loops accompanied by harsh calls. Territorial and vocal; emits repeated rasping 'chack-chack' notes while displaying.",
     "food": "Large insects such as grasshoppers, crickets and beetles; also feeds on small reptiles, frogs, large termites and occasionally small rodents.",
     "conservation_status": {
-      "iucn_code": "LC",
-      "label": "Least Concern"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [
       {
@@ -1603,8 +1603,8 @@
     "behaviour": "A quiet, unobtrusive shola specialist. Typically perches upright on low to mid-level branches inside dense, moist forest, making short sallies to capture insects. Frequently flicks the tail when alert. Often forages singly or in loose association with mixed-species flocks. Outside the breeding season it becomes notably silent and inconspicuous, relying heavily on sit-and-wait hunting from shaded perches.",
     "food": "Primarily insects – caught by short aerial sallies or gleaned from foliage. Occasionally takes small arthropods from the understorey leaves, mossy trunks, and lichen-covered branches.",
     "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
+      "iucn_code": "LC",
+      "label": "Least Concern"
     },
     "photos": [
       {
@@ -1641,8 +1641,8 @@
     "behaviour": "A shola undergrowth specialist that keeps close to the ground. Skulks in dense vegetation, hopping rapidly between low perches and leaf litter. Frequently pumps or flicks its tail. Often seen foraging singly or in pairs, rarely joining mixed flocks. Breeding birds give sharp ticks and soft trills; otherwise quiet. Territorial during the breeding season.",
     "food": "Small insects and other invertebrates gleaned from leaf litter, mossy logs, low shrubs, and ground-level foliage.",
     "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
+      "iucn_code": "LC",
+      "label": "Least Concern"
     },
     "photos": [
       {
@@ -1758,8 +1758,8 @@
     "behaviour": "A skulker of dark, damp shola interiors. Hunts insects on the forest floor or low branches, hopping rapidly with long-legged gait. Frequently gives sharp tit-like notes and harsh rattles; song is a mix of thin whistles and twanging buzzes. Can be surprisingly confiding when encountered but rarely leaves deep cover. Very site-faithful.",
     "food": "Insects and small invertebrates gathered from leaf litter, moss, and low vegetation.",
     "conservation_status": {
-      "iucn_code": "EN",
-      "label": "Endangered"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [
       {
@@ -1797,8 +1797,8 @@
     "behaviour": "Exceptionally secretive. Forages very low – often on or just above the forest floor – taking insects from leaf litter and tangled undergrowth. More often heard than seen; song is a clear, melodious series of whistles used in territory defence. Shy and quick to retreat into thickets.",
     "food": "Insects, small invertebrates, and other arthropods from damp forest-floor microhabitats.",
     "conservation_status": {
-      "iucn_code": "EN",
-      "label": "Endangered"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [
       {
@@ -1970,7 +1970,7 @@
   {
     "id": "grey-headed-bulbul",
     "common_name": "Grey-headed Bulbul",
-    "scientific_name": "Brachypodius priocephalus",
+    "scientific_name": "Microtarsus priocephalus",
     "order_id": "passeriformes",
     "family_id": "pycnonotidae",
     "group_id": "passerines",
@@ -1992,8 +1992,8 @@
     "behaviour": "Much shyer than the Red-vented or Red-whiskered Bulbuls. It tends to forage in the mid-story to upper canopy, often solitary or in pairs. Its call is unique: a sharp, metallic single note 'chwang' or 'pink', and a fast, bubbling chatter. It plays a vital role in dispersing seeds of forest vines and figs.",
     "food": "Frugivorous, feeding on small berries (Lantana, Ficus) and fruits; occasionally takes insects during the breeding season.",
     "conservation_status": {
-      "iucn_code": "NT",
-      "label": "Near Threatened"
+      "iucn_code": "LC",
+      "label": "Least Concern"
     },
     "photos": [
       {
@@ -2553,7 +2553,7 @@
   {
     "id": "eastern-cattle-egret",
     "common_name": "Eastern Cattle Egret",
-    "scientific_name": "Bubulcus coromandus",
+    "scientific_name": "Ardea coromanda",
     "order_id": "pelecaniformes",
     "family_id": "ardeidae",
     "group_id": "waterbirds",
@@ -3006,8 +3006,8 @@
     "behaviour": "Highly social and noisy. They move in tight parties of 6–15 birds, constantly calling to one another with a series of high-pitched squeals, cackles, and 'laughing' notes ('pee-koko… pee-koko'). They are inquisitive and will often approach humans standing quietly near shola edges.",
     "food": "Wild raspberry (Rubus), hill guava (Rhodomyrtus), insects, and nectar from Lobelia and Rhododendron flowers.",
     "conservation_status": {
-      "iucn_code": "EN",
-      "label": "Endangered"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [
       {
@@ -3083,8 +3083,8 @@
     "behaviour": "Mainly arboreal, foraging in canopy of dense hill forests. Usually seen singly, in pairs or small groups. Feeds on fruits in fruiting trees. Shy and wary, difficult to approach.",
     "food": "Frugivorous; feeds on variety of forest fruits and berries in canopy.",
     "conservation_status": {
-      "iucn_code": "VU",
-      "label": "Vulnerable"
+      "iucn_code": "LC",
+      "label": "Least Concern"
     },
     "photos": [
       {
@@ -3785,7 +3785,7 @@
   {
     "id": "shikra",
     "common_name": "Shikra",
-    "scientific_name": "Accipiter badius",
+    "scientific_name": "Tachyspiza badia",
     "order_id": "accipitriformes",
     "family_id": "accipitridae",
     "group_id": "raptors",
@@ -4913,8 +4913,8 @@
     "behaviour": "Outside breeding season, extremely skulking – moves mouse-like through dense, wet grass, seldom rising above cover. During breeding, becomes vocal and visible: males ascend in fluttering song-flights with lark-like buzzing trills. Gives sharp 'chack', thin 'tzeep' and metallic 'zink' notes from within grass clumps. Highly site-faithful to specific wet meadows. Distribution patchy and localised despite being resident across suitable high-altitude grasslands.",
     "food": "Small insects and arthropods gleaned from grass stems, leaves and ground-level vegetation.",
     "conservation_status": {
-      "iucn_code": "VU",
-      "label": "Vulnerable"
+      "iucn_code": "NT",
+      "label": "Near Threatened"
     },
     "photos": [
       {
