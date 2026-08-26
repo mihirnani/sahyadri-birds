@@ -1255,10 +1255,9 @@
     "photos": [
       {
         "file": "assets/images/species/malabar-grey-hornbill/main.webp",
-        "caption": "[Caption]",
-        "photographer": "<a href=\"[link]\" target=\"_blank\" rel=\"noopener noreferrer\">[Name]</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>",
-        "pending": true
+        "caption": "A male perched on a bark.",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/Malabar_grey_hornbill#/media/File:Ocyceros_griseus_-Kerala,_India_-male-8a.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Dhruvaraj S</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 2.0</a>",
       }
     ],
     "did_you_know": "Among the smallest of Asia's hornbills, it is the only Indian hornbill without a casque. The nesting female stays walled into her cavity for several weeks, fed through a slit by her mate."
