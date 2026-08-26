@@ -33,6 +33,13 @@ const SB_IUCN_LABELS = {
 const SB_EMPTY_GLYPH = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 7h.01"/><path d="M3.4 18c-.6-1.1-.9-2.4-.9-3.7C2.5 9.2 6.4 5 11.2 5c3.6 0 6.6 2.1 7.9 5.2.2.5.7.8 1.2.8h.2c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3h-2.1c-1 0-1.9.5-2.5 1.3L13 18"/><path d="M8 21c.5-2 2-3.5 4-4"/></svg>`;
 
 // Escape user-authored text before injecting it into innerHTML.
+/* A photo record with "pending": true is a placeholder waiting for its image
+   (birds.json carries one for every species without a photograph yet); it is
+   ignored everywhere until the image is added and the flag removed. */
+function livePhotos(bird) {
+  return (Array.isArray(bird.photos) ? bird.photos : []).filter((p) => p && !p.pending);
+}
+
 function escapeHtml(value) {
   if (value === null || value === undefined) return "";
   return String(value)
@@ -286,7 +293,7 @@ function buildSidebar() {
       filteredBirds = filteredBirds.filter((bird) => bird.is_endemic);
     } else if (currentFilter === "with-photo") {
       filteredBirds = filteredBirds.filter(
-        (bird) => Array.isArray(bird.photos) && bird.photos.length > 0
+        (bird) => livePhotos(bird).length > 0
       );
     } else {
       filteredBirds = filteredBirds.filter(
@@ -411,7 +418,7 @@ function pickRandomBirdId(requirePhoto = false) {
   let pool = SB_STATE.birds;
   if (requirePhoto) {
     const withPhotos = SB_STATE.birds.filter(
-      (b) => Array.isArray(b.photos) && b.photos.length > 0
+      (b) => livePhotos(b).length > 0
     );
     if (withPhotos.length > 0) pool = withPhotos;
   }
@@ -552,7 +559,7 @@ function renderBirdImages(bird) {
   const el = document.querySelector(SB_CONFIG.ui.imagePanelSelector);
   if (!el) return;
 
-  const photos = Array.isArray(bird.photos) ? bird.photos : [];
+  const photos = livePhotos(bird);
 
   if (!photos.length) {
     el.innerHTML = `
