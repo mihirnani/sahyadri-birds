@@ -5619,10 +5619,9 @@
     "photos": [
       {
         "file": "assets/images/species/blue-eared-kingfisher/main.webp",
-        "caption": "[Caption]",
-        "photographer": "<a href=\"[link]\" target=\"_blank\" rel=\"noopener noreferrer\">[Name]</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>",
-        "pending": true
+        "caption": "A sparkling jewel on a branch...",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/Blue-eared_kingfisher#/media/File:Blue-eared_Kingfisher_0A2A2569.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JJ Harrison</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>",
       }
     ],
     "did_you_know": "Its deep blue ear coverts are the surest way to tell it from the Common Kingfisher, but juveniles have rufous cheeks and are best separated by their darker upperparts and forest-stream habitat."
