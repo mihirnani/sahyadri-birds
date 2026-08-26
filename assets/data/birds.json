@@ -1257,7 +1257,7 @@
         "file": "assets/images/species/malabar-grey-hornbill/main.webp",
         "caption": "A male perched on a bark.",
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/Malabar_grey_hornbill#/media/File:Ocyceros_griseus_-Kerala,_India_-male-8a.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Dhruvaraj S</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 2.0</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 2.0</a>"
       }
     ],
     "did_you_know": "Among the smallest of Asia's hornbills, it is the only Indian hornbill without a casque. The nesting female stays walled into her cavity for several weeks, fed through a slit by her mate."
@@ -1609,10 +1609,9 @@
     "photos": [
       {
         "file": "assets/images/species/nilgiri-flycatcher/main.webp",
-        "caption": "[Caption]",
+        "caption": "[Up close with a flycatcher in the Nilgiris...",
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/Nilgiri_flycatcher#/media/File:Nilgiri_Flycatcher_by_N.A._Naseer.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">NA Naseer</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/2.5/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.5</a>",
-        "pending": true
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/2.5/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.5</a>"
       }
     ],
     "did_you_know": "One of the few Western Ghats endemics confined almost entirely to the high sholas; below about 900 m it is quickly replaced by the Tickell’s Blue Flycatcher."
@@ -3322,7 +3321,7 @@
     },
     "photos": [
       {
-        "file": "assets/images/species/sri-lankan-frogmouth/main.webp",
+        "file": "assets/images/species/sri-lanka-frogmouth/main.webp",
         "caption": "Female Sri Lanka Frogmouth (rufous morph) at Thattekad, Kerala.",
         "photographer": "<a href=\"https://commons.wikimedia.org/wiki/File:SriLankaFrogmouths.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Shanthanu Bhardwaj</a>",
         "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0 Unported</a>"
@@ -5347,9 +5346,9 @@
     "photos": [
       {
         "file": "assets/images/species/ashambu-laughingthrush/main.webp",
-        "caption": "[Caption]",
-        "photographer": "<a href=\"[https://en.wikipedia.org/wiki/Ashambu_laughingthrush#/media/File:Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Seshadri KS</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>",
+        "caption": "A laughingthrush in the fields.",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/Ashambu_laughingthrush#/media/File:Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Seshadri KS</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>"
       }
     ],
     "did_you_know": "Three laughingthrushes, Palani, Banasura and Ashambu, were split from one species in 2017 after genetic work showed that populations on separate mountain blocks had been isolated long enough to become distinct."
@@ -5387,7 +5386,7 @@
         "file": "assets/images/species/grey-junglefowl/main.webp",
         "caption": "Male roaming around in Bandipur National Park.",
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/File:Gallus_sonneratii_(Bandipur),_crop.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Yathin Krishnappa</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0 Unported</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0 Unported</a>"
       }
     ],
     "did_you_know": "The yellow gene of domestic chickens was inherited from the Grey Junglefowl, which shows that early domestic fowl, descended mainly from the Red Junglefowl, hybridised with this species."
@@ -5620,7 +5619,7 @@
         "file": "assets/images/species/blue-eared-kingfisher/main.webp",
         "caption": "A sparkling jewel on a branch...",
         "photographer": "<a href=\"https://en.wikipedia.org/wiki/Blue-eared_kingfisher#/media/File:Blue-eared_Kingfisher_0A2A2569.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JJ Harrison</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>"
       }
     ],
     "did_you_know": "Its deep blue ear coverts are the surest way to tell it from the Common Kingfisher, but juveniles have rufous cheeks and are best separated by their darker upperparts and forest-stream habitat."
