@@ -1610,8 +1610,8 @@
       {
         "file": "assets/images/species/nilgiri-flycatcher/main.webp",
         "caption": "[Caption]",
-        "photographer": "<a href=\"[link]\" target=\"_blank\" rel=\"noopener noreferrer\">[Name]</a>",
-        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>",
+        "photographer": "<a href=\"https://en.wikipedia.org/wiki/Nilgiri_flycatcher#/media/File:Nilgiri_Flycatcher_by_N.A._Naseer.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">NA Naseer</a>",
+        "license": "<a href=\"https://creativecommons.org/licenses/by-sa/2.5/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.5</a>",
         "pending": true
       }
     ],
