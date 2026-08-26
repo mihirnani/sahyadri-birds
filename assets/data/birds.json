@@ -734,7 +734,18 @@
       "iucn_code": "LC",
       "label": "Least Concern"
     },
-    "photos": [],
+    "photos": [{
+      "file": "assets/images/species/amur-falcon/main.webp",
+      "caption": "A male Amur Falcon near Lonavala.",
+      "photographer": "<a href=\"https://en.wikipedia.org/wiki/Amur_falcon#/media/File:Amur_Falcon_(male)_(vagrant).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Sumeet Moghe</a>",
+      "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0</a>"
+    },
+    {
+      "file": "assets/images/species/amur-falcon/main2.webp",
+      "caption": "A female Amur Falcon near Lonavala, with vible dark streaking on the underparts.",
+      "photographer": "<a href=\"https://en.wikipedia.org/wiki/Amur_falcon#/media/File:Amur_Falcon_(female)_at_Lonavala.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">JJ Harrison</a>",
+      "license": "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 3.0</a>"
+    }],
     "did_you_know": "Amur Falcons make the longest sea crossing of any raptor, flying non-stop across the Arabian Sea from India to Africa. Mass hunting in Nagaland was halted in 2013 after local communities turned to protecting the roosts."
   },
   {
