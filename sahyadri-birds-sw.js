@@ -3,7 +3,7 @@
 "use strict";
 
 const PREFIX = "sahyadri-birds-";
-const VERSION = "v8";
+const VERSION = "v9";
 const SHELL_CACHE = `${PREFIX}shell-${VERSION}`;
 const IMAGE_CACHE = `${PREFIX}images-${VERSION}`;
 
