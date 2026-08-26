@@ -1013,3 +1013,15 @@ button.btn:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* The site title doubles as the Home tab. */
+.site-title-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+}
+.site-title-btn:hover { text-decoration: underline; text-underline-offset: 0.15em; }

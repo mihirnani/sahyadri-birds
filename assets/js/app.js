@@ -118,7 +118,20 @@ function initTabs() {
     });
   });
 
+  // The site title carries data-tab="home", so it is wired above like any tab:
+  // clicking it returns to the home view with a fresh random bird.
+
   setActiveTab("home");
+}
+
+/* The contact address is written as "mihir [at] naniwadekar [dot] in" in the
+   data and assembled here, so people can read it and address-harvesters cannot. */
+function fillMailLinks(root) {
+  (root || document).querySelectorAll("a.mail").forEach((a) => {
+    const m = a.getAttribute("data-u") + "@" + a.getAttribute("data-d");
+    a.href = "mailto:" + m;
+    a.textContent = m;
+  });
 }
 
 function setActiveTab(tabName) {
@@ -693,6 +706,7 @@ function renderAbout() {
   if (about) {
     // about_html is intentional, author-controlled markup.
     about.innerHTML = meta.about_html || "";
+    fillMailLinks(about);
   }
 }
 
