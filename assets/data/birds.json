@@ -1831,7 +1831,7 @@
       "adult_male": "Olive-green with a grey forehead and crown, a maroon mantle and wing coverts, yellow wing-bars and yellowish-green underparts. Feet red.",
       "adult_female": "Duller; lacks the maroon mantle, which is olive-green like the back.",
       "juvenile": "Like the female but duller.",
-      "in_flight": "Fast, direct flight; yellow feet visible."
+      "in_flight": "Fast, direct flight; blackish flight feathers and tail contrast with the yellow wing-bar. Feet red — yellow feet indicate the Yellow-footed Green Pigeon."
     },
     "behaviour": "Arboreal and social, feeding in flocks high in the canopy on fruit, where its green plumage makes it remarkably hard to see. Gives a mellow, modulated, whistling song from the treetops.",
     "food": "Fruits and berries, especially figs.",
@@ -2372,7 +2372,7 @@
       ]
     },
     "description": {
-      "adult_male": "Glossy black head, mantle, wings and tail, with a white collar. Throat and upper breast orange, the rest of the underparts white. Rump and wing patches bright orange; outer tail feathers white.",
+      "adult_male": "Glossy blue-black head, throat, mantle, wings and tail; no pale collar. Round orange patch on the breast, the rest of the underparts white. Rump orange; large white patch on the wing; outer tail feathers white.",
       "adult_female": "Upperparts are grey-brown; the head is grey (no black hood). The rump is orange but paler than the male. Underparts are white.",
       "juvenile": "Resembles the female but has heavy spotting or barring on the upperparts and breast, giving a scaly appearance.",
       "in_flight": "Flight is somewhat erratic and bounding. The flock moves one by one or in small groups, flashing the orange rump and white wing-stripe."
@@ -3075,8 +3075,8 @@
       ]
     },
     "description": {
-      "adult_male": "Large, dark pigeon. Blackish head, neck and underparts. Upperparts dark slaty-grey. Distinctive black and white checkerboard pattern on nape and sides of neck. Red orbital skin, red legs. Bill greyish with reddish base.",
-      "adult_female": "Similar to male.",
+      "adult_male": "Large, heavy pigeon of montane wet forest. Head and underparts bluish-grey, the crown palest in the male. Mantle, back and wings deep chestnut-maroon; tail dark grey. Distinctive black and white checkerboard patch on hindneck and sides of neck. Bill red at the base, pale yellowish at the tip; feet red.",
+      "adult_female": "Like the male, but the crown is darker grey and the throat paler.",
       "juvenile": "Duller than adults, less distinct checkerboard pattern on nape.",
       "in_flight": "Large size and dark appearance conspicuous. Heavy, direct flight through forest canopy."
     },
