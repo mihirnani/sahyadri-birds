@@ -193,7 +193,10 @@ img {
 .site-home-link {
   text-decoration: none;
   color: var(--muted);
-  padding-right: 0.6rem;
+}
+/* one hairline between the family of collections and this guide's own tabs */
+.site-tabs a.site-home-link:last-of-type {
+  padding-right: 1rem;
   border-right: 1px solid var(--line);
 }
 
@@ -851,7 +854,12 @@ img {
   }
 
   .site-tabs {
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+  }
+  .site-tabs a.site-home-link:last-of-type {
+    padding-right: 0;
+    border-right: 0;
   }
 
   .home-layout {
