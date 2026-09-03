@@ -132,16 +132,5 @@
     <script src="assets/js/config.js"></script>
     <script src="assets/js/data-loader.js"></script>
     <script src="assets/js/app.js"></script>
-  <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function () {
-          navigator.serviceWorker
-            .register("sahyadri-birds-sw.js", { scope: "./" })
-            .catch(function (error) {
-              console.warn("Offline support was not installed:", error);
-            });
-        });
-      }
-    </script>
 </body>
 </html>

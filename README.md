@@ -12,7 +12,6 @@ Ghats: one page, rendered in the browser from JSON.
     assets/js/                the renderer (app.js), data loading and config
     assets/css/main.css       the look; imports the site's fonts from /assets/fonts/
     assets/images/species/<id>/main.webp     photographs, one folder per species
-    sahyadri-birds-sw.js      offline service worker; bump VERSION after any change
 
 There is no build step. Editing the JSON is all that is needed; a species' URL is `#<id>`,
 so ids do not change. Names follow the AviList version named on the About page; conservation
