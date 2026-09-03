@@ -10,27 +10,40 @@ async function sbLoadJson(url) {
 
 /* ---------------------------------------------------------------
    RESIDENCY NORMALISATION
-   The hand-authored `status_in_sahyadris` field has accumulated many
-   spellings/casings for a handful of real categories. We map each raw
-   string to a canonical { code, label } pair at load time, so sorting,
-   filtering and the badge are consistent – WITHOUT mutating birds.json.
-   Any unmapped value is surfaced via console.warn (and shown verbatim),
-   so new species you add can't silently fragment the list.
+   `status_in_sahyadris` is a controlled vocabulary – resident, winter
+   visitor, summer breeder, passage migrant, local migrant, vagrant –
+   joined with " / " when a species fits more than one, the commoner
+   status first (so "resident / winter visitor", never the reverse).
+   We derive a { code, label } pair at load time for sorting and the
+   badge, WITHOUT mutating birds.json. A value outside the vocabulary
+   is reported on the console so a new species cannot silently
+   fragment the list.
    --------------------------------------------------------------- */
+
+const SB_STATUS_VOCAB = [
+  "resident",
+  "winter visitor",
+  "summer breeder",
+  "passage migrant",
+  "local migrant",
+  "vagrant",
+];
 
 function sbNormaliseResidency(raw) {
   if (!raw || typeof raw !== "string") {
     return { code: "unknown", label: "" };
   }
-  // Controlled vocabulary in birds.json: resident, winter visitor,
-  // summer breeder, passage migrant, local migrant, vagrant – joined
-  // with " / " when a species fits more than one.
   const parts = raw
     .trim()
     .toLowerCase()
     .replace(/_/g, " ")
     .split(/\s*[\/,]\s*/)
     .filter(Boolean);
+  parts.forEach((p) => {
+    if (!SB_STATUS_VOCAB.includes(p)) {
+      console.warn(`status_in_sahyadris outside the vocabulary: "${raw}"`);
+    }
+  });
   const label = parts
     .map((p, i) => (i === 0 ? p.charAt(0).toUpperCase() + p.slice(1) : p))
     .join(" / ");

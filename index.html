@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Birds of the Sahyadris</title>
@@ -19,7 +19,7 @@
     </script>
     <link rel="stylesheet" href="assets/css/main.css" />
   
-<meta name="description" content="A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs."><meta name="theme-color" content="#ece3d1" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0d0d0f" media="(prefers-color-scheme: dark)"><link rel="manifest" href="sahyadri-birds.webmanifest"><link rel="icon" href="sahyadri-birds-icon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="sahyadri-birds-icon-192.png" sizes="192x192" type="image/png"><link rel="apple-touch-icon" href="sahyadri-birds-icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Sahyadri Birds"><link rel="canonical" href="https://naniwadekar.com/sahyadri-birds/"><meta property="og:title" content="Birds of the Sahyadris"><meta name="twitter:card" content="summary_large_image"><meta property="og:site_name" content="Curiosities"><meta property="og:description" content="A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs."><meta property="og:type" content="website"><meta property="og:url" content="https://naniwadekar.com/sahyadri-birds/"><meta property="og:image" content="https://naniwadekar.com/sahyadri-birds-icon-512.png">
+<meta name="description" content="A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs."><meta name="theme-color" content="#ece3d1" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0d0d0f" media="(prefers-color-scheme: dark)"><link rel="manifest" href="sahyadri-birds.webmanifest"><link rel="icon" href="sahyadri-birds-icon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="sahyadri-birds-icon-192.png" sizes="192x192" type="image/png"><link rel="apple-touch-icon" href="sahyadri-birds-icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Sahyadri Birds"><link rel="canonical" href="https://naniwadekar.com/sahyadri-birds/"><meta property="og:title" content="Birds of the Sahyadris"><meta name="twitter:card" content="summary_large_image"><meta property="og:site_name" content="Curiosities"><meta property="og:description" content="A searchable field guide to the birds of the Western Ghats, with species notes, classification, status, and photographs."><meta property="og:type" content="website"><meta property="og:url" content="https://naniwadekar.com/sahyadri-birds/"><meta property="og:image" content="https://naniwadekar.com/sahyadri-birds/sahyadri-birds-icon-512.png"><meta property="og:image:alt" content="Birds of the Sahyadris">
 </head>
   <body>
     <div class="site-shell">
@@ -50,6 +50,7 @@
             id="theme-toggle"
             class="theme-toggle"
             type="button"
+            aria-label="Toggle light or dark theme"
             aria-pressed="true"
           >
             Theme
@@ -68,17 +69,17 @@
                 <div class="sidebar-filter">
                   <label for="filter-select">Filter</label>
                   <select id="filter-select">
-                    <option value="all">All Species</option>
-                    <option value="endemic">Endemic Only</option>
-                    <option value="with-photo">With Photo Only</option>
+                    <option value="all">All species</option>
+                    <option value="endemic">Endemic only</option>
+                    <option value="with-photo">With photograph only</option>
                     <!-- IUCN status options are injected from the data by app.js -->
                   </select>
                 </div>
                 <div class="sidebar-sort">
-                  <label for="sort-select">Sort By</label>
+                  <label for="sort-select">Sort by</label>
                   <select id="sort-select">
-                    <option value="common_name">Common Name</option>
-                    <option value="scientific_name">Scientific Name</option>
+                    <option value="common_name">Common name</option>
+                    <option value="scientific_name">Scientific name</option>
                     <option value="status">Status (resident, visitor…)</option>
                   </select>
                 </div>
@@ -86,9 +87,9 @@
               <!-- END FILTER/SORT BLOCK -->
 
               <div class="sidebar-search">
-                <div class="sidebar-search-label">Search</div>
+                <label class="sidebar-search-label" for="sidebar-search-input">Search</label>
                 <div class="sidebar-search-input-wrap">
-                  <span class="sidebar-search-icon">🔍</span>
+                  <span class="sidebar-search-icon" aria-hidden="true">🔍</span>
                   <input
                     id="sidebar-search-input"
                     class="sidebar-search-input"

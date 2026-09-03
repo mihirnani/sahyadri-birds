@@ -50,6 +50,20 @@ function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+/* Prose fields in birds.json are plain text, escaped here; the one piece of
+   markup they may carry is *asterisks* around a genus or species name, which
+   become <em> so that scientific names are italicised as in the sister
+   collections. */
+function formatProse(value) {
+  return escapeHtml(value).replace(/\*([^*\n]+)\*/g, "<em>$1</em>");
+}
+
+/* Search and the hash both compare names; fold typographic apostrophes so
+   that "jerdon's" finds "Jerdon’s". */
+function foldName(value) {
+  return String(value || "").toLowerCase().replace(/[’‘]/g, "'");
+}
+
 function debounce(func, delay) {
   let timeoutId;
   return function (...args) {
@@ -83,7 +97,6 @@ async function initSite() {
   renderResources();
   renderSites();
   renderAbout();
-  renderContactMeta();
 
   const hashId = window.location.hash.replace("#", "");
   let initialBirdId = SB_CONFIG.defaults.initialBirdId;
@@ -95,8 +108,18 @@ async function initSite() {
   }
 
   if (initialBirdId) {
-    showBird(initialBirdId);
+    // replaceState: the first bird must not add a history entry, or Back
+    // from the site leads to the same page without a hash.
+    showBird(initialBirdId, { replaceHistory: true, scrollSidebar: true });
   }
+
+  // Back/Forward (and hand-edited hashes) drive the species panel.
+  window.addEventListener("hashchange", () => {
+    const id = window.location.hash.replace("#", "");
+    if (id && id !== SB_STATE.currentBirdId && SB_STATE.birdsById[id]) {
+      showBird(id, { fromHash: true, scrollSidebar: true });
+    }
+  });
 }
 
 /* =====================
@@ -138,7 +161,8 @@ function setActiveTab(tabName) {
   document.querySelectorAll(SB_CONFIG.ui.tabsSelector).forEach((btn) => {
     const isActive = btn.getAttribute("data-tab") === tabName;
     btn.classList.toggle("active", isActive);
-    btn.setAttribute("aria-current", isActive ? "page" : "false");
+    if (isActive) btn.setAttribute("aria-current", "page");
+    else btn.removeAttribute("aria-current");
   });
 
   document
@@ -339,9 +363,10 @@ function buildSidebar() {
       birdsByFamily[bird.family_id] || []).push(bird);
   });
 
-  const q = (SB_STATE.searchQuery || "").trim().toLowerCase();
+  const q = foldName(SB_STATE.searchQuery).trim();
 
   // 3. Render group -> family -> species.
+  let shown = 0;
   groups.forEach((group) => {
     const groupSection = document.createElement("section");
     groupSection.className = "sidebar-group";
@@ -373,8 +398,8 @@ function buildSidebar() {
 
       if (q) {
         speciesList = speciesList.filter((bird) => {
-          const common = (bird.common_name || "").toLowerCase();
-          const sci = (bird.scientific_name || "").toLowerCase();
+          const common = foldName(bird.common_name);
+          const sci = foldName(bird.scientific_name);
           return common.includes(q) || sci.includes(q);
         });
       }
@@ -393,6 +418,7 @@ function buildSidebar() {
       const list = document.createElement("ul");
       list.className = "sidebar-species-list";
 
+      shown += speciesList.length;
       speciesList.forEach((bird) => {
         const li = document.createElement("li");
 
@@ -419,6 +445,31 @@ function buildSidebar() {
       sidebar.appendChild(groupSection);
     }
   });
+
+  if (!shown) {
+    const empty = document.createElement("p");
+    empty.className = "sidebar-empty";
+    empty.setAttribute("role", "status");
+    empty.textContent = q
+      ? `No species matches “${SB_STATE.searchQuery.trim()}”.`
+      : "No species matches this filter.";
+    sidebar.appendChild(empty);
+  }
+}
+
+/* Move the highlight to the current species without rebuilding the list,
+   so the sidebar keeps its scroll position when a species is chosen. */
+function updateSidebarActive(scrollIntoView) {
+  document.querySelectorAll(".sidebar-species-item").forEach((btn) => {
+    const isActive = btn.dataset.birdId === SB_STATE.currentBirdId;
+    btn.classList.toggle("active", isActive);
+    if (isActive) {
+      btn.setAttribute("aria-current", "true");
+      if (scrollIntoView) btn.scrollIntoView({ block: "nearest" });
+    } else {
+      btn.removeAttribute("aria-current");
+    }
+  });
 }
 
 /* =====================
@@ -440,16 +491,21 @@ function pickRandomBirdId(requirePhoto = false) {
   return pool[idx].id;
 }
 
-function showBird(birdId) {
+function showBird(birdId, opts = {}) {
   const bird = SB_STATE.birdsById[birdId];
   if (!bird) return;
 
   SB_STATE.currentBirdId = birdId;
-  buildSidebar(); // rebuild so the active item is highlighted
+  updateSidebarActive(!!opts.scrollSidebar);
   renderBirdInfo(bird);
   renderBirdImages(bird);
 
-  window.location.hash = birdId;
+  if (opts.fromHash) return; // the URL already says so
+  if (opts.replaceHistory) {
+    history.replaceState(null, "", "#" + birdId);
+  } else if (window.location.hash !== "#" + birdId) {
+    window.location.hash = birdId; // one history entry per species chosen
+  }
 }
 
 function formatRange(range) {
@@ -515,7 +571,7 @@ function renderBirdInfo(bird) {
 
     <section class="bird-section">
       <h3>Habitat</h3>
-      <p>${escapeHtml(bird.habitat)}</p>
+      <p>${formatProse(bird.habitat)}</p>
     </section>
 
     <section class="bird-section">
@@ -528,31 +584,33 @@ function renderBirdInfo(bird) {
                     bird.size.wingspan_cm
                   )} cm`
                 : ""
+            }${
+              bird.size.note ? ` (${escapeHtml(bird.size.note)})` : ""
             }</p>`
           : ""
       }
-      <p><strong>Adult male:</strong> ${escapeHtml(
+      <p><strong>Adult male:</strong> ${formatProse(
         bird.description?.adult_male
       )}</p>
-      <p><strong>Adult female:</strong> ${escapeHtml(
+      <p><strong>Adult female:</strong> ${formatProse(
         bird.description?.adult_female
       )}</p>
-      <p><strong>Juvenile:</strong> ${escapeHtml(
+      <p><strong>Juvenile:</strong> ${formatProse(
         bird.description?.juvenile
       )}</p>
-      <p><strong>In flight:</strong> ${escapeHtml(
+      <p><strong>In flight:</strong> ${formatProse(
         bird.description?.in_flight
       )}</p>
     </section>
 
     <section class="bird-section">
       <h3>Food</h3>
-      <p>${escapeHtml(bird.food)}</p>
+      <p>${formatProse(bird.food)}</p>
     </section>
 
     <section class="bird-section">
       <h3>Behaviour</h3>
-      <p>${escapeHtml(bird.behaviour)}</p>
+      <p>${formatProse(bird.behaviour)}</p>
     </section>
   `;
 
@@ -560,7 +618,7 @@ function renderBirdInfo(bird) {
     html += `
       <section class="dyk-box">
         <h3>Did you know?</h3>
-        <p>${escapeHtml(bird.did_you_know)}</p>
+        <p>${formatProse(bird.did_you_know)}</p>
       </section>
     `;
   }
@@ -588,10 +646,13 @@ function renderBirdImages(bird) {
     .map((p) => {
       // caption / photographer / license are author-controlled HTML
       // (the credits contain attribution <a> links), like about_html.
+      // source_note is plain text ("via Wikimedia Commons, resized"): the
+      // source and modification statement that CC attribution asks for.
       const caption = p.caption || "";
       const photographer = p.photographer || "";
       const license = p.license || "";
-      const credit = [photographer ? `Photo: ${photographer}` : "", license]
+      const sourceNote = p.source_note ? escapeHtml(p.source_note) : "";
+      const credit = [photographer ? `Photo: ${photographer}` : "", license, sourceNote]
         .filter(Boolean)
         .join(" · ");
 
@@ -610,6 +671,19 @@ function renderBirdImages(bird) {
     .join("");
 
   el.innerHTML = html;
+
+  // A photograph that fails to load (not yet uploaded, renamed) should not
+  // leave a broken-image icon behind: replace the figure with a short note.
+  el.querySelectorAll(".bird-main-image img").forEach((img) => {
+    img.addEventListener("error", () => {
+      const fig = img.closest("figure");
+      if (!fig) return;
+      const note = document.createElement("div");
+      note.className = "image-placeholder";
+      note.innerHTML = `${SB_EMPTY_GLYPH}<p>Photograph unavailable.</p>`;
+      fig.replaceWith(note);
+    });
+  });
 }
 
 /* =====================
@@ -696,7 +770,7 @@ function renderSites() {
 }
 
 /* =====================
-   ABOUT & CONTACT META
+   ABOUT
    ===================== */
 
 function renderAbout() {
@@ -707,14 +781,5 @@ function renderAbout() {
     // about_html is intentional, author-controlled markup.
     about.innerHTML = meta.about_html || "";
     fillMailLinks(about);
-  }
-}
-
-function renderContactMeta() {
-  const meta = SB_STATE.siteMeta;
-  if (!meta) return;
-  const note = document.querySelector("#contact-note");
-  if (note && meta.contact && meta.contact.note_html) {
-    note.innerHTML = meta.contact.note_html;
   }
 }

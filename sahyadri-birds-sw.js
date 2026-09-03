@@ -3,7 +3,7 @@
 "use strict";
 
 const PREFIX = "sahyadri-birds-";
-const VERSION = "v9";
+const VERSION = "v10";
 const SHELL_CACHE = `${PREFIX}shell-${VERSION}`;
 const IMAGE_CACHE = `${PREFIX}images-${VERSION}`;
 
@@ -111,6 +111,6 @@ async function staleWhileRevalidate(request, cacheName) {
       }
       return response;
     })
-    .catch(() => cached);
+    .catch(() => cached || new Response("", { status: 504, statusText: "Unavailable offline" }));
   return cached || network;
 }

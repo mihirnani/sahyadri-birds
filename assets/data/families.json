@@ -231,15 +231,6 @@
       "sidebar_order": 104
     },
     {
-      "id": "sylviidae",
-      "order_id": "passeriformes",
-      "group_id": "passerines",
-      "scientific_name": "Sylviidae",
-      "common_label": "Warblers",
-      "sidebar_label": "Warblers",
-      "sidebar_order": 105
-    },
-    {
       "id": "leiothrichidae",
       "order_id": "passeriformes",
       "group_id": "passerines",
@@ -735,15 +726,6 @@
       "sidebar_order": 129
     },
     {
-      "id": "irenidae",
-      "order_id": "passeriformes",
-      "group_id": "passerines",
-      "scientific_name": "Irenidae",
-      "common_label": "Fairy-bluebirds",
-      "sidebar_label": "Fairy-bluebirds",
-      "sidebar_order": 130
-    },
-    {
       "id": "locustellidae",
       "order_id": "passeriformes",
       "group_id": "passerines",
@@ -768,7 +750,7 @@
       "scientific_name": "Anhingidae",
       "common_label": "Darters",
       "sidebar_label": "Darters",
-      "sidebar_order": 508
+      "sidebar_order": 512
     }
   ]
 }

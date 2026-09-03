@@ -18,7 +18,4 @@ const SB_CONFIG = {
     // if null, we will pick a random bird on load
     initialBirdId: null,
   },
-  images: {
-    placeholder: "assets/images/ui/placeholder-bird.jpg",
-  },
 };
